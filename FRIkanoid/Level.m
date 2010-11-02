@@ -1,0 +1,51 @@
+//
+//  Level.m
+//  FRIkanoid
+//
+//  Created by jsantos on 10/25/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "Level.h"
+#import "Chomponthis.FRIkanoid.h"
+
+@implementation Level
+
+- (id) init {
+	self = [super init];
+	if (self != nil) {
+		ball = [[Ball alloc] init];
+		playerPad = [[Pad alloc] init];
+		bricks = [[NSMutableArray alloc] init];
+		
+		for (int i=0; i<40; i++) {
+			Brick *lol = [[Brick alloc] init];
+			[bricks addObject:lol];
+			[lol release];
+		}
+		
+		scene = [[Scene alloc] init];
+		
+		for (id<NSObject> brick in bricks){
+			[scene addItem:brick];
+		}
+		
+		[scene addItem:playerPad];
+		[scene addItem:ball];
+
+	}
+	return self;
+}
+
+@synthesize scene;
+
+- (void) dealloc {
+	[bricks release];
+	[ball release];
+	[playerPad release];
+	[scene release];
+		
+	[super dealloc];
+}
+
+@end

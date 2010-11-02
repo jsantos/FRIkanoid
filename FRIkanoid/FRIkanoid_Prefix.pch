@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'FRIkanoid' target in the 'FRIkanoid' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "Retronator.Xni.Framework.h"
+#endif

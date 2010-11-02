@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B47D012773AB60004B78A /* AudioToolbox.framework */; };
+		649B47E512774A620004B78A /* Arkanoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 649B47E412774A620004B78A /* Arkanoid.mp3 */; };
+		649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C85CB1274FE5400726515 /* FRIkanoid.m */; };
+		649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85CF1274FE7B00726515 /* OpenGLES.framework */; };
+		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
+		649C86431275024600726515 /* Arkanoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 649C86421275024600726515 /* Arkanoid.png */; };
+		649C8656127504BF00726515 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8655127504BF00726515 /* Renderer.m */; };
+		649C8659127504C800726515 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8658127504C800726515 /* Sprite.m */; };
+		649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865B127504DE00726515 /* FRIkanoidLevel.m */; };
+		649C865F127504ED00726515 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865E127504ED00726515 /* Scene.m */; };
+		649C8662127504FD00726515 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8661127504FD00726515 /* Level.m */; };
+		64C707351275E2DC0028822D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C707341275E2DC0028822D /* Ball.m */; };
+		64CDA0571275EB3B00DA0FAA /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CDA0561275EB3B00DA0FAA /* libXNI.a */; };
+		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
+		64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0F51275F30A00DA0FAA /* Brick.m */; };
+		64CDA4281276336C00DA0FAA /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA4271276336C00DA0FAA /* Background.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* FRIkanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRIkanoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FRIkanoid_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid_Prefix.pch; sourceTree = "<group>"; };
+		649B47D012773AB60004B78A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		649B47E412774A620004B78A /* Arkanoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Arkanoid.mp3; sourceTree = "<group>"; };
+		649C85CA1274FE5400726515 /* FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid.h; sourceTree = "<group>"; };
+		649C85CB1274FE5400726515 /* FRIkanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoid.m; sourceTree = "<group>"; };
+		649C85CF1274FE7B00726515 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		649C85D11274FE7B00726515 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		649C86421275024600726515 /* Arkanoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arkanoid.png; sourceTree = "<group>"; };
+		649C86441275029300726515 /* Chomponthis.FRIkanoid.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.classes.h; sourceTree = "<group>"; };
+		649C864E127503DE00726515 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		649C86511275043B00726515 /* Chomponthis.FRIkanoid.protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.protocols.h; sourceTree = "<group>"; };
+		649C8654127504BF00726515 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		649C8655127504BF00726515 /* Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		649C8657127504C800726515 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		649C8658127504C800726515 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		649C865A127504DE00726515 /* FRIkanoidLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel.h; sourceTree = "<group>"; };
+		649C865B127504DE00726515 /* FRIkanoidLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel.m; sourceTree = "<group>"; };
+		649C865D127504ED00726515 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		649C865E127504ED00726515 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		649C8660127504FD00726515 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		649C8661127504FD00726515 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		64C707331275E2DC0028822D /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		64C707341275E2DC0028822D /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.h; sourceTree = "<group>"; };
+		64CDA0561275EB3B00DA0FAA /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = /Users/jsantos/Documents/workspace/FRIkanoid/XNI/libXNI.a; sourceTree = "<absolute>"; };
+		64CDA0BE1275F05B00DA0FAA /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
+		64CDA0BF1275F05B00DA0FAA /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
+		64CDA0F41275F30A00DA0FAA /* Brick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
+		64CDA0F51275F30A00DA0FAA /* Brick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brick.m; sourceTree = "<group>"; };
+		64CDA4261276336C00DA0FAA /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		64CDA4271276336C00DA0FAA /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FRIkanoid-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */,
+				649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */,
+				64CDA0571275EB3B00DA0FAA /* libXNI.a in Frameworks */,
+				649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FRIkanoid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				649B47E412774A620004B78A /* Arkanoid.mp3 */,
+				649C86421275024600726515 /* Arkanoid.png */,
+				8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				649C85C91274FE4A00726515 /* Classes */,
+				28EEBF621118D79A00187D67 /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FRIkanoid_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				649B47D012773AB60004B78A /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				649C85CF1274FE7B00726515 /* OpenGLES.framework */,
+				649C85D11274FE7B00726515 /* QuartzCore.framework */,
+				64CDA0561275EB3B00DA0FAA /* libXNI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649C85C91274FE4A00726515 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				649C864A127502ED00726515 /* Scene */,
+				649C8649127502E500726515 /* Graphics */,
+				649C8648127502DE00726515 /* Protocols */,
+				649C8647127502D800726515 /* Components */,
+				649C85CA1274FE5400726515 /* FRIkanoid.h */,
+				649C85CB1274FE5400726515 /* FRIkanoid.m */,
+				649C86441275029300726515 /* Chomponthis.FRIkanoid.classes.h */,
+				64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		649C8647127502D800726515 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				649C8654127504BF00726515 /* Renderer.h */,
+				649C8655127504BF00726515 /* Renderer.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		649C8648127502DE00726515 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				649C864E127503DE00726515 /* Position.h */,
+				649C86511275043B00726515 /* Chomponthis.FRIkanoid.protocols.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		649C8649127502E500726515 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				649C8657127504C800726515 /* Sprite.h */,
+				649C8658127504C800726515 /* Sprite.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		649C864A127502ED00726515 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				649C864C127502FD00726515 /* Levels */,
+				649C864B127502F900726515 /* Objects */,
+				649C865D127504ED00726515 /* Scene.h */,
+				649C865E127504ED00726515 /* Scene.m */,
+				649C8660127504FD00726515 /* Level.h */,
+				649C8661127504FD00726515 /* Level.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		649C864B127502F900726515 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				64C707331275E2DC0028822D /* Ball.h */,
+				64C707341275E2DC0028822D /* Ball.m */,
+				64CDA0BE1275F05B00DA0FAA /* Pad.h */,
+				64CDA0BF1275F05B00DA0FAA /* Pad.m */,
+				64CDA0F41275F30A00DA0FAA /* Brick.h */,
+				64CDA0F51275F30A00DA0FAA /* Brick.m */,
+				64CDA4261276336C00DA0FAA /* Background.h */,
+				64CDA4271276336C00DA0FAA /* Background.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		649C864C127502FD00726515 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				649C865A127504DE00726515 /* FRIkanoidLevel.h */,
+				649C865B127504DE00726515 /* FRIkanoidLevel.m */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FRIkanoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FRIkanoid" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRIkanoid;
+			productName = FRIkanoid;
+			productReference = 1D6058910D05DD3D006BFB54 /* FRIkanoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FRIkanoid" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FRIkanoid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649C86431275024600726515 /* Arkanoid.png in Resources */,
+				649B47E512774A620004B78A /* Arkanoid.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */,
+				649C8656127504BF00726515 /* Renderer.m in Sources */,
+				649C8659127504C800726515 /* Sprite.m in Sources */,
+				649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */,
+				649C865F127504ED00726515 /* Scene.m in Sources */,
+				649C8662127504FD00726515 /* Level.m in Sources */,
+				64C707351275E2DC0028822D /* Ball.m in Sources */,
+				64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */,
+				64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */,
+				64CDA4281276336C00DA0FAA /* Background.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FRIkanoid_Prefix.pch;
+				INFOPLIST_FILE = "FRIkanoid-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../XNI\"",
+				);
+				PRODUCT_NAME = FRIkanoid;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FRIkanoid_Prefix.pch;
+				INFOPLIST_FILE = "FRIkanoid-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../XNI\"",
+				);
+				PRODUCT_NAME = FRIkanoid;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../XNI/usr/local/include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FRIkanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FRIkanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
