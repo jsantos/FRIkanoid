@@ -1,8 +1,0 @@
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m: In function '-[Background init]':
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m:17: error: 'position' undeclared (first use in this function)
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m:17: error: (Each undeclared identifier is reported only once
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m:17: error: for each function it appears in.)
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m: At top level:
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m:22: error: no declaration of property 'position' found in the interface
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m: In function '-[Background dealloc]':
-/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m:25: error: 'position' undeclared (first use in this function)

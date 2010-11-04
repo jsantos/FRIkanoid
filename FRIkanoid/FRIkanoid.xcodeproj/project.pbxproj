@@ -18,16 +18,33 @@
 		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
 		649C86431275024600726515 /* Arkanoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 649C86421275024600726515 /* Arkanoid.png */; };
 		649C8656127504BF00726515 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8655127504BF00726515 /* Renderer.m */; };
-		649C8659127504C800726515 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8658127504C800726515 /* Sprite.m */; };
 		649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865B127504DE00726515 /* FRIkanoidLevel.m */; };
 		649C865F127504ED00726515 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865E127504ED00726515 /* Scene.m */; };
 		649C8662127504FD00726515 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8661127504FD00726515 /* Level.m */; };
+		64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A01AB71280C4E6003E273F /* libGameDefaults.a */; };
 		64C707351275E2DC0028822D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C707341275E2DC0028822D /* Ball.m */; };
-		64CDA0571275EB3B00DA0FAA /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CDA0561275EB3B00DA0FAA /* libXNI.a */; };
 		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
 		64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0F51275F30A00DA0FAA /* Brick.m */; };
 		64CDA4281276336C00DA0FAA /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA4271276336C00DA0FAA /* Background.m */; };
+		64F3938F1282BE960009159A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F3938E1282BE960009159A /* libXNI.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641591661282BF5F0044F824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641591621282BF5F0044F824 /* GameDefaults.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libGameDefaults.a */;
+			remoteInfo = GameDefaults;
+		};
+		641591881282BFBE0044F824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641591621282BF5F0044F824 /* GameDefaults.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* GameDefaults */;
+			remoteInfo = GameDefaults;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +53,7 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FRIkanoid_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid_Prefix.pch; sourceTree = "<group>"; };
+		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
 		649B47D012773AB60004B78A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		649B47E412774A620004B78A /* Arkanoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Arkanoid.mp3; sourceTree = "<group>"; };
 		649C85CA1274FE5400726515 /* FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid.h; sourceTree = "<group>"; };
@@ -48,24 +66,24 @@
 		649C86511275043B00726515 /* Chomponthis.FRIkanoid.protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.protocols.h; sourceTree = "<group>"; };
 		649C8654127504BF00726515 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
 		649C8655127504BF00726515 /* Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
-		649C8657127504C800726515 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
-		649C8658127504C800726515 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		649C865A127504DE00726515 /* FRIkanoidLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel.h; sourceTree = "<group>"; };
 		649C865B127504DE00726515 /* FRIkanoidLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel.m; sourceTree = "<group>"; };
 		649C865D127504ED00726515 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		649C865E127504ED00726515 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		649C8660127504FD00726515 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
 		649C8661127504FD00726515 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		64A01AB71280C4E6003E273F /* libGameDefaults.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGameDefaults.a; path = "/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a"; sourceTree = "<absolute>"; };
+		64B2A4F41280CE42001EC6F0 /* FRIkanoidEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidEnums.h; sourceTree = "<group>"; };
 		64C707331275E2DC0028822D /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		64C707341275E2DC0028822D /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
 		64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.h; sourceTree = "<group>"; };
-		64CDA0561275EB3B00DA0FAA /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = /Users/jsantos/Documents/workspace/FRIkanoid/XNI/libXNI.a; sourceTree = "<absolute>"; };
 		64CDA0BE1275F05B00DA0FAA /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
 		64CDA0BF1275F05B00DA0FAA /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
 		64CDA0F41275F30A00DA0FAA /* Brick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
 		64CDA0F51275F30A00DA0FAA /* Brick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brick.m; sourceTree = "<group>"; };
 		64CDA4261276336C00DA0FAA /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
 		64CDA4271276336C00DA0FAA /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+		64F3938E1282BE960009159A /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = /Users/jsantos/Documents/workspace/FRIkanoid/XNI/libXNI.a; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FRIkanoid-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +97,9 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */,
 				649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */,
-				64CDA0571275EB3B00DA0FAA /* libXNI.a in Frameworks */,
 				649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */,
+				64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */,
+				64F3938F1282BE960009159A /* libXNI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +127,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				641591621282BF5F0044F824 /* GameDefaults.xcodeproj */,
 				649C85C91274FE4A00726515 /* Classes */,
 				28EEBF621118D79A00187D67 /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -129,28 +149,37 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64A01AB71280C4E6003E273F /* libGameDefaults.a */,
 				649B47D012773AB60004B78A /* AudioToolbox.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				649C85CF1274FE7B00726515 /* OpenGLES.framework */,
 				649C85D11274FE7B00726515 /* QuartzCore.framework */,
-				64CDA0561275EB3B00DA0FAA /* libXNI.a */,
+				64F3938E1282BE960009159A /* libXNI.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		641591631282BF5F0044F824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641591671282BF5F0044F824 /* libGameDefaults.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		649C85C91274FE4A00726515 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				649C864A127502ED00726515 /* Scene */,
-				649C8649127502E500726515 /* Graphics */,
 				649C8648127502DE00726515 /* Protocols */,
 				649C8647127502D800726515 /* Components */,
 				649C85CA1274FE5400726515 /* FRIkanoid.h */,
 				649C85CB1274FE5400726515 /* FRIkanoid.m */,
 				649C86441275029300726515 /* Chomponthis.FRIkanoid.classes.h */,
 				64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */,
+				64B2A4F41280CE42001EC6F0 /* FRIkanoidEnums.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -171,15 +200,6 @@
 				649C86511275043B00726515 /* Chomponthis.FRIkanoid.protocols.h */,
 			);
 			name = Protocols;
-			sourceTree = "<group>";
-		};
-		649C8649127502E500726515 /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				649C8657127504C800726515 /* Sprite.h */,
-				649C8658127504C800726515 /* Sprite.m */,
-			);
-			name = Graphics;
 			sourceTree = "<group>";
 		};
 		649C864A127502ED00726515 /* Scene */ = {
@@ -233,6 +253,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				641591891282BFBE0044F824 /* PBXTargetDependency */,
 			);
 			name = FRIkanoid;
 			productName = FRIkanoid;
@@ -256,12 +277,28 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 641591631282BF5F0044F824 /* Products */;
+					ProjectRef = 641591621282BF5F0044F824 /* GameDefaults.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* FRIkanoid */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		641591671282BF5F0044F824 /* libGameDefaults.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGameDefaults.a;
+			remoteRef = 641591661282BF5F0044F824 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -283,7 +320,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */,
 				649C8656127504BF00726515 /* Renderer.m in Sources */,
-				649C8659127504C800726515 /* Sprite.m in Sources */,
 				649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */,
 				649C865F127504ED00726515 /* Scene.m in Sources */,
 				649C8662127504FD00726515 /* Level.m in Sources */,
@@ -295,6 +331,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641591891282BFBE0044F824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GameDefaults;
+			targetProxy = 641591881282BFBE0044F824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -310,8 +354,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../XNI\"",
+					"\"$(SRCROOT)/../GameDefaults/build/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = FRIkanoid;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../XNI/usr/local/include ${PROJECT_DIR}/../GameDefaults//**";
 			};
 			name = Debug;
 		};
@@ -326,6 +372,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../XNI\"",
+					"\"$(SRCROOT)/../GameDefaults/build/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = FRIkanoid;
 				VALIDATE_PRODUCT = YES;
@@ -344,7 +391,7 @@
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../XNI/usr/local/include";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../GameDefaults//** ${PROJECT_DIR}/../XNI/usr/local/include";
 			};
 			name = Debug;
 		};

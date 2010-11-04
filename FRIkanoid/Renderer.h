@@ -11,6 +11,7 @@
 #import "Retronator.Xni.Framework.Content.h"
 #import "Chomponthis.FRIkanoid.classes.h";
 #import "DrawableGameComponent.h"
+#import "GameDefaults.Graphics.h"
 
 @interface Renderer : DrawableGameComponent {
 	//Resources

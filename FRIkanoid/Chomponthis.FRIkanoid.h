@@ -1,4 +1,5 @@
 #import "Chomponthis.FRIkanoid.Protocols.h"
+#import "FRIkanoidEnums.h"
 #import "Scene.h"
 
 #import "Ball.h"
@@ -10,5 +11,4 @@
 
 #import "FRIkanoid.h"
 
-#import "Sprite.h"
 #import "Renderer.h"

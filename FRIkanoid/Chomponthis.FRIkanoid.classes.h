@@ -8,6 +8,4 @@
 @class FRIkanoidLevel;
 
 @class FRIkanoid;
-
-@class Sprite;
 @class Renderer;
