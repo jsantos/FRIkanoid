@@ -11,7 +11,7 @@
 
 @implementation FRIkanoidLevel
 
-- (id) init {
+- (void) reset {
 	self = [super init];
 	if (self != nil) {
 		//Initialize object Positions
@@ -19,13 +19,13 @@
 		ball.position.y = 360;
 		
 		playerPad.position.x = 160;
-		playerPad.position.y = 490;
+		playerPad.position.y = 480;
 		
 		double initX = 20, initY=47;
 		for (id<NSObject> item in bricks) {
-			id<Position> itemWithPosition;
-			if ([item conformsToProtocol:@protocol(Position)]) {
-				itemWithPosition = (id<Position>)item;
+			id<IPosition> itemWithPosition;
+			if ([item conformsToProtocol:@protocol(IPosition)]) {
+				itemWithPosition = (id<IPosition>)item;
 				
 				itemWithPosition.position.x = initX;
 				itemWithPosition.position.y = initY;
@@ -38,7 +38,6 @@
 			}
 		}
 	}
-	return self;
 }
 
 @end

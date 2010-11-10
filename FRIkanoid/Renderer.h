@@ -16,6 +16,8 @@
 @interface Renderer : DrawableGameComponent {
 	//Resources
 	
+	ContentManager *content;
+	
 	Sprite *ballSprite;
 	Sprite *padSprite;
 	Sprite *bgSprite;
@@ -24,6 +26,7 @@
 
 	
 	NSMutableArray *brickSprites;
+	
 	
 	//Graphic Objects
 	SpriteBatch *spriteBatch;

@@ -16,12 +16,17 @@
 @interface FRIkanoid : Game {
 	GraphicsDeviceManager *graphics;
 	Renderer *renderer;
-	Level *currentLevel;
+	//Level *currentLevel;
+	
+	//GamePlay
+	GamePlay *currentGameplay;
 	
 	//Levels
-	NSMutableArray *levels;
+	//NSMutableArray *levels;
+	NSMutableArray *levelClasses;
 }
 
-- (void) loadLevel:(Level*) level;
+//- (void) loadLevel:(Level*) level;
+- (void) loadLevel:(Class) levelClass;
 
 @end

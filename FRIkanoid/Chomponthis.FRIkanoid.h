@@ -8,7 +8,11 @@
 #import "Background.h"
 #import "Level.h"
 #import "FRIkanoidLevel.h"
-
+#import "Player.h"
+#import "HumanPlayer.h"
 #import "FRIkanoid.h"
-
+#import "PhysicsEngine.h"
 #import "Renderer.h"
+#import "GamePlay.h"
+
+#import "Rectangle+Extensions.h"

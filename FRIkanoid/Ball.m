@@ -7,6 +7,7 @@
 //
 
 #import "Ball.h"
+#import "Chomponthis.FRIkanoid.h"
 
 @implementation Ball
 
@@ -14,14 +15,18 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
+		velocity = [[Vector2 alloc] init];
+		mass = 1;
+		radius = 20;
 	}
 	return self;
 }
 
-@synthesize position;
+@synthesize position, velocity, mass, radius;
 
 - (void) dealloc {
 	[position release];
+	[velocity release];
 	[super dealloc];
 }
 

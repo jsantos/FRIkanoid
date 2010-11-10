@@ -8,14 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "Chomponthis.FRIkanoid.classes.h"
+#import "GameDefaults.Scene.h"
 
-@interface Level : NSObject {
-	Scene *scene;
+@interface Level : GameComponent {
+	SimpleScene *scene;
 	Ball *ball;
 	Pad *playerPad;
 	NSMutableArray *bricks;
 }
 
-@property (nonatomic, retain) Scene *scene;
+- (void) reset;
+
+@property (nonatomic, retain) id<IScene> scene;
+@property (nonatomic, retain) Ball *ball;
+@property (nonatomic, retain) Pad *playerPad;
+@property (nonatomic, retain) NSMutableArray *bricks;
 
 @end

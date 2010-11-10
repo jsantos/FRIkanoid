@@ -8,12 +8,15 @@
 
 #import "Renderer.h"
 #import "Chomponthis.FRIkanoid.h"
+#import "GameDefaults.Scene.h"
+#import "GameDefaults.Scene.Objects.h"
 
 @implementation Renderer
 
 - (id) initWithGame:(Game *)theGame level:(Level *)theLevel {
 	if (self = [super initWithGame:theGame]) {
 		level = theLevel;
+		content = [[ContentManager alloc] initWithServiceProvider:self.game.services];
 	}
 	return self;
 }
@@ -26,22 +29,22 @@
 	spriteBatch = [[SpriteBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	
 	ballSprite = [[Sprite alloc] init];
-	ballSprite.texture = [self.game.content load:@"Arkanoid.png"];
+	ballSprite.texture = [self.game.content load:@"Arkanoid"];
 	ballSprite.sourceRectangle = [Rectangle rectangleWithX:227 y:168 width:56 height:58];
 	ballSprite.origin = [Vector2 vectorWithX:30 y:30];
 	
 	padSprite = [[Sprite alloc] init];
-	padSprite.texture = [self.game.content load:@"Arkanoid.png"];
+	padSprite.texture = [self.game.content load:@"Arkanoid"];
 	padSprite.sourceRectangle = [Rectangle rectangleWithX:54 y:345 width:227 height:150];
 	padSprite.origin = [Vector2 vectorWithX:100 y:90];
 	
 	brick1Sprite = [[Sprite alloc] init];
-	brick1Sprite.texture = [self.game.content load:@"Arkanoid.png"];
+	brick1Sprite.texture = [self.game.content load:@"Arkanoid"];
 	brick1Sprite.sourceRectangle = [Rectangle rectangleWithX:50 y:55 width:120 height:55];
 	brick1Sprite.origin = [Vector2 vectorWithX:28 y:75];
 	
 	brick2Sprite = [[Sprite alloc] init];
-	brick2Sprite.texture = [self.game.content load:@"Arkanoid.png"];
+	brick2Sprite.texture = [self.game.content load:@"Arkanoid"];
 	brick2Sprite.sourceRectangle = [Rectangle rectangleWithX:50 y:113 width:120 height:55];
 	brick2Sprite.origin = [Vector2 vectorWithX:28 y:75];
 
@@ -60,14 +63,13 @@
 	
 	[self.graphicsDevice clearWithColor: [Color steelBlue]];
 	
-	[spriteBatch begin];
+	[spriteBatch beginWithSortMode:SpriteSortModeBackToFront BlendState:nil];
 	BOOL wasBrick = NO;
-	for (id<NSObject> item in level.scene) {
-		id<Position> itemWithPosition;
-		if ([item conformsToProtocol:@protocol(Position)]) {
-			itemWithPosition = (id<Position>)item;
-		}
+	for (id item in level.scene) {
+		id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)]  ? item : nil;
+		
 		Sprite *sprite;
+		
 		if ([item isKindOfClass:[Ball class]]) {
 			sprite = ballSprite;
 		} else if ([item isKindOfClass:[Pad class]]) {
@@ -80,7 +82,6 @@
 				sprite = brick1Sprite;
 				wasBrick = YES;
 			}
-
 		}
 		
 		if (itemWithPosition && sprite) {
@@ -92,11 +93,15 @@
 					   origin:sprite.origin
 				 scaleUniform:0.65
 					  effects:SpriteEffectsNone 
-				   layerDepth:0];
+				   layerDepth:0.1];
 		}
 	}
 	
 	[spriteBatch end];
+}
+
+- (void) unloadContent {
+	[content unload];
 }
 
 - (void) dealloc {
@@ -104,6 +109,7 @@
 	[padSprite release];
 	[brick1Sprite release];
 	[brick2Sprite release];
+	[content release];
 	[spriteBatch release];
 	[super dealloc];
 }

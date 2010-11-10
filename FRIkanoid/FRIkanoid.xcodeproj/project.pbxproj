@@ -11,8 +11,9 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458C60E1289930000518AC5 /* Rectangle+Extensions.m */; };
 		649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B47D012773AB60004B78A /* AudioToolbox.framework */; };
-		649B47E512774A620004B78A /* Arkanoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 649B47E412774A620004B78A /* Arkanoid.mp3 */; };
+		649B47E512774A620004B78A /* ArkanoidTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 649B47E412774A620004B78A /* ArkanoidTheme.mp3 */; };
 		649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C85CB1274FE5400726515 /* FRIkanoid.m */; };
 		649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85CF1274FE7B00726515 /* OpenGLES.framework */; };
 		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
@@ -21,6 +22,10 @@
 		649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865B127504DE00726515 /* FRIkanoidLevel.m */; };
 		649C865F127504ED00726515 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865E127504ED00726515 /* Scene.m */; };
 		649C8662127504FD00726515 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8661127504FD00726515 /* Level.m */; };
+		649FF7A812836AF700CEA4E0 /* PhysicsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF7A712836AF700CEA4E0 /* PhysicsEngine.m */; };
+		649FF84012846B5600CEA4E0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF83F12846B5600CEA4E0 /* Player.m */; };
+		649FF85012846C9A00CEA4E0 /* GamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF84F12846C9A00CEA4E0 /* GamePlay.m */; };
+		649FF87A1284846500CEA4E0 /* HumanPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF8791284846500CEA4E0 /* HumanPlayer.m */; };
 		64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A01AB71280C4E6003E273F /* libGameDefaults.a */; };
 		64C707351275E2DC0028822D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C707341275E2DC0028822D /* Ball.m */; };
 		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
@@ -34,14 +39,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 641591621282BF5F0044F824 /* GameDefaults.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libGameDefaults.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = GameDefaults;
 		};
 		641591881282BFBE0044F824 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 641591621282BF5F0044F824 /* GameDefaults.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* GameDefaults */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = GameDefaults;
 		};
 /* End PBXContainerItemProxy section */
@@ -54,8 +59,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FRIkanoid_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid_Prefix.pch; sourceTree = "<group>"; };
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6458C60D1289930000518AC5 /* Rectangle+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectangle+Extensions.h"; sourceTree = "<group>"; };
+		6458C60E1289930000518AC5 /* Rectangle+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rectangle+Extensions.m"; sourceTree = "<group>"; };
 		649B47D012773AB60004B78A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		649B47E412774A620004B78A /* Arkanoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Arkanoid.mp3; sourceTree = "<group>"; };
+		649B47E412774A620004B78A /* ArkanoidTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ArkanoidTheme.mp3; sourceTree = "<group>"; };
 		649C85CA1274FE5400726515 /* FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid.h; sourceTree = "<group>"; };
 		649C85CB1274FE5400726515 /* FRIkanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoid.m; sourceTree = "<group>"; };
 		649C85CF1274FE7B00726515 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -72,6 +79,14 @@
 		649C865E127504ED00726515 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		649C8660127504FD00726515 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
 		649C8661127504FD00726515 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		649FF7A612836AF700CEA4E0 /* PhysicsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsEngine.h; sourceTree = "<group>"; };
+		649FF7A712836AF700CEA4E0 /* PhysicsEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsEngine.m; sourceTree = "<group>"; };
+		649FF83E12846B5600CEA4E0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		649FF83F12846B5600CEA4E0 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		649FF84E12846C9A00CEA4E0 /* GamePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlay.h; sourceTree = "<group>"; };
+		649FF84F12846C9A00CEA4E0 /* GamePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlay.m; sourceTree = "<group>"; };
+		649FF8781284846500CEA4E0 /* HumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanPlayer.h; sourceTree = "<group>"; };
+		649FF8791284846500CEA4E0 /* HumanPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanPlayer.m; sourceTree = "<group>"; };
 		64A01AB71280C4E6003E273F /* libGameDefaults.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGameDefaults.a; path = "/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a"; sourceTree = "<absolute>"; };
 		64B2A4F41280CE42001EC6F0 /* FRIkanoidEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidEnums.h; sourceTree = "<group>"; };
 		64C707331275E2DC0028822D /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
@@ -117,7 +132,7 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				649B47E412774A620004B78A /* Arkanoid.mp3 */,
+				649B47E412774A620004B78A /* ArkanoidTheme.mp3 */,
 				649C86421275024600726515 /* Arkanoid.png */,
 				8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */,
 			);
@@ -169,9 +184,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		641591F91282D3090044F824 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				641591FB1282D3150044F824 /* AI */,
+				641591FA1282D30E0044F824 /* Human */,
+				649FF83E12846B5600CEA4E0 /* Player.h */,
+				649FF83F12846B5600CEA4E0 /* Player.m */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		641591FA1282D30E0044F824 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				649FF8781284846500CEA4E0 /* HumanPlayer.h */,
+				649FF8791284846500CEA4E0 /* HumanPlayer.m */,
+			);
+			name = Human;
+			sourceTree = "<group>";
+		};
+		641591FB1282D3150044F824 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AI;
+			sourceTree = "<group>";
+		};
+		6458C60C128992DC00518AC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6458C60D1289930000518AC5 /* Rectangle+Extensions.h */,
+				6458C60E1289930000518AC5 /* Rectangle+Extensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		649C85C91274FE4A00726515 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6458C60C128992DC00518AC5 /* Extensions */,
+				649FF7A512836AED00CEA4E0 /* Physics */,
+				641591F91282D3090044F824 /* Players */,
 				649C864A127502ED00726515 /* Scene */,
 				649C8648127502DE00726515 /* Protocols */,
 				649C8647127502D800726515 /* Components */,
@@ -180,6 +234,8 @@
 				649C86441275029300726515 /* Chomponthis.FRIkanoid.classes.h */,
 				64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */,
 				64B2A4F41280CE42001EC6F0 /* FRIkanoidEnums.h */,
+				649FF84E12846C9A00CEA4E0 /* GamePlay.h */,
+				649FF84F12846C9A00CEA4E0 /* GamePlay.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -237,6 +293,15 @@
 				649C865B127504DE00726515 /* FRIkanoidLevel.m */,
 			);
 			name = Levels;
+			sourceTree = "<group>";
+		};
+		649FF7A512836AED00CEA4E0 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				649FF7A612836AF700CEA4E0 /* PhysicsEngine.h */,
+				649FF7A712836AF700CEA4E0 /* PhysicsEngine.m */,
+			);
+			name = Physics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				649C86431275024600726515 /* Arkanoid.png in Resources */,
-				649B47E512774A620004B78A /* Arkanoid.mp3 in Resources */,
+				649B47E512774A620004B78A /* ArkanoidTheme.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +392,11 @@
 				64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */,
 				64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */,
 				64CDA4281276336C00DA0FAA /* Background.m in Sources */,
+				649FF7A812836AF700CEA4E0 /* PhysicsEngine.m in Sources */,
+				649FF84012846B5600CEA4E0 /* Player.m in Sources */,
+				649FF85012846C9A00CEA4E0 /* GamePlay.m in Sources */,
+				649FF87A1284846500CEA4E0 /* HumanPlayer.m in Sources */,
+				6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +426,7 @@
 					"\"$(SRCROOT)/../XNI\"",
 					"\"$(SRCROOT)/../GameDefaults/build/Debug-iphonesimulator\"",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = FRIkanoid;
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../XNI/usr/local/include ${PROJECT_DIR}/../GameDefaults//**";
 			};

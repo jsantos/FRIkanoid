@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649FF63012835CE600CEA4E0 /* AnimatedSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */; };
+		649FF63112835CE600CEA4E0 /* AnimatedSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */; };
+		649FF63212835CE600CEA4E0 /* AnimatedSpriteFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */; };
+		649FF63312835CE600CEA4E0 /* AnimatedSpriteFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF62D12835CE600CEA4E0 /* AnimatedSpriteFrame.m */; };
+		649FF63412835CE600CEA4E0 /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62E12835CE600CEA4E0 /* Sprite.h */; };
+		649FF63512835CE600CEA4E0 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF62F12835CE600CEA4E0 /* Sprite.m */; };
+		649FF63812835CF300CEA4E0 /* GameDefaults.Graphics.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF63612835CF300CEA4E0 /* GameDefaults.Graphics.classes.h */; };
+		649FF63912835CF300CEA4E0 /* GameDefaults.Graphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF63712835CF300CEA4E0 /* GameDefaults.Graphics.h */; };
+		649FF63C12835D7600CEA4E0 /* Lifetime.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF63A12835D7600CEA4E0 /* Lifetime.h */; };
+		649FF63D12835D7600CEA4E0 /* Lifetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF63B12835D7600CEA4E0 /* Lifetime.m */; };
+		649FF6FD128361BB00CEA4E0 /* ParticleParticleColision.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF6FB128361BA00CEA4E0 /* ParticleParticleColision.h */; };
+		649FF6FE128361BB00CEA4E0 /* ParticleParticleColision.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF6FC128361BB00CEA4E0 /* ParticleParticleColision.m */; };
+		649FF701128361FA00CEA4E0 /* SimpleScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF6FF128361FA00CEA4E0 /* SimpleScene.h */; };
+		649FF702128361FA00CEA4E0 /* SimpleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF700128361FA00CEA4E0 /* SimpleScene.m */; };
+		649FF7041283621200CEA4E0 /* IScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7031283621200CEA4E0 /* IScene.h */; };
+		649FF70A1283632E00CEA4E0 /* GameDefaults.Scene.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7091283632E00CEA4E0 /* GameDefaults.Scene.classes.h */; };
+		649FF70D1283634E00CEA4E0 /* GameDefaults.Scene.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF70C1283634E00CEA4E0 /* GameDefaults.Scene.h */; };
+		649FF7121283639E00CEA4E0 /* ILifetime.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7111283639E00CEA4E0 /* ILifetime.h */; };
+		649FF7151283641000CEA4E0 /* IPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7141283641000CEA4E0 /* IPosition.h */; };
+		649FF7181283644000CEA4E0 /* IVelocity.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7171283644000CEA4E0 /* IVelocity.h */; };
+		649FF71B1283646600CEA4E0 /* IMovable.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF71A1283646600CEA4E0 /* IMovable.h */; };
+		649FF71F128364B000CEA4E0 /* GameDefaults.Scene.Objects.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF71E128364B000CEA4E0 /* GameDefaults.Scene.Objects.classes.h */; };
+		649FF721128364C600CEA4E0 /* GameDefaults.Scene.Objects.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF720128364C600CEA4E0 /* GameDefaults.Scene.Objects.h */; };
+		649FF725128364DB00CEA4E0 /* IMass.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF724128364DB00CEA4E0 /* IMass.h */; };
+		649FF7271283650300CEA4E0 /* IRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7261283650300CEA4E0 /* IRadius.h */; };
+		649FF72B1283653000CEA4E0 /* IParticleColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF72A1283653000CEA4E0 /* IParticleColider.h */; };
+		649FF7301283655900CEA4E0 /* IParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF72F1283655900CEA4E0 /* IParticle.h */; };
+		649FF7321283659500CEA4E0 /* IConvecColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7311283659500CEA4E0 /* IConvecColider.h */; };
+		649FF739128365CD00CEA4E0 /* IHalfPlaneColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */; };
+		649FF73D128365FC00CEA4E0 /* ICoefficientOfRestitution.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */; };
+		649FF7461283667E00CEA4E0 /* MovementPhysics.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7441283667E00CEA4E0 /* MovementPhysics.h */; };
+		649FF7471283667E00CEA4E0 /* MovementPhysics.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF7451283667E00CEA4E0 /* MovementPhysics.m */; };
+		649FF7B612836B5700CEA4E0 /* GameDefaults.Physics.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7B512836B5700CEA4E0 /* GameDefaults.Physics.classes.h */; };
+		649FF7BA12836B8800CEA4E0 /* GameDefaults.Physics.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7B912836B8800CEA4E0 /* GameDefaults.Physics.h */; };
+		AA747D9F0F9514B9006C5449 /* GameDefaults_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSprite.h; sourceTree = "<group>"; };
+		649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedSprite.m; sourceTree = "<group>"; };
+		649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSpriteFrame.h; sourceTree = "<group>"; };
+		649FF62D12835CE600CEA4E0 /* AnimatedSpriteFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedSpriteFrame.m; sourceTree = "<group>"; };
+		649FF62E12835CE600CEA4E0 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		649FF62F12835CE600CEA4E0 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		649FF63612835CF300CEA4E0 /* GameDefaults.Graphics.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Graphics.classes.h; sourceTree = "<group>"; };
+		649FF63712835CF300CEA4E0 /* GameDefaults.Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Graphics.h; sourceTree = "<group>"; };
+		649FF63A12835D7600CEA4E0 /* Lifetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lifetime.h; sourceTree = "<group>"; };
+		649FF63B12835D7600CEA4E0 /* Lifetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lifetime.m; sourceTree = "<group>"; };
+		649FF6FB128361BA00CEA4E0 /* ParticleParticleColision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleParticleColision.h; sourceTree = "<group>"; };
+		649FF6FC128361BB00CEA4E0 /* ParticleParticleColision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleParticleColision.m; sourceTree = "<group>"; };
+		649FF6FF128361FA00CEA4E0 /* SimpleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleScene.h; sourceTree = "<group>"; };
+		649FF700128361FA00CEA4E0 /* SimpleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleScene.m; sourceTree = "<group>"; };
+		649FF7031283621200CEA4E0 /* IScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IScene.h; sourceTree = "<group>"; };
+		649FF7091283632E00CEA4E0 /* GameDefaults.Scene.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Scene.classes.h; sourceTree = "<group>"; };
+		649FF70C1283634E00CEA4E0 /* GameDefaults.Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Scene.h; sourceTree = "<group>"; };
+		649FF7111283639E00CEA4E0 /* ILifetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILifetime.h; sourceTree = "<group>"; };
+		649FF7141283641000CEA4E0 /* IPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPosition.h; sourceTree = "<group>"; };
+		649FF7171283644000CEA4E0 /* IVelocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVelocity.h; sourceTree = "<group>"; };
+		649FF71A1283646600CEA4E0 /* IMovable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMovable.h; sourceTree = "<group>"; };
+		649FF71E128364B000CEA4E0 /* GameDefaults.Scene.Objects.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Scene.Objects.classes.h; sourceTree = "<group>"; };
+		649FF720128364C600CEA4E0 /* GameDefaults.Scene.Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Scene.Objects.h; sourceTree = "<group>"; };
+		649FF724128364DB00CEA4E0 /* IMass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMass.h; sourceTree = "<group>"; };
+		649FF7261283650300CEA4E0 /* IRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRadius.h; sourceTree = "<group>"; };
+		649FF72A1283653000CEA4E0 /* IParticleColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IParticleColider.h; sourceTree = "<group>"; };
+		649FF72F1283655900CEA4E0 /* IParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IParticle.h; sourceTree = "<group>"; };
+		649FF7311283659500CEA4E0 /* IConvecColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IConvecColider.h; sourceTree = "<group>"; };
+		649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHalfPlaneColider.h; sourceTree = "<group>"; };
+		649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICoefficientOfRestitution.h; sourceTree = "<group>"; };
+		649FF7441283667E00CEA4E0 /* MovementPhysics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementPhysics.h; sourceTree = "<group>"; };
+		649FF7451283667E00CEA4E0 /* MovementPhysics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementPhysics.m; sourceTree = "<group>"; };
+		649FF7B512836B5700CEA4E0 /* GameDefaults.Physics.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Physics.classes.h; sourceTree = "<group>"; };
+		649FF7B912836B8800CEA4E0 /* GameDefaults.Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Physics.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libGameDefaults.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameDefaults.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libGameDefaults.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* GameDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = GameDefaults;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				649FF61B12835C8200CEA4E0 /* GameDefaults */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		649FF61B12835C8200CEA4E0 /* GameDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				649FF62112835CAB00CEA4E0 /* Math */,
+				649FF62012835C9A00CEA4E0 /* Physics */,
+				649FF61F12835C8E00CEA4E0 /* Graphics */,
+				649FF61E12835C8A00CEA4E0 /* Scene */,
+			);
+			name = GameDefaults;
+			sourceTree = "<group>";
+		};
+		649FF61E12835C8A00CEA4E0 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				649FF62312835CC900CEA4E0 /* Objects */,
+				649FF6FF128361FA00CEA4E0 /* SimpleScene.h */,
+				649FF700128361FA00CEA4E0 /* SimpleScene.m */,
+				649FF7031283621200CEA4E0 /* IScene.h */,
+				649FF7091283632E00CEA4E0 /* GameDefaults.Scene.classes.h */,
+				649FF70C1283634E00CEA4E0 /* GameDefaults.Scene.h */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		649FF61F12835C8E00CEA4E0 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				649FF63612835CF300CEA4E0 /* GameDefaults.Graphics.classes.h */,
+				649FF63712835CF300CEA4E0 /* GameDefaults.Graphics.h */,
+				649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */,
+				649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */,
+				649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */,
+				649FF62D12835CE600CEA4E0 /* AnimatedSpriteFrame.m */,
+				649FF62E12835CE600CEA4E0 /* Sprite.h */,
+				649FF62F12835CE600CEA4E0 /* Sprite.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		649FF62012835C9A00CEA4E0 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				649FF62212835CBE00CEA4E0 /* Colision */,
+				649FF7441283667E00CEA4E0 /* MovementPhysics.h */,
+				649FF7451283667E00CEA4E0 /* MovementPhysics.m */,
+				649FF7B512836B5700CEA4E0 /* GameDefaults.Physics.classes.h */,
+				649FF7B912836B8800CEA4E0 /* GameDefaults.Physics.h */,
+			);
+			name = Physics;
+			sourceTree = "<group>";
+		};
+		649FF62112835CAB00CEA4E0 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		649FF62212835CBE00CEA4E0 /* Colision */ = {
+			isa = PBXGroup;
+			children = (
+				649FF6FB128361BA00CEA4E0 /* ParticleParticleColision.h */,
+				649FF6FC128361BB00CEA4E0 /* ParticleParticleColision.m */,
+			);
+			name = Colision;
+			sourceTree = "<group>";
+		};
+		649FF62312835CC900CEA4E0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				649FF63A12835D7600CEA4E0 /* Lifetime.h */,
+				649FF63B12835D7600CEA4E0 /* Lifetime.m */,
+				649FF7111283639E00CEA4E0 /* ILifetime.h */,
+				649FF7141283641000CEA4E0 /* IPosition.h */,
+				649FF7171283644000CEA4E0 /* IVelocity.h */,
+				649FF71A1283646600CEA4E0 /* IMovable.h */,
+				649FF71E128364B000CEA4E0 /* GameDefaults.Scene.Objects.classes.h */,
+				649FF720128364C600CEA4E0 /* GameDefaults.Scene.Objects.h */,
+				649FF724128364DB00CEA4E0 /* IMass.h */,
+				649FF7261283650300CEA4E0 /* IRadius.h */,
+				649FF72A1283653000CEA4E0 /* IParticleColider.h */,
+				649FF72F1283655900CEA4E0 /* IParticle.h */,
+				649FF7311283659500CEA4E0 /* IConvecColider.h */,
+				649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */,
+				649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* GameDefaults_Prefix.pch in Headers */,
+				649FF63012835CE600CEA4E0 /* AnimatedSprite.h in Headers */,
+				649FF63212835CE600CEA4E0 /* AnimatedSpriteFrame.h in Headers */,
+				649FF63412835CE600CEA4E0 /* Sprite.h in Headers */,
+				649FF63812835CF300CEA4E0 /* GameDefaults.Graphics.classes.h in Headers */,
+				649FF63912835CF300CEA4E0 /* GameDefaults.Graphics.h in Headers */,
+				649FF63C12835D7600CEA4E0 /* Lifetime.h in Headers */,
+				649FF6FD128361BB00CEA4E0 /* ParticleParticleColision.h in Headers */,
+				649FF701128361FA00CEA4E0 /* SimpleScene.h in Headers */,
+				649FF7041283621200CEA4E0 /* IScene.h in Headers */,
+				649FF70A1283632E00CEA4E0 /* GameDefaults.Scene.classes.h in Headers */,
+				649FF70D1283634E00CEA4E0 /* GameDefaults.Scene.h in Headers */,
+				649FF7121283639E00CEA4E0 /* ILifetime.h in Headers */,
+				649FF7151283641000CEA4E0 /* IPosition.h in Headers */,
+				649FF7181283644000CEA4E0 /* IVelocity.h in Headers */,
+				649FF71B1283646600CEA4E0 /* IMovable.h in Headers */,
+				649FF71F128364B000CEA4E0 /* GameDefaults.Scene.Objects.classes.h in Headers */,
+				649FF721128364C600CEA4E0 /* GameDefaults.Scene.Objects.h in Headers */,
+				649FF725128364DB00CEA4E0 /* IMass.h in Headers */,
+				649FF7271283650300CEA4E0 /* IRadius.h in Headers */,
+				649FF72B1283653000CEA4E0 /* IParticleColider.h in Headers */,
+				649FF7301283655900CEA4E0 /* IParticle.h in Headers */,
+				649FF7321283659500CEA4E0 /* IConvecColider.h in Headers */,
+				649FF739128365CD00CEA4E0 /* IHalfPlaneColider.h in Headers */,
+				649FF73D128365FC00CEA4E0 /* ICoefficientOfRestitution.h in Headers */,
+				649FF7461283667E00CEA4E0 /* MovementPhysics.h in Headers */,
+				649FF7B612836B5700CEA4E0 /* GameDefaults.Physics.classes.h in Headers */,
+				649FF7BA12836B8800CEA4E0 /* GameDefaults.Physics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* GameDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "GameDefaults" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameDefaults;
+			productName = GameDefaults;
+			productReference = D2AAC07E0554694100DB518D /* libGameDefaults.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "GameDefaults" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* GameDefaults */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* GameDefaults */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649FF63112835CE600CEA4E0 /* AnimatedSprite.m in Sources */,
+				649FF63312835CE600CEA4E0 /* AnimatedSpriteFrame.m in Sources */,
+				649FF63512835CE600CEA4E0 /* Sprite.m in Sources */,
+				649FF63D12835D7600CEA4E0 /* Lifetime.m in Sources */,
+				649FF6FE128361BB00CEA4E0 /* ParticleParticleColision.m in Sources */,
+				649FF702128361FA00CEA4E0 /* SimpleScene.m in Sources */,
+				649FF7471283667E00CEA4E0 /* MovementPhysics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/GameDefaults.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GameDefaults_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../XNI\"",
+				);
+				PRODUCT_NAME = GameDefaults;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/GameDefaults.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GameDefaults_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../XNI\"",
+				);
+				PRODUCT_NAME = GameDefaults;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../XNI/usr/local/include";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "GameDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "GameDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

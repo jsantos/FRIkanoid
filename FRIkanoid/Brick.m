@@ -15,14 +15,18 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
+		velocity = [[Vector2 alloc] init];
+		mass = 20;
+		radius = 30;
 	}
 	return self;
 }
 
-@synthesize position;
+@synthesize position, velocity, mass, radius;
 
 - (void) dealloc {
 	[position release];
+	[velocity release];
 	[super dealloc];
 }
 

@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "Chomponthis.FRIkanoid.classes.h"
+#import "GameDefaults.Scene.Objects.h"
 
-@interface Brick : NSObject <Position>{
+@interface Brick : NSObject <IParticle>{
 	Vector2 *position;
+	Vector2 *velocity;
+	float radius;
+	float mass;
 }
 
 @end
