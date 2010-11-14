@@ -15,26 +15,25 @@
 	self = [super init];
 	if (self != nil) {
 		//Initialize object Positions
-		ball.position.x = 160;
-		ball.position.y = 360;
+		ball.position.x = 240;
+		ball.position.y = 200;
 		
-		playerPad.position.x = 160;
-		playerPad.position.y = 480;
+		playerPad.position.x = 240;
+		playerPad.position.y = 335;
 		
-		double initX = 20, initY=47;
+		double initX = 16, initY=36;
 		for (id<NSObject> item in bricks) {
 			id<IPosition> itemWithPosition;
 			if ([item conformsToProtocol:@protocol(IPosition)]) {
 				itemWithPosition = (id<IPosition>)item;
-				
 				itemWithPosition.position.x = initX;
 				itemWithPosition.position.y = initY;
 			}
-			if (initX > 220) {
-				initX = 20;
-				initY+=33;
+			if (initX > 380) {
+				initX = 16;
+				initY+=21;
 			} else {
-				initX+=80;
+				initX+=60;
 			}
 		}
 	}

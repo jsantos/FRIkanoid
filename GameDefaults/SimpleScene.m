@@ -27,4 +27,9 @@
 	return [items countByEnumeratingWithState:state objects:stackbuf count:len];
 }
 
+- (void) dealloc {
+	[items release];
+	[super dealloc];
+}
+
 @end

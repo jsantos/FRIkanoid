@@ -20,18 +20,19 @@
 		playerPad = [[Pad alloc] init];
 		bricks = [[NSMutableArray alloc] init];
 		
-		for (int i=0; i<20; i++) {
+		[scene addItem:playerPad];
+		[scene addItem:ball];
+		
+		for (int i=0; i<32; i++) {
 			Brick *lol = [[Brick alloc] init];
 			[bricks addObject:lol];
-			[lol release];
+			//[lol release];
 		}
 		
 		for (id<NSObject> brick in bricks){
 			[scene addItem:brick];
 		}
-
-		[scene addItem:playerPad];
-		[scene addItem:ball];
+		
 	}
 	return self;
 }

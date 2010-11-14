@@ -16,8 +16,8 @@
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
 		velocity = [[Vector2 alloc] init];
-		mass = 20;
-		radius = 30;
+		mass = 0;
+		radius = 15;
 	}
 	return self;
 }

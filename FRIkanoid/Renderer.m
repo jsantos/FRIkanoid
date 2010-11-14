@@ -29,24 +29,24 @@
 	spriteBatch = [[SpriteBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	
 	ballSprite = [[Sprite alloc] init];
-	ballSprite.texture = [self.game.content load:@"Arkanoid"];
-	ballSprite.sourceRectangle = [Rectangle rectangleWithX:227 y:168 width:56 height:58];
+	ballSprite.texture = [self.game.content load:@"Arkanoid2"];
+	ballSprite.sourceRectangle = [Rectangle rectangleWithX:238 y:179 width:34 height:36];
 	ballSprite.origin = [Vector2 vectorWithX:30 y:30];
 	
 	padSprite = [[Sprite alloc] init];
-	padSprite.texture = [self.game.content load:@"Arkanoid"];
+	padSprite.texture = [self.game.content load:@"Arkanoid2"];
 	padSprite.sourceRectangle = [Rectangle rectangleWithX:54 y:345 width:227 height:150];
-	padSprite.origin = [Vector2 vectorWithX:100 y:90];
+	padSprite.origin = [Vector2 vectorWithX:120 y:100];
 	
 	brick1Sprite = [[Sprite alloc] init];
-	brick1Sprite.texture = [self.game.content load:@"Arkanoid"];
-	brick1Sprite.sourceRectangle = [Rectangle rectangleWithX:50 y:55 width:120 height:55];
-	brick1Sprite.origin = [Vector2 vectorWithX:28 y:75];
+	brick1Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick1Sprite.sourceRectangle = [Rectangle rectangleWithX:65 y:64 width:92 height:38];
+	brick1Sprite.origin = [Vector2 vectorWithX:23 y:55];
 	
 	brick2Sprite = [[Sprite alloc] init];
-	brick2Sprite.texture = [self.game.content load:@"Arkanoid"];
-	brick2Sprite.sourceRectangle = [Rectangle rectangleWithX:50 y:113 width:120 height:55];
-	brick2Sprite.origin = [Vector2 vectorWithX:28 y:75];
+	brick2Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick2Sprite.sourceRectangle = [Rectangle rectangleWithX:65 y:122 width:92 height:38];
+	brick2Sprite.origin = [Vector2 vectorWithX:23 y:55];
 
 //	brick3Sprite = [[Sprite alloc] init];
 //	brick3Sprite.texture = [self.game.content load:@"Arkanoid.png"];
@@ -67,7 +67,6 @@
 	BOOL wasBrick = NO;
 	for (id item in level.scene) {
 		id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)]  ? item : nil;
-		
 		Sprite *sprite;
 		
 		if ([item isKindOfClass:[Ball class]]) {

@@ -7,7 +7,7 @@
 //
 
 #import "Player.h"
-
+#import "Chomponthis.FRIkanoid.h"
 
 @implementation Player
 
@@ -21,7 +21,7 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
-
+	
 }
 
 @end

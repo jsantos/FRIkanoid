@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameDefaults.Math.classes.h"
 
-
-@protocol IHalfPlaneColider
+@protocol IHalfPlaneColider<NSObject>
 
 @property (nonatomic, readonly) HalfPlane *halfPlane;
 

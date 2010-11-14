@@ -19,9 +19,9 @@
 
 - (void) reset;
 
-@property (nonatomic, retain) id<IScene> scene;
-@property (nonatomic, retain) Ball *ball;
-@property (nonatomic, retain) Pad *playerPad;
-@property (nonatomic, retain) NSMutableArray *bricks;
+@property (nonatomic, readonly) id<IScene> scene;
+@property (nonatomic, readonly) Ball *ball;
+@property (nonatomic, readonly) Pad *playerPad;
+@property (nonatomic, readonly) NSMutableArray *bricks;
 
 @end

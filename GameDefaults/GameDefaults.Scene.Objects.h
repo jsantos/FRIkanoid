@@ -6,6 +6,9 @@
 #import "IParticleColider.h"
 #import "IParticle.h"
 
+#import "IHalfPlaneColider.h"
+#import "IAxisAlignedHalfPlaneCollider.h"
+
 #import "IMass.h"
 
 #import "ICoefficientOfRestitution.h"

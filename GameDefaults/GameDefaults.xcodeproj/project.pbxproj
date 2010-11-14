@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64021EE412904ECA0008D1EA /* GameDefaults.Math.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021EE312904ECA0008D1EA /* GameDefaults.Math.classes.h */; };
+		64021EE612904EE00008D1EA /* GameDefaults.Math.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021EE512904EE00008D1EA /* GameDefaults.Math.h */; };
+		64021EED12904F410008D1EA /* HalfPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021EEB12904F410008D1EA /* HalfPlane.h */; };
+		64021EEE12904F410008D1EA /* HalfPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021EEC12904F410008D1EA /* HalfPlane.m */; };
+		64021EFF1290514A0008D1EA /* AxisAlignedHalfPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021EFD1290514A0008D1EA /* AxisAlignedHalfPlane.h */; };
+		64021F001290514A0008D1EA /* AxisAlignedHalfPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021EFE1290514A0008D1EA /* AxisAlignedHalfPlane.m */; };
+		64021F34129057A50008D1EA /* Collision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021F32129057A50008D1EA /* Collision.h */; };
+		64021F35129057A50008D1EA /* Collision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F33129057A50008D1EA /* Collision.m */; };
 		649FF63012835CE600CEA4E0 /* AnimatedSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */; };
 		649FF63112835CE600CEA4E0 /* AnimatedSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */; };
 		649FF63212835CE600CEA4E0 /* AnimatedSpriteFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */; };
@@ -34,18 +42,28 @@
 		649FF7271283650300CEA4E0 /* IRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7261283650300CEA4E0 /* IRadius.h */; };
 		649FF72B1283653000CEA4E0 /* IParticleColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF72A1283653000CEA4E0 /* IParticleColider.h */; };
 		649FF7301283655900CEA4E0 /* IParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF72F1283655900CEA4E0 /* IParticle.h */; };
-		649FF7321283659500CEA4E0 /* IConvecColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7311283659500CEA4E0 /* IConvecColider.h */; };
+		649FF7321283659500CEA4E0 /* IConvexColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7311283659500CEA4E0 /* IConvexColider.h */; };
 		649FF739128365CD00CEA4E0 /* IHalfPlaneColider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */; };
 		649FF73D128365FC00CEA4E0 /* ICoefficientOfRestitution.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */; };
 		649FF7461283667E00CEA4E0 /* MovementPhysics.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7441283667E00CEA4E0 /* MovementPhysics.h */; };
 		649FF7471283667E00CEA4E0 /* MovementPhysics.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF7451283667E00CEA4E0 /* MovementPhysics.m */; };
 		649FF7B612836B5700CEA4E0 /* GameDefaults.Physics.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7B512836B5700CEA4E0 /* GameDefaults.Physics.classes.h */; };
 		649FF7BA12836B8800CEA4E0 /* GameDefaults.Physics.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF7B912836B8800CEA4E0 /* GameDefaults.Physics.h */; };
+		64AD745B128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */; };
 		AA747D9F0F9514B9006C5449 /* GameDefaults_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64021EE312904ECA0008D1EA /* GameDefaults.Math.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Math.classes.h; sourceTree = "<group>"; };
+		64021EE512904EE00008D1EA /* GameDefaults.Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Math.h; sourceTree = "<group>"; };
+		64021EE712904EF50008D1EA /* MathEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathEnums.h; sourceTree = "<group>"; };
+		64021EEB12904F410008D1EA /* HalfPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfPlane.h; sourceTree = "<group>"; };
+		64021EEC12904F410008D1EA /* HalfPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfPlane.m; sourceTree = "<group>"; };
+		64021EFD1290514A0008D1EA /* AxisAlignedHalfPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisAlignedHalfPlane.h; sourceTree = "<group>"; };
+		64021EFE1290514A0008D1EA /* AxisAlignedHalfPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisAlignedHalfPlane.m; sourceTree = "<group>"; };
+		64021F32129057A50008D1EA /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+		64021F33129057A50008D1EA /* Collision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collision.m; sourceTree = "<group>"; };
 		649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSprite.h; sourceTree = "<group>"; };
 		649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedSprite.m; sourceTree = "<group>"; };
 		649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSpriteFrame.h; sourceTree = "<group>"; };
@@ -73,13 +91,14 @@
 		649FF7261283650300CEA4E0 /* IRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRadius.h; sourceTree = "<group>"; };
 		649FF72A1283653000CEA4E0 /* IParticleColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IParticleColider.h; sourceTree = "<group>"; };
 		649FF72F1283655900CEA4E0 /* IParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IParticle.h; sourceTree = "<group>"; };
-		649FF7311283659500CEA4E0 /* IConvecColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IConvecColider.h; sourceTree = "<group>"; };
+		649FF7311283659500CEA4E0 /* IConvexColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IConvexColider.h; sourceTree = "<group>"; };
 		649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHalfPlaneColider.h; sourceTree = "<group>"; };
 		649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICoefficientOfRestitution.h; sourceTree = "<group>"; };
 		649FF7441283667E00CEA4E0 /* MovementPhysics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementPhysics.h; sourceTree = "<group>"; };
 		649FF7451283667E00CEA4E0 /* MovementPhysics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementPhysics.m; sourceTree = "<group>"; };
 		649FF7B512836B5700CEA4E0 /* GameDefaults.Physics.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Physics.classes.h; sourceTree = "<group>"; };
 		649FF7B912836B8800CEA4E0 /* GameDefaults.Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Physics.h; sourceTree = "<group>"; };
+		64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAxisAlignedHalfPlaneCollider.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libGameDefaults.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameDefaults.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +213,13 @@
 		649FF62112835CAB00CEA4E0 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				64021EE312904ECA0008D1EA /* GameDefaults.Math.classes.h */,
+				64021EE512904EE00008D1EA /* GameDefaults.Math.h */,
+				64021EE712904EF50008D1EA /* MathEnums.h */,
+				64021EEB12904F410008D1EA /* HalfPlane.h */,
+				64021EEC12904F410008D1EA /* HalfPlane.m */,
+				64021EFD1290514A0008D1EA /* AxisAlignedHalfPlane.h */,
+				64021EFE1290514A0008D1EA /* AxisAlignedHalfPlane.m */,
 			);
 			name = Math;
 			sourceTree = "<group>";
@@ -203,6 +229,8 @@
 			children = (
 				649FF6FB128361BA00CEA4E0 /* ParticleParticleColision.h */,
 				649FF6FC128361BB00CEA4E0 /* ParticleParticleColision.m */,
+				64021F32129057A50008D1EA /* Collision.h */,
+				64021F33129057A50008D1EA /* Collision.m */,
 			);
 			name = Colision;
 			sourceTree = "<group>";
@@ -222,9 +250,10 @@
 				649FF7261283650300CEA4E0 /* IRadius.h */,
 				649FF72A1283653000CEA4E0 /* IParticleColider.h */,
 				649FF72F1283655900CEA4E0 /* IParticle.h */,
-				649FF7311283659500CEA4E0 /* IConvecColider.h */,
+				649FF7311283659500CEA4E0 /* IConvexColider.h */,
 				649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */,
 				649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */,
+				64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -258,12 +287,18 @@
 				649FF7271283650300CEA4E0 /* IRadius.h in Headers */,
 				649FF72B1283653000CEA4E0 /* IParticleColider.h in Headers */,
 				649FF7301283655900CEA4E0 /* IParticle.h in Headers */,
-				649FF7321283659500CEA4E0 /* IConvecColider.h in Headers */,
+				649FF7321283659500CEA4E0 /* IConvexColider.h in Headers */,
 				649FF739128365CD00CEA4E0 /* IHalfPlaneColider.h in Headers */,
 				649FF73D128365FC00CEA4E0 /* ICoefficientOfRestitution.h in Headers */,
 				649FF7461283667E00CEA4E0 /* MovementPhysics.h in Headers */,
 				649FF7B612836B5700CEA4E0 /* GameDefaults.Physics.classes.h in Headers */,
 				649FF7BA12836B8800CEA4E0 /* GameDefaults.Physics.h in Headers */,
+				64AD745B128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h in Headers */,
+				64021EE412904ECA0008D1EA /* GameDefaults.Math.classes.h in Headers */,
+				64021EE612904EE00008D1EA /* GameDefaults.Math.h in Headers */,
+				64021EED12904F410008D1EA /* HalfPlane.h in Headers */,
+				64021EFF1290514A0008D1EA /* AxisAlignedHalfPlane.h in Headers */,
+				64021F34129057A50008D1EA /* Collision.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +359,9 @@
 				649FF6FE128361BB00CEA4E0 /* ParticleParticleColision.m in Sources */,
 				649FF702128361FA00CEA4E0 /* SimpleScene.m in Sources */,
 				649FF7471283667E00CEA4E0 /* MovementPhysics.m in Sources */,
+				64021EEE12904F410008D1EA /* HalfPlane.m in Sources */,
+				64021F001290514A0008D1EA /* AxisAlignedHalfPlane.m in Sources */,
+				64021F35129057A50008D1EA /* Collision.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
