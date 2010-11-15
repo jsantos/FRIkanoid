@@ -17,8 +17,10 @@
 		position = [[Vector2 alloc] init];
 		velocity = [[Vector2 alloc] init];
 		mass = 1;
-		radius = 20;
+		radius = 18;
 		coefficientOfRestitution = 1;
+		velocity.y = 100;
+		velocity.x = 70;
 	}
 	return self;
 }

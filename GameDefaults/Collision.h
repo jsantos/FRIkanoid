@@ -13,7 +13,7 @@
 
 }
 
-+ (void) collisionBetween:(id)item1 and:(id)item2;
++ (BOOL) collisionBetween:(id)item1 and:(id)item2;
 
 + (void) relaxCollisionBetween:(id)item1 and:(id)item2 by:(Vector2*) relaxDistance;
 

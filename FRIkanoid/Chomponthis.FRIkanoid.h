@@ -1,11 +1,10 @@
 #import "Chomponthis.FRIkanoid.Protocols.h"
 #import "FRIkanoidEnums.h"
 #import "Scene.h"
-
+#import "Boundary.h"
 #import "Ball.h"
 #import "Pad.h"
 #import "Brick.h"
-#import "Background.h"
 #import "Level.h"
 #import "FRIkanoidLevel.h"
 #import "Player.h"

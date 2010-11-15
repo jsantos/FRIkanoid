@@ -1,7 +1,7 @@
 TGameDefaults
 v7
 r0
-t311279117.660724
+t311540716.978766
 cCheck dependencies
 cProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -11,7 +11,56 @@ cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Obje
 cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a normal i386
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A55040000000000009369
+t1280988420
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A55040000000000003C4A
+t1280988420
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A550400000000000092AA
+t1280988420
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A550400000000000026AA
+t1280988420
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A556300000000000000C4
+t1280988515
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
 c000000004C6C30170000000000000110
@@ -85,6 +134,33 @@ t1288738074
 s683
 i"AnimatedSpriteFrame.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.h
+c000000004CE01AFB0000000000000218
+t1289755387
+s536
+i<Foundation/Foundation.h>
+i"HalfPlane.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m
+c000000004CE01DB500000000000007AB
+t1289756085
+s1963
+i"AxisAlignedHalfPlane.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.h
+c000000004CE181AE00000000000001BC
+t1289847214
+s444
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m
+c000000004CE181D600000000000016D8
+t1289847254
+s5848
+i"Collision.h"
+i"GameDefaults.Scene.Objects.h"
+i"GameDefaults.Physics.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Graphics.classes.h
 c000000004CD093A40000000000000033
 t1288737700
@@ -98,21 +174,46 @@ i"Sprite.h"
 i"AnimatedSprite.h"
 i"AnimatedSpriteFrame.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Math.classes.h
+c000000004CE01EDF000000000000003D
+t1289756383
+s61
+i"MathEnums.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Math.h
+c000000004CE01DFF000000000000004C
+t1289756159
+s76
+i"MathEnums.h"
+i"HalfPlane.h"
+i"AxisAlignedHalfPlane.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Physics.h
+c000000004CE056560000000000000088
+t1289770582
+s136
+i"MovementPhysics.h"
+i"ParticleParticleColision.h"
+i"Collision.h"
+i"ParticleAxisAlignedHalfPlaneCollision.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.classes.h
-c000000004CD5B6D700000000000000B3
-t1289074391
-s179
+c000000004CE0163B00000000000000EF
+t1289754171
+s239
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.h
-c000000004CD3317A00000000000000EE
-t1288909178
-s238
+c000000004CE015F20000000000000137
+t1289754098
+s311
 i"IPosition.h"
 i"IVelocity.h"
 i"IMovable.h"
 i"IRadius.h"
 i"IParticleColider.h"
 i"IParticle.h"
+i"IHalfPlaneColider.h"
+i"IAxisAlignedHalfPlaneCollider.h"
 i"IMass.h"
 i"ICoefficientOfRestitution.h"
 i"ILifetime.h"
@@ -137,11 +238,38 @@ s226
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.h
+c000000004CE018640000000000000214
+t1289754724
+s532
+i<Foundation/Foundation.h>
+i"GameDefaults.Math.classes.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m
+c000000004CE01977000000000000030E
+t1289754999
+s782
+i"HalfPlane.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IAxisAlignedHalfPlaneCollider.h
+c000000004CDD78840000000000000164
+t1289582724
+s356
+i<UIKit/UIKit.h>
+i"IHalfPlaneColider.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICoefficientOfRestitution.h
 c000000004CD3316D0000000000000114
 t1288909165
 s276
 i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IHalfPlaneColider.h
+c000000004CE019A70000000000000133
+t1289755047
+s307
+i<UIKit/UIKit.h>
+i"GameDefaults.Math.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ILifetime.h
 c000000004CD32C45000000000000012A
@@ -194,9 +322,9 @@ s233
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IScene.h
-c000000004CD32AB400000000000000E7
-t1288907444
-s231
+c000000004CE1844A0000000000000105
+t1289847882
+s261
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IVelocity.h
@@ -217,6 +345,11 @@ t1288739196
 s698
 i"Lifetime.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MathEnums.h
+c000000004CE01A9C0000000000000083
+t1289755292
+s131
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.h
 c000000004CD3300E0000000000000162
 t1288908814
@@ -232,6 +365,22 @@ i"MovementPhysics.h"
 i"GameDefaults.Scene.h"
 i"GameDefaults.Scene.Objects.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.h
+c000000004CE035A800000000000002A9
+t1289762216
+s681
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m
+c000000004CE17C490000000000000B95
+t1289845833
+s2965
+i"ParticleAxisAlignedHalfPlaneCollision.h"
+i"GameDefaults.Scene.Objects.h"
+i"GameDefaults.Math.h"
+i"GameDefaults.Physics.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.h
 c000000004CD5B6920000000000000250
 t1289074322
@@ -240,11 +389,12 @@ i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m
-c000000004CD5B9B400000000000014F7
-t1289075124
-s5367
+c000000004CE06BCC000000000000183D
+t1289776076
+s6205
 i"ParticleParticleColision.h"
 i"GameDefaults.Scene.Objects.h"
+i"GameDefaults.Physics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.h
 c000000004CD32ADA000000000000010F
@@ -254,9 +404,9 @@ i<Foundation/Foundation.h>
 i"IScene.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m
-c000000004CD32B7D000000000000023F
-t1288907645
-s575
+c000000004CE1850B00000000000002EF
+t1289848075
+s751
 i"SimpleScene.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h
@@ -272,9 +422,13 @@ t1288871501
 s361
 i"Sprite.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a
+t2
+s0
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a
-t1289582687
-s166496
+t1289847883
+s220760
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/usr/local/include/AnimatedSprite.h
 t1288866353
@@ -292,37 +446,159 @@ N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesim
 t1288866353
 s478
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GameDefaults.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/libGameDefaults.a
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GameDefaults.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/libGameDefaults.a
+t2
+s0
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o
-t1289582687
+t1289847883
 s55852
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSpriteFrame.o
-t1289582686
+t1289847883
 s9808
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AxisAlignedHalfPlane.o
+t1289847883
+s13744
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Collision.o
+t1289847883
+s19368
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/GameDefaults.LinkFileList
-c000000004CDD785D0000000000000466
-t1289582685
-s1126
+c000000004CE1844A00000000000006FD
+t1289847882
+s1789
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/HalfPlane.o
+t1289847883
+s11132
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Lifetime.o
-t1289582687
+t1289847883
 s10520
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/MovementPhysics.o
-t1289582687
+t1289847883
 s10152
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleAxisAlignedHalfPlaneCollision.o
+t1289847883
+s13100
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleParticleColision.o
-t1289582687
-s16608
+t1289847883
+s10656
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/SimpleScene.o
-t1289582687
-s9792
+t1289847883
+s11024
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Sprite.o
-t1289582687
+t1289847883
 s50748
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/untitled.o
@@ -931,10 +1207,14 @@ t1288739269
 s17248656
 
 N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch.gch
-t1289582686
+t1289847883
 s17248656
 
 N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-ayvrptilsoqewjczuzjismzkslgc/GameDefaults_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-cxqmodicxyanfkcfpqqmkmeujbln/GameDefaults_Prefix.pch.gch
 t2
 s0
 
@@ -946,17 +1226,87 @@ N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/Shared
 t1288866354
 s17248656
 
+N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-evdmhwqyyrqlfqcycoenfhodwjuy/GameDefaults_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-feasbhrycvaatqavphzkistgchni/GameDefaults_Prefix.pch.gch
 t1288906532
 s17248656
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311279117#311279117#0(0"0(0#1#0"8628326272#0"0#
+lSLF07#2@18"Check dependencies311540716#311540716#0(0"0(0#1#0"8615510560#0"0#
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275486.873788
-e311275487.011845
+s311540683.367089
+e311540683.492194
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o
@@ -965,11 +1315,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m311275486#311275487#0(0"0(0#0#74"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m8628679552#2332"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o0#
+lSLF07#2@82"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m311540683#311540683#0(0"0(0#0#74"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m8617447808#2332"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275486.874843
-e311275486.951223
+s311540683.368134
+e311540683.446424
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSpriteFrame.o
@@ -978,11 +1328,50 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m311275486#311275486#0(0"0(0#0#79"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m8628298016#2342"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSpriteFrame.o0#
+lSLF07#2@87"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m311540683#311540683#0(0"0(0#0#79"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m8615785824#2342"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSpriteFrame.o0#
+
+CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311540683.734220
+e311540683.847585
+r1
+xCompileC
+xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AxisAlignedHalfPlane.o
+x/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m311540683#311540683#0(0"0(0#0#80"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m8605642176#2344"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AxisAlignedHalfPlane.o0#
+
+CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311540683.769920
+e311540683.875613
+r1
+xCompileC
+xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Collision.o
+x/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m311540683#311540683#0(0"0(0#0#69"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m8603437728#2322"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Collision.o0#
+
+CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311540683.686450
+e311540683.769694
+r1
+xCompileC
+xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/HalfPlane.o
+x/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m311540683#311540683#0(0"0(0#0#69"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m8606357216#2322"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/HalfPlane.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275487.011942
-e311275487.104516
+s311540683.492298
+e311540683.570123
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Lifetime.o
@@ -991,11 +1380,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m311275487#311275487#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m8625848992#2320"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Lifetime.o0#
+lSLF07#2@76"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m311540683#311540683#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m8623389952#2320"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Lifetime.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275487.191438
-e311275487.256893
+s311540683.659276
+e311540683.734118
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/MovementPhysics.o
@@ -1004,11 +1393,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m311275487#311275487#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m8621508960#2334"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/MovementPhysics.o0#
+lSLF07#2@83"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m311540683#311540683#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m8613919744#2334"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/MovementPhysics.o0#
+
+CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311540683.847746
+e311540683.923839
+r1
+xCompileC
+xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleAxisAlignedHalfPlaneCollision.o
+x/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m311540683#311540683#0(0"0(0#0#97"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m8624347040#2378"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleAxisAlignedHalfPlaneCollision.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275487.077726
-e311275487.191072
+s311540683.570234
+e311540683.659170
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleParticleColision.o
@@ -1017,11 +1419,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m311275487#311275487#0(0"0(0#0#84"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m8624111424#2352"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleParticleColision.o0#
+lSLF07#2@92"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m311540683#311540683#0(0"0(0#0#84"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m8616563392#2352"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/ParticleParticleColision.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275487.104627
-e311275487.195932
+s311540683.595322
+e311540683.686346
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/SimpleScene.o
@@ -1030,11 +1432,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m311275487#311275487#0(0"0(0#0#71"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m8623064960#2326"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/SimpleScene.o0#
+lSLF07#2@79"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m311540683#311540683#0(0"0(0#0#71"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m8615499040#2326"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/SimpleScene.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275486.951372
-e311275487.077615
+s311540683.446531
+e311540683.595214
 r1
 xCompileC
 xbuild/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Sprite.o
@@ -1043,7 +1445,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m311275486#311275487#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m8626441248#2316"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Sprite.o0#
+lSLF07#2@74"Compile /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m311540683#311540683#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m8613765664#2316"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/Sprite.o0#
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/untitled.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1084,16 +1486,25 @@ xbuild/Debug-iphonesimulator/usr/local/include/Sprite.h
 xSprite.h
 lSLF07#2@13"Copy Sprite.h310559153#310559153#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h8612901824#515"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/usr/local/include0#
 
+CCreateUniversalBinary /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a normal "armv6 armv7"
+r0
+
 CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a normal i386
-s311275487.257081
-e311275487.294943
+s311540683.923933
+e311540683.936602
 r1
 xLibtool
 x/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a
 xnormal
 xi386
 o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF07#2@65"Libtool build/Debug-iphonesimulator/libGameDefaults.a normal i386311275487#311275487#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8617288192#903"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -L/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI -filelist /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/GameDefaults.LinkFileList -ObjC -framework Foundation -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a0#
+lSLF07#2@65"Libtool build/Debug-iphonesimulator/libGameDefaults.a normal i386311540683#311540683#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8620041472#903"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -L/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI -filelist /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/GameDefaults.LinkFileList -ObjC -framework Foundation -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a0#
+
+CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/libGameDefaults.a normal armv6
+r0
+
+CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/libGameDefaults.a normal armv7
+r0
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-anqakzvrovpxzwcbrzdbvqcjmyhw/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310432068.562563
@@ -1109,8 +1520,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile GameDefaults_Prefix.pch310432068#310432069#0(0"0(0#0#81"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch8613615840#2180"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-anqakzvrovpxzwcbrzdbvqcjmyhw/GameDefaults_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s311275485.699406
-e311275486.873670
+s311540682.261504
+e311540683.366975
 r1
 xProcessPCH
 x/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch.gch
@@ -1119,9 +1530,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile GameDefaults_Prefix.pch311275485#311275486#0(0"0(0#0#81"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch8628215808#2180"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch.gch0#
+lSLF07#2@34"Precompile GameDefaults_Prefix.pch311540682#311540683#0(0"0(0#0#81"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch8624342368#2180"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-aqyfyhvtojhwfdavmwkvcecslcdp/GameDefaults_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-ayvrptilsoqewjczuzjismzkslgc/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-cxqmodicxyanfkcfpqqmkmeujbln/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-daisozgbyczabgcmvgcvqaxucekp/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -1149,6 +1563,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile GameDefaults_Prefix.pch310559153#310559154#0(0"0(0#0#81"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch8612694400#2180"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-dsfixqtezobnjtegwyakhtecwzlm/GameDefaults_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-evdmhwqyyrqlfqcycoenfhodwjuy/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-feasbhrycvaatqavphzkistgchni/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310599331.696272

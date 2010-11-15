@@ -23,6 +23,10 @@
 	[items addObject:item];
 }
 
+- (void) removeObjectsAtIndex:(NSMutableIndexSet*)set {
+	[items removeObjectsAtIndexes:set];
+}
+
 - (NSUInteger) countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len {
 	return [items countByEnumeratingWithState:state objects:stackbuf count:len];
 }

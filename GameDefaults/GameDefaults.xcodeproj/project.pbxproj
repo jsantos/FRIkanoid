@@ -15,6 +15,8 @@
 		64021F001290514A0008D1EA /* AxisAlignedHalfPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021EFE1290514A0008D1EA /* AxisAlignedHalfPlane.m */; };
 		64021F34129057A50008D1EA /* Collision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021F32129057A50008D1EA /* Collision.h */; };
 		64021F35129057A50008D1EA /* Collision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F33129057A50008D1EA /* Collision.m */; };
+		64021F7912906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */; };
+		64021F7A12906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */; };
 		649FF63012835CE600CEA4E0 /* AnimatedSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */; };
 		649FF63112835CE600CEA4E0 /* AnimatedSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */; };
 		649FF63212835CE600CEA4E0 /* AnimatedSpriteFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */; };
@@ -64,6 +66,8 @@
 		64021EFE1290514A0008D1EA /* AxisAlignedHalfPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisAlignedHalfPlane.m; sourceTree = "<group>"; };
 		64021F32129057A50008D1EA /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
 		64021F33129057A50008D1EA /* Collision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collision.m; sourceTree = "<group>"; };
+		64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleAxisAlignedHalfPlaneCollision.h; sourceTree = "<group>"; };
+		64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleAxisAlignedHalfPlaneCollision.m; sourceTree = "<group>"; };
 		649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSprite.h; sourceTree = "<group>"; };
 		649FF62B12835CE600CEA4E0 /* AnimatedSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedSprite.m; sourceTree = "<group>"; };
 		649FF62C12835CE600CEA4E0 /* AnimatedSpriteFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSpriteFrame.h; sourceTree = "<group>"; };
@@ -231,6 +235,8 @@
 				649FF6FC128361BB00CEA4E0 /* ParticleParticleColision.m */,
 				64021F32129057A50008D1EA /* Collision.h */,
 				64021F33129057A50008D1EA /* Collision.m */,
+				64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */,
+				64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */,
 			);
 			name = Colision;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 				64021EED12904F410008D1EA /* HalfPlane.h in Headers */,
 				64021EFF1290514A0008D1EA /* AxisAlignedHalfPlane.h in Headers */,
 				64021F34129057A50008D1EA /* Collision.h in Headers */,
+				64021F7912906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +369,7 @@
 				64021EEE12904F410008D1EA /* HalfPlane.m in Sources */,
 				64021F001290514A0008D1EA /* AxisAlignedHalfPlane.m in Sources */,
 				64021F35129057A50008D1EA /* Collision.m in Sources */,
+				64021F7A12906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,3 +10,4 @@
 @class FRIkanoid;
 @class Renderer;
 @class GamePlay;
+@class Boundary;

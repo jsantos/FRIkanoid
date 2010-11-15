@@ -31,7 +31,7 @@
 			}
 			if (initX > 380) {
 				initX = 16;
-				initY+=21;
+				initY+=26;
 			} else {
 				initX+=60;
 			}

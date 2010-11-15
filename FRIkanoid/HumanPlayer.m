@@ -26,11 +26,9 @@
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
 	TouchCollection *touches = [TouchPanel getState];
-	
-	
-	
+		
 	//Remember old position for velocity calculation.
-	//Vector2 *oldPosition = [Vector2 vectorWithVector:playerPad.position];
+	Vector2 *oldPosition = [Vector2 vectorWithVector:playerPad.position];
 	
 	BOOL touchesInInputArea = NO;
 	for(TouchLocation *touch in touches){
@@ -57,15 +55,15 @@
 		grabbed = NO;
 	}
 	
-//	//Calculate pad velocity in reverse.
-//	Vector2 *distance = [Vector2 subtract:playerPad.position by:oldPosition];
-//	
-//	// Velocity is distance over time
-//	if (gameTime.elapsedGameTime > 0) {
-//		[playerPad.velocity set:[distance multiplyBy:1.0f/gameTime.elapsedGameTime]];	
-//	}
-//	
-//	NSLog(@"%@", playerPad.velocity);
+	//Calculate pad velocity in reverse.
+	Vector2 *distance = [Vector2 subtract:playerPad.position by:oldPosition];
+	
+	// Velocity is distance over time
+	if (gameTime.elapsedGameTime > 0) {
+		[playerPad.velocity set:[distance multiplyBy:1.0f/gameTime.elapsedGameTime]];	
+	}
+	
+	//NSLog(@"%@", playerPad.velocity);
 }
 
 - (void) dealloc {

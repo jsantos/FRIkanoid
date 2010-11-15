@@ -30,7 +30,7 @@
 	
 	ballSprite = [[Sprite alloc] init];
 	ballSprite.texture = [self.game.content load:@"Arkanoid2"];
-	ballSprite.sourceRectangle = [Rectangle rectangleWithX:238 y:179 width:34 height:36];
+	ballSprite.sourceRectangle = [Rectangle rectangleWithX:238 y:179 width:36 height:36];
 	ballSprite.origin = [Vector2 vectorWithX:30 y:30];
 	
 	padSprite = [[Sprite alloc] init];

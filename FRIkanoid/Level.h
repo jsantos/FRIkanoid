@@ -15,6 +15,9 @@
 	Ball *ball;
 	Pad *playerPad;
 	NSMutableArray *bricks;
+	Boundary *leftWall;
+	Boundary *rightWall;
+	Boundary *ceiling;
 }
 
 - (void) reset;
@@ -23,5 +26,8 @@
 @property (nonatomic, readonly) Ball *ball;
 @property (nonatomic, readonly) Pad *playerPad;
 @property (nonatomic, readonly) NSMutableArray *bricks;
+@property (nonatomic, readonly) Boundary *leftWall;
+@property (nonatomic, readonly) Boundary *rightWall;
+@property (nonatomic, readonly) Boundary *ceiling;
 
 @end

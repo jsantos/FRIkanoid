@@ -33,11 +33,20 @@
 			[scene addItem:brick];
 		}
 		
+		 leftWall = [[[Boundary alloc] initWithLimit:[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveX distance:0]] autorelease];
+		 [scene addItem: leftWall];
+		
+		 rightWall = [[[Boundary alloc] initWithLimit:[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeX distance:-500]] autorelease];
+		 [scene addItem: rightWall];
+		 
+		 ceiling = [[[Boundary alloc] initWithLimit:[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]] autorelease];
+		 [scene addItem: ceiling];
+		
 	}
 	return self;
 }
 
-@synthesize scene, ball, playerPad, bricks;
+@synthesize scene, ball, playerPad, bricks, leftWall, rightWall, ceiling;
 
 - (void) initialize {
 	[self reset];
