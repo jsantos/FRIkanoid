@@ -15,6 +15,11 @@
 	Vector2 *velocity;
 	float radius;
 	float mass;
+	float width;
+	float height;
 }
+
+@property (nonatomic) float width;
+@property (nonatomic) float height;
 
 @end

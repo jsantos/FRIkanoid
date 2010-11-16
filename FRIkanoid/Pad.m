@@ -17,11 +17,13 @@
 		velocity = [[Vector2 alloc] init];
 		mass = 50;
 		radius = 50;
+		width = 0;
+		height = 0;
 	}
 	return self;
 }
 
-@synthesize position, velocity, mass, radius;
+@synthesize position, velocity, mass, radius, width, height;
 
 - (void) dealloc {
 	[position release];

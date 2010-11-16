@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol IConvecColider <NSObject>
+@protocol IConvexColider <NSObject>
 
 @property (nonatomic, readonly) ConvexPolygon *bounds;
 

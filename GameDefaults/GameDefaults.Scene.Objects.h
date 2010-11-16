@@ -15,3 +15,6 @@
 
 #import "ILifetime.h"
 #import "Lifetime.h"
+#import "IBoundingBoxCollider.h"
+#import "IDimensions.h"
+#import "IBoundingBox.h"

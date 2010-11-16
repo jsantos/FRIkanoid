@@ -20,6 +20,9 @@
 	id<IAxisAlignedHalfPlaneCollider> item1AAHalfPlaneCollider = [item1 conformsToProtocol:@protocol(IAxisAlignedHalfPlaneCollider)] ? item1 : nil;
 	id<IAxisAlignedHalfPlaneCollider> item2AAHalfPlaneCollider = [item2 conformsToProtocol:@protocol(IAxisAlignedHalfPlaneCollider)] ? item2 : nil;
 	
+	id<IBoundingBoxCollider> item1BoundingBoxCollider = [item1 conformsToProtocol:@protocol(IBoundingBoxCollider)] ? item1 : nil;
+	id<IBoundingBoxCollider> item2BoundingBoxCollider = [item2 conformsToProtocol:@protocol(IBoundingBoxCollider)] ? item2 : nil;
+	
 	if (item1Particle && item2Particle) {
 		return [ParticleParticleColision collisionBetween:item1Particle and:item2Particle];
 		
@@ -28,7 +31,10 @@
 		
 	} else if (item2Particle && item1AAHalfPlaneCollider ) {
 		return [ParticleAxisAlignedHalfPlaneCollision collisionBetween:item2Particle and:item1AAHalfPlaneCollider];
-		
+	} else if (item1Particle && item2BoundingBoxCollider) {
+		return [ParticleBoundingBoxCollision collisionBetween:item1Particle and:item2BoundingBoxCollider];
+	} else if (item2Particle && item1BoundingBoxCollider) {
+		return [ParticleBoundingBoxCollision collisionBetween:item2Particle and:item1BoundingBoxCollider];
 	}
 	
 	return NO;

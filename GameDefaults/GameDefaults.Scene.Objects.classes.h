@@ -4,4 +4,7 @@
 @protocol IMass;
 @protocol ICoefficientOfRestition;
 @protocol ILifetime;
+@protocol IDimensions;
+@protocol IBoundingBoxCollider;
+@protocol IBoundingBox;
 @class Lifetime;

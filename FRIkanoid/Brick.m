@@ -22,7 +22,7 @@
 	return self;
 }
 
-@synthesize position, velocity, mass, radius;
+@synthesize position, velocity, mass, radius, width, height;
 
 - (void) dealloc {
 	[position release];

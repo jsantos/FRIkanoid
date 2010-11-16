@@ -1,7 +1,7 @@
 TFRIkanoid
 v7
 r0
-t311540698.145311
+t311553133.289843
 cCheck dependencies
 cProcessInfoPlistFile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Info.plist FRIkanoid-Info.plist
 cCpResource build/Debug-iphonesimulator/FRIkanoid.app/Arkanoid.png Arkanoid.png
@@ -372,8 +372,8 @@ i"Chomponthis.FRIkanoid.classes.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m
-c000000004CE17F0A0000000000000264
-t1289846538
+c000000004CE193A70000000000000264
+t1289851815
 s612
 i"Ball.h"
 i"Chomponthis.FRIkanoid.h"
@@ -393,17 +393,17 @@ s525
 i"Boundary.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.h
-c000000004CD9B8CD000000000000016C
-t1289337037
-s364
+c000000004CE1B3440000000000000189
+t1289859908
+s393
 i<Foundation/Foundation.h>
 i"Chomponthis.FRIkanoid.classes.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m
-c000000004CE17FA600000000000001E5
-t1289846694
-s485
+c000000004CE1B38B0000000000000211
+t1289859979
+s529
 i"Brick.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Chomponthis.FRIkanoid.classes.h
@@ -512,8 +512,8 @@ i<Foundation/Foundation.h>
 i"Player.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m
-c000000004CE17AEE00000000000007F4
-t1289845486
+c000000004CE193AD00000000000007F4
+t1289851821
 s2036
 i"HumanPlayer.h"
 i"Retronator.Xni.Framework.Input.Touch.h"
@@ -535,17 +535,17 @@ i"Level.h"
 i"Chomponthis.FRIkanoid.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.h
-c000000004CD5A86E0000000000000168
-t1289070702
-s360
+c000000004CE1B4A1000000000000017E
+t1289860257
+s382
 i<Foundation/Foundation.h>
 i"Chomponthis.FRIkanoid.classes.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m
-c000000004CE0865B00000000000001DF
-t1289782875
-s479
+c000000004CE1B4BF0000000000000217
+t1289860287
+s535
 i"Pad.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.h
@@ -556,9 +556,9 @@ i<Foundation/Foundation.h>
 i"Chomponthis.FRIkanoid.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m
-c000000004CE18457000000000000082D
-t1289847895
-s2093
+c000000004CE18C6200000000000008F2
+t1289849954
+s2290
 i"PhysicsEngine.h"
 i"GameDefaults.Physics.h"
 i"Chomponthis.FRIkanoid.h"
@@ -610,8 +610,8 @@ i"DrawableGameComponent.h"
 i"GameDefaults.Graphics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m
-c000000004CE17EE90000000000000DC5
-t1289846505
+c000000004CE1A6B60000000000000DC5
+t1289856694
 s3525
 i"Renderer.h"
 i"Chomponthis.FRIkanoid.h"
@@ -666,11 +666,11 @@ t1289311381
 s1681481
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Arkanoid.png
-t1289847895
+t1289860331
 s28510
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Arkanoid2.png
-t1289847895
+t1289860331
 s27179
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/ArkanoidTheme.mp3
@@ -686,7 +686,7 @@ t1288098256
 s35146
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Info.plist
-t1289847895
+t1289860331
 s828
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/MainWindow_iPad.nib
@@ -698,7 +698,7 @@ t1287964326
 s984
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/PkgInfo
-t1289847895
+t1289860331
 s8
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Readme.txt
@@ -750,68 +750,68 @@ t1289770199
 s9836
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Ball.o
-t1289847897
+t1289860332
 s17920
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Boundary.o
-t1289847898
+t1289860333
 s11348
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Brick.o
-t1289847897
-s16108
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.LinkFileList
-c000000004CE184570000000000000891
-t1289847895
+c000000004CE1B4EB0000000000000891
+t1289860331
 s2193
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.o
-t1289847897
-s57604
+t1289860332
+s57628
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidEnums.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidLevel.o
-t1289847897
-s47356
+t1289860332
+s47380
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/GamePlay.o
-t1289847897
-s58360
+t1289860333
+s58384
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/HumanPlayer.o
-t1289847898
-s50384
+t1289860333
+s50408
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Level.o
-t1289847897
-s52808
+t1289860332
+s52864
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Pad.o
-t1289847897
-s16008
-
-N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/PhysicsEngine.o
 t2
 s0
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/PhysicsEngine.o
+t1289860333
+s51208
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Player.o
-t1289847897
-s7908
+t1289860333
+s7928
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Rectangle+Extensions.o
-t1289847898
+t1289860333
 s7372
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Renderer.o
-t1289847897
-s66248
+t1289860332
+s66300
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Scene.o
-t1289847897
+t1289860332
 s9952
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Sprite.o
@@ -819,7 +819,7 @@ t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/main.o
-t1289847897
+t1289860332
 s40856
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/iPad/AppDelegate_iPad.h
@@ -925,14 +925,14 @@ i"Collision.h"
 i"ParticleAxisAlignedHalfPlaneCollision.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.classes.h
-c000000004CE0163B00000000000000EF
-t1289754171
-s239
+c000000004CE1B4420000000000000107
+t1289860162
+s263
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.h
-c000000004CE015F20000000000000137
-t1289754098
-s311
+c000000004CE1B4540000000000000150
+t1289860180
+s336
 i"IPosition.h"
 i"IVelocity.h"
 i"IMovable.h"
@@ -945,6 +945,7 @@ i"IMass.h"
 i"ICoefficientOfRestitution.h"
 i"ILifetime.h"
 i"Lifetime.h"
+i"IDimensions.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.classes.h
 c000000004CD32BBB0000000000000025
@@ -976,6 +977,12 @@ N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICoefficientOfRestitu
 c000000004CD3316D0000000000000114
 t1288909165
 s276
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IDimensions.h
+c000000004CE1B49D0000000000000102
+t1289860253
+s258
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IHalfPlaneColider.h
@@ -1036,9 +1043,9 @@ s233
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IScene.h
-c000000004CE1844A0000000000000105
-t1289847882
-s261
+c000000004CE18ACD000000000000011E
+t1289849549
+s286
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IVelocity.h
@@ -1066,15 +1073,15 @@ i<Foundation/Foundation.h>
 i"GameDefaults.Scene.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.h
-c000000004CE035A800000000000002A9
-t1289762216
+c000000004CE1869E00000000000002A9
+t1289848478
 s681
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.h
-c000000004CD5B6920000000000000250
-t1289074322
+c000000004CE186A50000000000000250
+t1289848485
 s592
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.classes.h"
@@ -1094,9 +1101,9 @@ i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a
-c000000004CE1844B0000000000035E58
-t1289847883
-s220760
+c000000004CE1B4EB0000000000036040
+t1289860331
+s221248
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/usr/local/include/Sprite.h
 c000000004CD092DD00000000000001DE
@@ -1806,7 +1813,7 @@ t1287964326
 s15232016
 
 N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch.gch
-t1289847897
+t1289860332
 s17269136
 
 N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-ephomupqoukzfbdjtjywexvmtzzc/FRIkanoid_Prefix.pch.gch
@@ -1836,7 +1843,7 @@ s1263
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311540695#311540695#0(0"0(0#1#0"8616792160#0"0#
+lSLF07#2@18"Check dependencies311553131#311553131#0(0"0(0#1#0"8623082048#0"0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/ASNEngine.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../../../../Desktop/Asounding/ASNEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309791057.059086
@@ -2008,8 +2015,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m311462999#311462999#0(0"0(0#0#67"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m8609694592#2252"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Background.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Background.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Ball.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.550729
-e311540697.732892
+s311553132.738398
+e311553132.842616
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Ball.o
@@ -2018,11 +2025,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m311540697#311540697#0(0"0(0#0#61"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m8614626272#2240"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Ball.o0#
+lSLF07#2@69"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m311553132#311553132#0(0"0(0#0#61"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m8602952832#2240"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Ball.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Ball.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Boundary.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540698.067822
-e311540698.145226
+s311553133.220028
+e311553133.289761
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Boundary.o
@@ -2031,12 +2038,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m311540698#311540698#0(0"0(0#0#65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m8625952768#2248"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Boundary.o0#
+lSLF07#2@73"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m311553133#311553133#0(0"0(0#0#65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m8619206752#2248"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Boundary.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Boundary.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Brick.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.733138
-e311540697.839600
-r1
+s311553132.865839
+e311553132.936495
+r0
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Brick.o
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m
@@ -2044,11 +2051,62 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m311540697#311540697#0(0"0(0#0#62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m8621041472#2242"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Brick.o0#
+o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m:27: error: no declaration of property 'width' found in the interface
+o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m:27: error: no declaration of property 'height' found in the interface
+o{standard input}:148:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:148:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:143:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.height$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:143:symbol: "L_OBJC_IVAR_$_Brick.height$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:138:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"
+o{standard input}:138:symbol: "LC1" can't be undefined in a subtraction expression
+o{standard input}:133:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.width$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:133:symbol: "L_OBJC_IVAR_$_Brick.width$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:128:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"
+o{standard input}:128:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:123:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.radius$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:123:symbol: "L_OBJC_IVAR_$_Brick.radius$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:118:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"
+o{standard input}:118:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:113:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.mass$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:113:symbol: "L_OBJC_IVAR_$_Brick.mass$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:105:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:105:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:99:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:99:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:96:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:96:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:91:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.velocity$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:91:symbol: "L_OBJC_IVAR_$_Brick.velocity$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.position$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_IVAR_$_Brick.position$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:54:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.position$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.velocity$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.mass$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol LC0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.radius$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.width$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol LC1
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.height$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol LC2
+lSLF07#2@70"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m311553132#311553132#0(5206"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m:27: error: no declaration of property 'width' found in the interface/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m:27: error: no declaration of property 'height' found in the interface{standard input}:148:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:148:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:143:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.height$non_lazy_ptr" minus "L00000000001$pb"{standard input}:143:symbol: "L_OBJC_IVAR_$_Brick.height$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:138:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"{standard input}:138:symbol: "LC1" can't be undefined in a subtraction expression{standard input}:133:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.width$non_lazy_ptr" minus "L00000000001$pb"{standard input}:133:symbol: "L_OBJC_IVAR_$_Brick.width$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:128:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"{standard input}:128:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:123:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.radius$non_lazy_ptr" minus "L00000000001$pb"{standard input}:123:symbol: "L_OBJC_IVAR_$_Brick.radius$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:118:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"{standard input}:118:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:113:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.mass$non_lazy_ptr" minus "L00000000001$pb"{standard input}:113:symbol: "L_OBJC_IVAR_$_Brick.mass$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:105:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:105:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:99:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:99:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:96:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:96:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:91:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.velocity$non_lazy_ptr" minus "L00000000001$pb"{standard input}:91:symbol: "L_OBJC_IVAR_$_Brick.velocity$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Brick.position$non_lazy_ptr" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_IVAR_$_Brick.position$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:54:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.position$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.velocity$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.mass$non_lazy_ptr{standard input}:unknown:Undefined local symbol LC0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.radius$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.width$non_lazy_ptr{standard input}:unknown:Undefined local symbol LC1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Brick.height$non_lazy_ptr{standard input}:unknown:Undefined local symbol LC22(4@57"No declaration of property 'width' found in the interface311553132#0#132#0(6@62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m311552779#27#0#27#0#0"0(4@58"No declaration of property 'height' found in the interface311553132#132#133#0(6@62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m311552779#27#0#27#0#0"0(0#0#62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m8619115968#2242"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Brick.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Brick.o1#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.198538
-e311540697.344445
+s311553132.428719
+e311553132.576849
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.o
@@ -2057,14 +2115,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m311540697#311540697#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m8617964480#2250"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.o0#
+lSLF07#2@74"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m311553132#311553132#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m8623433248#2250"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidEnums.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidEnums.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidLevel.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.344552
-e311540697.506459
+s311553132.576949
+e311553132.705954
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidLevel.o
@@ -2073,11 +2131,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m311540697#311540697#0(0"0(0#0#71"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m8617164800#2260"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidLevel.o0#
+lSLF07#2@79"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m311553132#311553132#0(0"0(0#0#71"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m8618757440#2260"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoidLevel.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoidLevel.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/GamePlay.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.845243
-e311540697.982455
+s311553133.045019
+e311553133.169312
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/GamePlay.o
@@ -2086,11 +2144,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m311540697#311540698#0(0"0(0#0#65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m8619419392#2248"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/GamePlay.o0#
+lSLF07#2@73"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m311553133#311553133#0(0"0(0#0#65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m8623320544#2248"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/GamePlay.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/GamePlay.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/HumanPlayer.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.948329
-e311540698.125787
+s311553133.088277
+e311553133.219920
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/HumanPlayer.o
@@ -2099,11 +2157,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m311540697#311540698#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m8618172320#2254"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/HumanPlayer.o0#
+lSLF07#2@76"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m311553133#311553133#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m8622581856#2254"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/HumanPlayer.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/HumanPlayer.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Level.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.506570
-e311540697.648148
+s311553132.706059
+e311553132.865625
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Level.o
@@ -2112,12 +2170,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m311540697#311540697#0(0"0(0#0#62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m8616303136#2242"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Level.o0#
+lSLF07#2@70"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m311553132#311553132#0(0"0(0#0#62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m8604198848#2242"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Level.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Level.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Pad.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.648245
-e311540697.762516
-r1
+s311553132.842719
+e311553132.926159
+r0
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Pad.o
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m
@@ -2125,12 +2183,67 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m311540697#311540697#0(0"0(0#0#60"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m8605009472#2238"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Pad.o0#
+o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m:26: error: no declaration of property 'dimensions' found in the interface
+o{standard input}:160:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:160:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:155:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.radius$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:155:symbol: "L_OBJC_IVAR_$_Pad.radius$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:150:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:150:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:145:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.mass$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:145:symbol: "L_OBJC_IVAR_$_Pad.mass$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:137:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"
+o{standard input}:137:symbol: "LC1" can't be undefined in a subtraction expression
+o{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:129:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:129:symbol: "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:121:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"
+o{standard input}:121:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:113:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:113:symbol: "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:105:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:105:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:99:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:99:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:96:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:96:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:91:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.velocity$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:91:symbol: "L_OBJC_IVAR_$_Pad.velocity$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.position$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_IVAR_$_Pad.position$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:54:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.position$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.velocity$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol LC0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol LC1
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.mass$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol LC2
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.radius$non_lazy_ptr
+lSLF07#2@68"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m311553132#311553132#0(5577"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m:26: error: no declaration of property 'dimensions' found in the interface{standard input}:160:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:160:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:155:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.radius$non_lazy_ptr" minus "L00000000001$pb"{standard input}:155:symbol: "L_OBJC_IVAR_$_Pad.radius$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:150:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:150:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:145:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.mass$non_lazy_ptr" minus "L00000000001$pb"{standard input}:145:symbol: "L_OBJC_IVAR_$_Pad.mass$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:137:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"{standard input}:137:symbol: "LC1" can't be undefined in a subtraction expression{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:129:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" minus "L00000000001$pb"{standard input}:129:symbol: "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:121:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"{standard input}:121:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:113:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" minus "L00000000001$pb"{standard input}:113:symbol: "L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:105:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:105:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:99:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:99:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:96:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:96:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:91:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.velocity$non_lazy_ptr" minus "L00000000001$pb"{standard input}:91:symbol: "L_OBJC_IVAR_$_Pad.velocity$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_Pad.position$non_lazy_ptr" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_IVAR_$_Pad.position$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:54:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.position$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.velocity$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.dimensions$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol LC0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol LC1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.mass$non_lazy_ptr{standard input}:unknown:Undefined local symbol LC2{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_Pad.radius$non_lazy_ptr1(4@62"No declaration of property 'dimensions' found in the interface311553132#0#135#0(6@60"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m311553087#26#0#26#0#0"0(0#0#60"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m8621623840#2238"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Pad.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Pad.o1#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/PhysicsEngine.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.762622
-e311540697.845143
-r0
+s311553132.926265
+e311553133.088173
+r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/PhysicsEngine.o
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m
@@ -2138,25 +2251,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m: In function '-[PhysicsEngine updateWithGameTime:]':
-o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:39: warning: invalid receiver type 'int'
-o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:40: warning: '-removeObjectAtIndex:' not found in protocol(s)
-o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:39: error: accessing unknown 'items' getter method
-o/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:39: confused by earlier errors, bailing out
-o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PhysicsEngine.level$non_lazy_ptr" minus "L00000000001$pb"
-o{standard input}:69:symbol: "L_OBJC_IVAR_$_PhysicsEngine.level$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:57:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
-o{standard input}:57:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
-o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
-o{standard input}:53:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PhysicsEngine.level$non_lazy_ptr
-lSLF07#2@78"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m311540697#311540697#0(1557"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m: In function '-[PhysicsEngine updateWithGameTime:]':/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:39: warning: invalid receiver type 'int'/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:40: warning: '-removeObjectAtIndex:' not found in protocol(s)/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:39: error: accessing unknown 'items' getter method/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m:39: confused by earlier errors, bailing out{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PhysicsEngine.level$non_lazy_ptr" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_IVAR_$_PhysicsEngine.level$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:57:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:57:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:53:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PhysicsEngine.level$non_lazy_ptr4(22@27"Invalid receiver type 'int'311540697#124#112#0(6@70"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m311540695#39#0#39#0#0"0(22@48"'-removeObjectAtIndex:' not found in protocol(s)311540697#236#133#0(6@70"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m311540695#40#0#40#0#28"'*' not found in protocol(s)0(4@39"Accessing unknown 'items' getter method311540697#369#122#0(6@70"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m311540695#39#0#39#0#0"0(4@39"Confused by earlier errors, bailing out311540697#491#115#0(6@70"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m311540695#39#0#39#0#39"confused by earlier errors, bailing out0(0#0#70"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m8626877184#2258"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/PhysicsEngine.o1#
+lSLF07#2@78"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m311553132#311553133#0(0"0(0#0#70"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m8615577696#2258"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/PhysicsEngine.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/PhysicsEngine.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Player.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.839879
-e311540697.948210
+s311553132.936594
+e311553133.044715
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Player.o
@@ -2165,11 +2264,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m311540697#311540697#0(0"0(0#0#63"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m8619956160#2244"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Player.o0#
+lSLF07#2@71"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m311553132#311553133#0(0"0(0#0#63"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m8614091712#2244"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Player.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Player.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Rectangle+Extensions.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.982578
-e311540698.067714
+s311553133.169425
+e311553133.245670
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Rectangle+Extensions.o
@@ -2178,11 +2277,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m311540697#311540698#0(0"0(0#0#77"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m8617682272#2272"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Rectangle+Extensions.o0#
+lSLF07#2@85"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m311553133#311553133#0(0"0(0#0#77"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m8620443872#2272"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Rectangle+Extensions.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Rectangle+Extensions.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Renderer.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.282096
-e311540697.447480
+s311553132.520628
+e311553132.659472
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Renderer.o
@@ -2191,11 +2290,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m311540697#311540697#0(0"0(0#0#65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m8617727680#2248"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Renderer.o0#
+lSLF07#2@73"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m311553132#311553132#0(0"0(0#0#65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m8623061312#2248"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Renderer.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Scene.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.447596
-e311540697.550625
+s311553132.659639
+e311553132.738293
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Scene.o
@@ -2204,7 +2303,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m311540697#311540697#0(0"0(0#0#62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m8616675008#2242"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Scene.o0#
+lSLF07#2@70"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m311553132#311553132#0(0"0(0#0#62"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m8615144384#2242"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Scene.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Scene.o0#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s310430517.561163
@@ -2226,8 +2325,8 @@ o../GameDefaults/Sprite.h:16: error: redefinition of 'struct Sprite'
 lSLF07#2@71"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m310430517#310430517#0(507"In file included from ../GameDefaults/GameDefaults.Graphics.h:1,                 from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.h:14,                 from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Chomponthis.FRIkanoid.h:14,                 from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m:10:../GameDefaults/Sprite.h:12: error: duplicate interface declaration for class 'Sprite'../GameDefaults/Sprite.h:16: error: redefinition of 'struct Sprite'2(4@50"Duplicate interface declaration for class 'Sprite'310430517#352#87#5(7@85"In file included from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m310430517#18446744073709551615#0#0(6@63"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m310427678#10#0#10#0#0"0(7@100"In file included from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Chomponthis.FRIkanoid.h310430517#18446744073709551615#0#0(6@78"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Chomponthis.FRIkanoid.h310430456#14#0#14#0#0"0(7@87"In file included from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.h310430517#18446744073709551615#0#0(6@65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.h310430470#14#0#14#0#0"0(7@61"In file included from ../GameDefaults/GameDefaults.Graphics.h310430517#18446744073709551615#0#0(6@39"../GameDefaults/GameDefaults.Graphics.h310430517#1#0#1#0#0"0(13@78"Duplicate interface declaration for class 'Sprite' in ../GameDefaults/Sprite.h310430517#18446744073709551615#0#0(6@24"../GameDefaults/Sprite.h310430517#12#0#12#0#0"0(6@24"../GameDefaults/Sprite.h310430517#12#0#12#0#0"0(4@31"Redefinition of 'struct Sprite'310430517#439#68#5(7@85"In file included from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m310430517#18446744073709551615#0#0(6@63"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m310427678#10#0#10#0#0"0(7@100"In file included from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Chomponthis.FRIkanoid.h310430517#18446744073709551615#0#0(6@78"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Chomponthis.FRIkanoid.h310430456#14#0#14#0#0"0(7@87"In file included from /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.h310430517#18446744073709551615#0#0(6@65"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Renderer.h310430470#14#0#14#0#0"0(7@61"In file included from ../GameDefaults/GameDefaults.Graphics.h310430517#18446744073709551615#0#0(6@39"../GameDefaults/GameDefaults.Graphics.h310430517#1#0#1#0#0"0(13@59"Redefinition of 'struct Sprite' in ../GameDefaults/Sprite.h310430517#18446744073709551615#0#0(6@24"../GameDefaults/Sprite.h310430517#16#0#16#0#0"0(6@24"../GameDefaults/Sprite.h310430517#16#0#16#0#19"redefinition of '*'0(0#0#63"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m8615881792#2244"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Sprite.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/Sprite.o1#
 
 CCompileC build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/main.o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540697.197503
-e311540697.281873
+s311553132.427662
+e311553132.520513
 r1
 xCompileC
 xbuild/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/main.o
@@ -2236,7 +2335,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m311540697#311540697#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m8618172000#2247"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/main.o0#
+lSLF07#2@76"Compile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m311553132#311553132#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m8605853184#2247"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -include /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Shared/main.m -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/iPad/MainWindow_iPad.xib
 s309657125.754909
@@ -2282,22 +2381,22 @@ xArkanoid.mp3
 lSLF07#2@17"Copy Arkanoid.mp3311004181#311004181#0(0"0(0#0#67"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid.mp38602915264#506"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid.mp3 /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
 
 CCpResource build/Debug-iphonesimulator/FRIkanoid.app/Arkanoid.png Arkanoid.png
-s311540695.752205
-e311540695.793658
+s311553131.349504
+e311553131.355197
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/FRIkanoid.app/Arkanoid.png
 xArkanoid.png
-lSLF07#2@17"Copy Arkanoid.png311540695#311540695#0(0"0(0#0#67"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid.png8626862624#506"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid.png /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
+lSLF07#2@17"Copy Arkanoid.png311553131#311553131#0(0"0(0#0#67"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid.png8606675840#506"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid.png /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
 
 CCpResource build/Debug-iphonesimulator/FRIkanoid.app/Arkanoid2.png Arkanoid2.png
-s311540695.753031
-e311540695.793919
+s311553131.350177
+e311553131.355388
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/FRIkanoid.app/Arkanoid2.png
 xArkanoid2.png
-lSLF07#2@18"Copy Arkanoid2.png311540695#311540695#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid2.png8625878656#507"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid2.png /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
+lSLF07#2@18"Copy Arkanoid2.png311553131#311553131#0(0"0(0#0#68"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid2.png8604496544#507"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/Arkanoid2.png /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
 
 CCpResource build/Debug-iphonesimulator/FRIkanoid.app/ArkanoidTheme.mp3 ArkanoidTheme.mp3
 s311087450.134666
@@ -2343,32 +2442,32 @@ CCpResource build/Debug-iphonesimulator/FRIkanoid.app/untitled untitled
 r0
 
 CGenerateDSYMFile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app.dSYM /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid
-s311540522.642276
-e311540522.783309
+s311552679.313672
+e311552679.579341
 r1
 xGenerateDSYMFile
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app.dSYM
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/FRIkanoid.app.dSYM build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid311540522#311540522#0(0"0(0#0#106"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid8622980576#437"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/FRIkanoid.app.dSYM build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid311552679#311552679#0(0"0(0#0#106"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid8613298496#437"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app.dSYM0#
 
 CLd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid normal i386
-s311540522.539609
-e311540522.642180
+s311552678.748824
+e311552679.313480
 r1
 xLd
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid
 xnormal
 xi386
-lSLF07#2@111"Link /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid311540522#311540522#0(0"0(0#0#0"8618225664#1252"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -L/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI -L/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../GameDefaults/build/Debug-iphonesimulator -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -filelist /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.LinkFileList -mmacosx-version-min=10.6 -all_load -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -lGameDefaults -lXNI -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid0#
+lSLF07#2@111"Link /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid311552678#311552679#0(0"0(0#0#0"8616096256#1252"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -L/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI -L/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../GameDefaults/build/Debug-iphonesimulator -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -filelist /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/Objects-normal/i386/FRIkanoid.LinkFileList -mmacosx-version-min=10.6 -all_load -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -lGameDefaults -lXNI -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/FRIkanoid0#
 
 CProcessInfoPlistFile /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Info.plist FRIkanoid-Info.plist
-s311540695.732311
-e311540695.752111
+s311553131.345446
+e311553131.349370
 r1
 xProcessInfoPlistFile
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Info.plist
 xFRIkanoid-Info.plist
-lSLF07#2@28"Process FRIkanoid-Info.plist311540695#311540695#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid-Info.plist8621124288#533"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FRIkanoid-Info.plist -genpkginfo /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Info.plist0#
+lSLF07#2@28"Process FRIkanoid-Info.plist311553131#311553131#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid-Info.plist8613806176#533"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FRIkanoid-Info.plist -genpkginfo /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app/Info.plist0#
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-brgweqbaxykksxaaeniurlrmplyw/FRIkanoid_Prefix.pch.gch FRIkanoid_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310430302.744985
@@ -2413,8 +2512,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile FRIkanoid_Prefix.pch309657126#309657127#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch8600376896#2004"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-cyqhhbvhejeakiasqrxyhprbdyek/FRIkanoid_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch.gch FRIkanoid_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s311540695.794018
-e311540697.197392
+s311553131.355487
+e311553132.427551
 r1
 xProcessPCH
 x/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch.gch
@@ -2423,7 +2522,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile FRIkanoid_Prefix.pch311540695#311540697#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch8623120608#2114"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch.gch0#
+lSLF07#2@31"Precompile FRIkanoid_Prefix.pch311553131#311553132#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch8604035360#2114"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -iquote../GameDefaults -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-dgqocjmbmbajmzeshzldfjcocfsw/FRIkanoid_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-ephomupqoukzfbdjtjywexvmtzzc/FRIkanoid_Prefix.pch.gch FRIkanoid_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310428800.546801
@@ -2491,10 +2590,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile FRIkanoid_Prefix.pch310429153#310429154#0(0"0(0#0#75"/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch6873734858588384256#2215"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/FRIkanoid-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../GameDefaults/build/Debug-iphonesimulator/usr/local/include -iquote/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/FRIkanoid.build/Debug-iphonesimulator/FRIkanoid.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/FRIkanoid_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FRIkanoid_Prefix-hhdymfvwxnvvrxfsjocxqhfcqimm/FRIkanoid_Prefix.pch.gch0#
 
 CTouch /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app
-s311540522.783398
-e311540522.786090
+s311552679.579431
+e311552679.583174
 r1
 xTouch
 x/Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app
-lSLF07#2@102"Touch /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app311540522#311540522#0(0"0(0#0#0"8626897984#312"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
+lSLF07#2@102"Touch /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app311552679#311552679#0(0"0(0#0#0"8618047072#312"    cd /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jsantos/Documents/workspace/FRIkanoid/FRIkanoid/build/Debug-iphonesimulator/FRIkanoid.app0#
 

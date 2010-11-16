@@ -10,11 +10,16 @@
 #import "Chomponthis.FRIkanoid.classes.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Pad : NSObject <IParticle>{
+@interface Pad : NSObject <IParticle, IDimensions>{
 	Vector2 *position;
 	Vector2 *velocity;
 	float radius;
 	float mass;
+	float width;
+	float height;
 }
+
+@property (nonatomic) float width;
+@property (nonatomic) float height;
 
 @end
