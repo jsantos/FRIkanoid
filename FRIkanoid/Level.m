@@ -25,8 +25,9 @@
 		
 		for (int i=0; i<32; i++) {
 			Brick *lol = [[Brick alloc] init];
+			lol.brickType = [Random intLessThan:4];
 			[bricks addObject:lol];
-			//[lol release];
+			[lol release];
 		}
 		
 		for (id<NSObject> brick in bricks){

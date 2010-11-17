@@ -12,6 +12,6 @@
 @protocol IScene <NSFastEnumeration>
 
 - (void) addItem:(id)item;
-- (void) removeObjectsAtIndex:(NSMutableIndexSet*)set;
+- (void) removeObjectsAtIndexes:(NSMutableIndexSet*)set;
 
 @end

@@ -10,13 +10,14 @@
 #import "Chomponthis.FRIkanoid.classes.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Brick : NSObject <IParticle>{
+@interface Brick : NSObject <IParticle, IBrickType>{
 	Vector2 *position;
 	Vector2 *velocity;
 	float radius;
 	float mass;
 	float width;
 	float height;
+	int brickType;
 }
 
 @property (nonatomic) float width;

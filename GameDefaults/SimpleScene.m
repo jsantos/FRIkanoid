@@ -23,7 +23,7 @@
 	[items addObject:item];
 }
 
-- (void) removeObjectsAtIndex:(NSMutableIndexSet*)set {
+- (void) removeObjectsAtIndexes:(NSMutableIndexSet*)set {
 	[items removeObjectsAtIndexes:set];
 }
 

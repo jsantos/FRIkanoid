@@ -13,5 +13,6 @@
 #import "PhysicsEngine.h"
 #import "Renderer.h"
 #import "GamePlay.h"
+#import "Random.h"
 
 #import "Rectangle+Extensions.h"

@@ -48,7 +48,7 @@
 }
 
 + (void) resolveCollisionBetween:(id <IParticleColider>)particle and:(id <IBoundingBoxCollider>)boundingBox {
-	[Collision relaxCollisionBetween:particle and:boundingBox by:nil];
+	
 }
 
 @end

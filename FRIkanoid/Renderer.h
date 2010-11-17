@@ -23,6 +23,8 @@
 	Sprite *bgSprite;
 	Sprite *brick1Sprite;
 	Sprite *brick2Sprite;
+	Sprite *brick3Sprite;
+	Sprite *brick4Sprite;
 
 	
 	NSMutableArray *brickSprites;

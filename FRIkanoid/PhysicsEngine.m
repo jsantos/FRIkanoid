@@ -51,7 +51,7 @@
 		index1++;
 	}
 	
-	[level.scene removeObjectsAtIndex:discardedItems];
+	[level.scene removeObjectsAtIndexes:discardedItems];
 	
 	[super updateWithGameTime:gameTime];
 	

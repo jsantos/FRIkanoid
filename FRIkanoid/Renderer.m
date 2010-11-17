@@ -47,16 +47,16 @@
 	brick2Sprite.texture = [self.game.content load:@"Arkanoid2"];
 	brick2Sprite.sourceRectangle = [Rectangle rectangleWithX:65 y:122 width:92 height:38];
 	brick2Sprite.origin = [Vector2 vectorWithX:23 y:55];
-
-//	brick3Sprite = [[Sprite alloc] init];
-//	brick3Sprite.texture = [self.game.content load:@"Arkanoid.png"];
-//	brick3Sprite.sourceRectangle = [Rectangle rectangleWithX:<#(int)x#> y:<#(int)y#> width:<#(int)width#> height:<#(int)height#>];
-//	brick3Sprite.origin = [Vector2 vectorWithX:<#(float)x#> y:<#(float)y#>];
+		
+	brick3Sprite = [[Sprite alloc] init];
+	brick3Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick3Sprite.sourceRectangle = [Rectangle rectangleWithX:65 y:178 width:92 height:38];
+	brick3Sprite.origin = [Vector2 vectorWithX:23 y:55];
 	
-//	brick4Sprite = [[Sprite alloc] init];
-//	brick4Sprite.texture = [self.game.content load:@"Arkanoid.png"];
-//	brick4Sprite.sourceRectangle = [Rectangle rectangleWithX:<#(int)x#> y:<#(int)y#> width:<#(int)width#> height:<#(int)height#>];
-//	brick4Sprite.origin = [Vector2 vectorWithX:<#(float)x#> y:<#(float)y#>];
+	brick4Sprite = [[Sprite alloc] init];
+	brick4Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick4Sprite.sourceRectangle = [Rectangle rectangleWithX:65 y:235 width:92 height:38];
+	brick4Sprite.origin = [Vector2 vectorWithX:23 y:55];
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
@@ -64,7 +64,7 @@
 	[self.graphicsDevice clearWithColor: [Color steelBlue]];
 	
 	[spriteBatch beginWithSortMode:SpriteSortModeBackToFront BlendState:nil];
-	BOOL wasBrick = NO;
+	
 	for (id item in level.scene) {
 		id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)]  ? item : nil;
 		Sprite *sprite;
@@ -74,12 +74,21 @@
 		} else if ([item isKindOfClass:[Pad class]]) {
 			sprite = padSprite;
 		} else if ([item isKindOfClass:[Brick class]]) {
-			if (wasBrick) {
-				sprite = brick2Sprite;
-				wasBrick = NO;
-			} else {
-				sprite = brick1Sprite;
-				wasBrick = YES;
+			id<IBrickType> itemBrick = [item conformsToProtocol:@protocol(IBrickType)] ? item : nil;
+			switch (itemBrick.brickType) {
+				default:
+				case 0:
+					sprite = brick1Sprite;
+					break;
+				case 1:
+					sprite = brick2Sprite;	
+					break;
+				case 2:
+					sprite = brick3Sprite;
+					break;
+				case 3:
+					sprite = brick4Sprite;
+					break;
 			}
 		}
 		
