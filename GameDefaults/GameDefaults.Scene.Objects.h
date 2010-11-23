@@ -15,6 +15,8 @@
 
 #import "ILifetime.h"
 #import "Lifetime.h"
-#import "IBoundingBoxCollider.h"
-#import "IDimensions.h"
-#import "IBoundingBox.h"
+
+#import "IRectangleDimensions.h"
+#import "IRectangleCollider.h"
+#import "IAxisAlignedRectangleCollider.h"
+#import "ICustomCollider.h"

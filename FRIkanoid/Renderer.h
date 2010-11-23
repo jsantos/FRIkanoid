@@ -20,7 +20,12 @@
 	
 	Sprite *ballSprite;
 	Sprite *padSprite;
+	Sprite *bigPadSprite;
 	Sprite *bgSprite;
+	Sprite *powerUpFSprite;
+	Sprite *powerUpSSprite;
+	Sprite *powerUpLSprite;
+	Sprite *powerUpGSprite;
 	Sprite *brick1Sprite;
 	Sprite *brick2Sprite;
 	Sprite *brick3Sprite;

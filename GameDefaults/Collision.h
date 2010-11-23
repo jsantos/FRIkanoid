@@ -19,4 +19,8 @@
 
 + (void) exchangeEnergyBetween:(id)item1 and:(id)item2 along:(Vector2*) collisionNormal;
 
++ (BOOL) shouldResolveCollisionBetween:(id)item1 and:(id)item2;
+
++ (void) reportCollisionBetween:(id)item1 and:(id)item2;
+
 @end

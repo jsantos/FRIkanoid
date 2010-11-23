@@ -19,8 +19,6 @@
 		mass = 1;
 		radius = 18;
 		coefficientOfRestitution = 1;
-		velocity.y = 100;
-		velocity.x = 70;
 	}
 	return self;
 }

@@ -160,15 +160,15 @@ s200
 i"BoundingBox.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.h
-c000000004CE181AE00000000000001BC
-t1289847214
-s444
+c000000004CE566310000000000000237
+t1290102321
+s567
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m
-c000000004CE1D8B50000000000001907
-t1289869493
-s6407
+c000000004CE8181D0000000000001B9B
+t1290278941
+s7067
 i"Collision.h"
 i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
@@ -201,24 +201,25 @@ i"HalfPlane.h"
 i"AxisAlignedHalfPlane.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Physics.h
-c000000004CE1D8F000000000000000B2
-t1289869552
-s178
+c000000004CE8184600000000000000E2
+t1290278982
+s226
 i"MovementPhysics.h"
 i"ParticleParticleColision.h"
 i"Collision.h"
 i"ParticleAxisAlignedHalfPlaneCollision.h"
-i"ParticleBoundingBoxCollision.h"
+i"ParticleAxisAlignedRectangleCollision.h"
+i"RectangleRectangleCollision.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.classes.h
-c000000004CE1DABE000000000000013F
-t1289870014
-s319
+c000000004CE566870000000000000173
+t1290102407
+s371
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.h
-c000000004CE1DACA000000000000018A
-t1289870026
-s394
+c000000004CE5669000000000000001BF
+t1290102416
+s447
 i"IPosition.h"
 i"IVelocity.h"
 i"IMovable.h"
@@ -231,9 +232,10 @@ i"IMass.h"
 i"ICoefficientOfRestitution.h"
 i"ILifetime.h"
 i"Lifetime.h"
-i"IBoundingBoxCollider.h"
-i"IDimensions.h"
-i"IBoundingBox.h"
+i"IRectangleDimensions.h"
+i"IRectangleCollider.h"
+i"IAxisAlignedRectangleCollider.h"
+i"ICustomCollider.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.classes.h
 c000000004CD32BBB0000000000000025
@@ -274,6 +276,14 @@ s356
 i<UIKit/UIKit.h>
 i"IHalfPlaneColider.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IAxisAlignedRectangleCollider.h
+c000000004CE56D2E000000000000013F
+t1290104110
+s319
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IRectangleDimensions.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IBoundingBox.h
 c000000004CE1DAA800000000000000E3
 t1289869992
@@ -291,6 +301,12 @@ N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICoefficientOfRestitu
 c000000004CD3316D0000000000000114
 t1288909165
 s276
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICustomCollider.h
+c000000004CE56446000000000000011F
+t1290101830
+s287
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IDimensions.h
@@ -356,10 +372,24 @@ t1288989409
 s233
 i<UIKit/UIKit.h>
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IRectangleCollider.h
+c000000004CE563C40000000000000129
+t1290101700
+s297
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IRectangleDimensions.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IRectangleDimensions.h
+c000000004CE59EAB0000000000000131
+t1290116779
+s305
+i<UIKit/UIKit.h>
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IScene.h
-c000000004CE31A280000000000000120
-t1289951784
-s288
+c000000004CE9DC26000000000000014E
+t1290394662
+s334
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IVelocity.h
@@ -416,6 +446,21 @@ i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Math.h"
 i"GameDefaults.Physics.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.h
+c000000004CE57AD500000000000002B3
+t1290107605
+s691
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.classes.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m
+c000000004CE57FE000000000000011BB
+t1290108896
+s4539
+i"ParticleAxisAlignedRectangleCollision.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleBoundingBoxCollision.h
 c000000004CE1CF810000000000000262
 t1289867137
@@ -446,6 +491,21 @@ i"ParticleParticleColision.h"
 i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.h
+c000000004CE8146900000000000001BD
+t1290277993
+s445
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.classes.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m
+c000000004CE82CD10000000000000536
+t1290284241
+s1334
+i"RectangleRectangleCollision.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.h
 c000000004CE31A09000000000000010F
 t1289951753
@@ -454,9 +514,9 @@ i<Foundation/Foundation.h>
 i"IScene.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m
-c000000004CE31A2D00000000000002DB
-t1289951789
-s731
+c000000004CE9DC300000000000000350
+t1290394672
+s848
 i"SimpleScene.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h
@@ -533,11 +593,19 @@ N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.bu
 t2
 s0
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o
+t2
+s0
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleBoundingBoxCollision.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o
 t2
 s0
 
@@ -590,11 +658,19 @@ N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.bu
 t2
 s0
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o
+t2
+s0
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleBoundingBoxCollision.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o
 t2
 s0
 
@@ -1328,10 +1404,16 @@ r0
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleBoundingBoxCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleBoundingBoxCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -1364,10 +1446,16 @@ r0
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleBoundingBoxCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleBoundingBoxCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2

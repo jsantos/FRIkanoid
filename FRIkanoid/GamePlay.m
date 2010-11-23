@@ -39,6 +39,14 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
+	if (level.ball.position.y > self.game.window.clientBounds.height + 100) { //Delay for ball not show up immediatly
+		[level resetAfterMiss];
+	} else if (level.numBricks == 0) {
+		//Handle level transition here
+		[level reset];
+		
+	}
+	
 	[thePlayer updateWithGameTime:gameTime];
 }
 

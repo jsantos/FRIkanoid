@@ -11,31 +11,60 @@
 
 @implementation FRIkanoidLevel
 
+- (void) resetAfterMiss {
+	// To render the level after the ball goes out of the screen, without major changes
+	//Initialize object Positions
+	ball.position.x = 240;
+	ball.position.y = 200;
+	
+	ball.velocity.y = -200; //Ball Initial Velocity
+	ball.velocity.x = 70;
+} 
+
 - (void) reset {
-	self = [super init];
-	if (self != nil) {
-		//Initialize object Positions
-		ball.position.x = 240;
-		ball.position.y = 200;
+	[super reset];
+	numBricks = 24;
+	
+	for (int i=0; i<numBricks; i++) {
+		Brick *lol = [[Brick alloc] init];
+		[bricks addObject:lol];
+		[lol release];
+	}
 		
-		playerPad.position.x = 240;
-		playerPad.position.y = 335;
+	for (id<NSObject> brick in bricks){
+		[scene addItem:brick];
+	}
 		
-		double initX = 16, initY=36;
-		for (id<NSObject> item in bricks) {
-			id<IPosition> itemWithPosition;
-			if ([item conformsToProtocol:@protocol(IPosition)]) {
-				itemWithPosition = (id<IPosition>)item;
-				itemWithPosition.position.x = initX;
-				itemWithPosition.position.y = initY;
-			}
-			if (initX > 380) {
-				initX = 16;
-				initY+=26;
-			} else {
-				initX+=60;
-			}
+	//Initialize object Positions
+	ball.position.x = 240;
+	ball.position.y = 280;
+		
+	ball.velocity.y = -200; //Ball Initial Velocity
+	ball.velocity.x = ([Random float] - 0.5f) * 10;
+		
+	playerPad.position.x = 240;
+	playerPad.position.y = 335;
+		
+	double initX = 16, initY=72;
+	int type = 0;
+	for (id item in bricks) {
+		Brick *temp = [item isKindOfClass:[Brick class]] ? item : nil;
+		temp.position.x = initX;
+		temp.position.y = initY;
+		temp.brickType = type;
+			
+		if (initX > 380) {
+			initX = 16;
+			initY+=26;
+			type++;
+		} else {
+			initX+=60;
 		}
+	}
+		
+	for (int i = 1; i < PowerUpTypes+1; i++) {
+		Brick *temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];
+		temp.powerUpType = i;
 	}
 }
 

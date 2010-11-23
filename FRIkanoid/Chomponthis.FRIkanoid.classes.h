@@ -1,8 +1,7 @@
-#import "Chomponthis.FRIkanoid.Protocols.h"
-
-@class Scene;
+#import "BrickType.h"
+#import "PowerUpType.h"
 @class Random;
-@class Ball, Pad, Brick, Background;
+@class Ball, Pad, Brick, PowerUp;
 @class Player, HumanPlayer;
 @class Level;
 @class FRIkanoidLevel;

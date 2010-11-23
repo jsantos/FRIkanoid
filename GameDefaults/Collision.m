@@ -10,18 +10,15 @@
 #import "GameDefaults.Scene.Objects.h"
 #import "GameDefaults.Physics.h"
 
-
 @implementation Collision
 
-+ (BOOL) collisionBetween:(id)item1 and:(id)item2 {
++ (BOOL) collisionBetween:(id)item1 and:(id)item2{
 	id<IParticleColider> item1Particle = [item1 conformsToProtocol:@protocol(IParticleColider)] ? item1 : nil;
 	id<IParticleColider> item2Particle = [item2 conformsToProtocol:@protocol(IParticleColider)] ? item2 : nil;
 	
-	id<IAxisAlignedHalfPlaneCollider> item1AAHalfPlaneCollider = [item1 conformsToProtocol:@protocol(IAxisAlignedHalfPlaneCollider)] ? item1 : nil;
 	id<IAxisAlignedHalfPlaneCollider> item2AAHalfPlaneCollider = [item2 conformsToProtocol:@protocol(IAxisAlignedHalfPlaneCollider)] ? item2 : nil;
-	
-	id<IBoundingBoxCollider> item1BoundingBoxCollider = [item1 conformsToProtocol:@protocol(IBoundingBoxCollider)] ? item1 : nil;
-	id<IBoundingBoxCollider> item2BoundingBoxCollider = [item2 conformsToProtocol:@protocol(IBoundingBoxCollider)] ? item2 : nil;
+	id<IAxisAlignedRectangleCollider> item1AARectangleCollider = [item1 conformsToProtocol:@protocol(IAxisAlignedRectangleCollider)] ? item1 : nil;
+	id<IAxisAlignedRectangleCollider> item2AARectangleCollider = [item2 conformsToProtocol:@protocol(IAxisAlignedRectangleCollider)] ? item2 : nil;
 	
 	if (item1Particle && item2Particle) {
 		return [ParticleParticleColision collisionBetween:item1Particle and:item2Particle];
@@ -29,15 +26,41 @@
 	} else if (item1Particle && item2AAHalfPlaneCollider) {
 		return [ParticleAxisAlignedHalfPlaneCollision collisionBetween:item1Particle and:item2AAHalfPlaneCollider];
 		
-	} else if (item2Particle && item1AAHalfPlaneCollider ) {
-		return [ParticleAxisAlignedHalfPlaneCollision collisionBetween:item2Particle and:item1AAHalfPlaneCollider];
-	} else if (item1Particle && item2BoundingBoxCollider) {
-		return [ParticleBoundingBoxCollision collisionBetween:item1Particle and:item2BoundingBoxCollider];
-	} else if (item2Particle && item1BoundingBoxCollider) {
-		return [ParticleBoundingBoxCollision collisionBetween:item2Particle and:item1BoundingBoxCollider];
+	} else if (item1Particle && item2AARectangleCollider ) {
+		return [ParticleAxisAlignedRectangleCollision collisionBetween:item1Particle and:item2AARectangleCollider];
+	} else if (item1AARectangleCollider && item2AARectangleCollider) {
+		return [RectangleRectangleCollision collisionBetween:item1AARectangleCollider and:item2AARectangleCollider];
+	}
+	return NO;
+}
+
++ (BOOL) shouldResolveCollisionBetween:(id)item1 and:(id)item2 {
+	id<ICustomCollider> customCollider1 = [item1 conformsToProtocol:@protocol(ICustomCollider)] ? item1 : nil;
+	id<ICustomCollider> customCollider2 = [item2 conformsToProtocol:@protocol(ICustomCollider)] ? item2 : nil;
+	BOOL result = YES;
+	
+	if (customCollider1) {
+		result &= [customCollider1 collidingWithItem:item2];
 	}
 	
-	return NO;
+	if (customCollider2) {
+		result &= [customCollider2 collidingWithItem:item1];
+	}
+
+	return result;
+}
+
++ (void) reportCollisionBetween:(id)item1 and:(id)item2 {
+	id<ICustomCollider> customCollider1 = [item1 conformsToProtocol:@protocol(ICustomCollider)] ? item1 : nil;
+	id<ICustomCollider> customCollider2 = [item2 conformsToProtocol:@protocol(ICustomCollider)] ? item2 : nil;
+	
+	if (customCollider1) {
+		[customCollider1 collidedWithItem:item2];
+	}
+	
+	if (customCollider2) {
+		[customCollider2 collidedWithItem:item1];
+	}
 }
 
 + (void) relaxCollisionBetween:(id)item1 and:(id)item2 by:(Vector2 *)relaxDistance {

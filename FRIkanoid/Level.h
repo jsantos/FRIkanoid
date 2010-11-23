@@ -18,13 +18,19 @@
 	Boundary *leftWall;
 	Boundary *rightWall;
 	Boundary *ceiling;
+	PowerUp *powerUp;
+	NSInteger numBricks;
+	
 }
 
 - (void) reset;
+- (void) resetAfterMiss;
 
+@property (nonatomic) NSInteger numBricks;
 @property (nonatomic, readonly) id<IScene> scene;
 @property (nonatomic, readonly) Ball *ball;
 @property (nonatomic, readonly) Pad *playerPad;
+@property (nonatomic, readonly) PowerUp *powerUp;
 @property (nonatomic, readonly) NSMutableArray *bricks;
 @property (nonatomic, readonly) Boundary *leftWall;
 @property (nonatomic, readonly) Boundary *rightWall;
