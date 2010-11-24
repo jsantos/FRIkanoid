@@ -4,7 +4,7 @@
 @class Ball, Pad, Brick, PowerUp;
 @class Player, HumanPlayer;
 @class Level;
-@class FRIkanoidLevel;
+@class FRIkanoidLevel1;
 @class PhysicsEngine;
 @class FRIkanoid;
 @class Renderer;

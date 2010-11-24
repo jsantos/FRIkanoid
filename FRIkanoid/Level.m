@@ -16,7 +16,11 @@
 	if (self != nil) {
 		scene = [[SimpleScene alloc] init];
 		
-		ball = [[Ball alloc] init];
+		balls = [[NSMutableArray alloc] init];
+		
+		Ball *ball = [[Ball alloc] init];
+		[balls addObject:ball];
+		
 		playerPad = [[Pad alloc] init];
 		bricks = [[NSMutableArray alloc] init];
 		
@@ -31,7 +35,7 @@
 	return self;
 }
 
-@synthesize scene, ball, playerPad, bricks, powerUp, leftWall, rightWall, ceiling, numBricks;
+@synthesize scene, balls, playerPad, bricks, powerUp, leftWall, rightWall, ceiling, numBricks;
 
 - (void) initialize {
 	[self reset];
@@ -41,7 +45,11 @@
 - (void) reset {
 	[scene clear];
 	[scene addItem:playerPad];
-	[scene addItem:ball];
+	
+	for(id item in balls){
+		[scene addItem:item];
+	}
+	
 	[scene addItem: leftWall];
 	[scene addItem: rightWall];
 	[scene addItem: ceiling];
@@ -50,6 +58,21 @@
 }
 
 - (void) resetAfterMiss {}
+
+- (void) skipLevel {
+	[scene clear];
+	[scene addItem:playerPad];
+	
+	for(id item in balls){
+		[scene addItem:item];
+	}
+	
+	[scene addItem: leftWall];
+	[scene addItem: rightWall];
+	[scene addItem: ceiling];
+	
+	[bricks removeAllObjects];
+}
 
 - (void) dealloc {
 	[scene release];

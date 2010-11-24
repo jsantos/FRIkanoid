@@ -18,7 +18,7 @@
 		649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85CF1274FE7B00726515 /* OpenGLES.framework */; };
 		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
 		649C8656127504BF00726515 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8655127504BF00726515 /* Renderer.m */; };
-		649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865B127504DE00726515 /* FRIkanoidLevel.m */; };
+		649C865C127504DE00726515 /* FRIkanoidLevel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C865B127504DE00726515 /* FRIkanoidLevel1.m */; };
 		649C8662127504FD00726515 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8661127504FD00726515 /* Level.m */; };
 		649FF7A812836AF700CEA4E0 /* PhysicsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF7A712836AF700CEA4E0 /* PhysicsEngine.m */; };
 		649FF84012846B5600CEA4E0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF83F12846B5600CEA4E0 /* Player.m */; };
@@ -73,8 +73,8 @@
 		649C86441275029300726515 /* Chomponthis.FRIkanoid.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.classes.h; sourceTree = "<group>"; };
 		649C8654127504BF00726515 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
 		649C8655127504BF00726515 /* Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
-		649C865A127504DE00726515 /* FRIkanoidLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel.h; sourceTree = "<group>"; };
-		649C865B127504DE00726515 /* FRIkanoidLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel.m; sourceTree = "<group>"; };
+		649C865A127504DE00726515 /* FRIkanoidLevel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel1.h; sourceTree = "<group>"; };
+		649C865B127504DE00726515 /* FRIkanoidLevel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel1.m; sourceTree = "<group>"; };
 		649C8660127504FD00726515 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
 		649C8661127504FD00726515 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
 		649FF7A612836AF700CEA4E0 /* PhysicsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsEngine.h; sourceTree = "<group>"; };
@@ -281,8 +281,8 @@
 		649C864C127502FD00726515 /* Levels */ = {
 			isa = PBXGroup;
 			children = (
-				649C865A127504DE00726515 /* FRIkanoidLevel.h */,
-				649C865B127504DE00726515 /* FRIkanoidLevel.m */,
+				649C865A127504DE00726515 /* FRIkanoidLevel1.h */,
+				649C865B127504DE00726515 /* FRIkanoidLevel1.m */,
 			);
 			name = Levels;
 			sourceTree = "<group>";
@@ -376,7 +376,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */,
 				649C8656127504BF00726515 /* Renderer.m in Sources */,
-				649C865C127504DE00726515 /* FRIkanoidLevel.m in Sources */,
+				649C865C127504DE00726515 /* FRIkanoidLevel1.m in Sources */,
 				649C8662127504FD00726515 /* Level.m in Sources */,
 				64C707351275E2DC0028822D /* Ball.m in Sources */,
 				64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */,

@@ -22,19 +22,14 @@
 }
 
 - (void) initialize {
-	//Add all level classes
-	levelClasses = [[NSMutableArray alloc] init];
-	[levelClasses addObject:[FRIkanoidLevel class]];
-	
-	//Start in first level
-	[self loadLevel:[levelClasses objectAtIndex:0]];
+	[self loadLevel];
 	
 	//Initialize all components
 	[super initialize]; 
 }
 
 
-- (void) loadLevel:(Class)levelClass {
+- (void) loadLevel{
 	//Unload the current gameplay
 	if (currentGameplay) {
 		[self.components removeComponent:currentGameplay];
@@ -42,13 +37,12 @@
 	}
 	
 	//Allocate and initialize new gameplay object and add it to components
-	currentGameplay = [[GamePlay alloc] initSinglePlayerWithGame:self levelClass:levelClass];
-	[self.components addComponent:currentGameplay];
+	currentGameplay = [[GamePlay alloc] initSinglePlayerWithGame:self currentLevel:0]; //Start at first level
+	//[self.components addComponent:currentGameplay];
 }
 
 - (void) dealloc
 {
-	[levelClasses release];
 	[graphics release];
 	[super dealloc];
 }

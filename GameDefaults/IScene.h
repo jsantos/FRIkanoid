@@ -14,6 +14,7 @@
 - (void) addItem:(id)item;
 - (void) removeObjectsAtIndexes:(NSMutableIndexSet*)set;
 - (int) indexOfItem:(id)item;
+- (void) removeObjectIdenticalTo:(id)item;
 - (void) clear;
 
 @end

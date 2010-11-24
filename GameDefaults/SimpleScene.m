@@ -31,6 +31,10 @@
 	return [items indexOfObject:item];
 }
 
+- (void) removeObjectIdenticalTo:(id)item {
+	return [items removeObjectIdenticalTo:item];
+}
+
 - (NSUInteger) countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len {
 	return [items countByEnumeratingWithState:state objects:stackbuf count:len];
 }

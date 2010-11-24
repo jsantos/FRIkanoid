@@ -37,7 +37,9 @@
 			if (!grabbed) {
 				float distanceToPad = [[[Vector2 subtract:touch.position by:playerPad.position] subtract:touchOffset] length];
 				//printf("\n\n\nDistance to pad: %f\n\n\n", distanceToPad);
-				if (distanceToPad < 50) {
+				if (distanceToPad < 50 && !playerPad.big) {
+					grabbed = YES;
+				} else if (distanceToPad < 100 && playerPad.big) {
 					grabbed = YES;
 				}
 			}

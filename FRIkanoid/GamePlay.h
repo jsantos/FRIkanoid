@@ -14,9 +14,17 @@
 	Player *thePlayer;
 	Renderer *renderer;
 	PhysicsEngine *physics;
+	NSInteger currentLevel;
+	NSInteger lives;
+	
+	//Levels
+	NSMutableArray *levelClasses;
 }
 
 - (void) initWithGame:(Game *)theGame LevelClass:(Class)levelClass;
-- (id) initSinglePlayerWithGame:(Game*)theGame levelClass:(Class)levelClass;
+- (id) initSinglePlayerWithGame:(Game*)theGame currentLevel:(NSInteger)levelNumber;
+- (void) advanceLevel;
 
+@property (nonatomic, readonly) Level *level;
+@property (nonatomic, readonly) NSInteger lives;
 @end

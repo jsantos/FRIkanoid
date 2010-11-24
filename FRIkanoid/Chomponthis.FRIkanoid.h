@@ -4,7 +4,7 @@
 #import "Brick.h"
 #import "PowerUp.h"
 #import "Level.h"
-#import "FRIkanoidLevel.h"
+#import "FRIkanoidLevel1.h"
 #import "Player.h"
 #import "HumanPlayer.h"
 #import "FRIkanoid.h"

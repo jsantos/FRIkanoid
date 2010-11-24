@@ -12,7 +12,7 @@
 
 @interface Level : GameComponent {
 	SimpleScene *scene;
-	Ball *ball;
+	NSMutableArray *balls;
 	Pad *playerPad;
 	NSMutableArray *bricks;
 	Boundary *leftWall;
@@ -25,10 +25,11 @@
 
 - (void) reset;
 - (void) resetAfterMiss;
+- (void) skipLevel;
 
 @property (nonatomic) NSInteger numBricks;
 @property (nonatomic, readonly) id<IScene> scene;
-@property (nonatomic, readonly) Ball *ball;
+@property (nonatomic, readonly) NSMutableArray *balls;
 @property (nonatomic, readonly) Pad *playerPad;
 @property (nonatomic, readonly) PowerUp *powerUp;
 @property (nonatomic, readonly) NSMutableArray *bricks;

@@ -19,11 +19,8 @@
 	
 	//GamePlay
 	GamePlay *currentGameplay;
-	
-	//Levels
-	NSMutableArray *levelClasses;
 }
 
-- (void) loadLevel:(Class) levelClass;
+- (void) loadLevel;
 
 @end

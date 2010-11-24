@@ -13,9 +13,9 @@
 
 @implementation Renderer
 
-- (id) initWithGame:(Game *)theGame level:(Level *)theLevel {
+- (id) initWithGame:(Game *)theGame gamePlay:(GamePlay*)theGamePlay{
 	if (self = [super initWithGame:theGame]) {
-		level = theLevel;
+		gamePlay = theGamePlay;
 		content = [[ContentManager alloc] initWithServiceProvider:self.game.services];
 	}
 	return self;
@@ -82,6 +82,12 @@
 	brick4Sprite.texture = [self.game.content load:@"Arkanoid2"];
 	brick4Sprite.sourceRectangle = [Rectangle rectangleWithX:65 y:235 width:92 height:38];
 	brick4Sprite.origin = [Vector2 vectorWithX:23 y:55];
+	
+	liveSprite = [[Sprite alloc] init];
+	liveSprite.texture = [self.game.content load:@"Arkanoid2"];
+	liveSprite.sourceRectangle = [Rectangle rectangleWithX:54 y:450 width:100 height:10];
+	liveSprite.origin = [Vector2 vectorWithX:0 y:0];
+	
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
@@ -90,14 +96,14 @@
 	
 	[spriteBatch beginWithSortMode:SpriteSortModeBackToFront BlendState:nil];
 	
-	for (id item in level.scene) {
+	for (id item in gamePlay.level.scene) {
 		id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)]  ? item : nil;
 		Sprite *sprite;
 		
 		if ([item isKindOfClass:[Ball class]]) {
 			sprite = ballSprite;
 		} else if ([item isKindOfClass:[Pad class]]) {
-			if (level.playerPad.big) {
+			if (gamePlay.level.playerPad.big) {
 				sprite = bigPadSprite;
 			} else {
 				sprite = padSprite;
@@ -150,6 +156,29 @@
 				 scaleUniform:0.65
 					  effects:SpriteEffectsNone 
 				   layerDepth:0.1];
+		}
+	}
+	
+	//Draw lives counter
+	Vector2 *pos = [[Vector2 alloc] init];
+	pos.x = -5;
+	pos.y = 5;
+	for (int i = 0; i < gamePlay.lives; i++) {
+		
+		[spriteBatch draw:liveSprite.texture 
+					   to:pos
+			fromRectangle:liveSprite.sourceRectangle
+			tintWithColor:[Color white]
+				 rotation:0 
+				   origin:liveSprite.origin
+			 scaleUniform:0.65
+				  effects:SpriteEffectsNone 
+			   layerDepth:0.1];
+		if (pos.x > 400) {
+			pos.x = -5;
+			pos.y += 10;
+		} else {
+			pos.x += 25;
 		}
 	}
 	

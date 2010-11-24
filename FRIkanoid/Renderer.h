@@ -30,6 +30,7 @@
 	Sprite *brick2Sprite;
 	Sprite *brick3Sprite;
 	Sprite *brick4Sprite;
+	Sprite *liveSprite;
 
 	
 	NSMutableArray *brickSprites;
@@ -38,10 +39,10 @@
 	//Graphic Objects
 	SpriteBatch *spriteBatch;
 	
-	//Level
-	Level *level;
+	//Gameplay
+	GamePlay *gamePlay;
 }
 
-- (id) initWithGame:(Game *)theGame level:(Level*) theLevel;
+- (id) initWithGame:(Game *)theGame gamePlay:(GamePlay*) theGamePlay;
 
 @end
