@@ -60,6 +60,9 @@
 						}
 					}
 				}
+				if (([Collision collisionBetween:level.playerPad and:item] && [item isKindOfClass:[Boundary class]])) {
+					
+				}
 			} else if ([Collision collisionBetween:level.playerPad and:item] && [item isKindOfClass:[PowerUp class]]) {
 				//Activate Power Up here
 				PowerUp *temp = item;
@@ -112,16 +115,19 @@
 				
 				[discardedItems addIndex:[level.scene indexOfItem:item]]; //Clear Power Up from scene
 			}
+			
+			
 		
 		index++;
 	}
 	
 	if (addBall) {
 		Ball *ball = [[Ball alloc] init];
-		ball.position.x = 100;
-		ball.position.y = 250;
-		ball.velocity.x = ([Random float] - 0.5f) * 10;
-		ball.velocity.y = -200;
+		Ball *original = [level.balls objectAtIndex:0];
+		ball.position.x = original.position.x;
+		ball.position.y = original.position.y;
+		ball.velocity.x = original.velocity.x;
+		ball.velocity.y = - original.velocity.y;
 		
 		[level.balls addObject: ball];
 		[level.scene addItem:ball];

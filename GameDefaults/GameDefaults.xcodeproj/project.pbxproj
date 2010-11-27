@@ -60,6 +60,10 @@
 		64AD745B128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */; };
 		64C92A8E129841A600869CF4 /* RectangleRectangleCollision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C92A8C129841A600869CF4 /* RectangleRectangleCollision.h */; };
 		64C92A8F129841A600869CF4 /* RectangleRectangleCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C92A8D129841A600869CF4 /* RectangleRectangleCollision.m */; };
+		64DF61BE12A068F600505C0C /* PrimitiveBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DF61BC12A068F600505C0C /* PrimitiveBatch.h */; };
+		64DF61BF12A068F600505C0C /* PrimitiveBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DF61BD12A068F600505C0C /* PrimitiveBatch.m */; };
+		64DF648812A08D2500505C0C /* RectangleAAHalfPlaneCollision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DF648612A08D2500505C0C /* RectangleAAHalfPlaneCollision.h */; };
+		64DF648912A08D2500505C0C /* RectangleAAHalfPlaneCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DF648712A08D2500505C0C /* RectangleAAHalfPlaneCollision.m */; };
 		AA747D9F0F9514B9006C5449 /* GameDefaults_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -119,6 +123,10 @@
 		64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAxisAlignedHalfPlaneCollider.h; sourceTree = "<group>"; };
 		64C92A8C129841A600869CF4 /* RectangleRectangleCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleRectangleCollision.h; sourceTree = "<group>"; };
 		64C92A8D129841A600869CF4 /* RectangleRectangleCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleRectangleCollision.m; sourceTree = "<group>"; };
+		64DF61BC12A068F600505C0C /* PrimitiveBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimitiveBatch.h; sourceTree = "<group>"; };
+		64DF61BD12A068F600505C0C /* PrimitiveBatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitiveBatch.m; sourceTree = "<group>"; };
+		64DF648612A08D2500505C0C /* RectangleAAHalfPlaneCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleAAHalfPlaneCollision.h; sourceTree = "<group>"; };
+		64DF648712A08D2500505C0C /* RectangleAAHalfPlaneCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleAAHalfPlaneCollision.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* GameDefaults_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libGameDefaults.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameDefaults.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +214,8 @@
 		649FF61F12835C8E00CEA4E0 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				64DF61BC12A068F600505C0C /* PrimitiveBatch.h */,
+				64DF61BD12A068F600505C0C /* PrimitiveBatch.m */,
 				649FF63612835CF300CEA4E0 /* GameDefaults.Graphics.classes.h */,
 				649FF63712835CF300CEA4E0 /* GameDefaults.Graphics.h */,
 				649FF62A12835CE600CEA4E0 /* AnimatedSprite.h */,
@@ -257,6 +267,8 @@
 				647947AC12959BEC0082CF22 /* ParticleAxisAlignedRectangleCollision.m */,
 				64C92A8C129841A600869CF4 /* RectangleRectangleCollision.h */,
 				64C92A8D129841A600869CF4 /* RectangleRectangleCollision.m */,
+				64DF648612A08D2500505C0C /* RectangleAAHalfPlaneCollision.h */,
+				64DF648712A08D2500505C0C /* RectangleAAHalfPlaneCollision.m */,
 			);
 			name = Colision;
 			sourceTree = "<group>";
@@ -336,6 +348,8 @@
 				647947AA12959B8E0082CF22 /* ICustomCollider.h in Headers */,
 				647947AD12959BEC0082CF22 /* ParticleAxisAlignedRectangleCollision.h in Headers */,
 				64C92A8E129841A600869CF4 /* RectangleRectangleCollision.h in Headers */,
+				64DF61BE12A068F600505C0C /* PrimitiveBatch.h in Headers */,
+				64DF648812A08D2500505C0C /* RectangleAAHalfPlaneCollision.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +416,8 @@
 				64021F7A12906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m in Sources */,
 				647947AE12959BEC0082CF22 /* ParticleAxisAlignedRectangleCollision.m in Sources */,
 				64C92A8F129841A600869CF4 /* RectangleRectangleCollision.m in Sources */,
+				64DF61BF12A068F600505C0C /* PrimitiveBatch.m in Sources */,
+				64DF648912A08D2500505C0C /* RectangleAAHalfPlaneCollision.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

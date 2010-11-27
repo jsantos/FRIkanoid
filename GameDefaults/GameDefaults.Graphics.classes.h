@@ -1,1 +1,1 @@
-@class Sprite, AnimatedSprite, AnimatedSpriteFrame;
+@class Sprite, AnimatedSprite, AnimatedSpriteFrame, PrimitiveBatch;

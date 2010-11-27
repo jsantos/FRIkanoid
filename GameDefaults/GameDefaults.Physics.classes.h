@@ -4,3 +4,4 @@
 @class ParticleAxisAlignedRectangleCollision;
 @class RectangleRectangleCollision;
 @class Collision;
+@class RectangleAAHalfPlaneCollision;

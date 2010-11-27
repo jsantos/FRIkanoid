@@ -32,6 +32,7 @@
 	Sprite *brick4Sprite;
 	Sprite *liveSprite;
 
+	PrimitiveBatch *primitiveBatch;
 	
 	NSMutableArray *brickSprites;
 	
@@ -41,6 +42,12 @@
 	
 	//Gameplay
 	GamePlay *gamePlay;
+	
+//	BlendState *blendState;
+//	DepthStencilState *depthStencilState;
+//	RasterizerState *rasterizerState;
+//	Effect *effect;
+//	Matrix *transformMatrix;
 }
 
 - (id) initWithGame:(Game *)theGame gamePlay:(GamePlay*) theGamePlay;

@@ -30,7 +30,9 @@
 		return [ParticleAxisAlignedRectangleCollision collisionBetween:item1Particle and:item2AARectangleCollider];
 	} else if (item1AARectangleCollider && item2AARectangleCollider) {
 		return [RectangleRectangleCollision collisionBetween:item1AARectangleCollider and:item2AARectangleCollider];
-	}
+	} else if (item1AARectangleCollider && item2AAHalfPlaneCollider) {
+		return [RectangleAAHalfPlaneCollision collisionBetween:item1AARectangleCollider and:item2AAHalfPlaneCollider];
+	} 
 	return NO;
 }
 

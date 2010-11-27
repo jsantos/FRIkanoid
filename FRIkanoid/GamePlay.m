@@ -73,8 +73,6 @@
 		index++;
 	}
 	
-	
-	
 	if ([ballsOut count] == [level.balls count]) {
 		lives-=1;
 		if (lives < 0) {

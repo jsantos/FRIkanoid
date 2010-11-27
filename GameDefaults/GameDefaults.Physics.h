@@ -4,3 +4,4 @@
 #import "ParticleAxisAlignedHalfPlaneCollision.h"
 #import "ParticleAxisAlignedRectangleCollision.h"
 #import "RectangleRectangleCollision.h"
+#import "RectangleAAHalfPlaneCollision.h";
