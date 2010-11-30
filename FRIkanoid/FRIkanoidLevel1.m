@@ -76,8 +76,6 @@
 			temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];	
 			temp.powerUpType = i;
 		}
-
-		
 	}
 }
 

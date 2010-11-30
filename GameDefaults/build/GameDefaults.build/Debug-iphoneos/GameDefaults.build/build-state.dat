@@ -29,6 +29,41 @@ c000000004C5A52B100000000003E1EF0
 t1280987825
 s4071152
 
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A55040000000000009369
+t1280988420
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A55040000000000003C4A
+t1280988420
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A550400000000000092AA
+t1280988420
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A550400000000000026AA
+t1280988420
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A556300000000000000C4
+t1280988515
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
 c000000004C6C30170000000000000110
 t1282158615
@@ -132,25 +167,26 @@ s567
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m
-c000000004CE8181D0000000000001B9B
-t1290278941
-s7067
+c000000004CF063880000000000001C51
+t1290822536
+s7249
 i"Collision.h"
 i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Graphics.classes.h
-c000000004CD093A40000000000000033
-t1288737700
-s51
+c000000004CF0319D0000000000000043
+t1290809757
+s67
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Graphics.h
-c000000004CD093B2000000000000004D
-t1288737714
-s77
+c000000004CF031B40000000000000068
+t1290809780
+s104
 i"Sprite.h"
 i"AnimatedSprite.h"
 i"AnimatedSpriteFrame.h"
+i"PrimitiveBatch.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Math.classes.h
 c000000004CE1CD6C000000000000003D
@@ -167,31 +203,33 @@ i"HalfPlane.h"
 i"AxisAlignedHalfPlane.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Physics.h
-c000000004CE8184600000000000000E2
-t1290278982
-s226
+c000000004CF05A53000000000000010D
+t1290820179
+s269
 i"MovementPhysics.h"
 i"ParticleParticleColision.h"
 i"Collision.h"
 i"ParticleAxisAlignedHalfPlaneCollision.h"
 i"ParticleAxisAlignedRectangleCollision.h"
 i"RectangleRectangleCollision.h"
+i"RectangleAAHalfPlaneCollision.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.classes.h
-c000000004CE566870000000000000173
-t1290102407
-s371
+c000000004CF2D3210000000000000188
+t1290982177
+s392
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.h
-c000000004CE5669000000000000001BF
-t1290102416
-s447
+c000000004CF2D30B00000000000001D6
+t1290982155
+s470
 i"IPosition.h"
 i"IVelocity.h"
 i"IMovable.h"
 i"IRadius.h"
 i"IParticleColider.h"
 i"IParticle.h"
+i"ISceneUser.h"
 i"IHalfPlaneColider.h"
 i"IAxisAlignedHalfPlaneCollider.h"
 i"IMass.h"
@@ -358,6 +396,13 @@ t1290556217
 s377
 i<UIKit/UIKit.h>
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ISceneUser.h
+c000000004CF2D36D0000000000000189
+t1290982253
+s393
+i<UIKit/UIKit.h>
+i"GameDefaults.Scene.classes.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IVelocity.h
 c000000004CD32CD200000000000000FB
 t1288907986
@@ -470,6 +515,37 @@ i"ParticleParticleColision.h"
 i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.h
+c000000004CF0318D000000000000081B
+t1290809741
+s2075
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.m
+c000000004CF0318D0000000000001994
+t1290809741
+s6548
+i"PrimitiveBatch.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.h
+c000000004CF05E050000000000000304
+t1290821125
+s772
+i<Foundation/Foundation.h>
+i"GameDefaults.Math.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m
+c000000004CF06A550000000000000C58
+t1290824277
+s3160
+i"RectangleAAHalfPlaneCollision.h"
+i"GameDefaults.Math.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.h
 c000000004CE8146900000000000001BD
 t1290277993
@@ -580,6 +656,14 @@ N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.bu
 t2
 s0
 
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/PrimitiveBatch.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleAAHalfPlaneCollision.o
+t2
+s0
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o
 t2
 s0
@@ -638,6 +722,14 @@ t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/PrimitiveBatch.o
+t2
+s0
+
+N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleAAHalfPlaneCollision.o
 t2
 s0
 
@@ -1351,6 +1443,10 @@ N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/Shared
 t1288866354
 s17248656
 
+N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-evdmhwqyyrqlfqcycoenfhodwjuy/GameDefaults_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-feasbhrycvaatqavphzkistgchni/GameDefaults_Prefix.pch.gch
 t1288906532
 s17248656
@@ -1358,6 +1454,96 @@ s17248656
 CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies312300167#312300167#0(0"0(0#1#0"8619849408#0"0#
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/PrimitiveBatch.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleAAHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/PrimitiveBatch.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleAAHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s312247517.977406
@@ -1609,6 +1795,9 @@ xbuild/Debug-iphonesimulator/usr/local/include/Sprite.h
 xSprite.h
 lSLF07#2@13"Copy Sprite.h310559153#310559153#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h8612901824#515"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/usr/local/include0#
 
+CCreateUniversalBinary /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a normal "armv6 armv7"
+r0
+
 CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a normal i386
 s312249044.039413
 e312249044.080134
@@ -1619,6 +1808,12 @@ xnormal
 xi386
 o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
 lSLF07#2@65"Libtool build/Debug-iphonesimulator/libGameDefaults.a normal i386312249044#312249044#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8634552448#903"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -L/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI -filelist /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/GameDefaults.LinkFileList -ObjC -framework Foundation -o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a0#
+
+CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/libGameDefaults.a normal armv6
+r0
+
+CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/libGameDefaults.a normal armv7
+r0
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-anqakzvrovpxzwcbrzdbvqcjmyhw/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310432068.562563
@@ -1649,6 +1844,9 @@ lSLF07#2@34"Precompile GameDefaults_Prefix.pch312247516#312247517#0(0"0(0#0#81"/
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-ayvrptilsoqewjczuzjismzkslgc/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-cxqmodicxyanfkcfpqqmkmeujbln/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-daisozgbyczabgcmvgcvqaxucekp/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310599037.091895
 e310599038.086667
@@ -1674,6 +1872,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile GameDefaults_Prefix.pch310559153#310559154#0(0"0(0#0#81"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch8612694400#2180"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-dsfixqtezobnjtegwyakhtecwzlm/GameDefaults_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-evdmhwqyyrqlfqcycoenfhodwjuy/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-feasbhrycvaatqavphzkistgchni/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310599331.696272

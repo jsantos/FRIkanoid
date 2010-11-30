@@ -8,5 +8,5 @@
 @protocol IRectangleCollider;
 @protocol IAxisAlignedRectangleCollider;
 @protocol ICustomCollider;
-
+@protocol ISceneUser;
 @class Lifetime;

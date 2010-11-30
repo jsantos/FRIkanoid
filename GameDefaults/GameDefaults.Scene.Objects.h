@@ -5,6 +5,7 @@
 #import "IRadius.h"
 #import "IParticleColider.h"
 #import "IParticle.h"
+#import "ISceneUser.h"
 
 #import "IHalfPlaneColider.h"
 #import "IAxisAlignedHalfPlaneCollider.h"

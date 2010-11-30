@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "GameDefaults.Scene.Objects.classes.h"
 
-@protocol ILifetime <NSObject>
+@protocol ILifetime
 
 @property (nonatomic, retain) Lifetime *lifetime;
 

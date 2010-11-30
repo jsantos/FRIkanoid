@@ -56,7 +56,6 @@
 		if (fabsf(ball.velocity.y) < minY) {
 			ball.velocity.y = ball.velocity.y < 0 ? -minY : minY;
 		}
-		
 	}
 }
 

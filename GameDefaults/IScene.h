@@ -16,5 +16,6 @@
 - (int) indexOfItem:(id)item;
 - (void) removeObjectIdenticalTo:(id)item;
 - (void) clear;
+- (int) count;
 
 @end

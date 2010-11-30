@@ -20,8 +20,10 @@
 	
 	Sprite *ballSprite;
 	Sprite *padSprite;
+	Sprite *leftPadSprite;
+	Sprite *middlePadSprite;
+	Sprite *rightPadSprite;
 	Sprite *bigPadSprite;
-	Sprite *bgSprite;
 	Sprite *powerUpFSprite;
 	Sprite *powerUpSSprite;
 	Sprite *powerUpLSprite;
@@ -32,6 +34,8 @@
 	Sprite *brick4Sprite;
 	Sprite *liveSprite;
 
+	AnimatedSprite *explosionSprite;
+	
 	PrimitiveBatch *primitiveBatch;
 	
 	NSMutableArray *brickSprites;
@@ -43,11 +47,11 @@
 	//Gameplay
 	GamePlay *gamePlay;
 	
-//	BlendState *blendState;
-//	DepthStencilState *depthStencilState;
-//	RasterizerState *rasterizerState;
-//	Effect *effect;
-//	Matrix *transformMatrix;
+	BlendState *blendState;
+	DepthStencilState *depthStencilState;
+	RasterizerState *rasterizerState;
+	Effect *effect;
+	Matrix *transformMatrix;
 }
 
 - (id) initWithGame:(Game *)theGame gamePlay:(GamePlay*) theGamePlay;

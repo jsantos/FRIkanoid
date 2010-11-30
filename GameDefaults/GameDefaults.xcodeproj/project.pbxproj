@@ -17,6 +17,7 @@
 		64021F35129057A50008D1EA /* Collision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F33129057A50008D1EA /* Collision.m */; };
 		64021F7912906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */; };
 		64021F7A12906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */; };
+		6471F58A12A30A0100479667 /* ISceneUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6471F58912A30A0100479667 /* ISceneUser.h */; };
 		6479477B12946A200082CF22 /* IRectangleDimensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6479477A12946A200082CF22 /* IRectangleDimensions.h */; };
 		64794785129597D00082CF22 /* IRectangleCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = 64794784129597D00082CF22 /* IRectangleCollider.h */; };
 		647947921295994D0082CF22 /* IAxisAlignedRectangleCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = 647947911295994D0082CF22 /* IAxisAlignedRectangleCollider.h */; };
@@ -80,6 +81,7 @@
 		64021F33129057A50008D1EA /* Collision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collision.m; sourceTree = "<group>"; };
 		64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleAxisAlignedHalfPlaneCollision.h; sourceTree = "<group>"; };
 		64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleAxisAlignedHalfPlaneCollision.m; sourceTree = "<group>"; };
+		6471F58912A30A0100479667 /* ISceneUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISceneUser.h; sourceTree = "<group>"; };
 		6479477A12946A200082CF22 /* IRectangleDimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRectangleDimensions.h; sourceTree = "<group>"; };
 		64794784129597D00082CF22 /* IRectangleCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRectangleCollider.h; sourceTree = "<group>"; };
 		647947911295994D0082CF22 /* IAxisAlignedRectangleCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAxisAlignedRectangleCollider.h; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				64794784129597D00082CF22 /* IRectangleCollider.h */,
 				647947911295994D0082CF22 /* IAxisAlignedRectangleCollider.h */,
 				647947A912959B8E0082CF22 /* ICustomCollider.h */,
+				6471F58912A30A0100479667 /* ISceneUser.h */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				64C92A8E129841A600869CF4 /* RectangleRectangleCollision.h in Headers */,
 				64DF61BE12A068F600505C0C /* PrimitiveBatch.h in Headers */,
 				64DF648812A08D2500505C0C /* RectangleAAHalfPlaneCollision.h in Headers */,
+				6471F58A12A30A0100479667 /* ISceneUser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

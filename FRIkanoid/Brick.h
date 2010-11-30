@@ -10,12 +10,13 @@
 #import "Chomponthis.FRIkanoid.classes.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Brick : NSObject <IAxisAlignedRectangleCollider, ICustomCollider>{
+@interface Brick : NSObject <IAxisAlignedRectangleCollider, ICustomCollider, ISceneUser>{
 	Vector2 *position;
 	float width;
 	float height;
 	BrickType brickType;
 	PowerUpType powerUpType;
+	id<IScene> scene;
 }
 
 @property (nonatomic) BrickType brickType;

@@ -43,6 +43,10 @@
 	[items removeAllObjects];
 }
 
+- (int) count {
+	return [items count];
+}
+
 - (void) dealloc {
 	[items release];
 	[super dealloc];

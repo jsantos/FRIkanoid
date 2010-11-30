@@ -25,6 +25,8 @@
 		649FF85012846C9A00CEA4E0 /* GamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF84F12846C9A00CEA4E0 /* GamePlay.m */; };
 		649FF87A1284846500CEA4E0 /* HumanPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF8791284846500CEA4E0 /* HumanPlayer.m */; };
 		64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A01AB71280C4E6003E273F /* libGameDefaults.a */; };
+		64C6E5DC12A55C22007FC07F /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C6E5DB12A55C22007FC07F /* Explosion.m */; };
+		64C6E5DE12A55C53007FC07F /* Explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C6E5DD12A55C53007FC07F /* Explosion.png */; };
 		64C707351275E2DC0028822D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C707341275E2DC0028822D /* Ball.m */; };
 		64C928ED12982E7400869CF4 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C928EC12982E7400869CF4 /* PowerUp.m */; };
 		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
@@ -86,6 +88,9 @@
 		649FF8781284846500CEA4E0 /* HumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanPlayer.h; sourceTree = "<group>"; };
 		649FF8791284846500CEA4E0 /* HumanPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanPlayer.m; sourceTree = "<group>"; };
 		64A01AB71280C4E6003E273F /* libGameDefaults.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGameDefaults.a; path = "/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a"; sourceTree = "<absolute>"; };
+		64C6E5DA12A55C22007FC07F /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		64C6E5DB12A55C22007FC07F /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
+		64C6E5DD12A55C53007FC07F /* Explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Explosion.png; sourceTree = "<group>"; };
 		64C707331275E2DC0028822D /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		64C707341275E2DC0028822D /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
 		64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.h; sourceTree = "<group>"; };
@@ -132,6 +137,7 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				64C6E5DD12A55C53007FC07F /* Explosion.png */,
 				64F22406128B627700DF6570 /* Arkanoid2.png */,
 				8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */,
 			);
@@ -274,6 +280,8 @@
 				64C928EB12982E7400869CF4 /* PowerUp.h */,
 				64C928EC12982E7400869CF4 /* PowerUp.m */,
 				649AB53F129A07B400457484 /* PowerUpType.h */,
+				64C6E5DA12A55C22007FC07F /* Explosion.h */,
+				64C6E5DB12A55C22007FC07F /* Explosion.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -363,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F22407128B627700DF6570 /* Arkanoid2.png in Resources */,
+				64C6E5DE12A55C53007FC07F /* Explosion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +398,7 @@
 				640221A51290B5620008D1EA /* Boundary.m in Sources */,
 				64FAF80F129350B800639A2D /* Random.m in Sources */,
 				64C928ED12982E7400869CF4 /* PowerUp.m in Sources */,
+				64C6E5DC12A55C22007FC07F /* Explosion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

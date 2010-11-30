@@ -17,7 +17,6 @@
 - (id) initWithGame:(Game *)theGame gamePlay:(GamePlay*)theGamePlay{
 	if (self = [super initWithGame:theGame]) {
 		gamePlay = theGamePlay;
-		content = [[ContentManager alloc] initWithServiceProvider:self.game.services];
 		//primitiveBatch = [[PrimitiveBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	}
 	return self;
@@ -35,15 +34,28 @@
 	ballSprite.sourceRectangle = [Rectangle rectangleWithX:236 y:179 width:36 height:36];
 	ballSprite.origin = [Vector2 vectorWithX:18 y:18];
 	
-	padSprite = [[Sprite alloc] init];
-	padSprite.texture = [self.game.content load:@"Arkanoid2"];
-	padSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:350 width:165 height:30];
-	padSprite.origin = [Vector2 vectorWithX:82.5 y:15];
+	//  Left Pad Sprite
+	leftPadSprite = [[Sprite alloc] init];
+	leftPadSprite.texture = [self.game.content load:@"Arkanoid2"];
+	leftPadSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:355 width:30 height:20];
+	leftPadSprite.origin = [Vector2 vectorWithX:15 y:10];
+
+	//  Middle Pad Sprite	
+	middlePadSprite = [[Sprite alloc] init];
+	middlePadSprite.texture = [self.game.content load:@"Arkanoid2"];
+	middlePadSprite.sourceRectangle = [Rectangle rectangleWithX:110 y:355 width:60 height:20];
+	middlePadSprite.origin = [Vector2 vectorWithX:30 y:10];
+
+	//	Right Pad Sprite
+	rightPadSprite = [[Sprite alloc] init];
+	rightPadSprite.texture = [self.game.content load:@"Arkanoid2"];
+	rightPadSprite.sourceRectangle = [Rectangle rectangleWithX:162 y:355 width:30 height:20];
+	rightPadSprite.origin = [Vector2 vectorWithX:15 y:10];
 	
-	bigPadSprite = [[Sprite alloc] init];
-	bigPadSprite.texture = [self.game.content load:@"Arkanoid2"];
-	bigPadSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:395 width:265 height:30];
-	bigPadSprite.origin = [Vector2 vectorWithX:132.5 y:15];
+//	padSprite = [[Sprite alloc] init];
+//	padSprite.texture = [self.game.content load:@"Arkanoid2"];
+//	padSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:350 width:165 height:30];
+//	padSprite.origin = [Vector2 vectorWithX:82.5 y:15];
 	
 	powerUpFSprite = [[Sprite alloc] init];
 	powerUpFSprite.texture = [self.game.content load:@"Arkanoid2"];
@@ -90,6 +102,19 @@
 	liveSprite.sourceRectangle = [Rectangle rectangleWithX:80 y:449 width:100 height:10];
 	liveSprite.origin = [Vector2 vectorWithX:50 y:5];
 	
+	Texture2D *explosionTexture = [[self.game.content load:[NSString stringWithFormat:@"Explosion"]] autorelease];
+	explosionSprite = [[AnimatedSprite alloc] initWithDuration:1];
+	
+	for (int i = 0; i < 16; i++) {
+		int row = i % 4;
+		int column = i / 4;
+		Sprite *sprite = [[[Sprite alloc] init] autorelease];
+		sprite.texture = explosionTexture;
+		sprite.sourceRectangle = [Rectangle rectangleWithX:column * 128 y:row * 128 width:128 height:128];
+		sprite.origin = [Vector2 vectorWithX:64 y:64];
+		AnimatedSpriteFrame *frame = [AnimatedSpriteFrame frameWithSprite:sprite start:explosionSprite.duration * (float)i / 16];
+		[explosionSprite addFrame:frame];
+	}
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
@@ -110,19 +135,6 @@
 //			[primitiveBatch drawPointAt:ball.position color:[Color black]];
 //			[primitiveBatch drawCircleAt:ball.position radius:ball.radius divisions:32 color:[Color black]];
 //			[primitiveBatch end];
-		} else if ([item isKindOfClass:[Pad class]]) {
-//			Pad *pad = [item isKindOfClass:[Pad class]] ? item : nil;
-			if (gamePlay.level.playerPad.big) {
-				sprite = bigPadSprite;
-			} else {
-				sprite = padSprite;
-			}
-//			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
-//								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
-//			[primitiveBatch drawPointAt:pad.position color:[Color black]];
-//			[primitiveBatch drawRectangleAt:pad.position width:pad.width height:pad.height color:[Color black]];
-//			[primitiveBatch end];
-			
 		} else if ([item isKindOfClass:[Brick class]]) {
 			Brick *brick = (Brick*)item;
 			switch (brick.brickType) {
@@ -171,9 +183,37 @@
 			}
 		}
 		
-		if (itemWithPosition && sprite) {
+		Pad *pad = [itemWithPosition isKindOfClass:[Pad class]] ? item : nil;
+		
+		if (pad) {
+//			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
+//								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
+//			[primitiveBatch drawPointAt:pad.position color:[Color black]];
+//			[primitiveBatch drawRectangleAt:pad.position width:pad.width height:pad.height color:[Color black]];
+//			[primitiveBatch end];
+			
+			
+			Rectangle *padLeftDestination = [Rectangle rectangleWithX:pad.position.x - pad.width/2 
+																	   y:pad.position.y - pad.height / 2
+																   width:leftPadSprite.sourceRectangle.width
+																  height:leftPadSprite.sourceRectangle.height]; 
+			[spriteBatch draw:leftPadSprite.texture toRectangle:padLeftDestination fromRectangle:leftPadSprite.sourceRectangle tintWithColor:[Color white]];
+			
+			Rectangle *padRightDestination = [Rectangle rectangleWithX:pad.position.x + pad.width/2 - rightPadSprite.sourceRectangle.width -2 //Hardcore cheat
+																		y:pad.position.y - pad.height / 2
+																	width:rightPadSprite.sourceRectangle.width
+																   height:rightPadSprite.sourceRectangle.height]; 
+			[spriteBatch draw:rightPadSprite.texture toRectangle:padRightDestination fromRectangle:rightPadSprite.sourceRectangle tintWithColor:[Color white]];
+			
+			Rectangle *padMiddleDestination = [Rectangle rectangleWithX:pad.position.x - pad.width/2 + leftPadSprite.sourceRectangle.width
+																		 y:pad.position.y - pad.height / 2
+																	 width:pad.width - rightPadSprite.sourceRectangle.width - rightPadSprite.sourceRectangle.width
+																	height:middlePadSprite.sourceRectangle.height];
+			[spriteBatch draw:middlePadSprite.texture toRectangle:padMiddleDestination fromRectangle:middlePadSprite.sourceRectangle tintWithColor:[Color white]];
+			
+		} else if (itemWithPosition && sprite) {
 			[spriteBatch draw:sprite.texture 
-						   to:itemWithPosition.position
+				to:itemWithPosition.position
 				fromRectangle:sprite.sourceRectangle
 				tintWithColor:[Color white]
 					 rotation:0 
@@ -209,6 +249,24 @@
 	}
 	
 	[spriteBatch end];
+	
+	// Draw effects in additive mode.
+	[spriteBatch beginWithSortMode:SpriteSortModeDeffered BlendState:[BlendState additive] SamplerState:nil DepthStencilState:nil RasterizerState:nil Effect:nil];
+	
+	for (id<NSObject> item in gamePlay.level.scene) {
+		if ([item isKindOfClass:[Explosion class]]) {
+			Explosion *explosion = (Explosion*)item;
+			
+			Sprite *sprite = [explosionSprite spriteAtTime:explosion.lifetime.progress];
+			SpriteEffects effects = explosion.random & (SpriteEffectsFlipHorizontally | SpriteEffectsFlipVertically);
+			if (sprite) {
+				[spriteBatch draw:sprite.texture to:explosion.position fromRectangle:sprite.sourceRectangle tintWithColor:[Color white]
+						 rotation:0 origin:sprite.origin scaleUniform:1.3f effects:effects layerDepth:0];
+			}
+		}
+	}
+	
+	[spriteBatch end];
 }
 
 - (void) unloadContent {
@@ -218,10 +276,18 @@
 - (void) dealloc {
 	[ballSprite release];
 	[padSprite release];
-	[brick1Sprite release];
-	[brick2Sprite release];
 	[content release];
 	[spriteBatch release];
+	[bigPadSprite release];
+	[powerUpFSprite release];
+	[powerUpSSprite release];
+	[powerUpLSprite release];
+	[powerUpGSprite release];
+	[brick1Sprite release];
+	[brick2Sprite release];
+	[brick3Sprite release];
+	[brick4Sprite release];
+	[liveSprite release];
 	
 //	[blendState release];
 //	[depthStencilState release];

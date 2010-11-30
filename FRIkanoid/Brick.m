@@ -21,7 +21,7 @@
 	return self;
 }
 
-@synthesize position, width, height, brickType, powerUpType;
+@synthesize position, width, height, brickType, powerUpType, scene;
 
 - (BOOL) collidingWithItem:(id)item {
 	return YES;
@@ -30,9 +30,8 @@
 - (void) collidedWithItem:(id)item {
 	//Make sure the vertical velocity is big enough after collision,
 	//so we don't have to endlessly wait for the ball to come down.
-	Ball * ball = [item isKindOfClass:[Ball class]] ? item : nil;
-	
-	if (ball) {
+	if ([item isKindOfClass:[Ball class]]) {
+		Ball * ball = (Ball*) item;
 		float minY = 100;
 		if (fabsf(ball.velocity.y) < minY) {
 			ball.velocity.y = ball.velocity.y < 0 ? -minY : minY;

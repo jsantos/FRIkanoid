@@ -22,8 +22,10 @@
 
 - (void) updateWithGameTime:(GameTime *)gameTime{	
 	NSMutableIndexSet *discardedItems = [NSMutableIndexSet indexSet];
+	NSMutableArray *deadItems = [[NSMutableArray alloc] init];
 	NSUInteger index = 0;
 	NSMutableArray *bonuses = [[NSMutableArray alloc] init];
+	NSMutableArray *explosions = [[NSMutableArray alloc] init];
 	
 	for(id item in level.balls){
 		[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
@@ -33,6 +35,19 @@
 	
 	BOOL addBall = NO;
 	for (id item in level.scene){
+		
+		id<ILifetime> lifetime = [item conformsToProtocol:@protocol(ILifetime)] ? (id<ILifetime>)item : nil;		
+		
+		// Update lifetimes
+		if (lifetime) {
+			if ([lifetime.lifetime isAlive]) {
+				[lifetime.lifetime updateWithGameTime:gameTime];	
+			} else {
+				[deadItems addObject:lifetime];
+			}
+
+		}
+		
 		if ([item isKindOfClass:[PowerUp class]]) { //Remove missed power-ups
 			id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
 			if (itemWithPosition) {
@@ -46,7 +61,7 @@
 					if ([Collision collisionBetween:ball and:item] && [item isKindOfClass:[Brick class]]) {
 						[discardedItems addIndex:index];
 						level.numBricks--;
-						Brick *temp = item;
+						Brick *temp = (Brick*)item;
 						if (temp.powerUpType > 0) {
 							PowerUp *powerUp = [[PowerUp alloc] init];
 							id<IPosition> itemWithPos = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
@@ -56,12 +71,14 @@
 								powerUp.velocity.y = 1;
 								powerUp.type = temp.powerUpType;
 								[bonuses addObject:powerUp];
+								
+								Explosion *explosion = [[[Explosion alloc] initWithGameTime:gameTime] autorelease];
+								explosion.position = itemWithPos.position;
+								
+								[explosions addObject:explosion];
 							}
 						}
 					}
-				}
-				if (([Collision collisionBetween:level.playerPad and:item] && [item isKindOfClass:[Boundary class]])) {
-					
 				}
 			} else if ([Collision collisionBetween:level.playerPad and:item] && [item isKindOfClass:[PowerUp class]]) {
 				//Activate Power Up here
@@ -103,8 +120,7 @@
 						}	
 						break;
 					case BiggerPad:
-						//Implement pad growth here
-						level.playerPad.width += 100;
+						level.playerPad.width += level.playerPad.width*0.3;
 						level.playerPad.big = YES;
 						break;
 					case MachineGun:
@@ -112,7 +128,6 @@
 						addBall = YES;
 						break;
 				}
-				
 				[discardedItems addIndex:[level.scene indexOfItem:item]]; //Clear Power Up from scene
 			}
 			
@@ -135,6 +150,14 @@
 	
 	[level.scene removeObjectsAtIndexes:discardedItems];
 	for (id item in bonuses){
+		[level.scene addItem:item];
+	}
+	
+	for (id item in deadItems){
+		[level.scene removeObjectIdenticalTo: item];
+	}
+	
+	for (id item in explosions){
 		[level.scene addItem:item];
 	}
 	

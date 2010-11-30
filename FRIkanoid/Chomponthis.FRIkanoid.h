@@ -15,3 +15,4 @@
 #import "BrickType.h"
 #import "PowerUpType.h"
 #import "Rectangle+Extensions.h"
+#import "Explosion.h"

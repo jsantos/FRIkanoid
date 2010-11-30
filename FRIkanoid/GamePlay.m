@@ -31,7 +31,7 @@
 		self.updateOrder = 10;
 		
 		//Create player
-		thePlayer = [[HumanPlayer alloc] initWithPad:level.playerPad scene:level.scene game:self.game];
+		thePlayer = [[HumanPlayer alloc] initWithPad:level.playerPad scene:level.scene level:level game:self.game];
 	}
 	[self.game.components addComponent:self];
 	return self;
