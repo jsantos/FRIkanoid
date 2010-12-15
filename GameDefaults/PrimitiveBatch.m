@@ -193,8 +193,7 @@ static VertexPositionColorStruct vertex;
 - (void) draw {
 	// Draw the vertex array.
 	int lineCount = [vertexArray count] / 2;
-	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeLineList vertices:vertexArray startingAt:0 count:lineCount];
-	
+	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeLineList vertexData:vertexArray vertexOffset:0 primitiveCount:lineCount];
 	// Clean up.
 	[vertexArray clear];
 }

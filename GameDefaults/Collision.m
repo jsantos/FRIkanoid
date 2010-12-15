@@ -41,11 +41,11 @@
 	id<ICustomCollider> customCollider2 = [item2 conformsToProtocol:@protocol(ICustomCollider)] ? item2 : nil;
 	BOOL result = YES;
 	
-	if (customCollider1) {
+	if (customCollider1 && [customCollider1 respondsToSelector:@selector(collidingWithItem:)]) {
 		result &= [customCollider1 collidingWithItem:item2];
 	}
 	
-	if (customCollider2) {
+	if (customCollider2 && [customCollider2 respondsToSelector:@selector(collidingWithItem:)]) {
 		result &= [customCollider2 collidingWithItem:item1];
 	}
 
@@ -56,11 +56,11 @@
 	id<ICustomCollider> customCollider1 = [item1 conformsToProtocol:@protocol(ICustomCollider)] ? item1 : nil;
 	id<ICustomCollider> customCollider2 = [item2 conformsToProtocol:@protocol(ICustomCollider)] ? item2 : nil;
 	
-	if (customCollider1) {
+	if (customCollider1 && [customCollider1 respondsToSelector:@selector(collidedWithItem:)]) {
 		[customCollider1 collidedWithItem:item2];
 	}
 	
-	if (customCollider2) {
+	if (customCollider2 && [customCollider2 respondsToSelector:@selector(collidedWithItem:)]) {
 		[customCollider2 collidedWithItem:item1];
 	}
 }

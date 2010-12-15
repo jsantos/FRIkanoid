@@ -73,13 +73,14 @@
 	int index = 0;
 	for(id item in level.balls){
 		Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
-		if (ball.position.y > self.game.window.clientBounds.height + 100) { //Delay for ball not show up immediatly
+		if (ball.position.y > self.game.window.clientBounds.height) { //Delay for ball not show up immediatly
 			[ballsOut addObject:item];
 		}	
 		index++;
 	}
 	
 	if ([ballsOut count] == [level.balls count]) {
+		[SoundEngine play:SoundEffectTypeLiveLost];
 		lives-=1;
 		if (lives < 0) {
 			[level reset];

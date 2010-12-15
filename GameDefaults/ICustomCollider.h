@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "System.h"
 
 @protocol ICustomCollider <NSObject>
 
+@optional
 - (BOOL) collidingWithItem:(id)item;
 - (void) collidedWithItem:(id)item;
 

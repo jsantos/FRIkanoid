@@ -13,8 +13,17 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		640221A51290B5620008D1EA /* Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 640221A41290B5620008D1EA /* Boundary.m */; };
 		6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */; };
+		644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E1712B8F8D8000E6AEC /* GameKit.framework */; };
+		644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */; };
+		644B8E3812B8FC03000E6AEC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E3712B8FC03000E6AEC /* OpenAL.framework */; };
+		644B8EEA12B90320000E6AEC /* SoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B8EE912B90320000E6AEC /* SoundEngine.m */; };
+		644B8EEC12B9033C000E6AEC /* SoundEffectTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = 644B8EEB12B9033C000E6AEC /* SoundEffectTypes.h */; };
+		644B8F1A12B926D6000E6AEC /* BallPad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B8F1612B926D5000E6AEC /* BallPad.wav */; };
+		644B8F1B12B926D6000E6AEC /* BallBrick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B8F1712B926D5000E6AEC /* BallBrick.wav */; };
+		644B8F4E12B92AC6000E6AEC /* LiveLost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B8F4D12B92AC6000E6AEC /* LiveLost.wav */; };
+		644B907112B938CB000E6AEC /* BallLimit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B907012B938CB000E6AEC /* BallLimit.wav */; };
+		644B907C12B93A59000E6AEC /* BallBrickWithBonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */; };
 		6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458C60E1289930000518AC5 /* Rectangle+Extensions.m */; };
-		649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B47D012773AB60004B78A /* AudioToolbox.framework */; };
 		649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C85CB1274FE5400726515 /* FRIkanoid.m */; };
 		649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85CF1274FE7B00726515 /* OpenGLES.framework */; };
 		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
@@ -67,11 +76,21 @@
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel2.h; sourceTree = "<group>"; };
 		6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel2.m; sourceTree = "<group>"; };
+		644B8E1712B8F8D8000E6AEC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		644B8E3712B8FC03000E6AEC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		644B8EE812B90320000E6AEC /* SoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEngine.h; sourceTree = "<group>"; };
+		644B8EE912B90320000E6AEC /* SoundEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEngine.m; sourceTree = "<group>"; };
+		644B8EEB12B9033C000E6AEC /* SoundEffectTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectTypes.h; sourceTree = "<group>"; };
+		644B8F1612B926D5000E6AEC /* BallPad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallPad.wav; sourceTree = "<group>"; };
+		644B8F1712B926D5000E6AEC /* BallBrick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallBrick.wav; sourceTree = "<group>"; };
+		644B8F4D12B92AC6000E6AEC /* LiveLost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LiveLost.wav; sourceTree = "<group>"; };
+		644B907012B938CB000E6AEC /* BallLimit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallLimit.wav; sourceTree = "<group>"; };
+		644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallBrickWithBonus.wav; sourceTree = "<group>"; };
 		6458C60D1289930000518AC5 /* Rectangle+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectangle+Extensions.h"; sourceTree = "<group>"; };
 		6458C60E1289930000518AC5 /* Rectangle+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rectangle+Extensions.m"; sourceTree = "<group>"; };
 		647946D0129459900082CF22 /* BrickType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickType.h; sourceTree = "<group>"; };
 		649AB53F129A07B400457484 /* PowerUpType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUpType.h; sourceTree = "<group>"; };
-		649B47D012773AB60004B78A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		649C85CA1274FE5400726515 /* FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid.h; sourceTree = "<group>"; };
 		649C85CB1274FE5400726515 /* FRIkanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoid.m; sourceTree = "<group>"; };
 		649C85CF1274FE7B00726515 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -123,9 +142,11 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */,
 				649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */,
-				649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */,
 				64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */,
 				64F3938F1282BE960009159A /* libXNI.a in Frameworks */,
+				644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */,
+				644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */,
+				644B8E3812B8FC03000E6AEC /* OpenAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +164,7 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				644B8F1012B926C7000E6AEC /* Sounds */,
 				64C6E5DD12A55C53007FC07F /* Explosion.png */,
 				64F22406128B627700DF6570 /* Arkanoid2.png */,
 				8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */,
@@ -159,6 +181,7 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				644B8E3712B8FC03000E6AEC /* OpenAL.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -175,14 +198,15 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */,
 				64A01AB71280C4E6003E273F /* libGameDefaults.a */,
-				649B47D012773AB60004B78A /* AudioToolbox.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				649C85CF1274FE7B00726515 /* OpenGLES.framework */,
 				649C85D11274FE7B00726515 /* QuartzCore.framework */,
 				64F3938E1282BE960009159A /* libXNI.a */,
+				644B8E1712B8F8D8000E6AEC /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,6 +248,28 @@
 			name = AI;
 			sourceTree = "<group>";
 		};
+		644B8EE712B90274000E6AEC /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				644B8EE812B90320000E6AEC /* SoundEngine.h */,
+				644B8EE912B90320000E6AEC /* SoundEngine.m */,
+				644B8EEB12B9033C000E6AEC /* SoundEffectTypes.h */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		644B8F1012B926C7000E6AEC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */,
+				644B907012B938CB000E6AEC /* BallLimit.wav */,
+				644B8F4D12B92AC6000E6AEC /* LiveLost.wav */,
+				644B8F1612B926D5000E6AEC /* BallPad.wav */,
+				644B8F1712B926D5000E6AEC /* BallBrick.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		6458C60C128992DC00518AC5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +282,7 @@
 		649C85C91274FE4A00726515 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				644B8EE712B90274000E6AEC /* Sound */,
 				6458C60C128992DC00518AC5 /* Extensions */,
 				649FF7A512836AED00CEA4E0 /* Physics */,
 				641591F91282D3090044F824 /* Players */,
@@ -382,6 +429,12 @@
 			files = (
 				64F22407128B627700DF6570 /* Arkanoid2.png in Resources */,
 				64C6E5DE12A55C53007FC07F /* Explosion.png in Resources */,
+				644B8EEC12B9033C000E6AEC /* SoundEffectTypes.h in Resources */,
+				644B8F1A12B926D6000E6AEC /* BallPad.wav in Resources */,
+				644B8F1B12B926D6000E6AEC /* BallBrick.wav in Resources */,
+				644B8F4E12B92AC6000E6AEC /* LiveLost.wav in Resources */,
+				644B907112B938CB000E6AEC /* BallLimit.wav in Resources */,
+				644B907C12B93A59000E6AEC /* BallBrickWithBonus.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +464,7 @@
 				64C6E5DC12A55C22007FC07F /* Explosion.m in Sources */,
 				6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */,
 				64E9B0F012AED2EF006A03AE /* AIPlayer.m in Sources */,
+				644B8EEA12B90320000E6AEC /* SoundEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

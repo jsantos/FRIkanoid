@@ -23,6 +23,23 @@
 	return self;
 }
 
+- (void) collidedWithItem:(id)item {
+	if ([item isKindOfClass:[Pad class]]) {
+		[SoundEngine play:SoundEffectTypeBallPad];
+		
+	} else if ([item isKindOfClass:[Boundary class]]) {
+		[SoundEngine play:SoundEffectTypeBallLimit];
+	} else if ([item isKindOfClass:[Brick class]]) {
+		Brick *brick = (Brick*) item;
+		if (brick.powerUpType != 0) {
+			[SoundEngine play:SoundEffectTypeBallBrickWithBonus];
+		}else {
+			[SoundEngine play:SoundEffectTypeBallBrick];
+		}
+	} 
+}
+
+
 @synthesize position, velocity, mass, radius, coefficientOfRestitution;
 
 - (void) dealloc {

@@ -1,8 +1,8 @@
 //
-//  Texture2DContentTypeReader.h
+//  SoundEffectReader.h
 //  XNI
 //
-//  Created by Matej Jan on 10.9.10.
+//  Created by Matej Jan on 15.12.10.
 //  Copyright 2010 Retronator. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 #import "ContentTypeReader.h"
 
-@interface Texture2DContentTypeReader : ContentTypeReader {
+@interface SoundEffectReader : ContentTypeReader {
 
 }
 

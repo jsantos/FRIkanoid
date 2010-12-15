@@ -1,5 +1,6 @@
 #import "BrickType.h"
 #import "PowerUpType.h"
+#import "SoundEffectTypes.h"
 @class Random;
 @class Ball, Pad, Brick, PowerUp;
 @class Player, HumanPlayer, AIPlayer;
@@ -11,3 +12,4 @@
 @class GamePlay;
 @class Boundary;
 @class Explosion;
+@class SoundEngine;

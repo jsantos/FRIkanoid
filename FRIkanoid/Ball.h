@@ -10,7 +10,7 @@
 #import "Chomponthis.FRIkanoid.classes.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Ball : NSObject <IParticle, ICoefficientOfRestitution> {
+@interface Ball : NSObject <IParticle, ICoefficientOfRestitution, ICustomCollider> {
 	Vector2 *position;
 	Vector2 *velocity;
 	float radius;

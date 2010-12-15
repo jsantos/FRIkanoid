@@ -17,6 +17,7 @@
 	self = [super init];
 	if (self != nil) {
 		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
+		[SoundEngine initializeWithGame:self];
 	}
 	return self;
 }
