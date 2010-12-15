@@ -11,11 +11,19 @@
 
 @implementation Player
 
-- (id) initWithPad:(Pad *)thePad scene:(id <IScene>)theScene {
-	self = [super init];
+//- (id) initWithPad:(Pad *)thePad scene:(id <IScene>)theScene {
+//	self = [super init];
+//	if (self != nil) {
+//		playerPad = thePad;
+//		scene = theScene;
+//	}
+//	return self;
+//}
+
+- (id) initWithGame:(Game *)theGame pad:(Pad *)thePad{
+	self = [super initWithGame:theGame];
 	if (self != nil) {
 		playerPad = thePad;
-		scene = theScene;
 	}
 	return self;
 }

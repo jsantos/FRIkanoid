@@ -1,8 +1,8 @@
 //
-//  FrikanoidLevel2.h
+//  FRIkanoidLevel2.h
 //  FRIkanoid
 //
-//  Created by jsantos on 11/23/10.
+//  Created by jsantos on 12/1/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 

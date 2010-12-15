@@ -13,10 +13,9 @@
 	Rectangle *inputArea;
 	BOOL grabbed;
 	Vector2 *touchOffset;
-	Level *level;
-	
+	//Level *level;
 }
 
-- (id) initWithPad:(Pad *)thePad scene:(id <IScene>)theScene level:(Level*)theLevel game:(Game*)game;
+//- (id) initWithPad:(Pad *)thePad scene:(id <IScene>)theScene level:(Level*)theLevel game:(Game*)game;
 
 @end

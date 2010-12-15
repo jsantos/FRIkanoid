@@ -121,7 +121,6 @@
 						break;
 					case BiggerPad:
 						level.playerPad.width += level.playerPad.width*0.3;
-						level.playerPad.big = YES;
 						break;
 					case MachineGun:
 						// Implement shooting here
@@ -141,8 +140,8 @@
 		Ball *original = [level.balls objectAtIndex:0];
 		ball.position.x = original.position.x;
 		ball.position.y = original.position.y;
-		ball.velocity.x = original.velocity.x;
-		ball.velocity.y = - original.velocity.y;
+		ball.velocity.x = - original.velocity.x;
+		ball.velocity.y = original.velocity.y;
 		
 		[level.balls addObject: ball];
 		[level.scene addItem:ball];

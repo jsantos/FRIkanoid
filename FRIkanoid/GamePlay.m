@@ -22,6 +22,7 @@
 		}
 		levelClasses = [[NSMutableArray alloc] init];
 		[levelClasses addObject:[FRIkanoidLevel1 class]];
+		[levelClasses addObject:[FRIkanoidLevel2 class]];
 		
 		lives = 3;
 		
@@ -31,7 +32,9 @@
 		self.updateOrder = 10;
 		
 		//Create player
-		thePlayer = [[HumanPlayer alloc] initWithPad:level.playerPad scene:level.scene level:level game:self.game];
+		//thePlayer = [[HumanPlayer alloc] initWithPad:level.playerPad scene:level.scene level:level game:self.game];
+		thePlayer = [[HumanPlayer alloc] initWithGame:self.game pad:level.playerPad];
+		//thePlayer = [[AIPlayer alloc] initWithGame:self.game pad:level.playerPad level:level];
 	}
 	[self.game.components addComponent:self];
 	return self;
@@ -41,6 +44,7 @@
 	//Allocate and initizalize a new level and add it to components.
 	if (level) {
 		[self.game.components removeComponent:level];
+		[level release];
 	}
 	level = [[levelClass alloc] initWithGame:self.game];
 	
@@ -50,12 +54,14 @@
 	
 	if (renderer) {
 		[self.game.components removeComponent:renderer];
+		[renderer release];
 	}
 	renderer = [[Renderer alloc] initWithGame:self.game gamePlay:self];
 	[self.game.components addComponent:renderer];
 	
 	if (physics) {
 		[self.game.components removeComponent:physics];
+		[physics release];
 	}
 	physics = [[PhysicsEngine alloc] initWithGame:self.game level:level];
 	physics.updateOrder = 20;

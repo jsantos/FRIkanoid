@@ -14,9 +14,6 @@
 	Vector2 *position;
 	float width;
 	float height;
-	BOOL big;
 }
-
-@property (nonatomic) BOOL big;
 
 @end

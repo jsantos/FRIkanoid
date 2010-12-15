@@ -17,12 +17,11 @@
 		position = [[Vector2 alloc] init];
 		width = 107.9;
 		height = 19.5;
-		big = NO;
 	}
 	return self;
 }
 
-@synthesize position, width, height, big;
+@synthesize position, width, height;
 
 - (void) dealloc {
 	[position release];

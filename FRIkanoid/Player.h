@@ -10,12 +10,14 @@
 #import "GameDefaults.Scene.h"
 #import "Chomponthis.FRIkanoid.classes.h"
 
-@interface Player : NSObject {
+@interface Player : GameComponent {
 	Pad *playerPad;
 	id<IScene> scene;
 }
 
-- (id) initWithPad:(Pad*)thePad scene:(id<IScene>)theScene;
+- (id) initWithGame:(Game *)theGame pad:(Pad*)thePad;
+
+//- (id) initWithPad:(Pad*)thePad scene:(id<IScene>)theScene;
 
 - (void) updateWithGameTime:(GameTime*)gameTime;
 

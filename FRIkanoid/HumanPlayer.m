@@ -13,14 +13,23 @@
 
 @implementation HumanPlayer
 
-- (id) initWithPad:(Pad *)thePad scene:(id <IScene>)theScene level:(Level*)theLevel game:(Game*)game {
-	self = [super initWithPad:thePad scene:theScene];
+//- (id) initWithPad:(Pad *)thePad scene:(id <IScene>)theScene level:(Level*)theLevel game:(Game*)game {
+//	self = [super initWithPad:thePad scene:theScene];
+//	if (self != nil) {
+//		inputArea = [[Rectangle alloc] initWithRectangle:game.window.clientBounds];
+//		inputArea.height = 100; //Correspond to Pad's height, plus a little bit for usability questions
+//		inputArea.y = game.window.clientBounds.height - inputArea.height;
+//		touchOffset = [[Vector2 alloc] initWithX:0 y:-40];
+//		level = theLevel;
+//	}
+//	return self;
+//}
+
+- (id) initWithGame:(Game *)theGame pad:(Pad *)thePad {
+	self = [super initWithGame:theGame pad:thePad];
 	if (self != nil) {
-		inputArea = [[Rectangle alloc] initWithRectangle:game.window.clientBounds];
-		inputArea.height = 100; //Correspond to Pad's height, plus a little bit for usability questions
-		inputArea.y = game.window.clientBounds.height - inputArea.height;
+		inputArea = [[Rectangle alloc] initWithRectangle:theGame.window.clientBounds];
 		touchOffset = [[Vector2 alloc] initWithX:0 y:-40];
-		level = theLevel;
 	}
 	return self;
 }
@@ -34,9 +43,7 @@
 			touchesInInputArea = YES;
 			if (!grabbed) {
 				float distanceToPad = [[[Vector2 subtract:touch.position by:playerPad.position] subtract:touchOffset] length];
-				if (distanceToPad < 50 && !playerPad.big) {
-					grabbed = YES;
-				} else if (distanceToPad < 100 && playerPad.big) {
+				if (distanceToPad < playerPad.width) {
 					grabbed = YES;
 				}
 			}

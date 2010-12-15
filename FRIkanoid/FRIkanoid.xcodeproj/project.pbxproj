@@ -12,6 +12,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		640221A51290B5620008D1EA /* Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 640221A41290B5620008D1EA /* Boundary.m */; };
+		6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */; };
 		6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458C60E1289930000518AC5 /* Rectangle+Extensions.m */; };
 		649B47D112773AB60004B78A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B47D012773AB60004B78A /* AudioToolbox.framework */; };
 		649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C85CB1274FE5400726515 /* FRIkanoid.m */; };
@@ -31,6 +32,7 @@
 		64C928ED12982E7400869CF4 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C928EC12982E7400869CF4 /* PowerUp.m */; };
 		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
 		64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0F51275F30A00DA0FAA /* Brick.m */; };
+		64E9B0F012AED2EF006A03AE /* AIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E9B0EF12AED2EF006A03AE /* AIPlayer.m */; };
 		64F22407128B627700DF6570 /* Arkanoid2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F22406128B627700DF6570 /* Arkanoid2.png */; };
 		64F3938F1282BE960009159A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F3938E1282BE960009159A /* libXNI.a */; };
 		64FAF80F129350B800639A2D /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FAF80E129350B800639A2D /* Random.m */; };
@@ -63,6 +65,8 @@
 		640221A31290B5620008D1EA /* Boundary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boundary.h; sourceTree = "<group>"; };
 		640221A41290B5620008D1EA /* Boundary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boundary.m; sourceTree = "<group>"; };
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel2.h; sourceTree = "<group>"; };
+		6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel2.m; sourceTree = "<group>"; };
 		6458C60D1289930000518AC5 /* Rectangle+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectangle+Extensions.h"; sourceTree = "<group>"; };
 		6458C60E1289930000518AC5 /* Rectangle+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rectangle+Extensions.m"; sourceTree = "<group>"; };
 		647946D0129459900082CF22 /* BrickType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickType.h; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 		64CDA0BF1275F05B00DA0FAA /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
 		64CDA0F41275F30A00DA0FAA /* Brick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
 		64CDA0F51275F30A00DA0FAA /* Brick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brick.m; sourceTree = "<group>"; };
+		64E9B0EE12AED2EF006A03AE /* AIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPlayer.h; sourceTree = "<group>"; };
+		64E9B0EF12AED2EF006A03AE /* AIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPlayer.m; sourceTree = "<group>"; };
 		64F22406128B627700DF6570 /* Arkanoid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arkanoid2.png; sourceTree = "<group>"; };
 		64F3938E1282BE960009159A /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = /Users/jsantos/Documents/workspace/FRIkanoid/XNI/libXNI.a; sourceTree = "<absolute>"; };
 		64FAF80D129350B800639A2D /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
@@ -212,6 +218,8 @@
 		641591FB1282D3150044F824 /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				64E9B0EE12AED2EF006A03AE /* AIPlayer.h */,
+				64E9B0EF12AED2EF006A03AE /* AIPlayer.m */,
 			);
 			name = AI;
 			sourceTree = "<group>";
@@ -291,6 +299,8 @@
 			children = (
 				649C865A127504DE00726515 /* FRIkanoidLevel1.h */,
 				649C865B127504DE00726515 /* FRIkanoidLevel1.m */,
+				6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */,
+				6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */,
 			);
 			name = Levels;
 			sourceTree = "<group>";
@@ -399,6 +409,8 @@
 				64FAF80F129350B800639A2D /* Random.m in Sources */,
 				64C928ED12982E7400869CF4 /* PowerUp.m in Sources */,
 				64C6E5DC12A55C22007FC07F /* Explosion.m in Sources */,
+				6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */,
+				64E9B0F012AED2EF006A03AE /* AIPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

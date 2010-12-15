@@ -261,7 +261,7 @@
 			SpriteEffects effects = explosion.random & (SpriteEffectsFlipHorizontally | SpriteEffectsFlipVertically);
 			if (sprite) {
 				[spriteBatch draw:sprite.texture to:explosion.position fromRectangle:sprite.sourceRectangle tintWithColor:[Color white]
-						 rotation:0 origin:sprite.origin scaleUniform:1.3f effects:effects layerDepth:0];
+						 rotation:0 origin:sprite.origin scaleUniform:0.65 effects:effects layerDepth:0];
 			}
 		}
 	}
