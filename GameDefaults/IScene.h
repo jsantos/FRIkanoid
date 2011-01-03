@@ -9,13 +9,17 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol IScene <NSFastEnumeration>
+@protocol IScene <NSObject, NSFastEnumeration, IUpdatable>
 
 - (void) addItem:(id)item;
+- (void) removeItem:(id)item;
 - (void) removeObjectsAtIndexes:(NSMutableIndexSet*)set;
 - (int) indexOfItem:(id)item;
 - (void) removeObjectIdenticalTo:(id)item;
 - (void) clear;
 - (int) count;
+
+@property (nonatomic, readonly) Event *itemAdded;
+@property (nonatomic, readonly) Event *itemRemoved;
 
 @end

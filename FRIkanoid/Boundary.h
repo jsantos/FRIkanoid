@@ -10,7 +10,7 @@
 #import "GameDefaults.Math.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Boundary : NSObject <IAxisAlignedHalfPlaneCollider>{
+@interface Boundary : NSObject <IAxisAlignedHalfPlaneCollider, ICustomCollider>{
 	AxisAlignedHalfPlane *boundary;
 }
 

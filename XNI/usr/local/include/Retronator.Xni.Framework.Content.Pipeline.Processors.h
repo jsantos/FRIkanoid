@@ -1,4 +1,6 @@
 #import "TextureProcessor.h"
+#import "FontTextureProcessor.h"
+
 #import "ModelProcessor.h"
 #import "MaterialProcessor.h"
 
@@ -18,3 +20,5 @@
 
 #import "SoundEffectContent.h"
 #import "SongContent.h"
+
+#import "SpriteFontContent.h"

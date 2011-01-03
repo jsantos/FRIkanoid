@@ -6,6 +6,7 @@
 #import "IParticleColider.h"
 #import "IParticle.h"
 #import "ISceneUser.h"
+#import "ICustomUpdate.h"
 
 #import "IHalfPlaneColider.h"
 #import "IAxisAlignedHalfPlaneCollider.h"

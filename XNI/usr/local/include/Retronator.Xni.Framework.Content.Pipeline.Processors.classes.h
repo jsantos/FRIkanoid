@@ -1,4 +1,5 @@
-@class TextureProcessor, ModelProcessor, MaterialProcessor;
+@class TextureProcessor, FontTextureProcessor;
+@class ModelProcessor, MaterialProcessor;
 @class SoundEffectProcessor, SongProcessor;
 
 @class ModelContent, ModelMeshContentCollection, ModelMeshContent;
@@ -6,3 +7,5 @@
 @class ModelBoneContent, ModelBoneContentCollection;
 
 @class SoundEffectContent, SongContent;
+
+@class SpriteFontContent;

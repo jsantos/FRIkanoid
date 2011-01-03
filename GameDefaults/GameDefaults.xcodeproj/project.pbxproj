@@ -17,6 +17,26 @@
 		64021F35129057A50008D1EA /* Collision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F33129057A50008D1EA /* Collision.m */; };
 		64021F7912906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h in Headers */ = {isa = PBXBuildFile; fileRef = 64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */; };
 		64021F7A12906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */; };
+		642DB79C12D15C79009A95EB /* TouchPanelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB79A12D15C79009A95EB /* TouchPanelHelper.h */; };
+		642DB79D12D15C79009A95EB /* TouchPanelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB79B12D15C79009A95EB /* TouchPanelHelper.m */; };
+		642DB7A112D15D56009A95EB /* GameDefaults.Control.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7A012D15D56009A95EB /* GameDefaults.Control.classes.h */; };
+		642DB7A312D15D65009A95EB /* GameDefaults.Control.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7A212D15D65009A95EB /* GameDefaults.Control.h */; };
+		642DB7A612D15D97009A95EB /* Fader.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7A412D15D97009A95EB /* Fader.h */; };
+		642DB7A712D15D97009A95EB /* Fader.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB7A512D15D97009A95EB /* Fader.m */; };
+		642DB7B512D1600C009A95EB /* GameDefaults.Mirage.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7B412D1600C009A95EB /* GameDefaults.Mirage.classes.h */; };
+		642DB7B712D16016009A95EB /* GameDefaults.Mirage.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7B612D16016009A95EB /* GameDefaults.Mirage.h */; };
+		642DB7BA12D16020009A95EB /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7B812D16020009A95EB /* Label.h */; };
+		642DB7BB12D16020009A95EB /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB7B912D16020009A95EB /* Label.m */; };
+		642DB7BE12D16027009A95EB /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7BC12D16027009A95EB /* Image.h */; };
+		642DB7BF12D16027009A95EB /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB7BD12D16027009A95EB /* Image.m */; };
+		642DB7C112D16044009A95EB /* MirageEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB7C012D16044009A95EB /* MirageEnums.h */; };
+		642DB82812D169ED009A95EB /* SceneAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB82612D169ED009A95EB /* SceneAction.h */; };
+		642DB82912D169ED009A95EB /* SceneAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB82712D169ED009A95EB /* SceneAction.m */; };
+		642DB82C12D16AC6009A95EB /* GridScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB82A12D16AC6009A95EB /* GridScene.h */; };
+		642DB82D12D16AC6009A95EB /* GridScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB82B12D16AC6009A95EB /* GridScene.m */; };
+		642DB83912D16ED8009A95EB /* SceneEventArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB83712D16ED8009A95EB /* SceneEventArgs.h */; };
+		642DB83A12D16ED8009A95EB /* SceneEventArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 642DB83812D16ED8009A95EB /* SceneEventArgs.m */; };
+		642DB84412D17063009A95EB /* ICustomUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DB84312D17063009A95EB /* ICustomUpdate.h */; };
 		6471F58A12A30A0100479667 /* ISceneUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6471F58912A30A0100479667 /* ISceneUser.h */; };
 		6479477B12946A200082CF22 /* IRectangleDimensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6479477A12946A200082CF22 /* IRectangleDimensions.h */; };
 		64794785129597D00082CF22 /* IRectangleCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = 64794784129597D00082CF22 /* IRectangleCollider.h */; };
@@ -81,6 +101,26 @@
 		64021F33129057A50008D1EA /* Collision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collision.m; sourceTree = "<group>"; };
 		64021F7712906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleAxisAlignedHalfPlaneCollision.h; sourceTree = "<group>"; };
 		64021F7812906C9D0008D1EA /* ParticleAxisAlignedHalfPlaneCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleAxisAlignedHalfPlaneCollision.m; sourceTree = "<group>"; };
+		642DB79A12D15C79009A95EB /* TouchPanelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPanelHelper.h; sourceTree = "<group>"; };
+		642DB79B12D15C79009A95EB /* TouchPanelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchPanelHelper.m; sourceTree = "<group>"; };
+		642DB7A012D15D56009A95EB /* GameDefaults.Control.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Control.classes.h; sourceTree = "<group>"; };
+		642DB7A212D15D65009A95EB /* GameDefaults.Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Control.h; sourceTree = "<group>"; };
+		642DB7A412D15D97009A95EB /* Fader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fader.h; sourceTree = "<group>"; };
+		642DB7A512D15D97009A95EB /* Fader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fader.m; sourceTree = "<group>"; };
+		642DB7B412D1600C009A95EB /* GameDefaults.Mirage.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Mirage.classes.h; sourceTree = "<group>"; };
+		642DB7B612D16016009A95EB /* GameDefaults.Mirage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefaults.Mirage.h; sourceTree = "<group>"; };
+		642DB7B812D16020009A95EB /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		642DB7B912D16020009A95EB /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		642DB7BC12D16027009A95EB /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		642DB7BD12D16027009A95EB /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		642DB7C012D16044009A95EB /* MirageEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MirageEnums.h; sourceTree = "<group>"; };
+		642DB82612D169ED009A95EB /* SceneAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneAction.h; sourceTree = "<group>"; };
+		642DB82712D169ED009A95EB /* SceneAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneAction.m; sourceTree = "<group>"; };
+		642DB82A12D16AC6009A95EB /* GridScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridScene.h; sourceTree = "<group>"; };
+		642DB82B12D16AC6009A95EB /* GridScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridScene.m; sourceTree = "<group>"; };
+		642DB83712D16ED8009A95EB /* SceneEventArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneEventArgs.h; sourceTree = "<group>"; };
+		642DB83812D16ED8009A95EB /* SceneEventArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneEventArgs.m; sourceTree = "<group>"; };
+		642DB84312D17063009A95EB /* ICustomUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICustomUpdate.h; sourceTree = "<group>"; };
 		6471F58912A30A0100479667 /* ISceneUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISceneUser.h; sourceTree = "<group>"; };
 		6479477A12946A200082CF22 /* IRectangleDimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRectangleDimensions.h; sourceTree = "<group>"; };
 		64794784129597D00082CF22 /* IRectangleCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRectangleCollider.h; sourceTree = "<group>"; };
@@ -189,9 +229,80 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		642DB79812D15C63009A95EB /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				642DB79A12D15C79009A95EB /* TouchPanelHelper.h */,
+				642DB79B12D15C79009A95EB /* TouchPanelHelper.m */,
+				642DB7A012D15D56009A95EB /* GameDefaults.Control.classes.h */,
+				642DB7A212D15D65009A95EB /* GameDefaults.Control.h */,
+				642DB7A412D15D97009A95EB /* Fader.h */,
+				642DB7A512D15D97009A95EB /* Fader.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		642DB7B212D15FF3009A95EB /* Mirage */ = {
+			isa = PBXGroup;
+			children = (
+				642DB7B412D1600C009A95EB /* GameDefaults.Mirage.classes.h */,
+				642DB7B612D16016009A95EB /* GameDefaults.Mirage.h */,
+				642DB7B812D16020009A95EB /* Label.h */,
+				642DB7B912D16020009A95EB /* Label.m */,
+				642DB7BC12D16027009A95EB /* Image.h */,
+				642DB7BD12D16027009A95EB /* Image.m */,
+				642DB7C012D16044009A95EB /* MirageEnums.h */,
+			);
+			name = Mirage;
+			sourceTree = "<group>";
+		};
+		642DB82112D16894009A95EB /* Colliders */ = {
+			isa = PBXGroup;
+			children = (
+				649FF72A1283653000CEA4E0 /* IParticleColider.h */,
+				649FF7311283659500CEA4E0 /* IConvexColider.h */,
+				649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */,
+				64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */,
+				64794784129597D00082CF22 /* IRectangleCollider.h */,
+				647947911295994D0082CF22 /* IAxisAlignedRectangleCollider.h */,
+				647947A912959B8E0082CF22 /* ICustomCollider.h */,
+			);
+			name = Colliders;
+			sourceTree = "<group>";
+		};
+		642DB82212D1689A009A95EB /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				649FF7261283650300CEA4E0 /* IRadius.h */,
+				6479477A12946A200082CF22 /* IRectangleDimensions.h */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		642DB82312D168A1009A95EB /* Physical Properties */ = {
+			isa = PBXGroup;
+			children = (
+				649FF724128364DB00CEA4E0 /* IMass.h */,
+				649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */,
+			);
+			name = "Physical Properties";
+			sourceTree = "<group>";
+		};
+		642DB82412D168AD009A95EB /* Movement */ = {
+			isa = PBXGroup;
+			children = (
+				649FF7141283641000CEA4E0 /* IPosition.h */,
+				649FF7171283644000CEA4E0 /* IVelocity.h */,
+				649FF71A1283646600CEA4E0 /* IMovable.h */,
+			);
+			name = Movement;
+			sourceTree = "<group>";
+		};
 		649FF61B12835C8200CEA4E0 /* GameDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				642DB7B212D15FF3009A95EB /* Mirage */,
+				642DB79812D15C63009A95EB /* Control */,
 				649FF62112835CAB00CEA4E0 /* Math */,
 				649FF62012835C9A00CEA4E0 /* Physics */,
 				649FF61F12835C8E00CEA4E0 /* Graphics */,
@@ -209,6 +320,12 @@
 				649FF7031283621200CEA4E0 /* IScene.h */,
 				649FF7091283632E00CEA4E0 /* GameDefaults.Scene.classes.h */,
 				649FF70C1283634E00CEA4E0 /* GameDefaults.Scene.h */,
+				642DB82612D169ED009A95EB /* SceneAction.h */,
+				642DB82712D169ED009A95EB /* SceneAction.m */,
+				642DB82A12D16AC6009A95EB /* GridScene.h */,
+				642DB82B12D16AC6009A95EB /* GridScene.m */,
+				642DB83712D16ED8009A95EB /* SceneEventArgs.h */,
+				642DB83812D16ED8009A95EB /* SceneEventArgs.m */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -278,27 +395,18 @@
 		649FF62312835CC900CEA4E0 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				642DB82412D168AD009A95EB /* Movement */,
+				642DB82312D168A1009A95EB /* Physical Properties */,
+				642DB82212D1689A009A95EB /* Shapes */,
+				642DB82112D16894009A95EB /* Colliders */,
 				649FF63A12835D7600CEA4E0 /* Lifetime.h */,
 				649FF63B12835D7600CEA4E0 /* Lifetime.m */,
 				649FF7111283639E00CEA4E0 /* ILifetime.h */,
-				649FF7141283641000CEA4E0 /* IPosition.h */,
-				649FF7171283644000CEA4E0 /* IVelocity.h */,
-				649FF71A1283646600CEA4E0 /* IMovable.h */,
 				649FF71E128364B000CEA4E0 /* GameDefaults.Scene.Objects.classes.h */,
 				649FF720128364C600CEA4E0 /* GameDefaults.Scene.Objects.h */,
-				649FF724128364DB00CEA4E0 /* IMass.h */,
-				649FF7261283650300CEA4E0 /* IRadius.h */,
-				649FF72A1283653000CEA4E0 /* IParticleColider.h */,
 				649FF72F1283655900CEA4E0 /* IParticle.h */,
-				649FF7311283659500CEA4E0 /* IConvexColider.h */,
-				649FF738128365CD00CEA4E0 /* IHalfPlaneColider.h */,
-				649FF73C128365FC00CEA4E0 /* ICoefficientOfRestitution.h */,
-				64AD745A128DAFB1003434E0 /* IAxisAlignedHalfPlaneCollider.h */,
-				6479477A12946A200082CF22 /* IRectangleDimensions.h */,
-				64794784129597D00082CF22 /* IRectangleCollider.h */,
-				647947911295994D0082CF22 /* IAxisAlignedRectangleCollider.h */,
-				647947A912959B8E0082CF22 /* ICustomCollider.h */,
 				6471F58912A30A0100479667 /* ISceneUser.h */,
+				642DB84312D17063009A95EB /* ICustomUpdate.h */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -354,6 +462,19 @@
 				64DF61BE12A068F600505C0C /* PrimitiveBatch.h in Headers */,
 				64DF648812A08D2500505C0C /* RectangleAAHalfPlaneCollision.h in Headers */,
 				6471F58A12A30A0100479667 /* ISceneUser.h in Headers */,
+				642DB79C12D15C79009A95EB /* TouchPanelHelper.h in Headers */,
+				642DB7A112D15D56009A95EB /* GameDefaults.Control.classes.h in Headers */,
+				642DB7A312D15D65009A95EB /* GameDefaults.Control.h in Headers */,
+				642DB7A612D15D97009A95EB /* Fader.h in Headers */,
+				642DB7B512D1600C009A95EB /* GameDefaults.Mirage.classes.h in Headers */,
+				642DB7B712D16016009A95EB /* GameDefaults.Mirage.h in Headers */,
+				642DB7BA12D16020009A95EB /* Label.h in Headers */,
+				642DB7BE12D16027009A95EB /* Image.h in Headers */,
+				642DB7C112D16044009A95EB /* MirageEnums.h in Headers */,
+				642DB82812D169ED009A95EB /* SceneAction.h in Headers */,
+				642DB82C12D16AC6009A95EB /* GridScene.h in Headers */,
+				642DB83912D16ED8009A95EB /* SceneEventArgs.h in Headers */,
+				642DB84412D17063009A95EB /* ICustomUpdate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +543,13 @@
 				64C92A8F129841A600869CF4 /* RectangleRectangleCollision.m in Sources */,
 				64DF61BF12A068F600505C0C /* PrimitiveBatch.m in Sources */,
 				64DF648912A08D2500505C0C /* RectangleAAHalfPlaneCollision.m in Sources */,
+				642DB79D12D15C79009A95EB /* TouchPanelHelper.m in Sources */,
+				642DB7A712D15D97009A95EB /* Fader.m in Sources */,
+				642DB7BB12D16020009A95EB /* Label.m in Sources */,
+				642DB7BF12D16027009A95EB /* Image.m in Sources */,
+				642DB82912D169ED009A95EB /* SceneAction.m in Sources */,
+				642DB82D12D16AC6009A95EB /* GridScene.m in Sources */,
+				642DB83A12D16ED8009A95EB /* SceneEventArgs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,2 +1,3 @@
 @protocol IScene;
-@class SimpleScene;
+@class SceneEventArgs;
+@class SimpleScene, GridScene;

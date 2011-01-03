@@ -16,6 +16,7 @@
 + (BOOL) collisionBetween:(id <IParticleColider>)particle and:(id <IAxisAlignedHalfPlaneCollider>)axisAlignedHalfPlane {
 	if ([ParticleAxisAlignedHalfPlaneCollision detectCollisionBetween:particle and:axisAlignedHalfPlane]) {
 		[ParticleAxisAlignedHalfPlaneCollision resolveCollisionBetween:particle and:axisAlignedHalfPlane];
+		[Collision reportCollisionBetween:particle and:axisAlignedHalfPlane];
 		return YES;
 	}
 	return NO;

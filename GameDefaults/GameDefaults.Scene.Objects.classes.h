@@ -10,3 +10,4 @@
 @protocol ICustomCollider;
 @protocol ISceneUser;
 @class Lifetime;
+@protocol ICustomUpdate;

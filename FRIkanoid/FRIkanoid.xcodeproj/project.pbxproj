@@ -181,7 +181,6 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				644B8E3712B8FC03000E6AEC /* OpenAL.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -198,6 +197,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				644B8E3712B8FC03000E6AEC /* OpenAL.framework */,
 				644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */,
 				64A01AB71280C4E6003E273F /* libGameDefaults.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -528,6 +528,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../GameDefaults//** ${PROJECT_DIR}/../XNI/usr/local/include";
