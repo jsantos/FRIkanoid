@@ -10,6 +10,7 @@
 #import "Retronator.Xni.Framework.Input.Touch.h"
 #import "Chomponthis.FRIkanoid.h"
 #import "GameDefaults.Physics.h"
+#import "GameDefaults.Control.h"
 
 @implementation HumanPlayer
 
@@ -35,7 +36,7 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
-	TouchCollection *touches = [TouchPanel getState];
+	TouchCollection *touches = [TouchPanelHelper getState];
 	
 	BOOL touchesInInputArea = NO;
 	for(TouchLocation *touch in touches){

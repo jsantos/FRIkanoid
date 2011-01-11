@@ -2,6 +2,6 @@ typedef enum {
 	FasterBall,
 	SlowerBall,
 	BiggerPad,
-	MachineGun,
+	MultiBall,
 	PowerUpTypes
 } PowerUpType;

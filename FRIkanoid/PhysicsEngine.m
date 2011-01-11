@@ -20,14 +20,14 @@
 	return self;
 }
 
-- (void) updateWithGameTime:(GameTime *)gameTime{	
+- (void) updateWithGameTime:(GameTime *)gameTime{
 	NSMutableIndexSet *discardedItems = [NSMutableIndexSet indexSet];
 	NSMutableArray *deadItems = [[NSMutableArray alloc] init];
 	NSUInteger index = 0;
 	NSMutableArray *bonuses = [[NSMutableArray alloc] init];
 	NSMutableArray *explosions = [[NSMutableArray alloc] init];
 	
-	for(id item in level.balls){
+	for(id item in level.scene){
 		[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
 	}
 	
@@ -36,7 +36,7 @@
 	BOOL addBall = NO;
 	for (id item in level.scene){
 		
-		id<ILifetime> lifetime = [item conformsToProtocol:@protocol(ILifetime)] ? (id<ILifetime>)item : nil;		
+		id<ILifetime> lifetime = ([item conformsToProtocol:@protocol(ILifetime)] && [item isKindOfClass:[Explosion class]]) ? (id<ILifetime>)item : nil;		
 		
 		// Update lifetimes
 		if (lifetime) {
@@ -45,7 +45,6 @@
 			} else {
 				[deadItems addObject:lifetime];
 			}
-
 		}
 		
 		if ([item isKindOfClass:[PowerUp class]]) { //Remove missed power-ups
@@ -57,94 +56,89 @@
 			}
 		}
 		if (![item isKindOfClass:[PowerUp class]]) { //Avoid collisions between ball and power-up
-				for(id ball in level.balls){
-					if ([Collision collisionBetween:ball and:item] && [item isKindOfClass:[Brick class]]) {
-						[discardedItems addIndex:index];
-						level.numBricks--;
-						Brick *temp = (Brick*)item;
-						if (temp.powerUpType > 0) {
-							PowerUp *powerUp = [[PowerUp alloc] init];
-							id<IPosition> itemWithPos = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
-							if (itemWithPos) {
-								powerUp.position = itemWithPos.position;
-								powerUp.velocity.x = 0;
-								powerUp.velocity.y = 1;
-								powerUp.type = temp.powerUpType;
-								[bonuses addObject:powerUp];
-								
-								Explosion *explosion = [[[Explosion alloc] initWithGameTime:gameTime] autorelease];
-								explosion.position = itemWithPos.position;
-								
-								[explosions addObject:explosion];
-							}
+				for(id lol in level.scene){
+					if ([lol isKindOfClass:[Ball class]]) {
+						Ball *pex = (Ball*)lol;
+						if ([Collision collisionBetween:pex and:item] && [item isKindOfClass:[Brick class]]) {
+							//[discardedItems addIndex:index];
+							//level.numBricks--;
+//							Brick *temp = (Brick*)item;
+//							if (temp.powerUpType > 0) {
+//								PowerUp *powerUp = [[PowerUp alloc] init];
+//								id<IPosition> itemWithPos = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
+//								if (itemWithPos) {
+//									powerUp.position = itemWithPos.position;
+//									powerUp.velocity.x = 0;
+//									powerUp.velocity.y = 1;
+//									powerUp.type = temp.powerUpType;
+//									[bonuses addObject:powerUp];
+//									
+//									Explosion *explosion = [[[Explosion alloc] initWithGameTime:gameTime] autorelease];
+//									explosion.position = itemWithPos.position;
+//									
+//									[explosions addObject:explosion];
+//								}
+//							}
 						}
 					}
 				}
 			} else if ([Collision collisionBetween:level.playerPad and:item] && [item isKindOfClass:[PowerUp class]]) {
 				//Activate Power Up here
-				PowerUp *temp = item;
-				
-				switch (temp.type) {
-					default:
-					case FasterBall:
-						for(id item in level.balls){
-							Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
-							if (ball.velocity.x > 0) {
-								ball.velocity.x += 100;
-							} else {
-								ball.velocity.x -= 100;
-							}
-							
-							if (ball.velocity.y > 0) {
-								ball.velocity.y += 100;
-							} else {
-								ball.velocity.y -= 100;
-							}
-						}
-						break;
-					case SlowerBall:
-						for(id item in level.balls){
-							Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
-							
-							if (ball.velocity.x > 0) {
-								ball.velocity.x -= 100;
-							} else {
-								ball.velocity.x += 100;
-							}
-							
-							if (ball.velocity.y > 0) {
-								ball.velocity.y -= 100;
-							} else {
-								ball.velocity.y += 100;
-							}
-						}	
-						break;
-					case BiggerPad:
-						level.playerPad.width += level.playerPad.width*0.3;
-						break;
-					case MachineGun:
-						// Implement shooting here
-						addBall = YES;
-						break;
-				}
-				[discardedItems addIndex:[level.scene indexOfItem:item]]; //Clear Power Up from scene
+//				PowerUp *temp = item;
+//				
+//				switch (temp.type) {
+//					default:
+//					case FasterBall:
+//						for(id item in level.scene){
+//							if ([item isKindOfClass:[Ball class]]) {
+//								Ball *ball =  (Ball*)item;
+//								if (ball.velocity.x > 0) {
+//									ball.velocity.x += 100;
+//								} else {
+//									ball.velocity.x -= 100;
+//								}
+//								
+//								if (ball.velocity.y > 0) {
+//									ball.velocity.y += 100;
+//								} else {
+//									ball.velocity.y -= 100;
+//								}
+//							}
+//						}
+//						break;
+//					case SlowerBall:
+//						for(id item in level.scene){
+//							if ([item isKindOfClass:[Ball class]]) {
+//								Ball *ball = (Ball*)item;
+//								
+//								if (ball.velocity.x > 0) {
+//									ball.velocity.x -= 100;
+//								} else {
+//									ball.velocity.x += 100;
+//								}
+//								
+//								if (ball.velocity.y > 0) {
+//									ball.velocity.y -= 100;
+//								} else {
+//									ball.velocity.y += 100;
+//								}
+//							}
+//						}	
+//						break;
+//					case BiggerPad:
+//						level.playerPad.width += level.playerPad.width*0.3;
+//						break;
+//					case MultiBall:
+//						addBall = YES;
+//						break;
+//				}
+//				[discardedItems addIndex:[level.scene indexOfItem:item]]; //Clear Power Up from scene
 			}
-			
-			
-		
 		index++;
 	}
 	
 	if (addBall) {
-		Ball *ball = [[Ball alloc] init];
-		Ball *original = [level.balls objectAtIndex:0];
-		ball.position.x = original.position.x;
-		ball.position.y = original.position.y;
-		ball.velocity.x = - original.velocity.x;
-		ball.velocity.y = original.velocity.y;
-		
-		[level.balls addObject: ball];
-		[level.scene addItem:ball];
+		//Multibal fiufiufiu
 	}
 	
 	[level.scene removeObjectsAtIndexes:discardedItems];
@@ -165,7 +159,6 @@
 			[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
 			id<IMovable> powerUp = item;
 			[powerUp.velocity add:gravity];
-			
 		}
 	}
 	[super updateWithGameTime:gameTime];

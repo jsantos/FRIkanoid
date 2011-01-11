@@ -8,15 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "Chomponthis.FRIkanoid.classes.h"
+#import "GameState.h"
 
-@interface GamePlay : GameComponent {
+@interface GamePlay : GameState {
 	Level *level;
 	Player *thePlayer;
 	Renderer *renderer;
+	GuiRenderer *guiRenderer;
 	PhysicsEngine *physics;
 	NSInteger currentLevel;
 	NSInteger lives;
-	
+	NSInteger points;
 	//Levels
 	NSMutableArray *levelClasses;
 }
@@ -27,4 +29,5 @@
 
 @property (nonatomic, readonly) Level *level;
 @property (nonatomic, readonly) NSInteger lives;
+@property (nonatomic) NSInteger points;
 @end

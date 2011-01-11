@@ -23,19 +23,25 @@
 	return self;
 }
 
+- (BOOL) collidingWithItem:(id)item {
+	// Don't collide with balls.
+	if ([item isKindOfClass:[Ball class]]) {
+		return NO;
+	}
+	return YES;
+}
+
 - (void) collidedWithItem:(id)item {
 	if ([item isKindOfClass:[Pad class]]) {
 		[SoundEngine play:SoundEffectTypeBallPad];
 		
 	} else if ([item isKindOfClass:[Boundary class]]) {
-		[SoundEngine play:SoundEffectTypeBallLimit];
-	} else if ([item isKindOfClass:[Brick class]]) {
-		Brick *brick = (Brick*) item;
-		if (brick.powerUpType != 0) {
-			[SoundEngine play:SoundEffectTypeBallBrickWithBonus];
-		}else {
-			[SoundEngine play:SoundEffectTypeBallBrick];
+		Boundary *tmp = (Boundary*)item;
+		if (!tmp.deadly) {
+			[SoundEngine play:SoundEffectTypeBallLimit];
 		}
+	} else if ([item isKindOfClass:[Brick class]]) {
+		[SoundEngine play:SoundEffectTypeBallBrick];
 	} 
 }
 

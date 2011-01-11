@@ -16,8 +16,7 @@
 + (BOOL) collisionBetween:(id <IAxisAlignedRectangleCollider>)axisAlignedRectangle and:(id <IAxisAlignedHalfPlaneCollider>)axisAlignedHalfPlane {
 	if ([RectangleAAHalfPlaneCollision detectCollisionBetween:axisAlignedRectangle and:axisAlignedHalfPlane]) {
 		if ([Collision shouldResolveCollisionBetween:axisAlignedRectangle and:axisAlignedHalfPlane]) {
-			printf("Pad collided with limit!\n");
-			[RectangleAAHalfPlaneCollision resolveCollisionBetween:axisAlignedRectangle and:axisAlignedHalfPlane];
+				[RectangleAAHalfPlaneCollision resolveCollisionBetween:axisAlignedRectangle and:axisAlignedHalfPlane];
 			[Collision reportCollisionBetween:axisAlignedRectangle and:axisAlignedHalfPlane];
 			return YES;
 		}

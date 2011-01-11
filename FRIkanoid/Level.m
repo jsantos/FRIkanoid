@@ -8,32 +8,67 @@
 
 #import "Level.h"
 #import "Chomponthis.FRIkanoid.h"
+#import "Retronator.Xni.Framework.Content.h"
+#import "Retronator.Xni.Framework.Content.Pipeline.Processors.h"
 
 @implementation Level
 
 - (id) initWithGame:(Game *)theGame{
 	self = [super initWithGame:theGame];
 	if (self != nil) {
-		scene = [[SimpleScene alloc] init];
+		scene = [[SimpleScene alloc] initWithGame:theGame];
+		scene.updateOrder = 3;
+		[self.game.components addComponent:scene];
 		
-		balls = [[NSMutableArray alloc] init];
+		[scene.itemAdded subscribeDelegate: [Delegate delegateWithTarget:self Method:@selector(itemAddedToScene:eventArgs:)]];
+		[scene.itemRemoved subscribeDelegate:[Delegate delegateWithTarget:self Method:@selector(itemRemovedFromScene:eventArgs:)]];
 		
-		Ball *ball = [[Ball alloc] init];
-		[balls addObject:ball];
+		
+		FontTextureProcessor *fontProcessor = [[[FontTextureProcessor alloc] init] autorelease];
+		retrotype = [self.game.content load:@"Retrotype" processor:fontProcessor];
+		fivexfive = [self.game.content load:@"ArkaType12" processor:fontProcessor];
+		fivexfive.lineSpacing = 14;
+		
+		scoreLabel = [[Label alloc] initWithFont:retrotype text:@"" position:[Vector2 vectorWithX:20 y:5]];
+		scoreLabel.color = [Color white];
+		
+		//Button
+		
+		buttonBackground = [self.game.content load:@"RestartButton"];
+
+		restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:360 y:10 width:140 height:32] 
+										background:buttonBackground font:fivexfive text:@"Restart"];
+		restartButton.label.position.y = 32;
+		restartButton.label.position.x = 373;
+		restartButton.backgroundColor = [Color skyBlue];
+		restartButton.backgroundHoverColor = [Color powderBlue];
+		[restartButton.backgroundImage setScaleUniform:1.1];
+		
+		//Button
+		
+		Texture2D *logoImg = [[self.game.content load:@"Frikanoid"] autorelease];
+		logo = [[Image alloc] initWithTexture:logoImg position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2 - logoImg.width/2) y:10]];
+		[scene addItem:logo];
+		
+		ball = [[Ball alloc] init];
 		
 		playerPad = [[Pad alloc] init];
+		
 		bricks = [[NSMutableArray alloc] init];
 		
-		leftWall = [[Boundary alloc] initWithLimit:[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveX distance:0]];
-		
-		rightWall = [[Boundary alloc] initWithLimit:[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeX distance:-485]];
-		 
-		ceiling = [[Boundary alloc] initWithLimit:[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]];
+		leftWall = [[[Boundary alloc] initWithLimit:
+								 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveX distance:0] isDeadly:NO] autorelease];
+		rightWall = [[[Boundary alloc] initWithLimit:
+					  [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeX distance:-self.game.window.clientBounds.width] isDeadly:NO] autorelease];
+		ceiling = [[[Boundary alloc] initWithLimit:
+					[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] isDeadly:NO] autorelease];
+		floor = [[[Boundary alloc] initWithLimit:
+				  [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease];
 	}
 	return self;
 }
 
-@synthesize scene, balls, playerPad, bricks, powerUp, leftWall, rightWall, ceiling, numBricks;
+@synthesize scene, ball, playerPad, bricks, powerUp, leftWall, rightWall, ceiling, floor, numBricks, numBalls, scoreLabel, restartButton;
 
 - (void) initialize {
 	[self reset];
@@ -42,15 +77,20 @@
 
 - (void) reset {
 	[scene clear];
-	[scene addItem:playerPad];
+	currentGameplay.points = 0;
+	playerPad.width = 107.9;
 	
-	for(id item in balls){
-		[scene addItem:item];
-	}
+	[scene addItem:restartButton];
+	[scene addItem:logo];
+	[scene addItem:playerPad];
+	[scene addItem:scoreLabel];
+	[scene addItem:ball];
+	
 	
 	[scene addItem: leftWall];
 	[scene addItem: rightWall];
 	[scene addItem: ceiling];
+	[scene addItem: floor];
 	
 	[bricks removeAllObjects];
 }
@@ -61,15 +101,38 @@
 	[scene clear];
 	[scene addItem:playerPad];
 	
-	for(id item in balls){
-		[scene addItem:item];
-	}
+	[scene addItem:restartButton];
+	
+	[scene addItem:scoreLabel];
+	
+	[scene addItem:ball];
 	
 	[scene addItem: leftWall];
 	[scene addItem: rightWall];
 	[scene addItem: ceiling];
 	
 	[bricks removeAllObjects];
+}
+
+- (void) itemAddedToScene:(id)sender eventArgs:(SceneEventArgs*)e{
+	if ([e.item isKindOfClass:[Brick class]]) {
+		numBricks++;
+	} else if ([e.item isKindOfClass:[Ball class]]) {
+		numBalls++;
+	}
+}
+
+- (void) itemRemovedFromScene:(id)sender eventArgs:(SceneEventArgs*)e{
+	if ([e.item isKindOfClass:[Brick class]]) {
+		numBricks--;
+		currentGameplay.points += 100;
+	} else if ([e.item isKindOfClass:[Ball class]]) {
+		numBalls--;
+	}
+}
+
+- (void) setGamePlay:(GamePlay*)theGamePlay{
+	currentGameplay = theGamePlay;
 }
 
 - (void) dealloc {

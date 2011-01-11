@@ -13,6 +13,13 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		640221A51290B5620008D1EA /* Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 640221A41290B5620008D1EA /* Boundary.m */; };
 		6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */; };
+		6441012812DB6E870079A24E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441012712DB6E870079A24E /* MainMenu.m */; };
+		6441012F12DB6F1E0079A24E /* TheDuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441012D12DB6F1E0079A24E /* TheDuke.png */; };
+		6441013012DB6F1E0079A24E /* TablePlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441012E12DB6F1E0079A24E /* TablePlain.png */; };
+		6441033612DB90AB0079A24E /* BigLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441033512DB90AB0079A24E /* BigLogo.png */; };
+		6441042912DB9F740079A24E /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441042812DB9F740079A24E /* OptionsMenu.m */; };
+		6441042C12DB9F7C0079A24E /* LeaderBoardMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */; };
+		6441055712DBBF110079A24E /* Arkanoid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6441055612DBBF110079A24E /* Arkanoid.wav */; };
 		644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E1712B8F8D8000E6AEC /* GameKit.framework */; };
 		644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */; };
 		644B8E3812B8FC03000E6AEC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E3712B8FC03000E6AEC /* OpenAL.framework */; };
@@ -24,6 +31,19 @@
 		644B907112B938CB000E6AEC /* BallLimit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B907012B938CB000E6AEC /* BallLimit.wav */; };
 		644B907C12B93A59000E6AEC /* BallBrickWithBonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */; };
 		6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458C60E1289930000518AC5 /* Rectangle+Extensions.m */; };
+		6469D1CE12D3FFDD00DCD4FF /* RestartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */; };
+		6469D27C12D4155800DCD4FF /* Frikanoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 6469D27B12D4155800DCD4FF /* Frikanoid.png */; };
+		64756EB412D20539008EAC5D /* PowerUpFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EB312D20539008EAC5D /* PowerUpFactory.m */; };
+		64756EC312D20684008EAC5D /* MultiBallPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EC212D20684008EAC5D /* MultiBallPowerUp.m */; };
+		64756EC612D20691008EAC5D /* EnlargePowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EC512D20691008EAC5D /* EnlargePowerUp.m */; };
+		64756EC912D2069B008EAC5D /* FasterPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EC812D2069B008EAC5D /* FasterPowerUp.m */; };
+		64756ECC12D206B5008EAC5D /* SlowerPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756ECB12D206B5008EAC5D /* SlowerPowerUp.m */; };
+		647ADD2512D3975600BA803A /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 647ADD2412D3975600BA803A /* Button.m */; };
+		647ADD5A12D39FD100BA803A /* GuiRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 647ADD5912D39FD100BA803A /* GuiRenderer.m */; };
+		647ADD9512D3A35100BA803A /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 647ADD9412D3A35100BA803A /* GameState.m */; };
+		647ADE0012D3B60500BA803A /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 647ADDFF12D3B60500BA803A /* Button.png */; };
+		647ADE0312D3B63200BA803A /* 5x5.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 647ADE0112D3B63200BA803A /* 5x5.bmp */; };
+		647ADE0412D3B63200BA803A /* Retrotype.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 647ADE0212D3B63200BA803A /* Retrotype.bmp */; };
 		649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C85CB1274FE5400726515 /* FRIkanoid.m */; };
 		649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85CF1274FE7B00726515 /* OpenGLES.framework */; };
 		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
@@ -41,6 +61,7 @@
 		64C928ED12982E7400869CF4 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C928EC12982E7400869CF4 /* PowerUp.m */; };
 		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
 		64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0F51275F30A00DA0FAA /* Brick.m */; };
+		64E64A5512DA8A7A0092E41A /* ArkaType12.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 64E64A5412DA8A7A0092E41A /* ArkaType12.bmp */; };
 		64E9B0F012AED2EF006A03AE /* AIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E9B0EF12AED2EF006A03AE /* AIPlayer.m */; };
 		64F22407128B627700DF6570 /* Arkanoid2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F22406128B627700DF6570 /* Arkanoid2.png */; };
 		64F3938F1282BE960009159A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F3938E1282BE960009159A /* libXNI.a */; };
@@ -76,6 +97,16 @@
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel2.h; sourceTree = "<group>"; };
 		6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel2.m; sourceTree = "<group>"; };
+		6441012612DB6E870079A24E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		6441012712DB6E870079A24E /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		6441012D12DB6F1E0079A24E /* TheDuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheDuke.png; sourceTree = "<group>"; };
+		6441012E12DB6F1E0079A24E /* TablePlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TablePlain.png; sourceTree = "<group>"; };
+		6441033512DB90AB0079A24E /* BigLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BigLogo.png; sourceTree = "<group>"; };
+		6441042712DB9F740079A24E /* OptionsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsMenu.h; sourceTree = "<group>"; };
+		6441042812DB9F740079A24E /* OptionsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMenu.m; sourceTree = "<group>"; };
+		6441042A12DB9F7C0079A24E /* LeaderBoardMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardMenu.h; sourceTree = "<group>"; };
+		6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardMenu.m; sourceTree = "<group>"; };
+		6441055612DBBF110079A24E /* Arkanoid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Arkanoid.wav; sourceTree = "<group>"; };
 		644B8E1712B8F8D8000E6AEC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		644B8E3712B8FC03000E6AEC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -89,7 +120,29 @@
 		644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallBrickWithBonus.wav; sourceTree = "<group>"; };
 		6458C60D1289930000518AC5 /* Rectangle+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectangle+Extensions.h"; sourceTree = "<group>"; };
 		6458C60E1289930000518AC5 /* Rectangle+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rectangle+Extensions.m"; sourceTree = "<group>"; };
+		6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartButton.png; sourceTree = "<group>"; };
+		6469D27B12D4155800DCD4FF /* Frikanoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frikanoid.png; sourceTree = "<group>"; };
+		64756EB212D20539008EAC5D /* PowerUpFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUpFactory.h; sourceTree = "<group>"; };
+		64756EB312D20539008EAC5D /* PowerUpFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerUpFactory.m; sourceTree = "<group>"; };
+		64756EC112D20684008EAC5D /* MultiBallPowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiBallPowerUp.h; sourceTree = "<group>"; };
+		64756EC212D20684008EAC5D /* MultiBallPowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiBallPowerUp.m; sourceTree = "<group>"; };
+		64756EC412D20691008EAC5D /* EnlargePowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargePowerUp.h; sourceTree = "<group>"; };
+		64756EC512D20691008EAC5D /* EnlargePowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargePowerUp.m; sourceTree = "<group>"; };
+		64756EC712D2069B008EAC5D /* FasterPowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FasterPowerUp.h; sourceTree = "<group>"; };
+		64756EC812D2069B008EAC5D /* FasterPowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FasterPowerUp.m; sourceTree = "<group>"; };
+		64756ECA12D206B5008EAC5D /* SlowerPowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowerPowerUp.h; sourceTree = "<group>"; };
+		64756ECB12D206B5008EAC5D /* SlowerPowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowerPowerUp.m; sourceTree = "<group>"; };
 		647946D0129459900082CF22 /* BrickType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickType.h; sourceTree = "<group>"; };
+		647ADD2312D3975600BA803A /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		647ADD2412D3975600BA803A /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		647ADD5812D39FD100BA803A /* GuiRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuiRenderer.h; sourceTree = "<group>"; };
+		647ADD5912D39FD100BA803A /* GuiRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuiRenderer.m; sourceTree = "<group>"; };
+		647ADD9312D3A35100BA803A /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		647ADD9412D3A35100BA803A /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		647ADDC912D3A96B00BA803A /* LevelType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelType.h; sourceTree = "<group>"; };
+		647ADDFF12D3B60500BA803A /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		647ADE0112D3B63200BA803A /* 5x5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 5x5.bmp; sourceTree = "<group>"; };
+		647ADE0212D3B63200BA803A /* Retrotype.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Retrotype.bmp; sourceTree = "<group>"; };
 		649AB53F129A07B400457484 /* PowerUpType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUpType.h; sourceTree = "<group>"; };
 		649C85CA1274FE5400726515 /* FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid.h; sourceTree = "<group>"; };
 		649C85CB1274FE5400726515 /* FRIkanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoid.m; sourceTree = "<group>"; };
@@ -123,6 +176,7 @@
 		64CDA0BF1275F05B00DA0FAA /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
 		64CDA0F41275F30A00DA0FAA /* Brick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
 		64CDA0F51275F30A00DA0FAA /* Brick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brick.m; sourceTree = "<group>"; };
+		64E64A5412DA8A7A0092E41A /* ArkaType12.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = ArkaType12.bmp; sourceTree = "<group>"; };
 		64E9B0EE12AED2EF006A03AE /* AIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPlayer.h; sourceTree = "<group>"; };
 		64E9B0EF12AED2EF006A03AE /* AIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPlayer.m; sourceTree = "<group>"; };
 		64F22406128B627700DF6570 /* Arkanoid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arkanoid2.png; sourceTree = "<group>"; };
@@ -164,6 +218,15 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6441033512DB90AB0079A24E /* BigLogo.png */,
+				6441012D12DB6F1E0079A24E /* TheDuke.png */,
+				6441012E12DB6F1E0079A24E /* TablePlain.png */,
+				64E64A5412DA8A7A0092E41A /* ArkaType12.bmp */,
+				6469D27B12D4155800DCD4FF /* Frikanoid.png */,
+				6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */,
+				647ADE0112D3B63200BA803A /* 5x5.bmp */,
+				647ADE0212D3B63200BA803A /* Retrotype.bmp */,
+				647ADDFF12D3B60500BA803A /* Button.png */,
 				644B8F1012B926C7000E6AEC /* Sounds */,
 				64C6E5DD12A55C53007FC07F /* Explosion.png */,
 				64F22406128B627700DF6570 /* Arkanoid2.png */,
@@ -248,6 +311,19 @@
 			name = AI;
 			sourceTree = "<group>";
 		};
+		6441007912DB62220079A24E /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				6441012612DB6E870079A24E /* MainMenu.h */,
+				6441012712DB6E870079A24E /* MainMenu.m */,
+				6441042712DB9F740079A24E /* OptionsMenu.h */,
+				6441042812DB9F740079A24E /* OptionsMenu.m */,
+				6441042A12DB9F7C0079A24E /* LeaderBoardMenu.h */,
+				6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
 		644B8EE712B90274000E6AEC /* Sound */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +337,7 @@
 		644B8F1012B926C7000E6AEC /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				6441055612DBBF110079A24E /* Arkanoid.wav */,
 				644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */,
 				644B907012B938CB000E6AEC /* BallLimit.wav */,
 				644B8F4D12B92AC6000E6AEC /* LiveLost.wav */,
@@ -279,9 +356,54 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		64756EB112D2052C008EAC5D /* PowerUps */ = {
+			isa = PBXGroup;
+			children = (
+				64756EC112D20684008EAC5D /* MultiBallPowerUp.h */,
+				64756EC212D20684008EAC5D /* MultiBallPowerUp.m */,
+				64756EC412D20691008EAC5D /* EnlargePowerUp.h */,
+				64756EC512D20691008EAC5D /* EnlargePowerUp.m */,
+				64756EC712D2069B008EAC5D /* FasterPowerUp.h */,
+				64756EC812D2069B008EAC5D /* FasterPowerUp.m */,
+				64756ECA12D206B5008EAC5D /* SlowerPowerUp.h */,
+				64756ECB12D206B5008EAC5D /* SlowerPowerUp.m */,
+			);
+			name = PowerUps;
+			sourceTree = "<group>";
+		};
+		647ADD2212D3974C00BA803A /* Gui */ = {
+			isa = PBXGroup;
+			children = (
+				647ADD2312D3975600BA803A /* Button.h */,
+				647ADD2412D3975600BA803A /* Button.m */,
+			);
+			name = Gui;
+			sourceTree = "<group>";
+		};
+		647ADD9112D3A32C00BA803A /* Game States */ = {
+			isa = PBXGroup;
+			children = (
+				647ADD9212D3A33B00BA803A /* Gameplay */,
+				647ADD9312D3A35100BA803A /* GameState.h */,
+				647ADD9412D3A35100BA803A /* GameState.m */,
+			);
+			name = "Game States";
+			sourceTree = "<group>";
+		};
+		647ADD9212D3A33B00BA803A /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				649FF84E12846C9A00CEA4E0 /* GamePlay.h */,
+				649FF84F12846C9A00CEA4E0 /* GamePlay.m */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
 		649C85C91274FE4A00726515 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				647ADD9112D3A32C00BA803A /* Game States */,
+				647ADD2212D3974C00BA803A /* Gui */,
 				644B8EE712B90274000E6AEC /* Sound */,
 				6458C60C128992DC00518AC5 /* Extensions */,
 				649FF7A512836AED00CEA4E0 /* Physics */,
@@ -292,8 +414,6 @@
 				649C85CB1274FE5400726515 /* FRIkanoid.m */,
 				649C86441275029300726515 /* Chomponthis.FRIkanoid.classes.h */,
 				64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */,
-				649FF84E12846C9A00CEA4E0 /* GamePlay.h */,
-				649FF84F12846C9A00CEA4E0 /* GamePlay.m */,
 				64FAF80D129350B800639A2D /* Random.h */,
 				64FAF80E129350B800639A2D /* Random.m */,
 			);
@@ -305,6 +425,8 @@
 			children = (
 				649C8654127504BF00726515 /* Renderer.h */,
 				649C8655127504BF00726515 /* Renderer.m */,
+				647ADD5812D39FD100BA803A /* GuiRenderer.h */,
+				647ADD5912D39FD100BA803A /* GuiRenderer.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -312,10 +434,12 @@
 		649C864A127502ED00726515 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				6441007912DB62220079A24E /* Menus */,
 				649C864C127502FD00726515 /* Levels */,
 				649C864B127502F900726515 /* Objects */,
 				649C8660127504FD00726515 /* Level.h */,
 				649C8661127504FD00726515 /* Level.m */,
+				647ADDC912D3A96B00BA803A /* LevelType.h */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -323,6 +447,7 @@
 		649C864B127502F900726515 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				64756EB112D2052C008EAC5D /* PowerUps */,
 				64C707331275E2DC0028822D /* Ball.h */,
 				64C707341275E2DC0028822D /* Ball.m */,
 				64CDA0BE1275F05B00DA0FAA /* Pad.h */,
@@ -337,6 +462,8 @@
 				649AB53F129A07B400457484 /* PowerUpType.h */,
 				64C6E5DA12A55C22007FC07F /* Explosion.h */,
 				64C6E5DB12A55C22007FC07F /* Explosion.m */,
+				64756EB212D20539008EAC5D /* PowerUpFactory.h */,
+				64756EB312D20539008EAC5D /* PowerUpFactory.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -435,6 +562,16 @@
 				644B8F4E12B92AC6000E6AEC /* LiveLost.wav in Resources */,
 				644B907112B938CB000E6AEC /* BallLimit.wav in Resources */,
 				644B907C12B93A59000E6AEC /* BallBrickWithBonus.wav in Resources */,
+				647ADE0012D3B60500BA803A /* Button.png in Resources */,
+				647ADE0312D3B63200BA803A /* 5x5.bmp in Resources */,
+				647ADE0412D3B63200BA803A /* Retrotype.bmp in Resources */,
+				6469D1CE12D3FFDD00DCD4FF /* RestartButton.png in Resources */,
+				6469D27C12D4155800DCD4FF /* Frikanoid.png in Resources */,
+				64E64A5512DA8A7A0092E41A /* ArkaType12.bmp in Resources */,
+				6441012F12DB6F1E0079A24E /* TheDuke.png in Resources */,
+				6441013012DB6F1E0079A24E /* TablePlain.png in Resources */,
+				6441033612DB90AB0079A24E /* BigLogo.png in Resources */,
+				6441055712DBBF110079A24E /* Arkanoid.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +602,17 @@
 				6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */,
 				64E9B0F012AED2EF006A03AE /* AIPlayer.m in Sources */,
 				644B8EEA12B90320000E6AEC /* SoundEngine.m in Sources */,
+				64756EB412D20539008EAC5D /* PowerUpFactory.m in Sources */,
+				64756EC312D20684008EAC5D /* MultiBallPowerUp.m in Sources */,
+				64756EC612D20691008EAC5D /* EnlargePowerUp.m in Sources */,
+				64756EC912D2069B008EAC5D /* FasterPowerUp.m in Sources */,
+				64756ECC12D206B5008EAC5D /* SlowerPowerUp.m in Sources */,
+				647ADD2512D3975600BA803A /* Button.m in Sources */,
+				647ADD5A12D39FD100BA803A /* GuiRenderer.m in Sources */,
+				647ADD9512D3A35100BA803A /* GameState.m in Sources */,
+				6441012812DB6E870079A24E /* MainMenu.m in Sources */,
+				6441042912DB9F740079A24E /* OptionsMenu.m in Sources */,
+				6441042C12DB9F7C0079A24E /* LeaderBoardMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

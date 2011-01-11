@@ -127,6 +127,14 @@
 		id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)]  ? item : nil;
 		Sprite *sprite;
 		
+//		id<IVelocity> itemWithVelocity = [item conformsToProtocol:@protocol(IVelocity)] ? item : nil;
+//		if (itemWithVelocity) {
+//			[primitiveBatch drawLineFrom:itemWithPosition.position 
+//									  to:[Vector2 add:itemWithPosition.position to:itemWithVelocity.velocity]
+//								   color:[Color black]];
+//		}
+		
+		
 		if ([item isKindOfClass:[Ball class]]) {
 //			Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
 			sprite = ballSprite;
@@ -159,6 +167,7 @@
 //			[primitiveBatch end];
 		}
 		
+		
 		PowerUp *temp = [item isKindOfClass:[PowerUp class]] ? item : nil;
 		if (temp) {
 //			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
@@ -177,13 +186,15 @@
 				case BiggerPad:
 					sprite = powerUpLSprite;
 					break;
-				case MachineGun:
+				case MultiBall:
 					sprite = powerUpGSprite;
 					break;
 			}
 		}
 		
 		Pad *pad = [itemWithPosition isKindOfClass:[Pad class]] ? item : nil;
+		Image *image = [item isKindOfClass:[Image class]] ? item : nil;
+		Label *label = [item isKindOfClass:[Label class]] ? item : nil;
 		
 		if (pad) {
 //			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
@@ -210,9 +221,15 @@
 																	 width:pad.width - rightPadSprite.sourceRectangle.width - rightPadSprite.sourceRectangle.width
 																	height:middlePadSprite.sourceRectangle.height];
 			[spriteBatch draw:middlePadSprite.texture toRectangle:padMiddleDestination fromRectangle:middlePadSprite.sourceRectangle tintWithColor:[Color white]];
+		}else if (image) {
+			[spriteBatch draw:image.texture to:image.position fromRectangle:image.sourceRectangle tintWithColor:image.color
+					 rotation:image.rotation origin:image.origin scale:image.scale effects:SpriteEffectsNone layerDepth:image.layerDepth];
 			
+		} else if (label) {
+			[spriteBatch drawStringWithSpriteFont:label.font text:label.text to:label.position tintWithColor:label.color
+										 rotation:label.rotation origin:label.origin scale:label.scale effects:SpriteEffectsNone layerDepth:label.layerDepth];
 		} else if (itemWithPosition && sprite) {
-			[spriteBatch draw:sprite.texture 
+			[spriteBatch draw:sprite.texture
 				to:itemWithPosition.position
 				fromRectangle:sprite.sourceRectangle
 				tintWithColor:[Color white]
@@ -228,7 +245,7 @@
 	//Draw lives counter
 	Vector2 *pos = [[Vector2 alloc] init];
 	pos.x = 50;
-	pos.y = 20;
+	pos.y = 40;
 	for (int i = 0; i < gamePlay.lives; i++) {
 		
 		[spriteBatch draw:liveSprite.texture 

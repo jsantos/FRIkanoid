@@ -37,19 +37,19 @@
 - (Event*) enabledChanged {return super.enabledChanged;}
 
 
-//- (void) addItem:(id)item {
-//	[actions addObject:[SceneAction actionWithOperation:SceneOperationAdd item:item]];
-//}
+- (void) addItem:(id)item {
+	[actions addObject:[SceneAction actionWithOperation:SceneOperationAdd item:item]];
+}
 
 - (void) removeItem:(id)item {
 	[actions addObject:[SceneAction actionWithOperation:SceneOperationRemove item:item]];
 }
 
-//- (void) clear {
-//	for(id item in items){
-//		[self removeItem:item];
-//	}
-//}
+- (void) clear {
+	for(id item in items){
+		[self removeItem:item];
+	}
+}
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
 	for (int i = 0; i < [actions count]; i++) {
@@ -68,7 +68,7 @@
 					[sceneUser addedToTheScene:self];
 				}
 			}
-			[item raiseWithSender:self eventArgs:[SceneEventArgs eventArgsWithItem:item]];
+			[itemAdded raiseWithSender:self eventArgs:[SceneEventArgs eventArgsWithItem:item]];
 		} else {
 			[items removeObject:item];
 			
@@ -96,9 +96,9 @@
 	return self;
 }
 
-- (void) addItem:(id)item {
-	[items addObject:item];
-}
+//- (void) addItem:(id)item {
+//	[items addObject:item];
+//}
 
 - (void) removeObjectsAtIndexes:(NSMutableIndexSet*)set {
 	[items removeObjectsAtIndexes:set];
@@ -116,9 +116,9 @@
 	return [items countByEnumeratingWithState:state objects:stackbuf count:len];
 }
 
-- (void) clear {
-	[items removeAllObjects];
-}
+//- (void) clear {
+//	[items removeAllObjects];
+//}
 
 - (int) count {
 	return [items count];

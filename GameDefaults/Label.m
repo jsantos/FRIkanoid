@@ -25,7 +25,7 @@
 		position = [thePosition retain];
 		
 		color = [[Color white] retain];
-		origin = [[Color white] retain];
+		origin = [[Vector2 zero] retain];
 		scale = [[Vector2 one] retain];
 		
 		[self updateOrigin];

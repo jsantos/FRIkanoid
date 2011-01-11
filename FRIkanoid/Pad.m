@@ -17,18 +17,32 @@
 		position = [[Vector2 alloc] init];
 		width = 107.9;
 		height = 19.5;
+		
+		powerUps = [[NSMutableArray alloc] init];
 	}
 	return self;
 }
 
-@synthesize position, width, height;
+@synthesize position, width, height, scene;
 
-- (void) dealloc {
-	[position release];
-	[super dealloc];
+- (void) addPowerUp:(PowerUp *)powerUp {
+	[powerUps addObject:powerUp];
+	[powerUp activateWithParent:self];
+}
+
+- (void) removeAllPowerUps {
+	for(PowerUp *powerUp in powerUps){
+		[powerUp deactivate];
+	}
+	[powerUps removeAllObjects];
 }
 
 - (BOOL) collidingWithItem:(id)item {
+	if ([item isKindOfClass:[PowerUp class]]) {
+		[self addPowerUp:item];
+		[scene removeItem:item];
+		return NO;
+	}
 	return YES;
 }
 
@@ -36,7 +50,7 @@
 	//Calculate horizontal velocity depending on where the paddle was hit.
 	Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
 	if (ball) {
-		float speed = [ball.velocity length];
+		float speed = [ball.velocity length] * 1.01f;
 		
 		//Calculate where on the paddle we were hit, from -1 to 1;
 		float hitPosition = (ball.position.x - position.x) / width * 2;
@@ -56,6 +70,19 @@
 			ball.velocity.y = ball.velocity.y < 0 ? -minY : minY;
 		}
 	}
+}
+
+- (void) updateWithGameTime:(GameTime *)gameTime {
+	for(PowerUp *powerUp in powerUps){
+		[powerUp updateWithGameTime:gameTime];
+	}
+}
+
+- (void) dealloc {
+	[powerUps release];
+	[position release];
+	[scene release];
+	[super dealloc];
 }
 
 @end

@@ -10,10 +10,16 @@
 #import "Chomponthis.FRIkanoid.classes.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Pad : NSObject <IAxisAlignedRectangleCollider, ICustomCollider> {
+@interface Pad : NSObject <IAxisAlignedRectangleCollider, ICustomCollider, ISceneUser, ICustomUpdate> {
 	Vector2 *position;
 	float width;
 	float height;
+	id<IScene> scene;
+	
+	NSMutableArray *powerUps;
 }
+
+- (void) addPowerUp:(PowerUp*)powerUp;
+- (void) removeAllPowerUps;
 
 @end

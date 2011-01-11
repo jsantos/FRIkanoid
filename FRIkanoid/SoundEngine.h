@@ -12,9 +12,11 @@
 
 @interface SoundEngine : GameComponent {
 	SoundEffect *soundEffects[SoundEffectTypes];
+	BOOL muted;
 }
 
 + (void) initializeWithGame:(Game*)game;
 + (void) play:(SoundEffectType)type;
++ (void) stop:(SoundEffectType)type;
 
 @end

@@ -14,12 +14,15 @@
 	Vector2 *position;
 	float width;
 	float height;
+	int power;
 	BrickType brickType;
 	PowerUpType powerUpType;
 	id<IScene> scene;
+
 }
 
 @property (nonatomic) BrickType brickType;
 @property (nonatomic) PowerUpType powerUpType;
+@property (nonatomic) int power;
 
 @end

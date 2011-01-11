@@ -14,20 +14,21 @@
 - (void) resetAfterMiss {
 	// To render the level after the ball goes out of the screen, without major changes
 	//Initialize object Positions
-	Ball *ball = [balls objectAtIndex:0];
+	ball = [[Ball alloc] init];
 	
 	ball.position.x = 240;
 	ball.position.y = 200;
 	
 	ball.velocity.y = -200; //Ball Initial Velocity
 	ball.velocity.x = ([Random float] - 0.5f) * 10;
-} 
+	
+	[scene addItem:ball];
+}
 
 - (void) reset {
 	[super reset];
-	numBricks = 16;
-	
-	for (int i=0; i<numBricks; i++) {
+	currentGameplay.points = 0;
+	for (int i=0; i<16; i++) {
 		Brick *lol = [[Brick alloc] init];
 		[bricks addObject:lol];
 		[lol release];
@@ -36,17 +37,17 @@
 	for (id<NSObject> brick in bricks){
 		[scene addItem:brick];
 	}
-	Ball *ball = [balls objectAtIndex:0];
+	//ball = [[Ball alloc] init];
 		
 	//Initialize object Positions
-	ball.position.x = 240;
-	ball.position.y = 250;
+	ball.position.x = self.game.window.clientBounds.width/2;
+	ball.position.y = self.game.window.clientBounds.height/2;
 	
 	ball.velocity.y = -200; //Ball Initial Velocity
 	ball.velocity.x = ([Random float] - 0.5f) * 10;
 	
-	playerPad.position.x = 240;
-	playerPad.position.y = 270;
+	playerPad.position.x = self.game.window.clientBounds.width/2;
+	playerPad.position.y = self.game.window.clientBounds.height - 25;
 		
 	double initX = 30, initY=72;
 	int type = 0;
@@ -56,7 +57,7 @@
 		temp.position.y = initY;
 		temp.brickType = type;
 			
-		if (initX > 410) {
+		if (initX > self.game.window.clientBounds.width-50) {
 			initX = 30;
 			initY+=26;
 			type++;
@@ -65,25 +66,24 @@
 		}
 	}
 	
-	for (int i = 1; i < PowerUpTypes+1; i++) { // Randomize power-ups through the bricks
-		Brick *temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];
-		if ([bricks count] > 4) {
-			while (temp.powerUpType > 0) {
-				temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];	
-			}
-			temp.powerUpType = i;
-		} else {
-			temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];	
-			temp.powerUpType = i;
-		}
-	}
+//	for (int i = 1; i < PowerUpTypes+1; i++) { // Randomize power-ups through the bricks
+//		Brick *temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];
+//		if ([bricks count] > 4) {
+//			while (temp.powerUpType > 0) {
+//				temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];	
+//			}
+//			temp.powerUpType = i;
+//		} else {
+//			temp = [bricks objectAtIndex:[Random intLessThan:[bricks count]]];	
+//			temp.powerUpType = i;
+//		}
+//	}
 }
 
 - (void) skipLevel {
 	[super reset];
-	numBricks = 32;
 	
-	for (int i=0; i<numBricks; i++) {
+	for (int i=0; i<32; i++) {
 		Brick *lol = [[Brick alloc] init];
 		[bricks addObject:lol];
 		[lol release];
@@ -93,7 +93,7 @@
 		[scene addItem:brick];
 	}
 	
-	Ball *ball = [balls objectAtIndex:0];
+	//ball = [[Ball alloc] init];
 	//Initialize object Positions
 	ball.position.x = 240;
 	ball.position.y = 250;

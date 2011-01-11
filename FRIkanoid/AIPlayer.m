@@ -85,18 +85,18 @@
 
 //Action Execution
 - (void) updateWithGameTime:(GameTime *)gameTime {
-	if (level.balls) {
-		Ball *ball = [level.balls objectAtIndex:0];
-		
-		if (ball.position.x > (playerPad.position.x - 10)) {
-			[playerPad.position add:[Vector2 multiply:[[Vector2 alloc] initWithX:100 y:0] by:gameTime.elapsedGameTime]];
-		} else if (ball.position.x < playerPad.position.x + 10) {
-			[playerPad.position add:[Vector2 multiply:[[Vector2 alloc] initWithX:-100 y:0] by:gameTime.elapsedGameTime]];
-		}
-		
-
-	}
-	
+//	if (level.balls) {
+//		Ball *ball = [level.balls objectAtIndex:0];
+//		
+//		if (ball.position.x > (playerPad.position.x - 10)) {
+//			[playerPad.position add:[Vector2 multiply:[[Vector2 alloc] initWithX:100 y:0] by:gameTime.elapsedGameTime]];
+//		} else if (ball.position.x < playerPad.position.x + 10) {
+//			[playerPad.position add:[Vector2 multiply:[[Vector2 alloc] initWithX:-100 y:0] by:gameTime.elapsedGameTime]];
+//		}
+//		
+//
+//	}
+//	
 //	if (target) {
 //		Vector2 *difference = [Vector2 subtract:target by:playerPad.position];
 //		float distance = [difference length];

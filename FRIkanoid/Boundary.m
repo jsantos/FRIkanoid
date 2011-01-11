@@ -7,17 +7,20 @@
 //
 
 #import "Boundary.h"
-
+#import "Chomponthis.FRIkanoid.h"
 
 @implementation Boundary
 
-- (id) initWithLimit:(AxisAlignedHalfPlane *)theBoundary {
+- (id) initWithLimit:(AxisAlignedHalfPlane *)theBoundary isDeadly:(BOOL)isDeadly{
 	self = [super init];
 	if (self != nil) {
 		boundary = [theBoundary retain];
+		deadly = isDeadly;
 	}
 	return self;
 }
+
+@synthesize scene, deadly;
 
 - (AxisAlignedHalfPlane *) axisAlignedHalfPlane {
 	return boundary;
@@ -27,7 +30,14 @@
 	return boundary;
 }
 
+- (void) collidedWithItem:(id)item {
+	if (deadly) {
+		[scene removeItem:item];
+	}
+}
+
 - (void) dealloc {
+	[scene release];
 	[boundary release];
 	[super dealloc];
 }

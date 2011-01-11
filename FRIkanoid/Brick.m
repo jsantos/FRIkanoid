@@ -17,29 +17,39 @@
 		position = [[Vector2 alloc] init];
 		width = 60;
 		height = 25;
+		power = 1;
 	}
 	return self;
 }
 
-@synthesize position, width, height, brickType, powerUpType, scene;
+@synthesize position, width, height, brickType, powerUpType, scene, power;
 
 - (BOOL) collidingWithItem:(id)item {
+	if (![item isKindOfClass:[Ball class]]) {
+		return NO;
+	}
+	
+	power--;
+	if (power == 0) {
+		[scene removeItem:self];
+		//Handle power-up creation here
+		if ([Random float] < 0.2f) {
+			Explosion *explosion = [[[Explosion alloc] initWithGameTime:0] autorelease];
+			[explosion.position set:position];
+	
+			[SoundEngine play:SoundEffectTypeBallBrickWithBonus];
+			PowerUp *powerUp = [PowerUpFactory createRandomPowerUp];
+			[powerUp.position set:position];
+			powerUp.velocity.y = 75;
+			[scene addItem:explosion];
+			[scene addItem:powerUp];
+		}
+	}
 	return YES;
 }
 
-- (void) collidedWithItem:(id)item {
-	//Make sure the vertical velocity is big enough after collision,
-	//so we don't have to endlessly wait for the ball to come down.
-	if ([item isKindOfClass:[Ball class]]) {
-		Ball * ball = (Ball*) item;
-		float minY = 100;
-		if (fabsf(ball.velocity.y) < minY) {
-			ball.velocity.y = ball.velocity.y < 0 ? -minY : minY;
-		}
-	}
-}
-
 - (void) dealloc {
+	[scene release];
 	[position release];
 	[super dealloc];
 }

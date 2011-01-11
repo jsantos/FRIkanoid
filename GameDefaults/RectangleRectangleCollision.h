@@ -13,6 +13,10 @@
 
 }
 
-+ (BOOL) collisionBetween:(id<IAxisAlignedRectangleCollider>)AxisAlignedRectangle1 and:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle2;
++ (BOOL) collisionBetween:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle1 and:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle2;
+
++ (BOOL) detectCollisionBetween:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle1 and:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle2;
+
++ (void) resolveCollisionBetween:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle1 and:(id<IAxisAlignedRectangleCollider>)axisAlignedRectangle2;
 
 @end

@@ -15,12 +15,19 @@
 
 @interface FRIkanoid : Game {
 	GraphicsDeviceManager *graphics;
-	Renderer *renderer;
 	
 	//GamePlay
 	GamePlay *currentGameplay;
+	
+	//Game State
+	NSMutableArray *stateStack;
 }
 
 - (void) loadLevel;
+
+- (void) pushState:(GameState*)gameState;
+- (void) popState;
+
+- (Class) getLevelClass:(LevelType)type;
 
 @end

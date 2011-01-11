@@ -8,7 +8,8 @@
 
 #import "FRIkanoid.h"
 #import "Chomponthis.FRIkanoid.h"
-
+#import "GameDefaults.Control.h"
+#import "MainMenu.h"
 
 @implementation FRIkanoid
 
@@ -17,13 +18,20 @@
 	self = [super init];
 	if (self != nil) {
 		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
+		
+		[self.components addComponent:[[[TouchPanelHelper alloc] initWithGame:self] autorelease]];
+		stateStack = [[NSMutableArray alloc] init];
+		
 		[SoundEngine initializeWithGame:self];
 	}
 	return self;
 }
 
 - (void) initialize {
-	[self loadLevel];
+	MainMenu *menu = [[[MainMenu alloc] initWithGame:self] autorelease];
+	[self pushState:menu];
+	
+	//[self loadLevel];
 	
 	//Initialize all components
 	[super initialize]; 
@@ -42,8 +50,44 @@
 	//[self.components addComponent:currentGameplay];
 }
 
+- (void) pushState:(GameState*)gameState {
+	GameState *currentActiveState = [stateStack lastObject];
+	[currentActiveState deactivate];
+	[self.components removeComponent:currentActiveState];
+	
+	[stateStack addObject:gameState];
+	[self.components addComponent:gameState];
+	[gameState activate];
+}
+
+- (void) popState {
+	GameState *currentActiveState = [stateStack lastObject];
+	[stateStack removeLastObject];
+	[currentActiveState deactivate];
+	[self.components removeComponent:currentActiveState];
+
+	currentActiveState = [stateStack lastObject];
+	[self.components addComponent:currentActiveState];
+	[currentActiveState activate];
+}
+
+- (Class) getLevelClass:(LevelType)type{
+	//return levelClasses[type];
+	return nil;
+}
+
+- (void) updateWithGameTime:(GameTime *)gameTime {
+	[super updateWithGameTime:gameTime];
+}
+
+- (void) drawWithGameTime:(GameTime *)gameTime {
+	[self.graphicsDevice clearWithColor: [Color steelBlue]];
+	[super drawWithGameTime:gameTime];
+}
+
 - (void) dealloc
 {
+	[stateStack release];
 	[graphics release];
 	[super dealloc];
 }

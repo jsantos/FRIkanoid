@@ -10,12 +10,16 @@
 #import "GameDefaults.Math.h"
 #import "GameDefaults.Scene.Objects.h"
 
-@interface Boundary : NSObject <IAxisAlignedHalfPlaneCollider, ICustomCollider>{
+@interface Boundary : NSObject <IAxisAlignedHalfPlaneCollider, ICustomCollider, ISceneUser>{
 	AxisAlignedHalfPlane *boundary;
+	BOOL deadly;
+	id<IScene> scene;
 }
 
+@property (nonatomic) BOOL deadly;
 
-- (id) initWithLimit:(AxisAlignedHalfPlane *)theBoundary;
+
+- (id) initWithLimit:(AxisAlignedHalfPlane *)theBoundary isDeadly:(BOOL)isDeadly;
 
 - (AxisAlignedHalfPlane *) axisAlignedHalfPlane;
 

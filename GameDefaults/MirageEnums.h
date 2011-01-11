@@ -2,7 +2,7 @@ typedef enum {
 	HorizontalAlignCustom,
 	HorizontalAlignLeft,
 	HorizontalAlignCenter,
-	HorizontalAlignRight,
+	HorizontalAlignRight
 } HorizontalAlign;
 
 typedef enum {

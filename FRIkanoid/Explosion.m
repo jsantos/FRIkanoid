@@ -17,7 +17,7 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		lifetime = [[Lifetime alloc] initWithStart:gameTime.totalGameTime duration:1];
+		lifetime = [[Lifetime alloc] initWithStart:gameTime.totalGameTime duration:0.5];
 		random = [Random int];
 	}
 	return self;
