@@ -18,6 +18,7 @@ SoundEngine *instance;
 	[game.components addComponent:instance];
 }
 
+@synthesize muted;
 
 - (void) initialize {
 	muted = NO;
@@ -41,7 +42,12 @@ SoundEngine *instance;
 }
 
 - (void)stop:(SoundEffectType)type {
-	[soundEffects[type] setMasterVolume:0];
+	if (muted) {
+		[SoundEffect setMasterVolume:0];
+	} else {
+		[SoundEffect setMasterVolume:1];
+	}
+
 }
 
 + (void) stop:(SoundEffectType)type {
@@ -50,6 +56,14 @@ SoundEngine *instance;
 
 + (void) play:(SoundEffectType)type {
 	[instance play:type];
+}
+
+- (SoundEffectInstance*) createInstance:(SoundEffectType)type {
+	return [soundEffects[type] createInstance];
+}
+
++ (SoundEffectInstance*) createInstance:(SoundEffectType)type {
+	return [instance createInstance:type];
 }
 
 - (void) dealloc {

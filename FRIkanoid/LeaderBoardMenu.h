@@ -7,16 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Chomponthis.FRIkanoid.h"
+#import "Menu.h"
 
-@interface LeaderBoardMenu : GameState {
-	SimpleScene *scene;
-	GuiRenderer *renderer;
-	SpriteFont *retrotype, *fivexfive;
-	Texture2D *buttonBackground;
+@interface LeaderBoardMenu : Menu {
 	Label *placeholder;
-	Button *back;
-	
 	Image *logo;
 }
 

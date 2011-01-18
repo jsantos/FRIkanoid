@@ -35,6 +35,9 @@
 - (void) reset;
 - (void) resetAfterMiss;
 - (void) skipLevel;
+- (void) resetPad;
+- (void) addBallWithSpeed:(float)speed;
+- (void) resetLevelWithBallSpeed:(float)speed;
 
 @property (nonatomic) NSInteger numBricks;
 @property (nonatomic) NSInteger numBalls;

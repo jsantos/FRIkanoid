@@ -23,16 +23,21 @@
 		stateStack = [[NSMutableArray alloc] init];
 		
 		[SoundEngine initializeWithGame:self];
+		
+		mutedMusic = NO;
+		
+		progress = [[GameProgress loadProgress] retain];
 	}
 	return self;
 }
+
+@synthesize progress, scores, mutedMusic;
 
 - (void) initialize {
 	MainMenu *menu = [[[MainMenu alloc] initWithGame:self] autorelease];
 	[self pushState:menu];
 	
 	//[self loadLevel];
-	
 	//Initialize all components
 	[super initialize]; 
 }
@@ -88,6 +93,7 @@
 - (void) dealloc
 {
 	[stateStack release];
+	[progress release];
 	[graphics release];
 	[super dealloc];
 }

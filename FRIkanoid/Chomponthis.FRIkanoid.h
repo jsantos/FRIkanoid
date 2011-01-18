@@ -29,6 +29,8 @@
 #import "GuiRenderer.h";
 #import "GameState.h";
 #import "LevelType.h";
+#import "Menu.h";
 #import "MainMenu.h";
 #import "OptionsMenu.h";
 #import "LeaderBoardMenu.h";
+#import "GameProgress.h";

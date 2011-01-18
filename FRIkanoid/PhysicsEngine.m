@@ -21,11 +21,9 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime{
-	NSMutableIndexSet *discardedItems = [NSMutableIndexSet indexSet];
+//	NSMutableIndexSet *discardedItems = [NSMutableIndexSet indexSet];
 	NSMutableArray *deadItems = [[NSMutableArray alloc] init];
 	NSUInteger index = 0;
-	NSMutableArray *bonuses = [[NSMutableArray alloc] init];
-	NSMutableArray *explosions = [[NSMutableArray alloc] init];
 	
 	for(id item in level.scene){
 		[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
@@ -33,7 +31,6 @@
 	
 	Vector2 *gravity = [Vector2 vectorWithX:0 y:100 * gameTime.elapsedGameTime];
 	
-	BOOL addBall = NO;
 	for (id item in level.scene){
 		
 		id<ILifetime> lifetime = ([item conformsToProtocol:@protocol(ILifetime)] && [item isKindOfClass:[Explosion class]]) ? (id<ILifetime>)item : nil;		
@@ -47,14 +44,14 @@
 			}
 		}
 		
-		if ([item isKindOfClass:[PowerUp class]]) { //Remove missed power-ups
-			id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
-			if (itemWithPosition) {
-				if (itemWithPosition.position.y > self.game.window.clientBounds.height) {
-					[discardedItems addIndex:index];
-				}
-			}
-		}
+//		if ([item isKindOfClass:[PowerUp class]]) { //Remove missed power-ups
+//			id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
+//			if (itemWithPosition) {
+//				if (itemWithPosition.position.y > self.game.window.clientBounds.height) {
+//					[discardedItems addIndex:index];
+//				}
+//			}
+//		}
 		if (![item isKindOfClass:[PowerUp class]]) { //Avoid collisions between ball and power-up
 				for(id lol in level.scene){
 					if ([lol isKindOfClass:[Ball class]]) {
@@ -137,22 +134,18 @@
 		index++;
 	}
 	
-	if (addBall) {
-		//Multibal fiufiufiu
-	}
-	
-	[level.scene removeObjectsAtIndexes:discardedItems];
-	for (id item in bonuses){
-		[level.scene addItem:item];
-	}
+//	[level.scene removeObjectsAtIndexes:discardedItems];
+//	for (id item in bonuses){
+//		[level.scene addItem:item];
+//	}
 	
 	for (id item in deadItems){
 		[level.scene removeObjectIdenticalTo: item];
 	}
 	
-	for (id item in explosions){
-		[level.scene addItem:item];
-	}
+//	for (id item in explosions){
+//		[level.scene addItem:item];
+//	}
 	
 	for (id item in level.scene) { //Add gravity to power-up objects
 		if ([item conformsToProtocol:@protocol(IMovable)] && [item isKindOfClass:[PowerUp class]]) {
@@ -161,7 +154,7 @@
 			[powerUp.velocity add:gravity];
 		}
 	}
-	[super updateWithGameTime:gameTime];
+	//[super updateWithGameTime:gameTime];
 }
 
 @end

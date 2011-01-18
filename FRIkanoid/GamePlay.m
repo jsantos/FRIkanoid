@@ -29,7 +29,7 @@
 		//Start in first level
 		
 		[self initWithGame:theGame LevelClass:[levelClasses objectAtIndex:levelNumber]];
-		self.updateOrder = 4;
+		self.updateOrder = 5;
 		
 		//Create player
 		//thePlayer = [[HumanPlayer alloc] initWithPad:level.playerPad scene:level.scene level:level game:self.game];
@@ -49,6 +49,7 @@
 	}
 	level = [[levelClass alloc] initWithGame:self.game];
 	level.updateOrder = 2;
+	level.scene.updateOrder = 3;
 	
 	[level setGamePlay:self];
 	[self.game.components addComponent:level];
@@ -86,57 +87,34 @@
 	}
 	
 	if (level.restartButton.wasReleased) {
-		[frikanoid popState];
-//		[level reset];
-//		points = 0;
-//		lives = 3;
+//		[frikanoid popState];
+		[level reset];
+		points = 0;
+		lives = 3;
 	}
 	
-//	NSMutableArray *ballsOut = [[NSMutableArray alloc] init];
-//	int index = 0;
-//	for(id item in level.balls){
-//		Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
-//		if (ball.position.y > self.game.window.clientBounds.height) { //Delay for ball not show up immediatly
-//			[ballsOut addObject:item];
-//		}
-//		index++;
-//	}
-//	
-//	if ([ballsOut count] == [level.balls count]) {
-//		[SoundEngine play:SoundEffectTypeLiveLost];
-//		lives-=1;
-//		if (lives < 0) {
-//			[level reset];
-//			lives = 3;
-//		}
-//		
-//	}
 	
 	if (level.numBalls == 0) {
+		printf("Here!\n");
 		[SoundEngine play:SoundEffectTypeLiveLost];
 		lives-=1;
 		if (lives < 0) {
-			[level reset];
-			points = 0;
+			[level resetLevelWithBallSpeed:200];
 			lives = 3;
 		} else {
-			[level resetAfterMiss];
+			[level addBallWithSpeed:200];
+			//[level resetAfterMiss];
 		}
 	}
 	
-//	if ([level.balls count] > 1) {
-//		for(id item in ballsOut){
-//			[level.balls removeObjectIdenticalTo:item];
-//			[level.scene removeObjectIdenticalTo:item];
-//		}
-//	}
-		
+
 	if (level.numBricks == 0) {
+
+		//[frikanoid.progress saveProgress:frikanoid.scores];
 		//Handle level transition here
-		points+=500;
+		points+=5000;
 		lives++;
 		[level skipLevel];
-		//[self advanceLevel];
 	}
 	[thePlayer updateWithGameTime:gameTime];
 }

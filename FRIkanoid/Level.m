@@ -19,7 +19,7 @@
 		scene = [[SimpleScene alloc] initWithGame:theGame];
 		scene.updateOrder = 3;
 		[self.game.components addComponent:scene];
-		
+	
 		[scene.itemAdded subscribeDelegate: [Delegate delegateWithTarget:self Method:@selector(itemAddedToScene:eventArgs:)]];
 		[scene.itemRemoved subscribeDelegate:[Delegate delegateWithTarget:self Method:@selector(itemRemovedFromScene:eventArgs:)]];
 		
@@ -64,6 +64,9 @@
 					[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] isDeadly:NO] autorelease];
 		floor = [[[Boundary alloc] initWithLimit:
 				  [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease];
+	
+		
+		currentGameplay.points = 0;
 	}
 	return self;
 }
@@ -77,25 +80,27 @@
 
 - (void) reset {
 	[scene clear];
-	currentGameplay.points = 0;
 	playerPad.width = 107.9;
-	
 	[scene addItem:restartButton];
 	[scene addItem:logo];
 	[scene addItem:playerPad];
 	[scene addItem:scoreLabel];
-	[scene addItem:ball];
-	
 	
 	[scene addItem: leftWall];
 	[scene addItem: rightWall];
 	[scene addItem: ceiling];
 	[scene addItem: floor];
 	
+	[scene addItem:ball];
+	
 	[bricks removeAllObjects];
 }
 
 - (void) resetAfterMiss {}
+
+- (void) resetPad{
+	playerPad.width = 107.9;
+}
 
 - (void) skipLevel {
 	[scene clear];
@@ -105,12 +110,10 @@
 	
 	[scene addItem:scoreLabel];
 	
-	[scene addItem:ball];
-	
 	[scene addItem: leftWall];
 	[scene addItem: rightWall];
 	[scene addItem: ceiling];
-	
+	[scene addItem: ball];
 	[bricks removeAllObjects];
 }
 
@@ -133,6 +136,62 @@
 
 - (void) setGamePlay:(GamePlay*)theGamePlay{
 	currentGameplay = theGamePlay;
+}
+
+- (void) resetLevelWithBallSpeed:(float)speed {
+	//Remove everything from scene
+	[scene clear];
+	
+	//Add level limits
+	[scene addItem:[[[Boundary alloc] initWithLimit:
+					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveX distance:0] isDeadly:NO] autorelease]];
+	
+	[scene addItem:[[[Boundary alloc] initWithLimit:
+					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeX distance:-self.game.window.clientBounds.width] isDeadly:NO] autorelease]];
+	[scene addItem:[[[Boundary alloc] initWithLimit:
+					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] isDeadly:NO] autorelease]];
+	[scene addItem:[[[Boundary alloc] initWithLimit:
+					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease]]; 
+	
+	//Add pad
+	[scene addItem:playerPad];
+	[self resetPad];
+	
+	//Add Ball
+	[self addBallWithSpeed:speed];
+	
+	//Add bricks
+	for (int i = 0; i < BrickTypes; i++) {
+		for (int x = 30; x <= self.game.window.clientBounds.width; x+=60) {
+			Brick *brick = [[Brick alloc] init];
+			brick.brickType = i;
+			if (i == 0) {
+				brick.power = 2;
+			}
+			brick.position.x = x;
+			brick.position.y = 75 + i *25;
+			[scene addItem:brick];
+		}
+	}
+}
+
+- (void) addBallWithSpeed:(float)speed {
+	Ball *tmpBall = [[[Ball alloc] init] autorelease];
+	tmpBall.position.x = playerPad.position.x + ([Random float] - 0.5f) * 10;
+	tmpBall.position.y = playerPad.position.y - playerPad.height / 2;
+	tmpBall.velocity.y = speed;
+	[scene addItem:tmpBall];
+}
+
+- (void) updateWithGameTime:(GameTime *)gameTime {
+	// Update all items with custom update.
+	for (id item in scene) {
+		id<ICustomUpdate> updatable = [item conformsToProtocol:@protocol(ICustomUpdate)] ? item : nil;
+		
+		if (updatable) {
+			[updatable updateWithGameTime:gameTime];
+		}	
+	}
 }
 
 - (void) dealloc {

@@ -7,18 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Chomponthis.FRIkanoid.h"
+#import "Menu.h"
 
-@interface OptionsMenu : GameState {
-	SimpleScene *scene;
-	GuiRenderer *renderer;
-	SpriteFont *retrotype, *fivexfive;
-	Texture2D *buttonBackground;
-	
-	Button *back;
-	
+@interface OptionsMenu : Menu {
 	Image *logo;
 	Button *switchSound;
+	Button *switchMusic;
 }
 
 @end

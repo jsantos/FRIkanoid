@@ -16,12 +16,22 @@
 @interface FRIkanoid : Game {
 	GraphicsDeviceManager *graphics;
 	
+	//Progress
+	GameProgress *progress;
+	NSMutableArray *scores;
+	
 	//GamePlay
 	GamePlay *currentGameplay;
 	
 	//Game State
 	NSMutableArray *stateStack;
+	
+	BOOL mutedMusic;
 }
+
+@property (nonatomic, readonly) GameProgress *progress;
+@property (nonatomic, retain) NSMutableArray *scores;
+@property (nonatomic) BOOL mutedMusic;
 
 - (void) loadLevel;
 

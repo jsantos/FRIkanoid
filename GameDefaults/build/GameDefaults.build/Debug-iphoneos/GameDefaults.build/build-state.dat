@@ -118,43 +118,1529 @@ c000000004C6241ED00000000000009CD
 t1281507821
 s2509
 
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSprite.h
+c000000004D2C8A590000000000000237
+t1294764633
+s567
+i<Foundation/Foundation.h>
+i"GameDefaults.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSprite.m
+c000000004D2C8A590000000000000667
+t1294764633
+s1639
+i"AnimatedSprite.h"
+i"GameDefaults.Graphics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSpriteFrame.h
+c000000004D2C8A590000000000000239
+t1294764633
+s569
+i<Foundation/Foundation.h>
+i"GameDefaults.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m
+c000000004D2C8A5900000000000002AB
+t1294764633
+s683
+i"AnimatedSpriteFrame.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.h
+c000000004D2C8A590000000000000218
+t1294764633
+s536
+i<Foundation/Foundation.h>
+i"HalfPlane.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m
+c000000004D2C8A5900000000000007AB
+t1294764633
+s1963
+i"AxisAlignedHalfPlane.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Collision.h
+c000000004D2C8A590000000000000237
+t1294764633
+s567
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Collision.m
+c000000004D2C8A590000000000001D67
+t1294764633
+s7527
+i"Collision.h"
+i"GameDefaults.Scene.Objects.h"
+i"GameDefaults.Physics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Fader.h
+c000000004D2C8A5900000000000002CA
+t1294764633
+s714
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Fader.m
+c000000004D2C8A590000000000000470
+t1294764633
+s1136
+i"Fader.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Graphics.classes.h
+c000000004D2C8A590000000000000043
+t1294764633
+s67
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Graphics.h
+c000000004D2C8A590000000000000068
+t1294764633
+s104
+i"Sprite.h"
+i"AnimatedSprite.h"
+i"AnimatedSpriteFrame.h"
+i"PrimitiveBatch.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Math.classes.h
+c000000004D2C8A59000000000000003D
+t1294764633
+s61
+i"MathEnums.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Math.h
+c000000004D2C8A59000000000000004C
+t1294764633
+s76
+i"MathEnums.h"
+i"HalfPlane.h"
+i"AxisAlignedHalfPlane.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Physics.h
+c000000004D2C8A59000000000000010D
+t1294764633
+s269
+i"MovementPhysics.h"
+i"ParticleParticleColision.h"
+i"Collision.h"
+i"ParticleAxisAlignedHalfPlaneCollision.h"
+i"ParticleAxisAlignedRectangleCollision.h"
+i"RectangleRectangleCollision.h"
+i"RectangleAAHalfPlaneCollision.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.classes.h
+c000000004D2C8A5900000000000001A1
+t1294764633
+s417
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.h
+c000000004D2C8A5900000000000001F0
+t1294764633
+s496
+i"IPosition.h"
+i"IVelocity.h"
+i"IMovable.h"
+i"IRadius.h"
+i"IParticleColider.h"
+i"IParticle.h"
+i"ISceneUser.h"
+i"ICustomUpdate.h"
+i"IHalfPlaneColider.h"
+i"IAxisAlignedHalfPlaneCollider.h"
+i"IMass.h"
+i"ICoefficientOfRestitution.h"
+i"ILifetime.h"
+i"Lifetime.h"
+i"IRectangleDimensions.h"
+i"IRectangleCollider.h"
+i"IAxisAlignedRectangleCollider.h"
+i"ICustomCollider.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Scene.classes.h
+c000000004D2C8A590000000000000047
+t1294764633
+s71
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults.Scene.h
+c000000004D2C8A59000000000000005B
+t1294764633
+s91
+i"IScene.h"
+i"SimpleScene.h"
+i"GridScene.h"
+i"SceneEventArgs.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch
+c000000004D2C8A5900000000000000E2
+t1294764633
+s226
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GridScene.h
+c000000004D2C8A590000000000000232
+t1294764633
+s562
+i<Foundation/Foundation.h>
+i"SimpleScene.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/GridScene.m
+c000000004D2C8A590000000000000A04
+t1294764633
+s2564
+i"GridScene.h"
+i"GameDefaults.Scene.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/HalfPlane.h
+c000000004D2C8A590000000000000214
+t1294764633
+s532
+i<Foundation/Foundation.h>
+i"GameDefaults.Math.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/HalfPlane.m
+c000000004D2C8A59000000000000030E
+t1294764633
+s782
+i"HalfPlane.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IAxisAlignedHalfPlaneCollider.h
+c000000004D2C8A590000000000000164
+t1294764633
+s356
+i<UIKit/UIKit.h>
+i"IHalfPlaneColider.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IAxisAlignedRectangleCollider.h
+c000000004D2C8A59000000000000013F
+t1294764633
+s319
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IRectangleDimensions.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ICoefficientOfRestitution.h
+c000000004D2C8A590000000000000114
+t1294764633
+s276
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ICustomCollider.h
+c000000004D2C8A59000000000000013B
+t1294764633
+s315
+i<UIKit/UIKit.h>
+i"System.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ICustomUpdate.h
+c000000004D2C8A590000000000000101
+t1294764633
+s257
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IHalfPlaneColider.h
+c000000004D2C8A590000000000000133
+t1294764633
+s307
+i<UIKit/UIKit.h>
+i"GameDefaults.Math.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ILifetime.h
+c000000004D2C8A59000000000000011F
+t1294764633
+s287
+i<UIKit/UIKit.h>
+i"GameDefaults.Scene.Objects.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IMass.h
+c000000004D2C8A5900000000000000E3
+t1294764633
+s227
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IMovable.h
+c000000004D2C8A5900000000000000FE
+t1294764633
+s254
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IVelocity.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IParticle.h
+c000000004D2C8A590000000000000125
+t1294764633
+s293
+i<UIKit/UIKit.h>
+i"IMovable.h"
+i"IMass.h"
+i"IParticleColider.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IParticleColider.h
+c000000004D2C8A59000000000000010A
+t1294764633
+s266
+i<UIKit/UIKit.h>
+i"IRadius.h"
+i"IPosition.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IPosition.h
+c000000004D2C8A5900000000000000FB
+t1294764633
+s251
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IRadius.h
+c000000004D2C8A5900000000000000E9
+t1294764633
+s233
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IRectangleCollider.h
+c000000004D2C8A590000000000000129
+t1294764633
+s297
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IRectangleDimensions.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IRectangleDimensions.h
+c000000004D2C8A590000000000000131
+t1294764633
+s305
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IScene.h
+c000000004D2C8A590000000000000223
+t1294764633
+s547
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ISceneUser.h
+c000000004D2C8A590000000000000189
+t1294764633
+s393
+i<UIKit/UIKit.h>
+i"GameDefaults.Scene.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/IVelocity.h
+c000000004D2C8A5900000000000000FB
+t1294764633
+s251
+i<UIKit/UIKit.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Image.h
+c000000004D2C8A590000000000000360
+t1294764633
+s864
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Image.m
+c000000004D2C8A590000000000000344
+t1294764633
+s836
+i"Image.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Label.h
+c000000004D2C8A590000000000000416
+t1294764633
+s1046
+i<Foundation/Foundation.h>
+i"MirageEnums.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Label.m
+c000000004D2C8A590000000000000831
+t1294764633
+s2097
+i"Label.h"
+i"Retronator.Xni.Framework.Graphics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Lifetime.h
+c000000004D2C8A5900000000000002B2
+t1294764633
+s690
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Lifetime.m
+c000000004D2C8A5900000000000002BA
+t1294764633
+s698
+i"Lifetime.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/MathEnums.h
+c000000004D2C8A590000000000000083
+t1294764633
+s131
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/MirageEnums.h
+c000000004D2C8A5900000000000000F2
+t1294764633
+s242
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/MovementPhysics.h
+c000000004D2C8A590000000000000162
+t1294764633
+s354
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/MovementPhysics.m
+c000000004D2C8A590000000000000231
+t1294764633
+s561
+i"MovementPhysics.h"
+i"GameDefaults.Scene.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.h
+c000000004D2C8A5900000000000002A9
+t1294764633
+s681
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m
+c000000004D2C8A590000000000000BF7
+t1294764633
+s3063
+i"ParticleAxisAlignedHalfPlaneCollision.h"
+i"GameDefaults.Scene.Objects.h"
+i"GameDefaults.Math.h"
+i"GameDefaults.Physics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.h
+c000000004D2C8A5900000000000002B3
+t1294764633
+s691
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m
+c000000004D2C8A5900000000000011BB
+t1294764633
+s4539
+i"ParticleAxisAlignedRectangleCollision.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleParticleColision.h
+c000000004D2C8A590000000000000250
+t1294764633
+s592
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleParticleColision.m
+c000000004D2C8A590000000000001857
+t1294764633
+s6231
+i"ParticleParticleColision.h"
+i"GameDefaults.Scene.Objects.h"
+i"GameDefaults.Physics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/PrimitiveBatch.h
+c000000004D2C8A59000000000000081B
+t1294764633
+s2075
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/PrimitiveBatch.m
+c000000004D2C8A59000000000000199F
+t1294764633
+s6559
+i"PrimitiveBatch.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.h
+c000000004D2C8A590000000000000304
+t1294764633
+s772
+i<Foundation/Foundation.h>
+i"GameDefaults.Math.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m
+c000000004D2C8A590000000000000C30
+t1294764633
+s3120
+i"RectangleAAHalfPlaneCollision.h"
+i"GameDefaults.Math.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleRectangleCollision.h
+c000000004D2C8A5900000000000002EE
+t1294764633
+s750
+i<Foundation/Foundation.h>
+i"GameDefaults.Scene.Objects.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleRectangleCollision.m
+c000000004D2C8A590000000000001164
+t1294764633
+s4452
+i"RectangleRectangleCollision.h"
+i"GameDefaults.Physics.h"
+i"GameDefaults.Scene.Objects.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneAction.h
+c000000004D2C8A5900000000000001F8
+t1294764633
+s504
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneAction.m
+c000000004D2C8A590000000000000200
+t1294764633
+s512
+i"SceneAction.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneEventArgs.h
+c000000004D2C8A590000000000000180
+t1294764633
+s384
+i<Foundation/Foundation.h>
+i"EventArgs.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneEventArgs.m
+c000000004D2C8A5900000000000001D0
+t1294764633
+s464
+i"SceneEventArgs.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/SimpleScene.h
+c000000004D2C8A5900000000000001AC
+t1294764633
+s428
+i<Foundation/Foundation.h>
+i"IScene.h"
+i"GameComponent.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/SimpleScene.m
+c000000004D2C8A590000000000000CBA
+t1294764633
+s3258
+i"SimpleScene.h"
+i"GameDefaults.Scene.h"
+i"GameDefaults.Scene.Objects.h"
+i"SceneAction.h"
+i"GameComponent.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Sprite.h
+c000000004D2C8A5900000000000001DE
+t1294764633
+s478
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/Sprite.m
+c000000004D2C8A590000000000000169
+t1294764633
+s361
+i"Sprite.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/TouchPanelHelper.h
+c000000004D2C8A59000000000000013A
+t1294764633
+s314
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Input.Touch.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/TouchPanelHelper.m
+c000000004D2C8A59000000000000020B
+t1294764633
+s523
+i"TouchPanelHelper.h"
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Fader.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GameDefaults.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GridScene.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Image.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Label.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/PrimitiveBatch.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleAAHalfPlaneCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneAction.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneEventArgs.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/TouchPanelHelper.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/libGameDefaults.a
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Fader.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GameDefaults.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GridScene.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Image.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Label.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/PrimitiveBatch.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleAAHalfPlaneCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneAction.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneEventArgs.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/TouchPanelHelper.o
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/libGameDefaults.a
+t2
+s0
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/BasicEffect.h
+c000000004D2C8A5A000000000000078E
+t1294764634
+s1934
+i<Foundation/Foundation.h>
+i"Effect.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/BlendState.h
+c000000004D2C8A5A00000000000005A0
+t1294764634
+s1440
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Color.h
+c000000004D2C8A5A000000000000116E
+t1294764634
+s4462
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Delegate.h
+c000000004D2C8A5A00000000000001F9
+t1294764634
+s505
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/DepthStencilState.h
+c000000004D2C8A5A00000000000006E5
+t1294764634
+s1765
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/DirectionalLight.h
+c000000004D2C8A5A0000000000000227
+t1294764634
+s551
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/DrawableGameComponent.h
+c000000004D2C8A5A0000000000000276
+t1294764634
+s630
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GameComponent.h"
+i"IDrawable.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Effect.h
+c000000004D2C8A5A00000000000001A8
+t1294764634
+s424
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/EffectPass.h
+c000000004D2C8A5A00000000000001D3
+t1294764634
+s467
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/EffectTechnique.h
+c000000004D2C8A5A00000000000001A3
+t1294764634
+s419
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Event.h
+c000000004D2C8A5A00000000000001BE
+t1294764634
+s446
+i<Foundation/Foundation.h>
+i"System.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/EventArgs.h
+c000000004D2C8A5A00000000000000D9
+t1294764634
+s217
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/FrameworkEnums.h
+c000000004D2C8A5A00000000000000B1
+t1294764634
+s177
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Game.h
+c000000004D2C8A5A0000000000000905
+t1294764634
+s2309
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"Retronator.Xni.Framework.Content.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameComponent.h
+c000000004D2C8A5A0000000000000242
+t1294764634
+s578
+i<Foundation/Foundation.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameComponentCollection.h
+c000000004D2C8A5A00000000000002C5
+t1294764634
+s709
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameComponentCollectionEventArgs.h
+c000000004D2C8A5A000000000000022E
+t1294764634
+s558
+i<Foundation/Foundation.h>
+i"EventArgs.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameHost.h
+c000000004D2C8A5A00000000000001A0
+t1294764634
+s416
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameServiceContainer.h
+c000000004D2C8A5A0000000000000182
+t1294764634
+s386
+i<Foundation/Foundation.h>
+i"System.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameTime.h
+c000000004D2C8A5A00000000000003FE
+t1294764634
+s1022
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GameWindow.h
+c000000004D2C8A5A00000000000003DA
+t1294764634
+s986
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GestureSample.h
+c000000004D2C8A5A00000000000002F4
+t1294764634
+s756
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GraphicsDevice.h
+c000000004D2C8A5A0000000000001055
+t1294764634
+s4181
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/glext.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GraphicsDeviceManager.h
+c000000004D2C8A5A0000000000000585
+t1294764634
+s1413
+i<Foundation/Foundation.h>
+i"System.h"
+i"IGraphicsDeviceManager.h"
+i"IGraphicsDeviceService.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GraphicsEnums.h
+c000000004D2C8A5A00000000000017BE
+t1294764634
+s6078
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES2/gl.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/GraphicsResource.h
+c000000004D2C8A5A0000000000000299
+t1294764634
+s665
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/HiDefGraphicsDevice.h
+c000000004D2C8A5A00000000000000FF
+t1294764634
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IDrawable.h
+c000000004D2C8A5A0000000000000132
+t1294764634
+s306
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IGameComponent.h
+c000000004D2C8A5A000000000000003F
+t1294764634
+s63
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IGraphicsDeviceManager.h
+c000000004D2C8A5A0000000000000064
+t1294764634
+s100
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IGraphicsDeviceService.h
+c000000004D2C8A5A000000000000018D
+t1294764634
+s397
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IServiceProvider.h
+c000000004D2C8A5A0000000000000045
+t1294764634
+s69
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IUpdatable.h
+c000000004D2C8A5A0000000000000139
+t1294764634
+s313
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IndexArray.h
+c000000004D2C8A5A0000000000000281
+t1294764634
+s641
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/IndexBuffer.h
+c000000004D2C8A5A00000000000002EF
+t1294764634
+s751
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/InputEnums.h
+c000000004D2C8A5A00000000000001D8
+t1294764634
+s472
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Matrix.h
+c000000004D2C8A5A0000000000000CC7
+t1294764634
+s3271
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/MatrixStruct.h
+c000000004D2C8A5A0000000000002DC4
+t1294764634
+s11716
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Model.h
+c000000004D2C8A5A00000000000002E7
+t1294764634
+s743
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelBone.h
+c000000004D2C8A5A0000000000000291
+t1294764634
+s657
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelBoneCollection.h
+c000000004D2C8A5A0000000000000204
+t1294764634
+s516
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelEffectCollection.h
+c000000004D2C8A5A000000000000016A
+t1294764634
+s362
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelMesh.h
+c000000004D2C8A5A000000000000029A
+t1294764634
+s666
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelMeshCollection.h
+c000000004D2C8A5A0000000000000206
+t1294764634
+s518
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelMeshPart.h
+c000000004D2C8A5A0000000000000337
+t1294764634
+s823
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ModelMeshPartCollection.h
+c000000004D2C8A5A0000000000000175
+t1294764634
+s373
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/PointStruct.h
+c000000004D2C8A5A0000000000000106
+t1294764634
+s262
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Protocols.h
+c000000004D2C8A5A0000000000000115
+t1294764634
+s277
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Quaternion.h
+c000000004D2C8A5A000000000000079A
+t1294764634
+s1946
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/RasterizerState.h
+c000000004D2C8A5A000000000000032C
+t1294764634
+s812
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ReachGraphicsDevice.h
+c000000004D2C8A5A00000000000000FF
+t1294764634
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ReadOnlyCollection.h
+c000000004D2C8A5A0000000000000209
+t1294764634
+s521
+i<Foundation/Foundation.h>
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Rectangle.h
+c000000004D2C8A5A0000000000000469
+t1294764634
+s1129
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/RectangleStruct.h
+c000000004D2C8A5A00000000000001EF
+t1294764634
+s495
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Content.classes.h
+c000000004D2C8A5A000000000000014A
+t1294764634
+s330
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Graphics.classes.h
+c000000004D2C8A5A00000000000003C0
+t1294764634
+s960
+i"GraphicsEnums.h"
+i"VertexStructs.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Graphics.h
+c000000004D2C8A5A0000000000000555
+t1294764634
+s1365
+i"GraphicsEnums.h"
+i"GraphicsResource.h"
+i"Texture.h"
+i"Texture2D.h"
+i"Effect.h"
+i"EffectTechnique.h"
+i"EffectPass.h"
+i"BasicEffect.h"
+i"DirectionalLight.h"
+i"VertexStructs.h"
+i"VertexElement.h"
+i"VertexPositionColor.h"
+i"VertexPositionTexture.h"
+i"VertexPositionColorTexture.h"
+i"VertexPositionNormalTexture.h"
+i"VertexDeclaration.h"
+i"VertexArray.h"
+i"VertexPositionColorArray.h"
+i"VertexPositionTextureArray.h"
+i"VertexPositionColorTextureArray.h"
+i"VertexPositionNormalTextureArray.h"
+i"IndexArray.h"
+i"ShortIndexArray.h"
+i"VertexBuffer.h"
+i"VertexBufferBinding.h"
+i"IndexBuffer.h"
+i"Model.h"
+i"ModelMeshCollection.h"
+i"ModelMesh.h"
+i"ModelEffectCollection.h"
+i"ModelMeshPartCollection.h"
+i"ModelMeshPart.h"
+i"ModelBone.h"
+i"ModelBoneCollection.h"
+i"BlendState.h"
+i"DepthStencilState.h"
+i"RasterizerState.h"
+i"SamplerState.h"
+i"SamplerStateCollection.h"
+i"TextureCollection.h"
+i"Viewport.h"
+i"IGraphicsDeviceService.h"
+i"GraphicsDevice.h"
+i"ReachGraphicsDevice.h"
+i"HiDefGraphicsDevice.h"
+i"SpriteBatch.h"
+i"SpriteFont.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Input.Touch.classes.h
+c000000004D2C8A5A0000000000000061
+t1294764634
+s97
+i"InputEnums.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Input.Touch.h
+c000000004D2C8A5A000000000000007F
+t1294764634
+s127
+i"InputEnums.h"
+i"TouchPanel.h"
+i"TouchCollection.h"
+i"TouchLocation.h"
+i"GestureSample.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.classes.h
+c000000004D2C8A5A000000000000028E
+t1294764634
+s654
+i"FrameworkEnums.h"
+i"PointStruct.h"
+i"RectangleStruct.h"
+i"Vector2Struct.h"
+i"Vector3Struct.h"
+i"Vector4Struct.h"
+i"MatrixStruct.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.h
+c000000004D2C8A5A00000000000002B2
+t1294764634
+s690
+i"FrameworkEnums.h"
+i"Protocols.h"
+i"XniPoint.h"
+i"Rectangle.h"
+i"Color.h"
+i"IGraphicsDeviceManager.h"
+i"Game.h"
+i"GameTime.h"
+i"GameServiceContainer.h"
+i"GraphicsDeviceManager.h"
+i"GameHost.h"
+i"GameWindow.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+i"IDrawable.h"
+i"GameComponent.h"
+i"DrawableGameComponent.h"
+i"GameComponentCollection.h"
+i"GameComponentCollectionEventArgs.h"
+i"Vector2.h"
+i"Vector3.h"
+i"Vector4.h"
+i"Quaternion.h"
+i"Matrix.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/SamplerState.h
+c000000004D2C8A5A00000000000003E4
+t1294764634
+s996
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/SamplerStateCollection.h
+c000000004D2C8A5A00000000000001EE
+t1294764634
+s494
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/ShortIndexArray.h
+c000000004D2C8A5A0000000000000147
+t1294764634
+s327
+i<Foundation/Foundation.h>
+i"IndexArray.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/SpriteBatch.h
+c000000004D2C8A5A0000000000000DE2
+t1294764634
+s3554
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/SpriteFont.h
+c000000004D2C8A5A00000000000002A6
+t1294764634
+s678
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/System.classes.h
+c000000004D2C8A5A0000000000000061
+t1294764634
+s97
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/System.h
+c000000004D2C8A5A000000000000007C
+t1294764634
+s124
+i"IServiceProvider.h"
+i"Delegate.h"
+i"Event.h"
+i"EventArgs.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Texture.h
+c000000004D2C8A5A000000000000022E
+t1294764634
+s558
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Texture2D.h
+c000000004D2C8A5A00000000000005BA
+t1294764634
+s1466
+i<Foundation/Foundation.h>
+i"Texture.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/TextureCollection.h
+c000000004D2C8A5A00000000000001CA
+t1294764634
+s458
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/TouchCollection.h
+c000000004D2C8A5A000000000000021E
+t1294764634
+s542
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/TouchLocation.h
+c000000004D2C8A5A0000000000000313
+t1294764634
+s787
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/TouchPanel.h
+c000000004D2C8A5A0000000000000403
+t1294764634
+s1027
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Vector2.h
+c000000004D2C8A5A000000000000063E
+t1294764634
+s1598
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Vector2Struct.h
+c000000004D2C8A5A000000000000081B
+t1294764634
+s2075
+i"MatrixStruct.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Vector3.h
+c000000004D2C8A5A0000000000000743
+t1294764634
+s1859
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Vector3Struct.h
+c000000004D2C8A5A0000000000000BC3
+t1294764634
+s3011
+i"MatrixStruct.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Vector4.h
+c000000004D2C8A5A000000000000060D
+t1294764634
+s1549
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Vector4Struct.h
+c000000004D2C8A5A0000000000000D2C
+t1294764634
+s3372
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexArray.h
+c000000004D2C8A5A0000000000000289
+t1294764634
+s649
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexBuffer.h
+c000000004D2C8A5A0000000000000301
+t1294764634
+s769
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexBufferBinding.h
+c000000004D2C8A5A0000000000000326
+t1294764634
+s806
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexDeclaration.h
+c000000004D2C8A5A00000000000001CD
+t1294764634
+s461
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexElement.h
+c000000004D2C8A5A00000000000004F4
+t1294764634
+s1268
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionColor.h
+c000000004D2C8A5A0000000000000128
+t1294764634
+s296
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionColorArray.h
+c000000004D2C8A5A0000000000000171
+t1294764634
+s369
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionColorTexture.h
+c000000004D2C8A5A0000000000000136
+t1294764634
+s310
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionColorTextureArray.h
+c000000004D2C8A5A0000000000000186
+t1294764634
+s390
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionNormalTexture.h
+c000000004D2C8A5A0000000000000139
+t1294764634
+s313
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionNormalTextureArray.h
+c000000004D2C8A5A000000000000018A
+t1294764634
+s394
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionTexture.h
+c000000004D2C8A5A000000000000012C
+t1294764634
+s300
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexPositionTextureArray.h
+c000000004D2C8A5A0000000000000177
+t1294764634
+s375
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/VertexStructs.h
+c000000004D2C8A5A0000000000000263
+t1294764634
+s611
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/Viewport.h
+c000000004D2C8A5A0000000000000355
+t1294764634
+s853
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/jsantos/Documents/FRIkanoid/XNI/usr/local/include/XniPoint.h
+c000000004D2C8A5A0000000000000342
+t1294764634
+s834
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.h
-c000000004CD094D40000000000000237
-t1288738004
+c000000004D2C8A590000000000000237
+t1294764633
 s567
 i<Foundation/Foundation.h>
 i"GameDefaults.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m
-c000000004CD094BE0000000000000667
-t1288737982
+c000000004D2C8A590000000000000667
+t1294764633
 s1639
 i"AnimatedSprite.h"
 i"GameDefaults.Graphics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.h
-c000000004CD0950C0000000000000239
-t1288738060
+c000000004D2C8A590000000000000239
+t1294764633
 s569
 i<Foundation/Foundation.h>
 i"GameDefaults.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m
-c000000004CD0951A00000000000002AB
-t1288738074
+c000000004D2C8A5900000000000002AB
+t1294764633
 s683
 i"AnimatedSpriteFrame.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.h
-c000000004CE01AFB0000000000000218
-t1289755387
+c000000004D2C8A590000000000000218
+t1294764633
 s536
 i<Foundation/Foundation.h>
 i"HalfPlane.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m
-c000000004CE01DB500000000000007AB
-t1289756085
+c000000004D2C8A5900000000000007AB
+t1294764633
 s1963
 i"AxisAlignedHalfPlane.h"
 
@@ -170,39 +1656,39 @@ s200
 i"BoundingBox.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.h
-c000000004CE566310000000000000237
-t1290102321
+c000000004D2C8A590000000000000237
+t1294764633
 s567
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m
-c000000004D08FFFE0000000000001D67
-t1292435454
+c000000004D2C8A590000000000001D67
+t1294764633
 s7527
 i"Collision.h"
 i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Fader.h
-c000000004D2126CA00000000000002CA
-t1294018250
+c000000004D2C8A5900000000000002CA
+t1294764633
 s714
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Fader.m
-c000000004D2128390000000000000470
-t1294018617
+c000000004D2C8A590000000000000470
+t1294764633
 s1136
 i"Fader.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Graphics.classes.h
-c000000004CF0319D0000000000000043
-t1290809757
+c000000004D2C8A590000000000000043
+t1294764633
 s67
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Graphics.h
-c000000004CF031B40000000000000068
-t1290809780
+c000000004D2C8A590000000000000068
+t1294764633
 s104
 i"Sprite.h"
 i"AnimatedSprite.h"
@@ -210,14 +1696,14 @@ i"AnimatedSpriteFrame.h"
 i"PrimitiveBatch.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Math.classes.h
-c000000004CE1CD6C000000000000003D
-t1289866604
+c000000004D2C8A59000000000000003D
+t1294764633
 s61
 i"MathEnums.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Math.h
-c000000004CE1CD66000000000000004C
-t1289866598
+c000000004D2C8A59000000000000004C
+t1294764633
 s76
 i"MathEnums.h"
 i"HalfPlane.h"
@@ -230,8 +1716,8 @@ s43
 i"MirageEnums.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Physics.h
-c000000004CF05A53000000000000010D
-t1290820179
+c000000004D2C8A59000000000000010D
+t1294764633
 s269
 i"MovementPhysics.h"
 i"ParticleParticleColision.h"
@@ -242,13 +1728,13 @@ i"RectangleRectangleCollision.h"
 i"RectangleAAHalfPlaneCollision.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.classes.h
-c000000004D21410400000000000001A1
-t1294024964
+c000000004D2C8A5900000000000001A1
+t1294764633
 s417
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.Objects.h
-c000000004D21410E00000000000001F0
-t1294024974
+c000000004D2C8A5900000000000001F0
+t1294764633
 s496
 i"IPosition.h"
 i"IVelocity.h"
@@ -270,13 +1756,13 @@ i"IAxisAlignedRectangleCollider.h"
 i"ICustomCollider.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.classes.h
-c000000004D2138420000000000000047
-t1294022722
+c000000004D2C8A590000000000000047
+t1294764633
 s71
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults.Scene.h
-c000000004D21383D000000000000005B
-t1294022717
+c000000004D2C8A59000000000000005B
+t1294764633
 s91
 i"IScene.h"
 i"SimpleScene.h"
@@ -284,50 +1770,50 @@ i"GridScene.h"
 i"SceneEventArgs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch
-c000000004CD3272200000000000000E2
-t1288906530
+c000000004D2C8A5900000000000000E2
+t1294764633
 s226
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GridScene.h
-c000000004D2133C30000000000000232
-t1294021571
+c000000004D2C8A590000000000000232
+t1294764633
 s562
 i<Foundation/Foundation.h>
 i"SimpleScene.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GridScene.m
-c000000004D2138530000000000000A04
-t1294022739
+c000000004D2C8A590000000000000A04
+t1294764633
 s2564
 i"GridScene.h"
 i"GameDefaults.Scene.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.h
-c000000004CE018640000000000000214
-t1289754724
+c000000004D2C8A590000000000000214
+t1294764633
 s532
 i<Foundation/Foundation.h>
 i"GameDefaults.Math.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m
-c000000004CE01977000000000000030E
-t1289754999
+c000000004D2C8A59000000000000030E
+t1294764633
 s782
 i"HalfPlane.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IAxisAlignedHalfPlaneCollider.h
-c000000004CE1CD9D0000000000000164
-t1289866653
+c000000004D2C8A590000000000000164
+t1294764633
 s356
 i<UIKit/UIKit.h>
 i"IHalfPlaneColider.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IAxisAlignedRectangleCollider.h
-c000000004CE56D2E000000000000013F
-t1290104110
+c000000004D2C8A59000000000000013F
+t1294764633
 s319
 i<UIKit/UIKit.h>
 i"IPosition.h"
@@ -347,21 +1833,21 @@ i<UIKit/UIKit.h>
 i"GameDefaults.Scene.objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICoefficientOfRestitution.h
-c000000004CD3316D0000000000000114
-t1288909165
+c000000004D2C8A590000000000000114
+t1294764633
 s276
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICustomCollider.h
-c000000004D08FEC0000000000000013B
-t1292435136
+c000000004D2C8A59000000000000013B
+t1294764633
 s315
 i<UIKit/UIKit.h>
 i"System.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ICustomUpdate.h
-c000000004D2138F90000000000000101
-t1294022905
+c000000004D2C8A590000000000000101
+t1294764633
 s257
 i<UIKit/UIKit.h>
 
@@ -372,36 +1858,36 @@ s276
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IHalfPlaneColider.h
-c000000004CE019A70000000000000133
-t1289755047
+c000000004D2C8A590000000000000133
+t1294764633
 s307
 i<UIKit/UIKit.h>
 i"GameDefaults.Math.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ILifetime.h
-c000000004CF551B8000000000000011F
-t1291145656
+c000000004D2C8A59000000000000011F
+t1294764633
 s287
 i<UIKit/UIKit.h>
 i"GameDefaults.Scene.Objects.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IMass.h
-c000000004CE1CD8F00000000000000E3
-t1289866639
+c000000004D2C8A5900000000000000E3
+t1294764633
 s227
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IMovable.h
-c000000004CD32D0800000000000000FE
-t1288908040
+c000000004D2C8A5900000000000000FE
+t1294764633
 s254
 i<UIKit/UIKit.h>
 i"IPosition.h"
 i"IVelocity.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IParticle.h
-c000000004CE1D9820000000000000125
-t1289869698
+c000000004D2C8A590000000000000125
+t1294764633
 s293
 i<UIKit/UIKit.h>
 i"IMovable.h"
@@ -409,131 +1895,131 @@ i"IMass.h"
 i"IParticleColider.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IParticleColider.h
-c000000004CD32DC4000000000000010A
-t1288908228
+c000000004D2C8A59000000000000010A
+t1294764633
 s266
 i<UIKit/UIKit.h>
 i"IRadius.h"
 i"IPosition.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IPosition.h
-c000000004CD32CAC00000000000000FB
-t1288907948
+c000000004D2C8A5900000000000000FB
+t1294764633
 s251
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IRadius.h
-c000000004CD46AE100000000000000E9
-t1288989409
+c000000004D2C8A5900000000000000E9
+t1294764633
 s233
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IRectangleCollider.h
-c000000004CE563C40000000000000129
-t1290101700
+c000000004D2C8A590000000000000129
+t1294764633
 s297
 i<UIKit/UIKit.h>
 i"IPosition.h"
 i"IRectangleDimensions.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IRectangleDimensions.h
-c000000004CE59EAB0000000000000131
-t1290116779
+c000000004D2C8A590000000000000131
+t1294764633
 s305
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IScene.h
-c000000004D21398D0000000000000223
-t1294023053
+c000000004D2C8A590000000000000223
+t1294764633
 s547
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ISceneUser.h
-c000000004CF2D36D0000000000000189
-t1290982253
+c000000004D2C8A590000000000000189
+t1294764633
 s393
 i<UIKit/UIKit.h>
 i"GameDefaults.Scene.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/IVelocity.h
-c000000004CD32CD200000000000000FB
-t1288907986
+c000000004D2C8A5900000000000000FB
+t1294764633
 s251
 i<UIKit/UIKit.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Image.h
-c000000004D212FEC0000000000000360
-t1294020588
+c000000004D2C8A590000000000000360
+t1294764633
 s864
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Image.m
-c000000004D2130D30000000000000344
-t1294020819
+c000000004D2C8A590000000000000344
+t1294764633
 s836
 i"Image.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Label.h
-c000000004D23963B0000000000000416
-t1294177851
+c000000004D2C8A590000000000000416
+t1294764633
 s1046
 i<Foundation/Foundation.h>
 i"MirageEnums.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Label.m
-c000000004D2398050000000000000831
-t1294178309
+c000000004D2C8A590000000000000831
+t1294764633
 s2097
 i"Label.h"
 i"Retronator.Xni.Framework.Graphics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.h
-c000000004CD3266700000000000002B2
-t1288906343
+c000000004D2C8A5900000000000002B2
+t1294764633
 s690
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m
-c000000004CD0997C00000000000002BA
-t1288739196
+c000000004D2C8A5900000000000002BA
+t1294764633
 s698
 i"Lifetime.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MathEnums.h
-c000000004CE01A9C0000000000000083
-t1289755292
+c000000004D2C8A590000000000000083
+t1294764633
 s131
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MirageEnums.h
-c000000004D23945400000000000000F2
-t1294177364
+c000000004D2C8A5900000000000000F2
+t1294764633
 s242
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.h
-c000000004CD3300E0000000000000162
-t1288908814
+c000000004D2C8A590000000000000162
+t1294764633
 s354
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m
-c000000004CD331580000000000000231
-t1288909144
+c000000004D2C8A590000000000000231
+t1294764633
 s561
 i"MovementPhysics.h"
 i"GameDefaults.Scene.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.h
-c000000004CE1869E00000000000002A9
-t1289848478
+c000000004D2C8A5900000000000002A9
+t1294764633
 s681
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m
-c000000004D0939FE0000000000000BF7
-t1292450302
+c000000004D2C8A590000000000000BF7
+t1294764633
 s3063
 i"ParticleAxisAlignedHalfPlaneCollision.h"
 i"GameDefaults.Scene.Objects.h"
@@ -541,15 +2027,15 @@ i"GameDefaults.Math.h"
 i"GameDefaults.Physics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.h
-c000000004CE57AD500000000000002B3
-t1290107605
+c000000004D2C8A5900000000000002B3
+t1294764633
 s691
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m
-c000000004CE57FE000000000000011BB
-t1290108896
+c000000004D2C8A5900000000000011BB
+t1294764633
 s4539
 i"ParticleAxisAlignedRectangleCollision.h"
 i"GameDefaults.Physics.h"
@@ -584,36 +2070,36 @@ i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.h
-c000000004CE186A50000000000000250
-t1289848485
+c000000004D2C8A590000000000000250
+t1294764633
 s592
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m
-c000000004CE186E00000000000001857
-t1289848544
+c000000004D2C8A590000000000001857
+t1294764633
 s6231
 i"ParticleParticleColision.h"
 i"GameDefaults.Scene.Objects.h"
 i"GameDefaults.Physics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.h
-c000000004CF0318D000000000000081B
-t1290809741
+c000000004D2C8A59000000000000081B
+t1294764633
 s2075
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.m
-c000000004D08CD35000000000000199F
-t1292422453
+c000000004D2C8A59000000000000199F
+t1294764633
 s6559
 i"PrimitiveBatch.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.h
-c000000004CF05E050000000000000304
-t1290821125
+c000000004D2C8A590000000000000304
+t1294764633
 s772
 i<Foundation/Foundation.h>
 i"GameDefaults.Math.h"
@@ -621,8 +2107,8 @@ i"GameDefaults.Physics.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m
-c000000004D2226550000000000000C30
-t1294083669
+c000000004D2C8A590000000000000C30
+t1294764633
 s3120
 i"RectangleAAHalfPlaneCollision.h"
 i"GameDefaults.Math.h"
@@ -630,56 +2116,56 @@ i"GameDefaults.Physics.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.h
-c000000004D234C1200000000000002EE
-t1294158866
+c000000004D2C8A5900000000000002EE
+t1294764633
 s750
 i<Foundation/Foundation.h>
 i"GameDefaults.Scene.Objects.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m
-c000000004D234D080000000000001164
-t1294159112
+c000000004D2C8A590000000000001164
+t1294764633
 s4452
 i"RectangleRectangleCollision.h"
 i"GameDefaults.Physics.h"
 i"GameDefaults.Scene.Objects.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneAction.h
-c000000004D2132CD00000000000001F8
-t1294021325
+c000000004D2C8A5900000000000001F8
+t1294764633
 s504
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneAction.m
-c000000004D21331E0000000000000200
-t1294021406
+c000000004D2C8A590000000000000200
+t1294764633
 s512
 i"SceneAction.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneEventArgs.h
-c000000004D2137B10000000000000180
-t1294022577
+c000000004D2C8A590000000000000180
+t1294764633
 s384
 i<Foundation/Foundation.h>
 i"EventArgs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneEventArgs.m
-c000000004D21380B00000000000001D0
-t1294022667
+c000000004D2C8A5900000000000001D0
+t1294764633
 s464
 i"SceneEventArgs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.h
-c000000004D2139D200000000000001AC
-t1294023122
+c000000004D2C8A5900000000000001AC
+t1294764633
 s428
 i<Foundation/Foundation.h>
 i"IScene.h"
 i"GameComponent.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m
-c000000004D21FC870000000000000CBA
-t1294072967
+c000000004D2C8A590000000000000CBA
+t1294764633
 s3258
 i"SimpleScene.h"
 i"GameDefaults.Scene.h"
@@ -688,34 +2174,34 @@ i"SceneAction.h"
 i"GameComponent.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h
-c000000004CD08C4700000000000001DE
-t1288735815
+c000000004D2C8A5900000000000001DE
+t1294764633
 s478
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m
-c000000004CD29E4D0000000000000169
-t1288871501
+c000000004D2C8A590000000000000169
+t1294764633
 s361
 i"Sprite.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/TouchPanelHelper.h
-c000000004D212527000000000000013A
-t1294017831
+c000000004D2C8A59000000000000013A
+t1294764633
 s314
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Input.Touch.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/TouchPanelHelper.m
-c000000004D2125AF000000000000020B
-t1294017967
+c000000004D2C8A59000000000000020B
+t1294764633
 s523
 i"TouchPanelHelper.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a
-t1292966046
-s673488
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a
 t1294025409
@@ -738,37 +2224,37 @@ t1288866353
 s478
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o
-t1292966044
-s56720
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o
-t1292966044
-s9832
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o
-t1292966044
-s13784
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o
-t1292966045
-s23672
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Fader.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GameDefaults.LinkFileList
-c000000004D111898000000000000095A
-t1292966040
-s2394
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GridScene.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o
-t1292966044
-s10960
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Image.o
 t2
@@ -779,36 +2265,36 @@ t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o
-t1292966044
-s10968
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o
-t1292966044
-s10452
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o
-t1292966045
-s13144
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o
-t1292966045
-s15724
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o
-t1292966044
-s10816
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/PrimitiveBatch.o
-t1292966045
-s71660
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleAAHalfPlaneCollision.o
-t1292966045
-s13804
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o
-t1292966045
-s8504
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneAction.o
 t2
@@ -819,53 +2305,53 @@ t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o
-t1292966044
-s13232
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o
-t1292966044
-s51084
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/TouchPanelHelper.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/libGameDefaults.a
-t1292966045
-s340832
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o
-t1292966045
-s55848
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o
-t1292966045
-s9784
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o
-t1292966045
-s13272
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o
-t1292966045
-s22744
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Fader.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GameDefaults.LinkFileList
-c000000004D111898000000000000095A
-t1292966040
-s2394
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GridScene.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o
-t1292966045
-s10788
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Image.o
 t2
@@ -876,36 +2362,36 @@ t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o
-t1292966045
-s10492
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o
-t1292966045
-s10332
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o
-t1292966045
-s12548
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o
-t1292966046
-s14812
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o
-t1292966045
-s10392
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/PrimitiveBatch.o
-t1292966046
-s70172
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleAAHalfPlaneCollision.o
-t1292966046
-s12864
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o
-t1292966046
-s7940
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneAction.o
 t2
@@ -916,20 +2402,20 @@ t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o
-t1292966045
-s13128
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o
-t1292966045
-s51008
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/TouchPanelHelper.o
 t2
 s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/libGameDefaults.a
-t1292966046
-s332608
+t2
+s0
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/Objects-normal/i386/AnimatedSprite.o
 t1294019396
@@ -1064,51 +2550,51 @@ s0
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/BasicEffect.h
-c000000004D11F69E000000000000078E
-t1293022878
+c000000004D2C8A5A000000000000078E
+t1294764634
 s1934
 i<Foundation/Foundation.h>
 i"Effect.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/BlendState.h
-c000000004D11F69E00000000000005A0
-t1293022878
+c000000004D2C8A5A00000000000005A0
+t1294764634
 s1440
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Color.h
-c000000004D11F69E000000000000116E
-t1293022878
+c000000004D2C8A5A000000000000116E
+t1294764634
 s4462
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Delegate.h
-c000000004D11F69E00000000000001F9
-t1293022878
+c000000004D2C8A5A00000000000001F9
+t1294764634
 s505
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/DepthStencilState.h
-c000000004D11F69E00000000000006E5
-t1293022878
+c000000004D2C8A5A00000000000006E5
+t1294764634
 s1765
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/DirectionalLight.h
-c000000004D11F69E0000000000000227
-t1293022878
+c000000004D2C8A5A0000000000000227
+t1294764634
 s551
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/DrawableGameComponent.h
-c000000004D11F69E0000000000000276
-t1293022878
+c000000004D2C8A5A0000000000000276
+t1294764634
 s630
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
@@ -1116,46 +2602,46 @@ i"GameComponent.h"
 i"IDrawable.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Effect.h
-c000000004D11F69E00000000000001A8
-t1293022878
+c000000004D2C8A5A00000000000001A8
+t1294764634
 s424
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/EffectPass.h
-c000000004D11F69E00000000000001D3
-t1293022878
+c000000004D2C8A5A00000000000001D3
+t1294764634
 s467
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/EffectTechnique.h
-c000000004D11F69E00000000000001A3
-t1293022878
+c000000004D2C8A5A00000000000001A3
+t1294764634
 s419
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Event.h
-c000000004D11F69E00000000000001BE
-t1293022878
+c000000004D2C8A5A00000000000001BE
+t1294764634
 s446
 i<Foundation/Foundation.h>
 i"System.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/EventArgs.h
-c000000004D11F69E00000000000000D9
-t1293022878
+c000000004D2C8A5A00000000000000D9
+t1294764634
 s217
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/FrameworkEnums.h
-c000000004D11F69E00000000000000B1
-t1293022878
+c000000004D2C8A5A00000000000000B1
+t1294764634
 s177
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Game.h
-c000000004D11F69E0000000000000905
-t1293022878
+c000000004D2C8A5A0000000000000905
+t1294764634
 s2309
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
@@ -1165,8 +2651,8 @@ i"Retronator.Xni.Framework.Graphics.classes.h"
 i"Retronator.Xni.Framework.Content.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameComponent.h
-c000000004D11F69E0000000000000242
-t1293022878
+c000000004D2C8A5A0000000000000242
+t1294764634
 s578
 i<Foundation/Foundation.h>
 i"System.classes.h"
@@ -1175,45 +2661,45 @@ i"IGameComponent.h"
 i"IUpdatable.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameComponentCollection.h
-c000000004D11F69E00000000000002C5
-t1293022878
+c000000004D2C8A5A00000000000002C5
+t1294764634
 s709
 i<Foundation/Foundation.h>
 i"System.h"
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameComponentCollectionEventArgs.h
-c000000004D11F69E000000000000022E
-t1293022878
+c000000004D2C8A5A000000000000022E
+t1294764634
 s558
 i<Foundation/Foundation.h>
 i"EventArgs.h"
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameHost.h
-c000000004D11F69E00000000000001A0
-t1293022878
+c000000004D2C8A5A00000000000001A0
+t1294764634
 s416
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameServiceContainer.h
-c000000004D11F69E0000000000000182
-t1293022878
+c000000004D2C8A5A0000000000000182
+t1294764634
 s386
 i<Foundation/Foundation.h>
 i"System.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameTime.h
-c000000004D11F69E00000000000003FE
-t1293022878
+c000000004D2C8A5A00000000000003FE
+t1294764634
 s1022
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameWindow.h
-c000000004D11F69E00000000000003DA
-t1293022878
+c000000004D2C8A5A00000000000003DA
+t1294764634
 s986
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
@@ -1221,16 +2707,16 @@ i"System.h"
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GestureSample.h
-c000000004D11F69E00000000000002F4
-t1293022878
+c000000004D2C8A5A00000000000002F4
+t1294764634
 s756
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsDevice.h
-c000000004D11F69E0000000000001055
-t1293022878
+c000000004D2C8A5A0000000000001055
+t1294764634
 s4181
 i<Foundation/Foundation.h>
 i<QuartzCore/QuartzCore.h>
@@ -1241,8 +2727,8 @@ i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsDeviceManager.h
-c000000004D11F69E0000000000000585
-t1293022878
+c000000004D2C8A5A0000000000000585
+t1294764634
 s1413
 i<Foundation/Foundation.h>
 i"System.h"
@@ -1252,220 +2738,220 @@ i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsEnums.h
-c000000004D11F69E00000000000017BE
-t1293022878
+c000000004D2C8A5A00000000000017BE
+t1294764634
 s6078
 i<OpenGLES/ES1/gl.h>
 i<OpenGLES/ES2/gl.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsResource.h
-c000000004D11F69E0000000000000299
-t1293022878
+c000000004D2C8A5A0000000000000299
+t1294764634
 s665
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/HiDefGraphicsDevice.h
-c000000004D11F69E00000000000000FF
-t1293022878
+c000000004D2C8A5A00000000000000FF
+t1294764634
 s255
 i<Foundation/Foundation.h>
 i"GraphicsDevice.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IDrawable.h
-c000000004D11F69E0000000000000132
-t1293022878
+c000000004D2C8A5A0000000000000132
+t1294764634
 s306
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IGameComponent.h
-c000000004D11F69E000000000000003F
-t1293022878
+c000000004D2C8A5A000000000000003F
+t1294764634
 s63
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IGraphicsDeviceManager.h
-c000000004D11F69E0000000000000064
-t1293022878
+c000000004D2C8A5A0000000000000064
+t1294764634
 s100
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IGraphicsDeviceService.h
-c000000004D11F69E000000000000018D
-t1293022878
+c000000004D2C8A5A000000000000018D
+t1294764634
 s397
 i"System.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IServiceProvider.h
-c000000004D11F69E0000000000000045
-t1293022878
+c000000004D2C8A5A0000000000000045
+t1294764634
 s69
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IUpdatable.h
-c000000004D11F69E0000000000000139
-t1293022878
+c000000004D2C8A5A0000000000000139
+t1294764634
 s313
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IndexArray.h
-c000000004D11F69E0000000000000281
-t1293022878
+c000000004D2C8A5A0000000000000281
+t1294764634
 s641
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IndexBuffer.h
-c000000004D11F69E00000000000002EF
-t1293022878
+c000000004D2C8A5A00000000000002EF
+t1294764634
 s751
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/InputEnums.h
-c000000004D11F69E00000000000001D8
-t1293022878
+c000000004D2C8A5A00000000000001D8
+t1294764634
 s472
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Matrix.h
-c000000004D11F69E0000000000000CC7
-t1293022878
+c000000004D2C8A5A0000000000000CC7
+t1294764634
 s3271
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/MatrixStruct.h
-c000000004D11F69E0000000000002DC4
-t1293022878
+c000000004D2C8A5A0000000000002DC4
+t1294764634
 s11716
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Model.h
-c000000004D11F69E00000000000002E7
-t1293022878
+c000000004D2C8A5A00000000000002E7
+t1294764634
 s743
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelBone.h
-c000000004D11F69E0000000000000291
-t1293022878
+c000000004D2C8A5A0000000000000291
+t1294764634
 s657
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelBoneCollection.h
-c000000004D11F69E0000000000000204
-t1293022878
+c000000004D2C8A5A0000000000000204
+t1294764634
 s516
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelEffectCollection.h
-c000000004D11F69E000000000000016A
-t1293022878
+c000000004D2C8A5A000000000000016A
+t1294764634
 s362
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMesh.h
-c000000004D11F69E000000000000029A
-t1293022878
+c000000004D2C8A5A000000000000029A
+t1294764634
 s666
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMeshCollection.h
-c000000004D11F69E0000000000000206
-t1293022878
+c000000004D2C8A5A0000000000000206
+t1294764634
 s518
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMeshPart.h
-c000000004D11F69E0000000000000337
-t1293022878
+c000000004D2C8A5A0000000000000337
+t1294764634
 s823
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMeshPartCollection.h
-c000000004D11F69E0000000000000175
-t1293022878
+c000000004D2C8A5A0000000000000175
+t1294764634
 s373
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/PointStruct.h
-c000000004D11F69E0000000000000106
-t1293022878
+c000000004D2C8A5A0000000000000106
+t1294764634
 s262
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Protocols.h
-c000000004D11F69E0000000000000115
-t1293022878
+c000000004D2C8A5A0000000000000115
+t1294764634
 s277
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Quaternion.h
-c000000004D11F69E000000000000079A
-t1293022878
+c000000004D2C8A5A000000000000079A
+t1294764634
 s1946
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/RasterizerState.h
-c000000004D11F69E000000000000032C
-t1293022878
+c000000004D2C8A5A000000000000032C
+t1294764634
 s812
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ReachGraphicsDevice.h
-c000000004D11F69E00000000000000FF
-t1293022878
+c000000004D2C8A5A00000000000000FF
+t1294764634
 s255
 i<Foundation/Foundation.h>
 i"GraphicsDevice.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ReadOnlyCollection.h
-c000000004D11F69E0000000000000209
-t1293022878
+c000000004D2C8A5A0000000000000209
+t1294764634
 s521
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Rectangle.h
-c000000004D11F69E0000000000000469
-t1293022878
+c000000004D2C8A5A0000000000000469
+t1294764634
 s1129
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/RectangleStruct.h
-c000000004D11F69E00000000000001EF
-t1293022878
+c000000004D2C8A5A00000000000001EF
+t1294764634
 s495
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Content.classes.h
-c000000004D11F69E000000000000014A
-t1293022878
+c000000004D2C8A5A000000000000014A
+t1294764634
 s330
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Graphics.classes.h
-c000000004D11F69E00000000000003C0
-t1293022878
+c000000004D2C8A5A00000000000003C0
+t1294764634
 s960
 i"GraphicsEnums.h"
 i"VertexStructs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Graphics.h
-c000000004D11F69E0000000000000555
-t1293022878
+c000000004D2C8A5A0000000000000555
+t1294764634
 s1365
 i"GraphicsEnums.h"
 i"GraphicsResource.h"
@@ -1516,14 +3002,14 @@ i"SpriteBatch.h"
 i"SpriteFont.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Input.Touch.classes.h
-c000000004D11F69E0000000000000061
-t1293022878
+c000000004D2C8A5A0000000000000061
+t1294764634
 s97
 i"InputEnums.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Input.Touch.h
-c000000004D11F69E000000000000007F
-t1293022878
+c000000004D2C8A5A000000000000007F
+t1294764634
 s127
 i"InputEnums.h"
 i"TouchPanel.h"
@@ -1532,8 +3018,8 @@ i"TouchLocation.h"
 i"GestureSample.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.classes.h
-c000000004D11F69E000000000000028E
-t1293022878
+c000000004D2C8A5A000000000000028E
+t1294764634
 s654
 i"FrameworkEnums.h"
 i"PointStruct.h"
@@ -1544,8 +3030,8 @@ i"Vector4Struct.h"
 i"MatrixStruct.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.h
-c000000004D11F69E00000000000002B2
-t1293022878
+c000000004D2C8A5A00000000000002B2
+t1294764634
 s690
 i"FrameworkEnums.h"
 i"Protocols.h"
@@ -1573,51 +3059,51 @@ i"Quaternion.h"
 i"Matrix.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SamplerState.h
-c000000004D11F69E00000000000003E4
-t1293022878
+c000000004D2C8A5A00000000000003E4
+t1294764634
 s996
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SamplerStateCollection.h
-c000000004D11F69E00000000000001EE
-t1293022878
+c000000004D2C8A5A00000000000001EE
+t1294764634
 s494
 i<Foundation/Foundation.h>
 i"System.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ShortIndexArray.h
-c000000004D11F69E0000000000000147
-t1293022878
+c000000004D2C8A5A0000000000000147
+t1294764634
 s327
 i<Foundation/Foundation.h>
 i"IndexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SpriteBatch.h
-c000000004D11F69E0000000000000DE2
-t1293022878
+c000000004D2C8A5A0000000000000DE2
+t1294764634
 s3554
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SpriteFont.h
-c000000004D11F69E00000000000002A6
-t1293022878
+c000000004D2C8A5A00000000000002A6
+t1294764634
 s678
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/System.classes.h
-c000000004D11F69E0000000000000061
-t1293022878
+c000000004D2C8A5A0000000000000061
+t1294764634
 s97
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/System.h
-c000000004D11F69E000000000000007C
-t1293022878
+c000000004D2C8A5A000000000000007C
+t1294764634
 s124
 i"IServiceProvider.h"
 i"Delegate.h"
@@ -1625,45 +3111,45 @@ i"Event.h"
 i"EventArgs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Texture.h
-c000000004D11F69E000000000000022E
-t1293022878
+c000000004D2C8A5A000000000000022E
+t1294764634
 s558
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Texture2D.h
-c000000004D11F69E00000000000005BA
-t1293022878
+c000000004D2C8A5A00000000000005BA
+t1294764634
 s1466
 i<Foundation/Foundation.h>
 i"Texture.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TextureCollection.h
-c000000004D11F69E00000000000001CA
-t1293022878
+c000000004D2C8A5A00000000000001CA
+t1294764634
 s458
 i<Foundation/Foundation.h>
 i"System.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TouchCollection.h
-c000000004D11F69E000000000000021E
-t1293022878
+c000000004D2C8A5A000000000000021E
+t1294764634
 s542
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TouchLocation.h
-c000000004D11F69E0000000000000313
-t1293022878
+c000000004D2C8A5A0000000000000313
+t1294764634
 s787
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TouchPanel.h
-c000000004D11F69E0000000000000403
-t1293022878
+c000000004D2C8A5A0000000000000403
+t1294764634
 s1027
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
@@ -1671,150 +3157,150 @@ i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector2.h
-c000000004D11F69E000000000000063E
-t1293022878
+c000000004D2C8A5A000000000000063E
+t1294764634
 s1598
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector2Struct.h
-c000000004D11F69E000000000000081B
-t1293022878
+c000000004D2C8A5A000000000000081B
+t1294764634
 s2075
 i"MatrixStruct.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector3.h
-c000000004D11F69E0000000000000743
-t1293022878
+c000000004D2C8A5A0000000000000743
+t1294764634
 s1859
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector3Struct.h
-c000000004D11F69E0000000000000BC3
-t1293022878
+c000000004D2C8A5A0000000000000BC3
+t1294764634
 s3011
 i"MatrixStruct.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector4.h
-c000000004D11F69E000000000000060D
-t1293022878
+c000000004D2C8A5A000000000000060D
+t1294764634
 s1549
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector4Struct.h
-c000000004D11F69E0000000000000D2C
-t1293022878
+c000000004D2C8A5A0000000000000D2C
+t1294764634
 s3372
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexArray.h
-c000000004D11F69E0000000000000289
-t1293022878
+c000000004D2C8A5A0000000000000289
+t1294764634
 s649
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexBuffer.h
-c000000004D11F69E0000000000000301
-t1293022878
+c000000004D2C8A5A0000000000000301
+t1294764634
 s769
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexBufferBinding.h
-c000000004D11F69E0000000000000326
-t1293022878
+c000000004D2C8A5A0000000000000326
+t1294764634
 s806
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexDeclaration.h
-c000000004D11F69E00000000000001CD
-t1293022878
+c000000004D2C8A5A00000000000001CD
+t1294764634
 s461
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexElement.h
-c000000004D11F69E00000000000004F4
-t1293022878
+c000000004D2C8A5A00000000000004F4
+t1294764634
 s1268
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColor.h
-c000000004D11F69E0000000000000128
-t1293022878
+c000000004D2C8A5A0000000000000128
+t1294764634
 s296
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColorArray.h
-c000000004D11F69E0000000000000171
-t1293022878
+c000000004D2C8A5A0000000000000171
+t1294764634
 s369
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColorTexture.h
-c000000004D11F69E0000000000000136
-t1293022878
+c000000004D2C8A5A0000000000000136
+t1294764634
 s310
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColorTextureArray.h
-c000000004D11F69E0000000000000186
-t1293022878
+c000000004D2C8A5A0000000000000186
+t1294764634
 s390
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionNormalTexture.h
-c000000004D11F69E0000000000000139
-t1293022878
+c000000004D2C8A5A0000000000000139
+t1294764634
 s313
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionNormalTextureArray.h
-c000000004D11F69E000000000000018A
-t1293022878
+c000000004D2C8A5A000000000000018A
+t1294764634
 s394
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionTexture.h
-c000000004D11F69E000000000000012C
-t1293022878
+c000000004D2C8A5A000000000000012C
+t1294764634
 s300
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionTextureArray.h
-c000000004D11F69E0000000000000177
-t1293022878
+c000000004D2C8A5A0000000000000177
+t1294764634
 s375
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexStructs.h
-c000000004D11F69E0000000000000263
-t1293022878
+c000000004D2C8A5A0000000000000263
+t1294764634
 s611
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Viewport.h
-c000000004D11F69E0000000000000355
-t1293022878
+c000000004D2C8A5A0000000000000355
+t1294764634
 s853
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/XniPoint.h
-c000000004D11F69E0000000000000342
-t1293022878
+c000000004D2C8A5A0000000000000342
+t1294764634
 s834
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
@@ -1852,137 +3338,277 @@ N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/Shared
 t1288906532
 s17248656
 
+N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-gvpxxmhzbecrwzaaospeuejhrvuu/GameDefaults_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-hanoayasjxktbjfkanxqyvnmlzdr/GameDefaults_Prefix.pch.gch
+t2
+s0
+
 CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies315718209#315718209#0(0"0(0#1#0"8623422624#0"0#
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Collision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Fader.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Fader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Fader.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Fader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GridScene.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/GridScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/GridScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GridScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/HalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Image.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Image.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Image.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Image.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Label.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Label.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Label.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Label.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Lifetime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/MovementPhysics.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/PrimitiveBatch.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/PrimitiveBatch.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/PrimitiveBatch.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleAAHalfPlaneCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleAAHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/RectangleRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneAction.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneAction.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneAction.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneAction.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneEventArgs.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneEventArgs.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SceneEventArgs.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneEventArgs.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/SimpleScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Sprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/TouchPanelHelper.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/TouchPanelHelper.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/TouchPanelHelper.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/TouchPanelHelper.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AnimatedSpriteFrame.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AnimatedSpriteFrame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/AxisAlignedHalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/AxisAlignedHalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Collision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Collision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Collision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Fader.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Fader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Fader.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Fader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GridScene.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/GridScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/GridScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GridScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/HalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/HalfPlane.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/HalfPlane.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Image.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Image.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Image.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Image.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Label.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Label.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Label.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Label.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Lifetime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Lifetime.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Lifetime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/MovementPhysics.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/MovementPhysics.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/MovementPhysics.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleAxisAlignedRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleAxisAlignedRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/ParticleParticleColision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/ParticleParticleColision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/PrimitiveBatch.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/PrimitiveBatch.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/PrimitiveBatch.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/PrimitiveBatch.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleAAHalfPlaneCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleAAHalfPlaneCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleAAHalfPlaneCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/RectangleRectangleCollision.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/RectangleRectangleCollision.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneAction.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneAction.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneAction.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneAction.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneEventArgs.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/SceneEventArgs.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SceneEventArgs.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SceneEventArgs.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/SimpleScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/SimpleScene.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/SimpleScene.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/Sprite.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/TouchPanelHelper.o /Users/jsantos/Documents/FRIkanoid/GameDefaults/TouchPanelHelper.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/TouchPanelHelper.o /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/TouchPanelHelper.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -2355,7 +3981,16 @@ xbuild/Debug-iphonesimulator/usr/local/include/Sprite.h
 xSprite.h
 lSLF07#2@13"Copy Sprite.h310559153#310559153#0(0"0(0#0#66"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h8612901824#515"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/Sprite.h /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/usr/local/include0#
 
+CCreateUniversalBinary /Users/jsantos/Documents/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a normal "armv6 armv7"
+r0
+
 CCreateUniversalBinary /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphoneos/libGameDefaults.a normal "armv6 armv7"
+r0
+
+CLibtool /Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv6/libGameDefaults.a normal armv6
+r0
+
+CLibtool /Users/jsantos/Documents/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphoneos/GameDefaults.build/Objects-normal/armv7/libGameDefaults.a normal armv7
 r0
 
 CLibtool /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/libGameDefaults.a normal i386
@@ -2448,4 +4083,10 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile GameDefaults_Prefix.pch310599331#310599332#0(0"0(0#0#81"/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch8622274272#2180"    cd /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-generated-files.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-own-target-headers.hmap -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-all-target-headers.hmap -iquote /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/GameDefaults-project-headers.hmap -F/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator -iquote/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/../XNI/usr/local/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/Debug-iphonesimulator/include -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources/i386 -I/Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/build/GameDefaults.build/Debug-iphonesimulator/GameDefaults.build/DerivedSources -c /Users/jsantos/Documents/workspace/FRIkanoid/GameDefaults/GameDefaults_Prefix.pch -o /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-feasbhrycvaatqavphzkistgchni/GameDefaults_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-gvpxxmhzbecrwzaaospeuejhrvuu/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/5j/5jCHH91AGA06xuXTdarTP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GameDefaults_Prefix-hanoayasjxktbjfkanxqyvnmlzdr/GameDefaults_Prefix.pch.gch GameDefaults_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 

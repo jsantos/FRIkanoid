@@ -8,35 +8,15 @@
 
 #import "MainMenu.h"
 #import "Retronator.Xni.Framework.Content.h"
-#import "Retronator.Xni.Framework.COntent.Pipeline.Processors.h"
+#import "Retronator.Xni.Framework.Content.Pipeline.Processors.h"
 #import "Chomponthis.FRIkanoid.h"
 
 @implementation MainMenu
 
-- (id) initWithGame:(Game *)theGame {
-	self = [super initWithGame:theGame];
-	if (self != nil) {
-		scene = [[SimpleScene alloc] initWithGame:self.game];
-		renderer = [[GuiRenderer alloc] initWithGame:self.game scene:scene];
-	}
-	return self;
-}
-
 - (void) initialize {
-	//[super initialize];
-	[SoundEngine play:Music];
-	FontTextureProcessor *fontProcessor = [[[FontTextureProcessor alloc] init] autorelease];
-	retrotype = [self.game.content load:@"ArkaType12" processor:fontProcessor];
-	fivexfive = [self.game.content load:@"5x5" processor:fontProcessor];
-	fivexfive.lineSpacing = 14;
+	[super initialize];
 	
-	buttonBackground = [self.game.content load:@"Button"];
-	
-	back = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:0 y:150 width:320 height:32] background:buttonBackground font:retrotype text:@"Back"];
-	back.labelColor = [Color white];
-	back.labelHoverColor = [Color gray];
-	back.label.position.x = 160;
-	back.label.horizontalAlign = HorizontalAlignCenter;
+	//[super playMusic];	
 	
 	Texture2D *logoTexture = [[self.game.content load:@"BigLogo"] autorelease];
 	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2)-160 y:30]];
@@ -67,20 +47,15 @@
 	[leaderboards.backgroundImage setScaleUniform:2];
 	[scene addItem:leaderboards];
 	
-	[super initialize];
+	//[super initialize];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
-	for(id item in scene){
-		Button *button = [item isKindOfClass:[Button class]] ? item : nil;
-		if (button) {
-			[button update];
-		}
-	}
+	[super updateWithGameTime:gameTime];
 	
-	if (back.wasReleased) {
-		[frikanoid popState];
-	}
+//	if (back.wasReleased) {
+//		[frikanoid popState];
+//	}
 	
 	GameState *newState = nil;
 	
@@ -105,28 +80,12 @@
 	}
 }
 
-- (void) activate {
-	[self.game.components addComponent:scene];
-	[self.game.components addComponent:renderer];
-}
-
-- (void) deactivate {
-	[self.game.components removeComponent:scene];
-	[self.game.components removeComponent:renderer];
-}
-
 - (void) dealloc {
 	[logo release];
 	[startGame release];
 	[leaderboards release];
 	[options release];
 	
-	[back release];
-	[buttonBackground release];
-	[retrotype release];
-	[fivexfive release];
-	[scene release];
-	[renderer release];
 	[currentGameplay release];
 	[super dealloc];
 }

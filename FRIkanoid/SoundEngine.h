@@ -15,8 +15,11 @@
 	BOOL muted;
 }
 
+@property (nonatomic) BOOL muted;
+
 + (void) initializeWithGame:(Game*)game;
 + (void) play:(SoundEffectType)type;
++ (SoundEffectInstance*) createInstance:(SoundEffectType)type;
 + (void) stop:(SoundEffectType)type;
 
 @end

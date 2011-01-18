@@ -13,6 +13,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		640221A51290B5620008D1EA /* Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 640221A41290B5620008D1EA /* Boundary.m */; };
 		6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */; };
+		642EC7A212DDF13F00AB0E36 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 642EC7A112DDF13F00AB0E36 /* Menu.m */; };
 		6441012812DB6E870079A24E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441012712DB6E870079A24E /* MainMenu.m */; };
 		6441012F12DB6F1E0079A24E /* TheDuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441012D12DB6F1E0079A24E /* TheDuke.png */; };
 		6441013012DB6F1E0079A24E /* TablePlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441012E12DB6F1E0079A24E /* TablePlain.png */; };
@@ -59,6 +60,7 @@
 		64C6E5DE12A55C53007FC07F /* Explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C6E5DD12A55C53007FC07F /* Explosion.png */; };
 		64C707351275E2DC0028822D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C707341275E2DC0028822D /* Ball.m */; };
 		64C928ED12982E7400869CF4 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C928EC12982E7400869CF4 /* PowerUp.m */; };
+		64CC542712E35217006E6B6D /* GameProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CC542612E35217006E6B6D /* GameProgress.m */; };
 		64CDA0C01275F05B00DA0FAA /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0BF1275F05B00DA0FAA /* Pad.m */; };
 		64CDA0F61275F30A00DA0FAA /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDA0F51275F30A00DA0FAA /* Brick.m */; };
 		64E64A5512DA8A7A0092E41A /* ArkaType12.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 64E64A5412DA8A7A0092E41A /* ArkaType12.bmp */; };
@@ -97,6 +99,8 @@
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel2.h; sourceTree = "<group>"; };
 		6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel2.m; sourceTree = "<group>"; };
+		642EC7A012DDF13F00AB0E36 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		642EC7A112DDF13F00AB0E36 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		6441012612DB6E870079A24E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		6441012712DB6E870079A24E /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 		6441012D12DB6F1E0079A24E /* TheDuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheDuke.png; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chomponthis.FRIkanoid.h; sourceTree = "<group>"; };
 		64C928EB12982E7400869CF4 /* PowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUp.h; sourceTree = "<group>"; };
 		64C928EC12982E7400869CF4 /* PowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerUp.m; sourceTree = "<group>"; };
+		64CC542512E35217006E6B6D /* GameProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameProgress.h; sourceTree = "<group>"; };
+		64CC542612E35217006E6B6D /* GameProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameProgress.m; sourceTree = "<group>"; };
 		64CDA0BE1275F05B00DA0FAA /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
 		64CDA0BF1275F05B00DA0FAA /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
 		64CDA0F41275F30A00DA0FAA /* Brick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
@@ -320,6 +326,8 @@
 				6441042812DB9F740079A24E /* OptionsMenu.m */,
 				6441042A12DB9F7C0079A24E /* LeaderBoardMenu.h */,
 				6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */,
+				642EC7A012DDF13F00AB0E36 /* Menu.h */,
+				642EC7A112DDF13F00AB0E36 /* Menu.m */,
 			);
 			name = Menus;
 			sourceTree = "<group>";
@@ -416,6 +424,8 @@
 				64C7073B1275E3320028822D /* Chomponthis.FRIkanoid.h */,
 				64FAF80D129350B800639A2D /* Random.h */,
 				64FAF80E129350B800639A2D /* Random.m */,
+				64CC542512E35217006E6B6D /* GameProgress.h */,
+				64CC542612E35217006E6B6D /* GameProgress.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -613,6 +623,8 @@
 				6441012812DB6E870079A24E /* MainMenu.m in Sources */,
 				6441042912DB9F740079A24E /* OptionsMenu.m in Sources */,
 				6441042C12DB9F7C0079A24E /* LeaderBoardMenu.m in Sources */,
+				642EC7A212DDF13F00AB0E36 /* Menu.m in Sources */,
+				64CC542712E35217006E6B6D /* GameProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
