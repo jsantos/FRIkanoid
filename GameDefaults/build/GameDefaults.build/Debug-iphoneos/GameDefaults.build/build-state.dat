@@ -2550,51 +2550,51 @@ s0
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/BasicEffect.h
-c000000004D2C8A5A000000000000078E
-t1294764634
+c000000004D35AC13000000000000078E
+t1295363091
 s1934
 i<Foundation/Foundation.h>
 i"Effect.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/BlendState.h
-c000000004D2C8A5A00000000000005A0
-t1294764634
+c000000004D35AC1300000000000005A0
+t1295363091
 s1440
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Color.h
-c000000004D2C8A5A000000000000116E
-t1294764634
+c000000004D35AC13000000000000116E
+t1295363091
 s4462
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Delegate.h
-c000000004D2C8A5A00000000000001F9
-t1294764634
+c000000004D35AC1300000000000001F9
+t1295363091
 s505
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/DepthStencilState.h
-c000000004D2C8A5A00000000000006E5
-t1294764634
+c000000004D35AC1300000000000006E5
+t1295363091
 s1765
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/DirectionalLight.h
-c000000004D2C8A5A0000000000000227
-t1294764634
+c000000004D35AC130000000000000227
+t1295363091
 s551
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/DrawableGameComponent.h
-c000000004D2C8A5A0000000000000276
-t1294764634
+c000000004D35AC130000000000000276
+t1295363091
 s630
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
@@ -2602,47 +2602,47 @@ i"GameComponent.h"
 i"IDrawable.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Effect.h
-c000000004D2C8A5A00000000000001A8
-t1294764634
+c000000004D35AC1300000000000001A8
+t1295363091
 s424
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/EffectPass.h
-c000000004D2C8A5A00000000000001D3
-t1294764634
+c000000004D35AC1300000000000001D3
+t1295363091
 s467
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/EffectTechnique.h
-c000000004D2C8A5A00000000000001A3
-t1294764634
+c000000004D35AC1300000000000001A3
+t1295363091
 s419
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Event.h
-c000000004D2C8A5A00000000000001BE
-t1294764634
+c000000004D35AC1300000000000001BE
+t1295363091
 s446
 i<Foundation/Foundation.h>
 i"System.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/EventArgs.h
-c000000004D2C8A5A00000000000000D9
-t1294764634
+c000000004D35AC1300000000000000D9
+t1295363091
 s217
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/FrameworkEnums.h
-c000000004D2C8A5A00000000000000B1
-t1294764634
+c000000004D35AC1300000000000000B1
+t1295363091
 s177
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Game.h
-c000000004D2C8A5A0000000000000905
-t1294764634
-s2309
+c000000004D35AC1300000000000008AD
+t1295363091
+s2221
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i"System.h"
@@ -2651,9 +2651,9 @@ i"Retronator.Xni.Framework.Graphics.classes.h"
 i"Retronator.Xni.Framework.Content.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameComponent.h
-c000000004D2C8A5A0000000000000242
-t1294764634
-s578
+c000000004D35AC13000000000000022D
+t1295363091
+s557
 i<Foundation/Foundation.h>
 i"System.classes.h"
 i"Retronator.Xni.Framework.classes.h"
@@ -2661,45 +2661,45 @@ i"IGameComponent.h"
 i"IUpdatable.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameComponentCollection.h
-c000000004D2C8A5A00000000000002C5
-t1294764634
+c000000004D35AC1300000000000002C5
+t1295363091
 s709
 i<Foundation/Foundation.h>
 i"System.h"
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameComponentCollectionEventArgs.h
-c000000004D2C8A5A000000000000022E
-t1294764634
+c000000004D35AC13000000000000022E
+t1295363091
 s558
 i<Foundation/Foundation.h>
 i"EventArgs.h"
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameHost.h
-c000000004D2C8A5A00000000000001A0
-t1294764634
+c000000004D35AC1300000000000001A0
+t1295363091
 s416
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameServiceContainer.h
-c000000004D2C8A5A0000000000000182
-t1294764634
+c000000004D35AC130000000000000182
+t1295363091
 s386
 i<Foundation/Foundation.h>
 i"System.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameTime.h
-c000000004D2C8A5A00000000000003FE
-t1294764634
+c000000004D35AC1300000000000003FE
+t1295363091
 s1022
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GameWindow.h
-c000000004D2C8A5A00000000000003DA
-t1294764634
+c000000004D35AC1300000000000003DA
+t1295363091
 s986
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
@@ -2707,16 +2707,16 @@ i"System.h"
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GestureSample.h
-c000000004D2C8A5A00000000000002F4
-t1294764634
+c000000004D35AC1300000000000002F4
+t1295363091
 s756
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsDevice.h
-c000000004D2C8A5A0000000000001055
-t1294764634
+c000000004D35AC130000000000001055
+t1295363091
 s4181
 i<Foundation/Foundation.h>
 i<QuartzCore/QuartzCore.h>
@@ -2727,8 +2727,8 @@ i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsDeviceManager.h
-c000000004D2C8A5A0000000000000585
-t1294764634
+c000000004D35AC130000000000000585
+t1295363091
 s1413
 i<Foundation/Foundation.h>
 i"System.h"
@@ -2738,220 +2738,220 @@ i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsEnums.h
-c000000004D2C8A5A00000000000017BE
-t1294764634
+c000000004D35AC1300000000000017BE
+t1295363091
 s6078
 i<OpenGLES/ES1/gl.h>
 i<OpenGLES/ES2/gl.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/GraphicsResource.h
-c000000004D2C8A5A0000000000000299
-t1294764634
+c000000004D35AC130000000000000299
+t1295363091
 s665
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/HiDefGraphicsDevice.h
-c000000004D2C8A5A00000000000000FF
-t1294764634
+c000000004D35AC1300000000000000FF
+t1295363091
 s255
 i<Foundation/Foundation.h>
 i"GraphicsDevice.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IDrawable.h
-c000000004D2C8A5A0000000000000132
-t1294764634
+c000000004D35AC130000000000000132
+t1295363091
 s306
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IGameComponent.h
-c000000004D2C8A5A000000000000003F
-t1294764634
+c000000004D35AC13000000000000003F
+t1295363091
 s63
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IGraphicsDeviceManager.h
-c000000004D2C8A5A0000000000000064
-t1294764634
+c000000004D35AC130000000000000064
+t1295363091
 s100
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IGraphicsDeviceService.h
-c000000004D2C8A5A000000000000018D
-t1294764634
+c000000004D35AC13000000000000018D
+t1295363091
 s397
 i"System.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IServiceProvider.h
-c000000004D2C8A5A0000000000000045
-t1294764634
+c000000004D35AC130000000000000045
+t1295363091
 s69
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IUpdatable.h
-c000000004D2C8A5A0000000000000139
-t1294764634
+c000000004D35AC130000000000000139
+t1295363091
 s313
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IndexArray.h
-c000000004D2C8A5A0000000000000281
-t1294764634
+c000000004D35AC130000000000000281
+t1295363091
 s641
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/IndexBuffer.h
-c000000004D2C8A5A00000000000002EF
-t1294764634
+c000000004D35AC1300000000000002EF
+t1295363091
 s751
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/InputEnums.h
-c000000004D2C8A5A00000000000001D8
-t1294764634
+c000000004D35AC1300000000000001D8
+t1295363091
 s472
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Matrix.h
-c000000004D2C8A5A0000000000000CC7
-t1294764634
+c000000004D35AC130000000000000CC7
+t1295363091
 s3271
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/MatrixStruct.h
-c000000004D2C8A5A0000000000002DC4
-t1294764634
+c000000004D35AC130000000000002DC4
+t1295363091
 s11716
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Model.h
-c000000004D2C8A5A00000000000002E7
-t1294764634
+c000000004D35AC1300000000000002E7
+t1295363091
 s743
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelBone.h
-c000000004D2C8A5A0000000000000291
-t1294764634
+c000000004D35AC130000000000000291
+t1295363091
 s657
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelBoneCollection.h
-c000000004D2C8A5A0000000000000204
-t1294764634
+c000000004D35AC130000000000000204
+t1295363091
 s516
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelEffectCollection.h
-c000000004D2C8A5A000000000000016A
-t1294764634
+c000000004D35AC13000000000000016A
+t1295363091
 s362
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMesh.h
-c000000004D2C8A5A000000000000029A
-t1294764634
+c000000004D35AC13000000000000029A
+t1295363091
 s666
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMeshCollection.h
-c000000004D2C8A5A0000000000000206
-t1294764634
+c000000004D35AC130000000000000206
+t1295363091
 s518
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMeshPart.h
-c000000004D2C8A5A0000000000000337
-t1294764634
+c000000004D35AC130000000000000337
+t1295363091
 s823
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ModelMeshPartCollection.h
-c000000004D2C8A5A0000000000000175
-t1294764634
+c000000004D35AC130000000000000175
+t1295363091
 s373
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"ReadOnlyCollection.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/PointStruct.h
-c000000004D2C8A5A0000000000000106
-t1294764634
+c000000004D35AC130000000000000106
+t1295363091
 s262
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Protocols.h
-c000000004D2C8A5A0000000000000115
-t1294764634
+c000000004D35AC130000000000000115
+t1295363091
 s277
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Quaternion.h
-c000000004D2C8A5A000000000000079A
-t1294764634
+c000000004D35AC13000000000000079A
+t1295363091
 s1946
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/RasterizerState.h
-c000000004D2C8A5A000000000000032C
-t1294764634
+c000000004D35AC13000000000000032C
+t1295363091
 s812
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ReachGraphicsDevice.h
-c000000004D2C8A5A00000000000000FF
-t1294764634
+c000000004D35AC1300000000000000FF
+t1295363091
 s255
 i<Foundation/Foundation.h>
 i"GraphicsDevice.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ReadOnlyCollection.h
-c000000004D2C8A5A0000000000000209
-t1294764634
+c000000004D35AC130000000000000209
+t1295363091
 s521
 i<Foundation/Foundation.h>
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Rectangle.h
-c000000004D2C8A5A0000000000000469
-t1294764634
+c000000004D35AC130000000000000469
+t1295363091
 s1129
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/RectangleStruct.h
-c000000004D2C8A5A00000000000001EF
-t1294764634
+c000000004D35AC1300000000000001EF
+t1295363091
 s495
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Content.classes.h
-c000000004D2C8A5A000000000000014A
-t1294764634
-s330
+c000000004D35AC130000000000000156
+t1295363091
+s342
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Graphics.classes.h
-c000000004D2C8A5A00000000000003C0
-t1294764634
+c000000004D35AC1300000000000003C0
+t1295363091
 s960
 i"GraphicsEnums.h"
 i"VertexStructs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Graphics.h
-c000000004D2C8A5A0000000000000555
-t1294764634
+c000000004D35AC130000000000000555
+t1295363091
 s1365
 i"GraphicsEnums.h"
 i"GraphicsResource.h"
@@ -3002,14 +3002,14 @@ i"SpriteBatch.h"
 i"SpriteFont.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Input.Touch.classes.h
-c000000004D2C8A5A0000000000000061
-t1294764634
+c000000004D35AC130000000000000061
+t1295363091
 s97
 i"InputEnums.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.Input.Touch.h
-c000000004D2C8A5A000000000000007F
-t1294764634
+c000000004D35AC13000000000000007F
+t1295363091
 s127
 i"InputEnums.h"
 i"TouchPanel.h"
@@ -3018,8 +3018,8 @@ i"TouchLocation.h"
 i"GestureSample.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.classes.h
-c000000004D2C8A5A000000000000028E
-t1294764634
+c000000004D35AC13000000000000028E
+t1295363091
 s654
 i"FrameworkEnums.h"
 i"PointStruct.h"
@@ -3030,8 +3030,8 @@ i"Vector4Struct.h"
 i"MatrixStruct.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Retronator.Xni.Framework.h
-c000000004D2C8A5A00000000000002B2
-t1294764634
+c000000004D35AC1300000000000002B2
+t1295363091
 s690
 i"FrameworkEnums.h"
 i"Protocols.h"
@@ -3059,51 +3059,51 @@ i"Quaternion.h"
 i"Matrix.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SamplerState.h
-c000000004D2C8A5A00000000000003E4
-t1294764634
+c000000004D35AC1300000000000003E4
+t1295363091
 s996
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SamplerStateCollection.h
-c000000004D2C8A5A00000000000001EE
-t1294764634
+c000000004D35AC1300000000000001EE
+t1295363091
 s494
 i<Foundation/Foundation.h>
 i"System.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/ShortIndexArray.h
-c000000004D2C8A5A0000000000000147
-t1294764634
+c000000004D35AC130000000000000147
+t1295363091
 s327
 i<Foundation/Foundation.h>
 i"IndexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SpriteBatch.h
-c000000004D2C8A5A0000000000000DE2
-t1294764634
+c000000004D35AC130000000000000DE2
+t1295363091
 s3554
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/SpriteFont.h
-c000000004D2C8A5A00000000000002A6
-t1294764634
+c000000004D35AC1300000000000002A6
+t1295363091
 s678
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/System.classes.h
-c000000004D2C8A5A0000000000000061
-t1294764634
+c000000004D35AC130000000000000061
+t1295363091
 s97
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/System.h
-c000000004D2C8A5A000000000000007C
-t1294764634
+c000000004D35AC13000000000000007C
+t1295363091
 s124
 i"IServiceProvider.h"
 i"Delegate.h"
@@ -3111,45 +3111,45 @@ i"Event.h"
 i"EventArgs.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Texture.h
-c000000004D2C8A5A000000000000022E
-t1294764634
+c000000004D35AC13000000000000022E
+t1295363091
 s558
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Texture2D.h
-c000000004D2C8A5A00000000000005BA
-t1294764634
+c000000004D35AC1300000000000005BA
+t1295363091
 s1466
 i<Foundation/Foundation.h>
 i"Texture.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TextureCollection.h
-c000000004D2C8A5A00000000000001CA
-t1294764634
+c000000004D35AC1300000000000001CA
+t1295363091
 s458
 i<Foundation/Foundation.h>
 i"System.h"
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TouchCollection.h
-c000000004D2C8A5A000000000000021E
-t1294764634
+c000000004D35AC13000000000000021E
+t1295363091
 s542
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TouchLocation.h
-c000000004D2C8A5A0000000000000313
-t1294764634
+c000000004D35AC130000000000000313
+t1295363091
 s787
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/TouchPanel.h
-c000000004D2C8A5A0000000000000403
-t1294764634
+c000000004D35AC130000000000000403
+t1295363091
 s1027
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
@@ -3157,150 +3157,150 @@ i"Retronator.Xni.Framework.classes.h"
 i"Retronator.Xni.Framework.Input.Touch.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector2.h
-c000000004D2C8A5A000000000000063E
-t1294764634
+c000000004D35AC13000000000000063E
+t1295363091
 s1598
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector2Struct.h
-c000000004D2C8A5A000000000000081B
-t1294764634
+c000000004D35AC13000000000000081B
+t1295363091
 s2075
 i"MatrixStruct.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector3.h
-c000000004D2C8A5A0000000000000743
-t1294764634
+c000000004D35AC130000000000000743
+t1295363091
 s1859
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector3Struct.h
-c000000004D2C8A5A0000000000000BC3
-t1294764634
+c000000004D35AC130000000000000BC3
+t1295363091
 s3011
 i"MatrixStruct.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector4.h
-c000000004D2C8A5A000000000000060D
-t1294764634
+c000000004D35AC13000000000000060D
+t1295363091
 s1549
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Vector4Struct.h
-c000000004D2C8A5A0000000000000D2C
-t1294764634
+c000000004D35AC130000000000000D2C
+t1295363091
 s3372
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexArray.h
-c000000004D2C8A5A0000000000000289
-t1294764634
+c000000004D35AC130000000000000289
+t1295363091
 s649
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexBuffer.h
-c000000004D2C8A5A0000000000000301
-t1294764634
+c000000004D35AC130000000000000301
+t1295363091
 s769
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexBufferBinding.h
-c000000004D2C8A5A0000000000000326
-t1294764634
+c000000004D35AC130000000000000326
+t1295363091
 s806
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexDeclaration.h
-c000000004D2C8A5A00000000000001CD
-t1294764634
+c000000004D35AC1300000000000001CD
+t1295363091
 s461
 i<Foundation/Foundation.h>
 i"GraphicsResource.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexElement.h
-c000000004D2C8A5A00000000000004F4
-t1294764634
+c000000004D35AC1300000000000004F4
+t1295363091
 s1268
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.Graphics.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColor.h
-c000000004D2C8A5A0000000000000128
-t1294764634
+c000000004D35AC130000000000000128
+t1295363091
 s296
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColorArray.h
-c000000004D2C8A5A0000000000000171
-t1294764634
+c000000004D35AC130000000000000171
+t1295363091
 s369
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColorTexture.h
-c000000004D2C8A5A0000000000000136
-t1294764634
+c000000004D35AC130000000000000136
+t1295363091
 s310
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionColorTextureArray.h
-c000000004D2C8A5A0000000000000186
-t1294764634
+c000000004D35AC130000000000000186
+t1295363091
 s390
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionNormalTexture.h
-c000000004D2C8A5A0000000000000139
-t1294764634
+c000000004D35AC130000000000000139
+t1295363091
 s313
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionNormalTextureArray.h
-c000000004D2C8A5A000000000000018A
-t1294764634
+c000000004D35AC13000000000000018A
+t1295363091
 s394
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionTexture.h
-c000000004D2C8A5A000000000000012C
-t1294764634
+c000000004D35AC13000000000000012C
+t1295363091
 s300
 i<Foundation/Foundation.h>
 i"VertexElement.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexPositionTextureArray.h
-c000000004D2C8A5A0000000000000177
-t1294764634
+c000000004D35AC130000000000000177
+t1295363091
 s375
 i<Foundation/Foundation.h>
 i"VertexArray.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/VertexStructs.h
-c000000004D2C8A5A0000000000000263
-t1294764634
+c000000004D35AC130000000000000263
+t1295363091
 s611
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/Viewport.h
-c000000004D2C8A5A0000000000000355
-t1294764634
+c000000004D35AC130000000000000355
+t1295363091
 s853
 i<Foundation/Foundation.h>
 i"Retronator.Xni.Framework.classes.h"
 
 N/Users/jsantos/Documents/workspace/FRIkanoid/XNI/usr/local/include/XniPoint.h
-c000000004D2C8A5A0000000000000342
-t1294764634
+c000000004D35AC130000000000000342
+t1295363091
 s834
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>

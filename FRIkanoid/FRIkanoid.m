@@ -43,17 +43,17 @@
 }
 
 
-- (void) loadLevel{
-	//Unload the current gameplay
-	if (currentGameplay) {
-		[self.components removeComponent:currentGameplay];
-		[currentGameplay release];
-	}
-	
-	//Allocate and initialize new gameplay object and add it to components
-	currentGameplay = [[GamePlay alloc] initSinglePlayerWithGame:self currentLevel:0]; //Start at first level
-	//[self.components addComponent:currentGameplay];
-}
+//- (void) loadLevel{
+//	//Unload the current gameplay
+//	if (currentGameplay) {
+//		[self.components removeComponent:currentGameplay];
+//		[currentGameplay release];
+//	}
+//	
+//	//Allocate and initialize new gameplay object and add it to components
+//	currentGameplay = [[GamePlay alloc] initSinglePlayerWithGame:self currentLevel:0]; //Start at first level
+//	//[self.components addComponent:currentGameplay];
+//}
 
 - (void) pushState:(GameState*)gameState {
 	GameState *currentActiveState = [stateStack lastObject];

@@ -45,7 +45,7 @@
 	SpriteBatch *spriteBatch;
 	
 	//Gameplay
-	GamePlay *gamePlay;
+	Level *level;
 	
 	BlendState *blendState;
 	DepthStencilState *depthStencilState;
@@ -54,6 +54,6 @@
 	Matrix *transformMatrix;
 }
 
-- (id) initWithGame:(Game *)theGame gamePlay:(GamePlay*) theGamePlay;
+- (id) initWithGame:(Game *)theGame level:(Level*)theLevel;
 
 @end

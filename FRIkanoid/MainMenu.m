@@ -64,7 +64,7 @@
 			[self.game.components removeComponent:currentGameplay];
 			[currentGameplay release];
 		}
-		newState = [[GamePlay alloc] initSinglePlayerWithGame:self.game currentLevel:0];
+		newState = [[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[FRIkanoidLevel1 class]];
 	}
 	
 	if (options.wasReleased) {

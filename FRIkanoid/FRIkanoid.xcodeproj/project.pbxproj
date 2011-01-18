@@ -67,6 +67,7 @@
 		64E9B0F012AED2EF006A03AE /* AIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E9B0EF12AED2EF006A03AE /* AIPlayer.m */; };
 		64F22407128B627700DF6570 /* Arkanoid2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F22406128B627700DF6570 /* Arkanoid2.png */; };
 		64F3938F1282BE960009159A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F3938E1282BE960009159A /* libXNI.a */; };
+		64F55ED212E5F0BA004BEE7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F55ED112E5F0BA004BEE7C /* AVFoundation.framework */; };
 		64FAF80F129350B800639A2D /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FAF80E129350B800639A2D /* Random.m */; };
 /* End PBXBuildFile section */
 
@@ -187,6 +188,7 @@
 		64E9B0EF12AED2EF006A03AE /* AIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPlayer.m; sourceTree = "<group>"; };
 		64F22406128B627700DF6570 /* Arkanoid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arkanoid2.png; sourceTree = "<group>"; };
 		64F3938E1282BE960009159A /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = /Users/jsantos/Documents/workspace/FRIkanoid/XNI/libXNI.a; sourceTree = "<absolute>"; };
+		64F55ED112E5F0BA004BEE7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		64FAF80D129350B800639A2D /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
 		64FAF80E129350B800639A2D /* Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Random.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FRIkanoid-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */,
 				644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */,
 				644B8E3812B8FC03000E6AEC /* OpenAL.framework in Frameworks */,
+				64F55ED212E5F0BA004BEE7C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +269,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64F55ED112E5F0BA004BEE7C /* AVFoundation.framework */,
 				644B8E3712B8FC03000E6AEC /* OpenAL.framework */,
 				644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */,
 				64A01AB71280C4E6003E273F /* libGameDefaults.a */,

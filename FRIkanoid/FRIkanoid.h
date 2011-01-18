@@ -33,7 +33,7 @@
 @property (nonatomic, retain) NSMutableArray *scores;
 @property (nonatomic) BOOL mutedMusic;
 
-- (void) loadLevel;
+//- (void) loadLevel;
 
 - (void) pushState:(GameState*)gameState;
 - (void) popState;

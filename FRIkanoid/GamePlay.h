@@ -23,9 +23,8 @@
 	NSMutableArray *levelClasses;
 }
 
-- (void) initWithGame:(Game *)theGame LevelClass:(Class)levelClass;
-- (id) initSinglePlayerWithGame:(Game*)theGame currentLevel:(NSInteger)levelNumber;
-- (void) advanceLevel;
+- (id) initSinglePlayerWithGame:(Game *)theGame LevelClass:(Class)levelClass;
+//- (void) advanceLevel;
 
 @property (nonatomic, readonly) Level *level;
 @property (nonatomic, readonly) NSInteger lives;
