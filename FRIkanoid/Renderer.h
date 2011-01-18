@@ -40,12 +40,11 @@
 	
 	NSMutableArray *brickSprites;
 	
-	
 	//Graphic Objects
 	SpriteBatch *spriteBatch;
 	
 	//Gameplay
-	Level *level;
+	GamePlay *gameplay;
 	
 	BlendState *blendState;
 	DepthStencilState *depthStencilState;
@@ -54,6 +53,6 @@
 	Matrix *transformMatrix;
 }
 
-- (id) initWithGame:(Game *)theGame level:(Level*)theLevel;
+- (id) initWithGame:(Game *)theGame gameplay:(GamePlay*)theGameplay;
 
 @end

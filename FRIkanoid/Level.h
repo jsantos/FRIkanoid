@@ -38,6 +38,7 @@
 - (void) resetPad;
 - (void) addBallWithSpeed:(float)speed;
 - (void) resetLevelWithBallSpeed:(float)speed;
+- (void) setGamePlay:(GamePlay*)theGamePlay;
 
 @property (nonatomic) NSInteger numBricks;
 @property (nonatomic) NSInteger numBalls;

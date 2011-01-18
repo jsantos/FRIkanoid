@@ -13,8 +13,8 @@
 	BOOL levelUnlocked[LevelTypes];
 }
 
-+ (NSMutableArray*) loadProgress;
-+ (void) deleteProgress;
+- (NSMutableArray*) loadProgress;
+- (void) deleteProgress;
 - (void) saveProgress:(NSMutableArray*)scores;
 
 - (BOOL) isLevelUnlocked:(LevelType)type;

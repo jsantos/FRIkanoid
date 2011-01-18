@@ -43,14 +43,15 @@
 	physics = [[PhysicsEngine alloc] initWithGame:self.game level:level];
 	physics.updateOrder = 20;
 	
-	renderer = [[Renderer alloc] initWithGame:self.game level:level];
-	
+	renderer = [[Renderer alloc] initWithGame:self.game gameplay:self];
+
 	thePlayer.updateOrder = 0;
 	physics.updateOrder = 1;
 	level.updateOrder = 2;
 	level.updateOrder = 3;
 	level.scene.updateOrder = 4;
 	self.updateOrder = 5;
+	[level setGamePlay:self];
 }
 
 //- (id) initSinglePlayerWithGame:(Game *)theGame currentLevel:(NSInteger)levelNumber{
@@ -145,7 +146,7 @@
 	}
 	
 	if (level.restartButton.wasReleased) {
-//		[frikanoid popState];
+		[frikanoid popState];
 		[level reset];
 		points = 0;
 		lives = 3;
@@ -153,11 +154,15 @@
 	
 	
 	if (level.numBalls == 0) {
-		printf("Here!\n");
 		[SoundEngine play:SoundEffectTypeLiveLost];
 		lives-=1;
 		if (lives < 0) {
-			[level resetLevelWithBallSpeed:200];
+			//Record score
+			NSMutableArray *highScores = [[frikanoid.progress loadProgress] retain];
+			[highScores addObject:[NSNumber numberWithInt:points]];
+			[frikanoid.progress saveProgress:highScores];
+			
+			[level reset];
 			lives = 3;
 		} else {
 			[level addBallWithSpeed:200];
@@ -165,7 +170,6 @@
 		}
 	}
 	
-
 	if (level.numBricks == 0) {
 
 		//[frikanoid.progress saveProgress:frikanoid.scores];

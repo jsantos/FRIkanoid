@@ -37,7 +37,7 @@
 	}
 }
 
-+ (NSMutableArray *) loadProgress {
+- (NSMutableArray *) loadProgress {
 	//Load game progress from file
 	NSMutableArray *scores = nil;
 	
@@ -49,11 +49,14 @@
 		scores = [[[NSMutableArray alloc] init] autorelease];
 	}
 	//NSLog(@"Progress retain count:", [progress retainCount]);
-	
+//	printf("Loaded scores:\n");
+//	for (int i = 0; i < [scores count]; i++) {
+//		printf("%d\n", [[scores objectAtIndex:i] integerValue]);
+//	}
 	return scores;
 }
 
-+ (void) deleteProgress {
+- (void) deleteProgress {
 	//Delete game progress file
 	NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
 	NSString *archivePath = [rootPath stringByAppendingPathComponent:@"FrikanoidSave"];
@@ -64,10 +67,9 @@
 
 - (void) saveProgress:(NSMutableArray*)scores {
 	//Save game progress to file
-	//sortedScores =  [scores sortedArrayUsingSelector:@selector(compare:)];	
+	//sortedScores =  [scores sortedArrayUsingSelector:@selector(compare:)];
 //	[scores addObject:[NSNumber numberWithInt:points]];
-//	printf("Scores: %d\n", [scores count]);
-	printf("#Scores: &d\n");
+
 	NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
 	NSString *archivePath = [rootPath stringByAppendingPathComponent:@"FrikanoidSave"];
 	[NSKeyedArchiver archiveRootObject:scores toFile:archivePath];

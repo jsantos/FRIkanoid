@@ -26,7 +26,7 @@
 		
 		mutedMusic = NO;
 		
-		progress = [[GameProgress loadProgress] retain];
+		progress = [[GameProgress alloc] init];
 	}
 	return self;
 }

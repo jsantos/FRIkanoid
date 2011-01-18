@@ -14,9 +14,9 @@
 
 @implementation Renderer
 
-- (id) initWithGame:(Game *)theGame level:(Level*)theLevel{
+- (id) initWithGame:(Game *)theGame gameplay:(GamePlay*)theGameplay{
 	if (self = [super initWithGame:theGame]) {
-		level = theLevel;
+		gameplay = theGameplay;
 		content = [[ContentManager alloc] initWithServiceProvider:self.game.services];
 		//primitiveBatch = [[PrimitiveBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	}
@@ -124,7 +124,7 @@
 	
 	[spriteBatch beginWithSortMode:SpriteSortModeBackToFront BlendState:nil];
 	
-	for (id item in level.scene) {
+	for (id item in gameplay.level.scene) {
 		id<IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)]  ? item : nil;
 		Sprite *sprite;
 		
@@ -244,34 +244,34 @@
 	}
 	
 	//Draw lives counter
-//	Vector2 *pos = [[Vector2 alloc] init];
-//	pos.x = 50;
-//	pos.y = 40;
-//	for (int i = 0; i < gamePlay.lives; i++) {
-//		
-//		[spriteBatch draw:liveSprite.texture 
-//					   to:pos
-//			fromRectangle:liveSprite.sourceRectangle
-//			tintWithColor:[Color white]
-//				 rotation:0 
-//				   origin:liveSprite.origin
-//			 scaleUniform:0.65
-//				  effects:SpriteEffectsNone 
-//			   layerDepth:0.1];
-//		if (pos.x > 400) {
-//			pos.x = -5;
-//			pos.y += 10;
-//		} else {
-//			pos.x += 25;
-//		}
-//	}
+	Vector2 *pos = [[Vector2 alloc] init];
+	pos.x = 50;
+	pos.y = 40;
+	for (int i = 0; i < gameplay.lives; i++) {
+		
+		[spriteBatch draw:liveSprite.texture 
+					   to:pos
+			fromRectangle:liveSprite.sourceRectangle
+			tintWithColor:[Color white]
+				 rotation:0 
+				   origin:liveSprite.origin
+			 scaleUniform:0.65
+				  effects:SpriteEffectsNone 
+			   layerDepth:0.1];
+		if (pos.x > 400) {
+			pos.x = -5;
+			pos.y += 10;
+		} else {
+			pos.x += 25;
+		}
+	}
 	
 	[spriteBatch end];
 	
 	// Draw effects in additive mode.
 	[spriteBatch beginWithSortMode:SpriteSortModeDeffered BlendState:[BlendState additive] SamplerState:nil DepthStencilState:nil RasterizerState:nil Effect:nil];
 	
-	for (id<NSObject> item in level.scene) {
+	for (id<NSObject> item in gameplay.level.scene) {
 		if ([item isKindOfClass:[Explosion class]]) {
 			Explosion *explosion = (Explosion*)item;
 			

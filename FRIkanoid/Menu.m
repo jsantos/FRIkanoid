@@ -38,10 +38,11 @@
 	retrotype = [self.game.content load:@"ArkaType12" processor:fontProcessor];
 	fivexfive = [self.game.content load:@"5x5" processor:fontProcessor];
 	fivexfive.lineSpacing = 14;
+	oops = [self.game.content load:@"Retrotype" processor:fontProcessor];
 	
 	buttonBackground = [self.game.content load:@"Button"];
 	
-	back = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:215 width:140 height:32] 
+	back = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:250 width:140 height:32] 
 								  background:buttonBackground font:retrotype text:@"Back"];
 	back.label.position.x = (self.game.window.clientBounds.width/2)-20;
 	back.labelColor = [Color black];

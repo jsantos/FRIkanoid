@@ -17,7 +17,7 @@
 @interface Menu : GameState {
 	SimpleScene *scene;
 	GuiRenderer *renderer;
-	SpriteFont *retrotype, *fivexfive;
+	SpriteFont *retrotype, *fivexfive, *oops;
 	Texture2D *buttonBackground;
 	Button *back;
 	SoundEffectInstance *menuMusic;

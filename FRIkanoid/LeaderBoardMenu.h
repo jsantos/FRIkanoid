@@ -12,6 +12,8 @@
 @interface LeaderBoardMenu : Menu {
 	Label *placeholder;
 	Image *logo;
+	Button *resetScores;
+	Label *firstPlace, *secondPlace, *thirdPlace;
 }
 
 @end
