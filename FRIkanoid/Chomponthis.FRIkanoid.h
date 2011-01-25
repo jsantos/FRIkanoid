@@ -6,6 +6,8 @@
 #import "Level.h"
 #import "FRIkanoidLevel1.h"
 #import "FRIkanoidLevel2.h"
+#import "FRIkanoidLevel3.h"
+#import "FRIkanoidLevel4.h"
 #import "Player.h"
 #import "HumanPlayer.h"
 #import "AIPlayer.h"

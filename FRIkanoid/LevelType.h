@@ -9,5 +9,8 @@
 typedef enum {
 	LevelTypeOne,
 	LevelTypeTwo,
+	LevelTypeThree,
+	LevelTypeFour,
+	LevelTypeFive,
 	LevelTypes
 } LevelType;

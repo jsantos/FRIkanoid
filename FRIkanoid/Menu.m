@@ -52,16 +52,6 @@
 	[super initialize];
 }
 
-- (void) playMusic {
-	menuMusic = [[SoundEngine createInstance:Music] retain];
-	[menuMusic play];
-}
-
-- (void) stopMusic {
-	[menuMusic stop];
-	[menuMusic release];
-}
-
 - (void) updateWithGameTime:(GameTime*)gametime{
 	// Update all buttons.
 	for (id item in scene) {

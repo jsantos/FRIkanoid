@@ -24,6 +24,7 @@
 		
 		[SoundEngine initializeWithGame:self];
 		
+		mutedSFX = NO;
 		mutedMusic = NO;
 		
 		progress = [[GameProgress alloc] init];
@@ -31,11 +32,16 @@
 	return self;
 }
 
-@synthesize progress, scores, mutedMusic;
+@synthesize progress, scores, mutedMusic, mutedSFX;
 
 - (void) initialize {
 	MainMenu *menu = [[[MainMenu alloc] initWithGame:self] autorelease];
 	[self pushState:menu];
+	
+	levelClasses[LevelTypeOne] = [FRIkanoidLevel1 class];
+	levelClasses[LevelTypeTwo] = [FRIkanoidLevel2 class];
+	levelClasses[LevelTypeThree] = [FRIkanoidLevel3 class];
+	levelClasses[LevelTypeFour] = [FRIkanoidLevel4 class];
 	
 	//[self loadLevel];
 	//Initialize all components
@@ -77,8 +83,7 @@
 }
 
 - (Class) getLevelClass:(LevelType)type{
-	//return levelClasses[type];
-	return nil;
+	return levelClasses[type];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {

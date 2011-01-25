@@ -7,7 +7,7 @@
 @class MultiBallPowerUp, EnlargePowerUp, SlowerPowerUp, FasterPowerUp;
 @class Player, HumanPlayer, AIPlayer;
 @class Level;
-@class FRIkanoidLevel1, FRIkanoidLevel2;
+@class FRIkanoidLevel1, FRIkanoidLevel2, FRIkanoidLevel3, FRIkanoidLevel4;
 @class PhysicsEngine;
 @class FRIkanoid;
 @class Renderer;

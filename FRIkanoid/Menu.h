@@ -20,7 +20,6 @@
 	SpriteFont *retrotype, *fivexfive, *oops;
 	Texture2D *buttonBackground;
 	Button *back;
-	SoundEffectInstance *menuMusic;
 }
 
 @end

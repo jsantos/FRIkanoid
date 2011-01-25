@@ -4,7 +4,7 @@ typedef enum {
 	SoundEffectTypeBallBrick,
 	SoundEffectTypeBallBrickWithBonus,
 	SoundEffectTypeLiveLost,
-	Music,
+	Teaser,
 	MuteSounds,
 	SoundEffectTypes
 } SoundEffectType;

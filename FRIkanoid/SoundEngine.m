@@ -27,7 +27,7 @@ SoundEngine *instance;
 	soundEffects[SoundEffectTypeBallBrickWithBonus] = [self.game.content load:@"BallBrickWithBonus"];
 	soundEffects[SoundEffectTypeBallLimit] = [self.game.content load:@"BallLimit"];
 	soundEffects[SoundEffectTypeLiveLost] = [self.game.content load:@"LiveLost"];
-	soundEffects[Music] = [self.game.content load:@"Arkanoid"];
+	soundEffects[Teaser] = [self.game.content load:@"Teaser"];
 }
 
 - (void) play:(SoundEffectType)type {

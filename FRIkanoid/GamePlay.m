@@ -19,13 +19,13 @@
 
 @implementation GamePlay
 
-- (id) initSinglePlayerWithGame:(Game *)theGame LevelClass:(Class)levelClass {
+- (id) initSinglePlayerWithGame:(Game *)theGame LevelClass:(Class)levelClass andScore:(NSInteger)score andLives:(NSInteger)theLives  andLevelNum:(NSInteger)levelNum{
 	self = [super initWithGame:theGame];
 	if (self != nil) {
+		lives = theLives;
+		points = score;
+		currentLevel = levelNum;
 		[self startInitWithLevelClass:levelClass];
-		
-		lives = 3;
-		points = 0;
 		
 		//Create the player
 		thePlayer = [[HumanPlayer alloc] initWithGame:self.game pad:level.playerPad];
@@ -48,9 +48,8 @@
 	thePlayer.updateOrder = 0;
 	physics.updateOrder = 1;
 	level.updateOrder = 2;
-	level.updateOrder = 3;
-	level.scene.updateOrder = 4;
-	self.updateOrder = 5;
+	level.scene.updateOrder = 3;
+	self.updateOrder = 4;
 	[level setGamePlay:self];
 }
 
@@ -162,21 +161,31 @@
 			[highScores addObject:[NSNumber numberWithInt:points]];
 			[frikanoid.progress saveProgress:highScores];
 			
-			[level reset];
-			lives = 3;
+			[frikanoid popState];
+			//[level reset];
+			//lives = 3;
 		} else {
+			//[level resetLevelWithBallSpeed:200];
 			[level addBallWithSpeed:200];
 			//[level resetAfterMiss];
+			
 		}
 	}
 	
 	if (level.numBricks == 0) {
-
-		//[frikanoid.progress saveProgress:frikanoid.scores];
 		//Handle level transition here
 		points+=5000;
 		lives++;
-		[level skipLevel];
+		currentLevel ++;
+		printf("Next level: %d\n", currentLevel);
+		if ([frikanoid getLevelClass:currentLevel] != nil) {
+			GameState *newState = [[[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[frikanoid getLevelClass:currentLevel] andScore:points andLives:lives  andLevelNum:currentLevel] autorelease];
+			GamePlay *nextLevel = (GamePlay*)newState;
+			[frikanoid popState];
+			[frikanoid pushState:nextLevel];
+		} else {
+			[frikanoid popState];
+		}
 	}
 	[thePlayer updateWithGameTime:gameTime];
 }

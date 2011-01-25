@@ -37,9 +37,9 @@
 		buttonBackground = [self.game.content load:@"RestartButton"];
 
 		restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:360 y:10 width:140 height:32] 
-										background:buttonBackground font:fivexfive text:@"Restart"];
+										background:buttonBackground font:fivexfive text:@"Menu"];
 		restartButton.label.position.y = 32;
-		restartButton.label.position.x = 373;
+		restartButton.label.position.x = 390;
 		restartButton.backgroundColor = [Color skyBlue];
 		restartButton.backgroundHoverColor = [Color powderBlue];
 		[restartButton.backgroundImage setScaleUniform:1.1];
@@ -66,7 +66,7 @@
 				  [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease];
 	
 		
-		currentGameplay.points = 0;
+		//currentGameplay.points = 0;
 	}
 	return self;
 }

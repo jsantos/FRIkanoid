@@ -8,6 +8,7 @@
 
 #import "MainMenu.h"
 #import "Retronator.Xni.Framework.Content.h"
+#import "Retronator.Xni.Framework.Media.h"
 #import "Retronator.Xni.Framework.Content.Pipeline.Processors.h"
 #import "Chomponthis.FRIkanoid.h"
 
@@ -16,7 +17,8 @@
 - (void) initialize {
 	[super initialize];
 	
-	//[super playMusic];	
+	Song *menuSong = [self.game.content load:@"Arkanoid"];
+	[MediaPlayer playSong:menuSong];
 	
 	Texture2D *logoTexture = [[self.game.content load:@"BigLogo"] autorelease];
 	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2)-160 y:30]];
@@ -53,18 +55,17 @@
 - (void) updateWithGameTime:(GameTime *)gameTime {
 	[super updateWithGameTime:gameTime];
 	
-//	if (back.wasReleased) {
-//		[frikanoid popState];
-//	}
-	
 	GameState *newState = nil;
 	
 	if (startGame.wasReleased) {
+		[MediaPlayer pause];
 		if (currentGameplay) {
 			[self.game.components removeComponent:currentGameplay];
 			[currentGameplay release];
 		}
-		newState = [[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[FRIkanoidLevel1 class]];
+		[SoundEngine play:Teaser];
+		newState = [[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[frikanoid getLevelClass:0] andScore:0 andLives:3  andLevelNum:0];
+		currentGameplay = (GamePlay*)newState;
 	}
 	
 	if (options.wasReleased) {

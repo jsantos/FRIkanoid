@@ -13,12 +13,13 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		640221A51290B5620008D1EA /* Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 640221A41290B5620008D1EA /* Boundary.m */; };
 		6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */; };
+		641AAB0F12ECBB74008162F9 /* Arkanoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 641AAB0E12ECBB74008162F9 /* Arkanoid.mp3 */; };
+		641AAB5B12ED11BB008162F9 /* Teaser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 641AAB5A12ED11BB008162F9 /* Teaser.wav */; };
 		642EC7A212DDF13F00AB0E36 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 642EC7A112DDF13F00AB0E36 /* Menu.m */; };
 		6441012812DB6E870079A24E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441012712DB6E870079A24E /* MainMenu.m */; };
 		6441033612DB90AB0079A24E /* BigLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441033512DB90AB0079A24E /* BigLogo.png */; };
 		6441042912DB9F740079A24E /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441042812DB9F740079A24E /* OptionsMenu.m */; };
 		6441042C12DB9F7C0079A24E /* LeaderBoardMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */; };
-		6441055712DBBF110079A24E /* Arkanoid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6441055612DBBF110079A24E /* Arkanoid.wav */; };
 		644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E1712B8F8D8000E6AEC /* GameKit.framework */; };
 		644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */; };
 		644B8E3812B8FC03000E6AEC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E3712B8FC03000E6AEC /* OpenAL.framework */; };
@@ -32,6 +33,8 @@
 		6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458C60E1289930000518AC5 /* Rectangle+Extensions.m */; };
 		6469D1CE12D3FFDD00DCD4FF /* RestartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */; };
 		6469D27C12D4155800DCD4FF /* Frikanoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 6469D27B12D4155800DCD4FF /* Frikanoid.png */; };
+		64733ECA12EE154500074D22 /* FRIkanoidLevel3.m in Sources */ = {isa = PBXBuildFile; fileRef = 64733EC912EE154500074D22 /* FRIkanoidLevel3.m */; };
+		64733EF512EE17D800074D22 /* FRIkanoidLevel4.m in Sources */ = {isa = PBXBuildFile; fileRef = 64733EF412EE17D800074D22 /* FRIkanoidLevel4.m */; };
 		64756EB412D20539008EAC5D /* PowerUpFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EB312D20539008EAC5D /* PowerUpFactory.m */; };
 		64756EC312D20684008EAC5D /* MultiBallPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EC212D20684008EAC5D /* MultiBallPowerUp.m */; };
 		64756EC612D20691008EAC5D /* EnlargePowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64756EC512D20691008EAC5D /* EnlargePowerUp.m */; };
@@ -98,6 +101,8 @@
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel2.h; sourceTree = "<group>"; };
 		6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel2.m; sourceTree = "<group>"; };
+		641AAB0E12ECBB74008162F9 /* Arkanoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Arkanoid.mp3; sourceTree = "<group>"; };
+		641AAB5A12ED11BB008162F9 /* Teaser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Teaser.wav; sourceTree = "<group>"; };
 		642EC7A012DDF13F00AB0E36 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		642EC7A112DDF13F00AB0E36 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		6441012612DB6E870079A24E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
@@ -107,7 +112,6 @@
 		6441042812DB9F740079A24E /* OptionsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMenu.m; sourceTree = "<group>"; };
 		6441042A12DB9F7C0079A24E /* LeaderBoardMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardMenu.h; sourceTree = "<group>"; };
 		6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardMenu.m; sourceTree = "<group>"; };
-		6441055612DBBF110079A24E /* Arkanoid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Arkanoid.wav; sourceTree = "<group>"; };
 		644B8E1712B8F8D8000E6AEC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		644B8E3712B8FC03000E6AEC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -123,6 +127,10 @@
 		6458C60E1289930000518AC5 /* Rectangle+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rectangle+Extensions.m"; sourceTree = "<group>"; };
 		6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartButton.png; sourceTree = "<group>"; };
 		6469D27B12D4155800DCD4FF /* Frikanoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frikanoid.png; sourceTree = "<group>"; };
+		64733EC812EE154500074D22 /* FRIkanoidLevel3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel3.h; sourceTree = "<group>"; };
+		64733EC912EE154500074D22 /* FRIkanoidLevel3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel3.m; sourceTree = "<group>"; };
+		64733EF312EE17D800074D22 /* FRIkanoidLevel4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel4.h; sourceTree = "<group>"; };
+		64733EF412EE17D800074D22 /* FRIkanoidLevel4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel4.m; sourceTree = "<group>"; };
 		64756EB212D20539008EAC5D /* PowerUpFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUpFactory.h; sourceTree = "<group>"; };
 		64756EB312D20539008EAC5D /* PowerUpFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerUpFactory.m; sourceTree = "<group>"; };
 		64756EC112D20684008EAC5D /* MultiBallPowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiBallPowerUp.h; sourceTree = "<group>"; };
@@ -343,7 +351,8 @@
 		644B8F1012B926C7000E6AEC /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				6441055612DBBF110079A24E /* Arkanoid.wav */,
+				641AAB5A12ED11BB008162F9 /* Teaser.wav */,
+				641AAB0E12ECBB74008162F9 /* Arkanoid.mp3 */,
 				644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */,
 				644B907012B938CB000E6AEC /* BallLimit.wav */,
 				644B8F4D12B92AC6000E6AEC /* LiveLost.wav */,
@@ -483,6 +492,10 @@
 				649C865B127504DE00726515 /* FRIkanoidLevel1.m */,
 				6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */,
 				6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */,
+				64733EC812EE154500074D22 /* FRIkanoidLevel3.h */,
+				64733EC912EE154500074D22 /* FRIkanoidLevel3.m */,
+				64733EF312EE17D800074D22 /* FRIkanoidLevel4.h */,
+				64733EF412EE17D800074D22 /* FRIkanoidLevel4.m */,
 			);
 			name = Levels;
 			sourceTree = "<group>";
@@ -577,7 +590,8 @@
 				6469D27C12D4155800DCD4FF /* Frikanoid.png in Resources */,
 				64E64A5512DA8A7A0092E41A /* ArkaType12.bmp in Resources */,
 				6441033612DB90AB0079A24E /* BigLogo.png in Resources */,
-				6441055712DBBF110079A24E /* Arkanoid.wav in Resources */,
+				641AAB0F12ECBB74008162F9 /* Arkanoid.mp3 in Resources */,
+				641AAB5B12ED11BB008162F9 /* Teaser.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +635,8 @@
 				6441042C12DB9F7C0079A24E /* LeaderBoardMenu.m in Sources */,
 				642EC7A212DDF13F00AB0E36 /* Menu.m in Sources */,
 				64CC542712E35217006E6B6D /* GameProgress.m in Sources */,
+				64733ECA12EE154500074D22 /* FRIkanoidLevel3.m in Sources */,
+				64733EF512EE17D800074D22 /* FRIkanoidLevel4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

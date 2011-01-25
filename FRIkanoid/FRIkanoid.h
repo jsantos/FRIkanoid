@@ -26,12 +26,17 @@
 	//Game State
 	NSMutableArray *stateStack;
 	
+	// Levels
+	Class levelClasses[LevelTypes];
+	
 	BOOL mutedMusic;
+	BOOL mutedSFX;
 }
 
 @property (nonatomic, readonly) GameProgress *progress;
 @property (nonatomic, retain) NSMutableArray *scores;
 @property (nonatomic) BOOL mutedMusic;
+@property (nonatomic) BOOL mutedSFX;
 
 //- (void) loadLevel;
 
