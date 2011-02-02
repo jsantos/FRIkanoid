@@ -18,7 +18,7 @@
 	if (self = [super initWithGame:theGame]) {
 		gameplay = theGameplay;
 		content = [[ContentManager alloc] initWithServiceProvider:self.game.services];
-		//primitiveBatch = [[PrimitiveBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
+		primitiveBatch = [[PrimitiveBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	}
 	return self;
 }
@@ -137,7 +137,7 @@
 		
 		
 		if ([item isKindOfClass:[Ball class]]) {
-//			Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
+			Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
 			sprite = ballSprite;
 //			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
 //								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
@@ -236,7 +236,7 @@
 				tintWithColor:[Color white]
 					 rotation:0 
 					   origin:sprite.origin
-				 scaleUniform:0.65
+				 scaleUniform:0.5
 					  effects:SpriteEffectsNone 
 				   layerDepth:0.1];
 		}
@@ -255,7 +255,7 @@
 			tintWithColor:[Color white]
 				 rotation:0 
 				   origin:liveSprite.origin
-			 scaleUniform:0.65
+			 scaleUniform:0.5
 				  effects:SpriteEffectsNone 
 			   layerDepth:0.1];
 		if (pos.x > 400) {

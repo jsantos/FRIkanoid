@@ -177,13 +177,15 @@
 		points+=5000;
 		lives++;
 		currentLevel ++;
-		printf("Next level: %d\n", currentLevel);
 		if ([frikanoid getLevelClass:currentLevel] != nil) {
 			GameState *newState = [[[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[frikanoid getLevelClass:currentLevel] andScore:points andLives:lives  andLevelNum:currentLevel] autorelease];
 			GamePlay *nextLevel = (GamePlay*)newState;
 			[frikanoid popState];
 			[frikanoid pushState:nextLevel];
 		} else {
+			NSMutableArray *highScores = [[frikanoid.progress loadProgress] retain];
+			[highScores addObject:[NSNumber numberWithInt:points]];
+			[frikanoid.progress saveProgress:highScores];
 			[frikanoid popState];
 		}
 	}

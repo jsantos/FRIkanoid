@@ -39,48 +39,34 @@
 	ball.velocity.y = -200; //Ball Initial Velocity
 	ball.velocity.x = ([Random float] - 0.5f) * 10;
 	
-	for (int i = 0; i < BrickTypes-1; i++) {
-		for (int x = 30; x <= self.game.window.clientBounds.width; x+=120) {
+	
+	int lowBound = 15, highBound = self.game.window.clientBounds.width+25;
+	int count = 0, type = 0;
+	while(count < 6) {
+		for (int x = lowBound; x <= highBound; x+=46) {
 			Brick *brick = [[Brick alloc] init];
-			brick.brickType = i;
-			if (i == 0) {
-				brick.power = 3;
-			} else if (i == 1) {
-				brick.power = 2;
-			}
+			brick.brickType = type;
 			
-			brick.position.x = x;
-			brick.position.y = 75 + i * 50;
-			[scene addItem:brick];
-		}
-	}
-}
-
-- (void) skipLevel {
-	[super reset];
-	
-	playerPad.position.x = 240;
-	playerPad.position.y = 270;
-	
-	ball.position.x = 	playerPad.position.x = self.game.window.clientBounds.width/2;
-	playerPad.position.y = self.game.window.clientBounds.height - 25;
-	ball.position.y = 250;
-	
-	ball.velocity.y = -200; //Ball Initial Velocity
-	ball.velocity.x = ([Random float] - 0.5f) * 10;
-	
-
-	for (int i = 0; i < BrickTypes; i++) {
-		for (int x = 30; x <= self.game.window.clientBounds.width; x+=60) {
-			Brick *brick = [[Brick alloc] init];
-			brick.brickType = i;
-			if (i == 0) {
+			if (count == 0) {
+				brick.power = 6;
+			} else if (count == 1) {
+				brick.power = 5;
+			} else if (count == 2) {
+				brick.power = 4;
+			} else if (count == 3) {
+				brick.power = 3;
+			} else if (count == 4) {
 				brick.power = 2;
 			}
+						
 			brick.position.x = x;
-			brick.position.y = 75 + i *25;
+			brick.position.y = 75 + count * 20;
 			[scene addItem:brick];
 		}
+		lowBound+=46;
+		highBound-=46;
+		count++;
+		type++;
 	}
 }
 

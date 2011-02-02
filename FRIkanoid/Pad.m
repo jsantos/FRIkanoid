@@ -15,7 +15,7 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		width = 107.9;
+		width = 110;
 		height = 19.5;
 		
 		powerUps = [[NSMutableArray alloc] init];

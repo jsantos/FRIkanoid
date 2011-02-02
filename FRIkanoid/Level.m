@@ -99,7 +99,7 @@
 - (void) resetAfterMiss {}
 
 - (void) resetPad{
-	playerPad.width = 107.9;
+	playerPad.width = 110;
 }
 
 - (void) skipLevel {

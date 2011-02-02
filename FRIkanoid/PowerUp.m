@@ -16,8 +16,8 @@
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
 		velocity = [[Vector2 alloc] init];
-		width = 30.55;
-		height = 12.35;
+		width = 25;
+		height = 8;
 	}
 	return self;
 }

@@ -40,7 +40,7 @@
 	ball.velocity.x = ([Random float] - 0.5f) * 10;
 	
 	for (int i = BrickTypes-1; i >= 0; i--) {
-		for (int x = 30; x <= self.game.window.clientBounds.width; x+=90) {
+		for (int x = 15; x <= self.game.window.clientBounds.width+25; x+=80) {
 			Brick *brick = [[Brick alloc] init];
 			brick.brickType = i;
 			if ((BrickTypes-i) == 0) {
@@ -52,7 +52,7 @@
 			}
 			
 			brick.position.x = x;
-			brick.position.y = 75 + (BrickTypes-i) * 25;
+			brick.position.y = 75 + (BrickTypes-i) * 20;
 			[scene addItem:brick];
 		}
 	}

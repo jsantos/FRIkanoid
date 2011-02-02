@@ -22,10 +22,10 @@ static PowerUpType randomTypeLookup[100];
 	powerUpClasses[FasterBall] = [FasterPowerUp class];
 	powerUpClasses[SlowerBall] = [SlowerPowerUp class];
 
-	frequency[BiggerPad] = 3;
+	frequency[BiggerPad] = 1;
 	frequency[MultiBall] = 2;
-	frequency[FasterBall] = 2;
-	frequency[SlowerBall] = 1;
+	frequency[FasterBall] = 3;
+	frequency[SlowerBall] = 4;
 	
 	totalFrequency = 0;
 	for (int i = 0; i < PowerUpTypes; i++) {

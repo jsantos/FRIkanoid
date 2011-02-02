@@ -17,7 +17,7 @@
 		position = [[Vector2 alloc] init];
 		velocity = [[Vector2 alloc] init];
 		mass = 1;
-		radius = 12;
+		radius = 8;
 		coefficientOfRestitution = 1;
 	}
 	return self;
@@ -32,6 +32,14 @@
 }
 
 - (void) collidedWithItem:(id)item {
+	float minY = 100;
+	if (fabsf(velocity.y) < minY) {
+		float speed = [velocity length];
+		float x = sqrtf(speed * speed - minY * minY);
+		velocity.y = velocity.y < 0 ? -minY : minY;
+		velocity.x = velocity.x < 0 ? -x : x;
+	}
+	
 	if ([item isKindOfClass:[Pad class]]) {
 		[SoundEngine play:SoundEffectTypeBallPad];
 		

@@ -15,8 +15,8 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		width = 60;
-		height = 25;
+		width = 50;
+		height = 20;
 		power = 1;
 	}
 	return self;
