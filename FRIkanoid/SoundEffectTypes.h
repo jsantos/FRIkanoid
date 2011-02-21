@@ -2,8 +2,10 @@ typedef enum {
 	SoundEffectTypeBallPad,
 	SoundEffectTypeBallLimit,
 	SoundEffectTypeBallBrick,
-	SoundEffectTypeBallBrickWithBonus,
 	SoundEffectTypeLiveLost,
+	SoundEffectTypeLevelUp,
+	SoundEffectTypePowerUp,
+	SoundEffectTypePowerUpCatched,
 	Teaser,
 	MuteSounds,
 	SoundEffectTypes

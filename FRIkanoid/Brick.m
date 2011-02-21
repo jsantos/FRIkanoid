@@ -11,18 +11,24 @@
 
 @implementation Brick
 
-- (id) init {
+- (id) initWithGame:(Game*)theGame {
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		width = 50;
-		height = 20;
+		currentGame = theGame;
+		if (theGame.window.clientBounds.width == 1024) {
+			width = 100; // iPhone 50 / iPad 100
+			height = 40; // iPhone 20 / iPad 40
+		} else {
+			width = 50; // iPhone 50 / iPad 100
+			height = 20; // iPhone 20 / iPad 40
+		}
 		power = 1;
 	}
 	return self;
 }
 
-@synthesize position, width, height, brickType, powerUpType, scene, power;
+@synthesize position, width, height, brickType, powerUpType, scene, power, currentGame;
 
 - (BOOL) collidingWithItem:(id)item {
 	if (![item isKindOfClass:[Ball class]]) {
@@ -33,14 +39,12 @@
 	if (power == 0) {
 		[scene removeItem:self];
 		//Handle power-up creation here
-		if ([Random float] < 0.2f) {
+		if ([Random float] < [Constants getInstance].powerUpChance) {
 			Explosion *explosion = [[[Explosion alloc] initWithGameTime:0] autorelease];
 			[explosion.position set:position];
-	
-			[SoundEngine play:SoundEffectTypeBallBrickWithBonus];
 			PowerUp *powerUp = [PowerUpFactory createRandomPowerUp];
 			[powerUp.position set:position];
-			powerUp.velocity.y = 75;
+			powerUp.velocity.y = [Constants getInstance].powerUpSpeed;
 			[scene addItem:explosion];
 			[scene addItem:powerUp];
 		}

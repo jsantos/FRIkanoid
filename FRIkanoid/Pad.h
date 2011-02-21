@@ -17,7 +17,10 @@
 	id<IScene> scene;
 	
 	NSMutableArray *powerUps;
+	Game *currentGame;
 }
+
+@property (nonatomic, retain) Game *currentGame;
 
 - (void) addPowerUp:(PowerUp*)powerUp;
 - (void) removeAllPowerUps;

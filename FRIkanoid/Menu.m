@@ -7,6 +7,7 @@
 //
 
 #import "Menu.h"
+#import "Retronator.Xni.Framework.Media.h"
 #import "Retronator.Xni.Framework.Content.h"
 #import "Retronator.Xni.Framework.Content.Pipeline.Processors.h"
 #import "Chomponthis.Frikanoid.h"
@@ -44,7 +45,7 @@
 	
 	back = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:250 width:140 height:32] 
 								  background:buttonBackground font:retrotype text:@"Back"];
-	back.label.position.x = (self.game.window.clientBounds.width/2)-20;
+	//back.label.position.x = (self.game.window.clientBounds.width/2)-20;
 	back.labelColor = [Color black];
 	back.labelHoverColor = [Color white];
 	[back.backgroundImage setScaleUniform:2];

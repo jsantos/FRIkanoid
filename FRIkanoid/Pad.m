@@ -11,21 +11,22 @@
 
 @implementation Pad
 
-- (id) init {
+- (id) initWithGame:(Game*)theGame {
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		width = 110;
+		width = [Constants getInstance].initialPadWidth;
+		currentGame = theGame;
 		height = 19.5;
-		
 		powerUps = [[NSMutableArray alloc] init];
 	}
 	return self;
 }
 
-@synthesize position, width, height, scene;
+@synthesize position, width, height, scene, currentGame;
 
 - (void) addPowerUp:(PowerUp *)powerUp {
+	[SoundEngine play:SoundEffectTypePowerUpCatched];
 	[powerUps addObject:powerUp];
 	[powerUp activateWithParent:self];
 }
@@ -50,22 +51,20 @@
 	//Calculate horizontal velocity depending on where the paddle was hit.
 	Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
 	if (ball) {
-		float speed = [ball.velocity length] * 1.01f;
+		float speed = [ball.velocity length] * [Constants getInstance].ballSpeedUp;
 		
 		//Calculate where on the paddle we were hit, from -1 to 1;
 		float hitPosition = (ball.position.x - position.x) / width * 2;
 		
 		//Calculate Angle;
-		float angle = hitPosition * M_PI/2; //Fix this
-		
+		float angle = hitPosition * [Constants getInstance].maximumBallAngle;		
 		//Rebound ball in desired direction
 		ball.velocity.x = sinf(angle);
 		ball.velocity.y = -cosf(angle);
 		[ball.velocity multiplyBy:speed];
 		
 		//Make sure the vertical velocity is big enough after collision.
-		float minY = 100;
-		
+		int minY = [Constants getInstance].minimumBallVerticalVelocity;
 		if (fabsf(ball.velocity.y) < minY) {
 			ball.velocity.y = ball.velocity.y < 0 ? -minY : minY;
 		}

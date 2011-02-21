@@ -37,19 +37,19 @@
 
 	switchSound.labelColor = [Color black];
 	switchSound.labelHoverColor = [Color white];
-	switchSound.label.position.x = (self.game.window.clientBounds.width/2)-50;
+	//switchSound.label.position.x = (self.game.window.clientBounds.width/2)-50;
 	[switchSound.backgroundImage setScaleUniform:2];
 	[scene addItem:switchSound];
 	
 	switchMusic.labelColor = [Color black];
 	switchMusic.labelHoverColor = [Color white];
-	switchMusic.label.position.x = (self.game.window.clientBounds.width/2)-55;
+	//switchMusic.label.position.x = (self.game.window.clientBounds.width/2)-55;
 	[switchMusic.backgroundImage setScaleUniform:2];
 	[scene addItem:switchMusic];
 	
 	[scene addItem:back];
 	Texture2D *logoTexture = [[self.game.content load:@"BigLogo"] autorelease];
-	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2)-160 y:30]];
+	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2-logoTexture.width/2) y:30]];
 	[scene addItem:logo];
 }
 

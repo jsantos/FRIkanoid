@@ -17,39 +17,47 @@
 - (void) initialize {
 	[super initialize];
 	
-	Song *menuSong = [self.game.content load:@"Arkanoid"];
-	[MediaPlayer playSong:menuSong];
+	if ([[[MediaPlayer getInstance] queue] count] > 0) {
+		[MediaPlayer resume];
+	} else {
+		Song *menuSong = [self.game.content load:@"sievert-party_dog"];
+		[MediaPlayer playSong:menuSong];
+	}
 	
 	Texture2D *logoTexture = [[self.game.content load:@"BigLogo"] autorelease];
-	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2)-160 y:30]];
+	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2-logoTexture.width/2) y:30]];
 	[scene addItem:logo];
 	
 	// Buttons
-	startGame = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:130 width:140 height:32] 
+	startGame = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:120 width:140 height:32] 
 										  background:buttonBackground font:retrotype text:@"Start Game"];
-	startGame.label.position.x = (self.game.window.clientBounds.width/2)-60;
+	//startGame.label.position.x = (self.game.window.clientBounds.width/2)-60;
 	startGame.labelColor = [Color black];
 	startGame.labelHoverColor = [Color white];
 	[startGame.backgroundImage setScaleUniform:2];
 	[scene addItem:startGame];
 	
-	options = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:180 width:140 height:32] 
+	options = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:160 width:140 height:32] 
 										 background:buttonBackground font:retrotype text:@"Options"];
 	options.labelColor = [Color black];
 	options.labelHoverColor = [Color white];
-	options.label.position.x = (self.game.window.clientBounds.width/2)-45;
+	//options.label.position.x = (self.game.window.clientBounds.width/2)-45;
 	[options.backgroundImage setScaleUniform:2];
 	[scene addItem:options];
 	
-	leaderboards = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:230 width:140 height:32]
+	leaderboards = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:200 width:140 height:32]
 									 background:buttonBackground font:retrotype text:@"LeaderBoard"];
 	leaderboards.labelColor = [Color black];
 	leaderboards.labelHoverColor = [Color white];
-	leaderboards.label.position.x = (self.game.window.clientBounds.width/2)-60;
 	[leaderboards.backgroundImage setScaleUniform:2];
 	[scene addItem:leaderboards];
 	
-	//[super initialize];
+	about = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:240 width:140 height:32]
+										  background:buttonBackground font:retrotype text:@"About"];
+	about.labelColor = [Color black];
+	about.labelHoverColor = [Color white];
+	[about.backgroundImage setScaleUniform:2];
+	[scene addItem:about];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
@@ -64,7 +72,7 @@
 			[currentGameplay release];
 		}
 		[SoundEngine play:Teaser];
-		newState = [[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[frikanoid getLevelClass:0] andScore:0 andLives:3  andLevelNum:0];
+		newState = [[GamePlay alloc] initSinglePlayerWithGame:self.game LevelClass:[frikanoid getLevelClass:0] andScore:0 andLives:1  andLevelNum:0];
 		currentGameplay = (GamePlay*)newState;
 	}
 	
@@ -74,6 +82,10 @@
 	
 	if (leaderboards.wasReleased) {
 		newState = [[[LeaderBoardMenu alloc] initWithGame:self.game] autorelease];
+	}
+	
+	if(about.wasReleased){
+		newState = [[[AboutMenu alloc] initWithGame:self.game] autorelease];
 	}
 	
 	if (newState) {
@@ -86,6 +98,7 @@
 	[startGame release];
 	[leaderboards release];
 	[options release];
+	[about release];
 	
 	[currentGameplay release];
 	[super dealloc];

@@ -37,11 +37,14 @@
 @property (nonatomic, retain) NSMutableArray *scores;
 @property (nonatomic) BOOL mutedMusic;
 @property (nonatomic) BOOL mutedSFX;
+@property (nonatomic, retain) GamePlay *currentGamePlay;
 
 //- (void) loadLevel;
 
 - (void) pushState:(GameState*)gameState;
 - (void) popState;
+
+- (void) addPoints:(int)points;
 
 - (Class) getLevelClass:(LevelType)type;
 

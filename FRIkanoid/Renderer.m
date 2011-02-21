@@ -19,6 +19,12 @@
 		gameplay = theGameplay;
 		content = [[ContentManager alloc] initWithServiceProvider:self.game.services];
 		primitiveBatch = [[PrimitiveBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
+		
+		if (theGame.window.clientBounds.width == 1024) {
+			customScale = 1;
+		} else {
+			customScale = 0.5;
+		}
 	}
 	return self;
 }
@@ -139,11 +145,11 @@
 		if ([item isKindOfClass:[Ball class]]) {
 			Ball *ball = [item isKindOfClass:[Ball class]] ? item : nil;
 			sprite = ballSprite;
-//			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
-//								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
-//			[primitiveBatch drawPointAt:ball.position color:[Color black]];
-//			[primitiveBatch drawCircleAt:ball.position radius:ball.radius divisions:32 color:[Color black]];
-//			[primitiveBatch end];
+			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
+								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
+			[primitiveBatch drawPointAt:ball.position color:[Color black]];
+			[primitiveBatch drawCircleAt:ball.position radius:ball.radius divisions:32 color:[Color black]];
+			[primitiveBatch end];
 		} else if ([item isKindOfClass:[Brick class]]) {
 			Brick *brick = (Brick*)item;
 			switch (brick.brickType) {
@@ -161,21 +167,21 @@
 					sprite = brick1Sprite;
 					break;
 			}
-//			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
-//								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
-//			[primitiveBatch drawPointAt:brick.position color:[Color black]];
-//			[primitiveBatch drawRectangleAt:brick.position width:brick.width height:brick.height color:[Color black]];
-//			[primitiveBatch end];
+			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
+								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
+			[primitiveBatch drawPointAt:brick.position color:[Color black]];
+			[primitiveBatch drawRectangleAt:brick.position width:brick.width height:brick.height color:[Color black]];
+			[primitiveBatch end];
 		}
 		
 		
 		PowerUp *temp = [item isKindOfClass:[PowerUp class]] ? item : nil;
 		if (temp) {
-//			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
-//								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
-//			[primitiveBatch drawPointAt:temp.position color:[Color black]];
-//			[primitiveBatch drawRectangleAt:temp.position width:temp.width height:temp.height color:[Color black]];
-//			[primitiveBatch end];
+			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
+								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
+			[primitiveBatch drawPointAt:temp.position color:[Color black]];
+			[primitiveBatch drawRectangleAt:temp.position width:temp.width height:temp.height color:[Color black]];
+			[primitiveBatch end];
 			switch (temp.type) {
 				default:
 				case FasterBall:
@@ -198,11 +204,11 @@
 		Label *label = [item isKindOfClass:[Label class]] ? item : nil;
 		
 		if (pad) {
-//			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
-//								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
-//			[primitiveBatch drawPointAt:pad.position color:[Color black]];
-//			[primitiveBatch drawRectangleAt:pad.position width:pad.width height:pad.height color:[Color black]];
-//			[primitiveBatch end];
+			[primitiveBatch beginWithBlendState:blendState DepthStencilState:depthStencilState 
+								RasterizerState:rasterizerState Effect:effect TransformMatrix:transformMatrix];
+			[primitiveBatch drawPointAt:pad.position color:[Color black]];
+			[primitiveBatch drawRectangleAt:pad.position width:pad.width height:pad.height color:[Color black]];
+			[primitiveBatch end];
 			
 			
 			Rectangle *padLeftDestination = [Rectangle rectangleWithX:pad.position.x - pad.width/2 
@@ -236,7 +242,7 @@
 				tintWithColor:[Color white]
 					 rotation:0 
 					   origin:sprite.origin
-				 scaleUniform:0.5
+				 scaleUniform:customScale
 					  effects:SpriteEffectsNone 
 				   layerDepth:0.1];
 		}
@@ -255,14 +261,25 @@
 			tintWithColor:[Color white]
 				 rotation:0 
 				   origin:liveSprite.origin
-			 scaleUniform:0.5
+			 scaleUniform:customScale
 				  effects:SpriteEffectsNone 
 			   layerDepth:0.1];
-		if (pos.x > 400) {
-			pos.x = -5;
+		if (pos.x > self.game.window.clientBounds.width-10) {
+			pos.x = 50;
+			if (customScale == 1) {
+				pos.y += 20;
+			} else {
+				pos.y += 10;
+			}
 			pos.y += 10;
 		} else {
-			pos.x += 25;
+			if (customScale == 1) {
+				pos.x += 50;
+			} else {
+				pos.x += 25;
+			}
+
+
 		}
 	}
 	
@@ -279,7 +296,7 @@
 			SpriteEffects effects = explosion.random & (SpriteEffectsFlipHorizontally | SpriteEffectsFlipVertically);
 			if (sprite) {
 				[spriteBatch draw:sprite.texture to:explosion.position fromRectangle:sprite.sourceRectangle tintWithColor:[Color white]
-						 rotation:0 origin:sprite.origin scaleUniform:0.65 effects:effects layerDepth:0];
+						 rotation:0 origin:sprite.origin scaleUniform:customScale effects:effects layerDepth:0];
 			}
 		}
 	}
@@ -306,12 +323,12 @@
 	[brick3Sprite release];
 	[brick4Sprite release];
 	[liveSprite release];
-	
-//	[blendState release];
-//	[depthStencilState release];
-//	[rasterizerState release];
-//	[effect release];
-//	[transformMatrix release];
+	[explosionSprite release];
+	[blendState release];
+	[depthStencilState release];
+	[rasterizerState release];
+	[effect release];
+	[transformMatrix release];
 	
 	[super dealloc];
 }

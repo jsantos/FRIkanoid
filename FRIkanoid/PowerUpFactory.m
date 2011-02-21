@@ -37,6 +37,7 @@ static PowerUpType randomTypeLookup[100];
 }
 
 + (PowerUp*) createPowerUp:(PowerUpType)type {
+	[SoundEngine play:SoundEffectTypePowerUp];
 	return [[[powerUpClasses[type] alloc] init] autorelease];
 }
 

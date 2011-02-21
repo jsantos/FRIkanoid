@@ -22,7 +22,7 @@
 
 - (void) updateWithGameTime:(GameTime *)gameTime{
 //	NSMutableIndexSet *discardedItems = [NSMutableIndexSet indexSet];
-	NSMutableArray *deadItems = [[NSMutableArray alloc] init];
+	NSMutableArray *deadItems = [[[NSMutableArray alloc] init] autorelease];
 	NSUInteger index = 0;
 	
 	for(id item in level.scene){

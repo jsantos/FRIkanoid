@@ -51,6 +51,8 @@
 	RasterizerState *rasterizerState;
 	Effect *effect;
 	Matrix *transformMatrix;
+	
+	float customScale;
 }
 
 - (id) initWithGame:(Game *)theGame gameplay:(GamePlay*)theGameplay;

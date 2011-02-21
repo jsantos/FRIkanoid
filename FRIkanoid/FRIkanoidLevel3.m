@@ -31,7 +31,12 @@
 	
 	//Initialize object Positions
 	playerPad.position.x = self.game.window.clientBounds.width/2;
-	playerPad.position.y = self.game.window.clientBounds.height - 25;
+	
+	if (self.game.window.clientBounds.width == 1024) {
+		playerPad.position.y = self.game.window.clientBounds.height - 50;
+	} else {
+		playerPad.position.y = self.game.window.clientBounds.height - 25;
+	}
 	
 	ball.position.x = playerPad.position.x;
 	ball.position.y = playerPad.position.y - playerPad.height / 2;
@@ -43,8 +48,8 @@
 	int lowBound = 15, highBound = self.game.window.clientBounds.width+25;
 	int count = 0, type = 0;
 	while(count < 6) {
-		for (int x = lowBound; x <= highBound; x+=46) {
-			Brick *brick = [[Brick alloc] init];
+		for (int x = lowBound; x <= highBound; x+=[Constants getInstance].distanceBetweenBricks) {
+			Brick *brick = [[[Brick alloc] initWithGame:self.game] autorelease];
 			brick.brickType = type;
 			
 			if (count == 0) {
@@ -60,7 +65,7 @@
 			}
 						
 			brick.position.x = x;
-			brick.position.y = 75 + count * 20;
+			brick.position.y = 75 + count * 40; // iPhone 20 / iPad 40
 			[scene addItem:brick];
 		}
 		lowBound+=46;

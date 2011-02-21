@@ -19,14 +19,14 @@
 	[scene addItem:back];
 	
 	Texture2D *logoTexture = [[self.game.content load:@"BigLogo"] autorelease];
-	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2)-160 y:30]];
+	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2-logoTexture.width/2) y:30]];
 	[scene addItem:logo];
 	
 	resetScores = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:210 width:140 height:32] 
 										 background:buttonBackground font:retrotype text:@"Reset High Scores"];
 	resetScores.labelColor = [Color black];
 	resetScores.labelHoverColor = [Color white];
-	resetScores.label.position.x = (self.game.window.clientBounds.width/2)-100;
+	//resetScores.label.position.x = (self.game.window.clientBounds.width/2)-100;
 	[resetScores.backgroundImage setScaleUniform:2];
 	[scene addItem:resetScores];
 	

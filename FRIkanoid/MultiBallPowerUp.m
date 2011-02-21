@@ -29,7 +29,7 @@
 			Ball *ball = (Ball*)item;
 			
 			//Create one copy with flipped speed
-			Ball *copy = [[[Ball alloc] init] autorelease];
+			Ball *copy = [[[Ball alloc] initWithGame:ball.currentGame] autorelease];
 			[copy.position set:ball.position];
 			copy.velocity.x = -ball.position.x;
 			copy.velocity.y = -ball.position.y;

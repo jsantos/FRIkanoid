@@ -14,7 +14,7 @@
 	GamePlay *currentGameplay;
 	
 	Image *logo;
-	Button *startGame, *leaderboards, *options;
+	Button *startGame, *leaderboards, *options, *about;
 }
 
 @end

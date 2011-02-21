@@ -11,17 +11,6 @@
 
 @implementation PowerUp
 
-- (id) init {
-	self = [super init];
-	if (self != nil) {
-		position = [[Vector2 alloc] init];
-		velocity = [[Vector2 alloc] init];
-		width = 25;
-		height = 8;
-	}
-	return self;
-}
-
 - (id) initWithType:(PowerUpType)theType {
 	return [self initWithType:theType duration:0];
 }
@@ -31,15 +20,15 @@
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
 		velocity = [[Vector2 alloc] init];
-		width = 30.55;
-		height = 12.35;
+		width = 30.55; //iPhone 30.55 / iPad 50
+		height = 12.35; //iPhone 12.35 / iPad 18
 		type = theType;
 		duration = theDuration;
 	}
 	return self;
 }
 
-@synthesize position, velocity, width, height, type, scene, lifetime;
+@synthesize position, velocity, width, height, type, scene, lifetime, currentGame;
 
 - (BOOL) collidingWithItem:(id)item {
 	return [item isKindOfClass:[Pad class]];

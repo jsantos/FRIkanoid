@@ -13,23 +13,16 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		640221A51290B5620008D1EA /* Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 640221A41290B5620008D1EA /* Boundary.m */; };
 		6416DCA612A6904D007B61F0 /* FRIkanoidLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */; };
-		641AAB0F12ECBB74008162F9 /* Arkanoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 641AAB0E12ECBB74008162F9 /* Arkanoid.mp3 */; };
-		641AAB5B12ED11BB008162F9 /* Teaser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 641AAB5A12ED11BB008162F9 /* Teaser.wav */; };
 		642EC7A212DDF13F00AB0E36 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 642EC7A112DDF13F00AB0E36 /* Menu.m */; };
 		6441012812DB6E870079A24E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441012712DB6E870079A24E /* MainMenu.m */; };
 		6441033612DB90AB0079A24E /* BigLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441033512DB90AB0079A24E /* BigLogo.png */; };
 		6441042912DB9F740079A24E /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441042812DB9F740079A24E /* OptionsMenu.m */; };
 		6441042C12DB9F7C0079A24E /* LeaderBoardMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */; };
-		644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E1712B8F8D8000E6AEC /* GameKit.framework */; };
+		644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E1712B8F8D8000E6AEC /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E2712B8FBD9000E6AEC /* AudioToolbox.framework */; };
 		644B8E3812B8FC03000E6AEC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B8E3712B8FC03000E6AEC /* OpenAL.framework */; };
 		644B8EEA12B90320000E6AEC /* SoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B8EE912B90320000E6AEC /* SoundEngine.m */; };
 		644B8EEC12B9033C000E6AEC /* SoundEffectTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = 644B8EEB12B9033C000E6AEC /* SoundEffectTypes.h */; };
-		644B8F1A12B926D6000E6AEC /* BallPad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B8F1612B926D5000E6AEC /* BallPad.wav */; };
-		644B8F1B12B926D6000E6AEC /* BallBrick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B8F1712B926D5000E6AEC /* BallBrick.wav */; };
-		644B8F4E12B92AC6000E6AEC /* LiveLost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B8F4D12B92AC6000E6AEC /* LiveLost.wav */; };
-		644B907112B938CB000E6AEC /* BallLimit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B907012B938CB000E6AEC /* BallLimit.wav */; };
-		644B907C12B93A59000E6AEC /* BallBrickWithBonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */; };
 		6458C60F1289930000518AC5 /* Rectangle+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458C60E1289930000518AC5 /* Rectangle+Extensions.m */; };
 		6469D1CE12D3FFDD00DCD4FF /* RestartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */; };
 		6469D27C12D4155800DCD4FF /* Frikanoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 6469D27B12D4155800DCD4FF /* Frikanoid.png */; };
@@ -46,6 +39,17 @@
 		647ADE0012D3B60500BA803A /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 647ADDFF12D3B60500BA803A /* Button.png */; };
 		647ADE0312D3B63200BA803A /* 5x5.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 647ADE0112D3B63200BA803A /* 5x5.bmp */; };
 		647ADE0412D3B63200BA803A /* Retrotype.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 647ADE0212D3B63200BA803A /* Retrotype.bmp */; };
+		6491EF081301F6BF0053E078 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491EF071301F6BF0053E078 /* Constants.m */; };
+		6491F12B13042D010053E078 /* libGameDefaults.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641591671282BF5F0044F824 /* libGameDefaults.a */; };
+		6491F15613047CA20053E078 /* sievert-party_dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6491F15513047CA20053E078 /* sievert-party_dog.mp3 */; };
+		6491F15D13047EF10053E078 /* LiveLost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F15C13047EF10053E078 /* LiveLost.wav */; };
+		6491F16B13047FB60053E078 /* LevelUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F16A13047FB60053E078 /* LevelUp.wav */; };
+		6491F17A130480BD0053E078 /* PowerUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F179130480BD0053E078 /* PowerUp.wav */; };
+		6491F18E1304823F0053E078 /* PowerUpCatched.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F18D1304823F0053E078 /* PowerUpCatched.wav */; };
+		6491F1A513048C490053E078 /* BallLimit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F1A213048C490053E078 /* BallLimit.wav */; };
+		6491F1A613048C490053E078 /* BallPad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F1A313048C490053E078 /* BallPad.wav */; };
+		6491F1A713048C490053E078 /* BallBrick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F1A413048C490053E078 /* BallBrick.wav */; };
+		6491F1BA13048D700053E078 /* Teaser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6491F1B913048D700053E078 /* Teaser.wav */; };
 		649C85CC1274FE5400726515 /* FRIkanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C85CB1274FE5400726515 /* FRIkanoid.m */; };
 		649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85CF1274FE7B00726515 /* OpenGLES.framework */; };
 		649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C85D11274FE7B00726515 /* QuartzCore.framework */; };
@@ -56,7 +60,6 @@
 		649FF84012846B5600CEA4E0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF83F12846B5600CEA4E0 /* Player.m */; };
 		649FF85012846C9A00CEA4E0 /* GamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF84F12846C9A00CEA4E0 /* GamePlay.m */; };
 		649FF87A1284846500CEA4E0 /* HumanPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF8791284846500CEA4E0 /* HumanPlayer.m */; };
-		64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A01AB71280C4E6003E273F /* libGameDefaults.a */; };
 		64C6E5DC12A55C22007FC07F /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C6E5DB12A55C22007FC07F /* Explosion.m */; };
 		64C6E5DE12A55C53007FC07F /* Explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C6E5DD12A55C53007FC07F /* Explosion.png */; };
 		64C707351275E2DC0028822D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C707341275E2DC0028822D /* Ball.m */; };
@@ -70,6 +73,7 @@
 		64F3938F1282BE960009159A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F3938E1282BE960009159A /* libXNI.a */; };
 		64F55ED212E5F0BA004BEE7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F55ED112E5F0BA004BEE7C /* AVFoundation.framework */; };
 		64FAF80F129350B800639A2D /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FAF80E129350B800639A2D /* Random.m */; };
+		64FBE2C512FDE0E800DE02F8 /* AboutMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FBE2C412FDE0E800DE02F8 /* AboutMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +105,6 @@
 		641591621282BF5F0044F824 /* GameDefaults.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameDefaults.xcodeproj; path = ../GameDefaults/GameDefaults.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6416DCA412A6904D007B61F0 /* FRIkanoidLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoidLevel2.h; sourceTree = "<group>"; };
 		6416DCA512A6904D007B61F0 /* FRIkanoidLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoidLevel2.m; sourceTree = "<group>"; };
-		641AAB0E12ECBB74008162F9 /* Arkanoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Arkanoid.mp3; sourceTree = "<group>"; };
-		641AAB5A12ED11BB008162F9 /* Teaser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Teaser.wav; sourceTree = "<group>"; };
 		642EC7A012DDF13F00AB0E36 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		642EC7A112DDF13F00AB0E36 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		6441012612DB6E870079A24E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
@@ -118,11 +120,6 @@
 		644B8EE812B90320000E6AEC /* SoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEngine.h; sourceTree = "<group>"; };
 		644B8EE912B90320000E6AEC /* SoundEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEngine.m; sourceTree = "<group>"; };
 		644B8EEB12B9033C000E6AEC /* SoundEffectTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectTypes.h; sourceTree = "<group>"; };
-		644B8F1612B926D5000E6AEC /* BallPad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallPad.wav; sourceTree = "<group>"; };
-		644B8F1712B926D5000E6AEC /* BallBrick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallBrick.wav; sourceTree = "<group>"; };
-		644B8F4D12B92AC6000E6AEC /* LiveLost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LiveLost.wav; sourceTree = "<group>"; };
-		644B907012B938CB000E6AEC /* BallLimit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallLimit.wav; sourceTree = "<group>"; };
-		644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallBrickWithBonus.wav; sourceTree = "<group>"; };
 		6458C60D1289930000518AC5 /* Rectangle+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectangle+Extensions.h"; sourceTree = "<group>"; };
 		6458C60E1289930000518AC5 /* Rectangle+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rectangle+Extensions.m"; sourceTree = "<group>"; };
 		6469D1CD12D3FFDD00DCD4FF /* RestartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartButton.png; sourceTree = "<group>"; };
@@ -152,6 +149,17 @@
 		647ADDFF12D3B60500BA803A /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 		647ADE0112D3B63200BA803A /* 5x5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 5x5.bmp; sourceTree = "<group>"; };
 		647ADE0212D3B63200BA803A /* Retrotype.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Retrotype.bmp; sourceTree = "<group>"; };
+		6491EF061301F6BF0053E078 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6491EF071301F6BF0053E078 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		6491F15513047CA20053E078 /* sievert-party_dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sievert-party_dog.mp3"; sourceTree = "<group>"; };
+		6491F15C13047EF10053E078 /* LiveLost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LiveLost.wav; sourceTree = "<group>"; };
+		6491F16A13047FB60053E078 /* LevelUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LevelUp.wav; sourceTree = "<group>"; };
+		6491F179130480BD0053E078 /* PowerUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PowerUp.wav; sourceTree = "<group>"; };
+		6491F18D1304823F0053E078 /* PowerUpCatched.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PowerUpCatched.wav; sourceTree = "<group>"; };
+		6491F1A213048C490053E078 /* BallLimit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallLimit.wav; sourceTree = "<group>"; };
+		6491F1A313048C490053E078 /* BallPad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallPad.wav; sourceTree = "<group>"; };
+		6491F1A413048C490053E078 /* BallBrick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BallBrick.wav; sourceTree = "<group>"; };
+		6491F1B913048D700053E078 /* Teaser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Teaser.wav; sourceTree = "<group>"; };
 		649AB53F129A07B400457484 /* PowerUpType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUpType.h; sourceTree = "<group>"; };
 		649C85CA1274FE5400726515 /* FRIkanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRIkanoid.h; sourceTree = "<group>"; };
 		649C85CB1274FE5400726515 /* FRIkanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRIkanoid.m; sourceTree = "<group>"; };
@@ -195,6 +203,8 @@
 		64F55ED112E5F0BA004BEE7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		64FAF80D129350B800639A2D /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
 		64FAF80E129350B800639A2D /* Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Random.m; sourceTree = "<group>"; };
+		64FBE2C312FDE0E800DE02F8 /* AboutMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMenu.h; sourceTree = "<group>"; };
+		64FBE2C412FDE0E800DE02F8 /* AboutMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMenu.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FRIkanoid-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FRIkanoid-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,12 +213,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6491F12B13042D010053E078 /* libGameDefaults.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				649C85D01274FE7B00726515 /* OpenGLES.framework in Frameworks */,
 				649C85D21274FE7B00726515 /* QuartzCore.framework in Frameworks */,
-				64B2A4B11280CBF5001EC6F0 /* libGameDefaults.a in Frameworks */,
 				64F3938F1282BE960009159A /* libXNI.a in Frameworks */,
 				644B8E1812B8F8D8000E6AEC /* GameKit.framework in Frameworks */,
 				644B8E2812B8FBD9000E6AEC /* AudioToolbox.framework in Frameworks */,
@@ -334,6 +344,8 @@
 				6441042B12DB9F7C0079A24E /* LeaderBoardMenu.m */,
 				642EC7A012DDF13F00AB0E36 /* Menu.h */,
 				642EC7A112DDF13F00AB0E36 /* Menu.m */,
+				64FBE2C312FDE0E800DE02F8 /* AboutMenu.h */,
+				64FBE2C412FDE0E800DE02F8 /* AboutMenu.m */,
 			);
 			name = Menus;
 			sourceTree = "<group>";
@@ -351,13 +363,15 @@
 		644B8F1012B926C7000E6AEC /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				641AAB5A12ED11BB008162F9 /* Teaser.wav */,
-				641AAB0E12ECBB74008162F9 /* Arkanoid.mp3 */,
-				644B907B12B93A59000E6AEC /* BallBrickWithBonus.wav */,
-				644B907012B938CB000E6AEC /* BallLimit.wav */,
-				644B8F4D12B92AC6000E6AEC /* LiveLost.wav */,
-				644B8F1612B926D5000E6AEC /* BallPad.wav */,
-				644B8F1712B926D5000E6AEC /* BallBrick.wav */,
+				6491F1B913048D700053E078 /* Teaser.wav */,
+				6491F1A213048C490053E078 /* BallLimit.wav */,
+				6491F1A313048C490053E078 /* BallPad.wav */,
+				6491F1A413048C490053E078 /* BallBrick.wav */,
+				6491F18D1304823F0053E078 /* PowerUpCatched.wav */,
+				6491F179130480BD0053E078 /* PowerUp.wav */,
+				6491F16A13047FB60053E078 /* LevelUp.wav */,
+				6491F15C13047EF10053E078 /* LiveLost.wav */,
+				6491F15513047CA20053E078 /* sievert-party_dog.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -433,6 +447,8 @@
 				64FAF80E129350B800639A2D /* Random.m */,
 				64CC542512E35217006E6B6D /* GameProgress.h */,
 				64CC542612E35217006E6B6D /* GameProgress.m */,
+				6491EF061301F6BF0053E078 /* Constants.h */,
+				6491EF071301F6BF0053E078 /* Constants.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -578,11 +594,6 @@
 				64F22407128B627700DF6570 /* Arkanoid2.png in Resources */,
 				64C6E5DE12A55C53007FC07F /* Explosion.png in Resources */,
 				644B8EEC12B9033C000E6AEC /* SoundEffectTypes.h in Resources */,
-				644B8F1A12B926D6000E6AEC /* BallPad.wav in Resources */,
-				644B8F1B12B926D6000E6AEC /* BallBrick.wav in Resources */,
-				644B8F4E12B92AC6000E6AEC /* LiveLost.wav in Resources */,
-				644B907112B938CB000E6AEC /* BallLimit.wav in Resources */,
-				644B907C12B93A59000E6AEC /* BallBrickWithBonus.wav in Resources */,
 				647ADE0012D3B60500BA803A /* Button.png in Resources */,
 				647ADE0312D3B63200BA803A /* 5x5.bmp in Resources */,
 				647ADE0412D3B63200BA803A /* Retrotype.bmp in Resources */,
@@ -590,8 +601,15 @@
 				6469D27C12D4155800DCD4FF /* Frikanoid.png in Resources */,
 				64E64A5512DA8A7A0092E41A /* ArkaType12.bmp in Resources */,
 				6441033612DB90AB0079A24E /* BigLogo.png in Resources */,
-				641AAB0F12ECBB74008162F9 /* Arkanoid.mp3 in Resources */,
-				641AAB5B12ED11BB008162F9 /* Teaser.wav in Resources */,
+				6491F15613047CA20053E078 /* sievert-party_dog.mp3 in Resources */,
+				6491F15D13047EF10053E078 /* LiveLost.wav in Resources */,
+				6491F16B13047FB60053E078 /* LevelUp.wav in Resources */,
+				6491F17A130480BD0053E078 /* PowerUp.wav in Resources */,
+				6491F18E1304823F0053E078 /* PowerUpCatched.wav in Resources */,
+				6491F1A513048C490053E078 /* BallLimit.wav in Resources */,
+				6491F1A613048C490053E078 /* BallPad.wav in Resources */,
+				6491F1A713048C490053E078 /* BallBrick.wav in Resources */,
+				6491F1BA13048D700053E078 /* Teaser.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +655,8 @@
 				64CC542712E35217006E6B6D /* GameProgress.m in Sources */,
 				64733ECA12EE154500074D22 /* FRIkanoidLevel3.m in Sources */,
 				64733EF512EE17D800074D22 /* FRIkanoidLevel4.m in Sources */,
+				64FBE2C512FDE0E800DE02F8 /* AboutMenu.m in Sources */,
+				6491EF081301F6BF0053E078 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +684,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../XNI\"",
-					"\"$(SRCROOT)/../GameDefaults/build/Debug-iphonesimulator\"",
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = FRIkanoid;
@@ -683,8 +702,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../XNI\"",
-					"\"$(SRCROOT)/../GameDefaults/build/Debug-iphonesimulator\"",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = FRIkanoid;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -701,9 +720,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../GameDefaults//** ${PROJECT_DIR}/../XNI/usr/local/include";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../GameDefaults/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/../XNI/usr/local/include";
 			};
 			name = Debug;
 		};
@@ -718,8 +737,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../GameDefaults/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/../XNI/usr/local/include";
 			};
 			name = Release;
 		};

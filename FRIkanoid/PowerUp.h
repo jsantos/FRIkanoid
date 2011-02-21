@@ -21,12 +21,14 @@
 	Pad *parent;
 	Lifetime *lifetime;
 	id<IScene> scene;
+	Game *currentGame;
 }
 
 - (id) initWithType:(PowerUpType)theType;
 - (id) initWithType:(PowerUpType)theType duration:(NSTimeInterval)theDuration;
 
 @property (nonatomic) PowerUpType type;
+@property (nonatomic, retain) Game *currentGame;
 
 - (void) activateWithParent:(Pad*)theParent;
 - (void) deactivate;

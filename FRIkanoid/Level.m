@@ -36,10 +36,10 @@
 		
 		buttonBackground = [self.game.content load:@"RestartButton"];
 
-		restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:360 y:10 width:140 height:32] 
+		restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width-120 y:10 width:140 height:32] 
 										background:buttonBackground font:fivexfive text:@"Menu"];
 		restartButton.label.position.y = 32;
-		restartButton.label.position.x = 390;
+		restartButton.label.position.x = self.game.window.clientBounds.width-90;
 		restartButton.backgroundColor = [Color skyBlue];
 		restartButton.backgroundHoverColor = [Color powderBlue];
 		[restartButton.backgroundImage setScaleUniform:1.1];
@@ -52,7 +52,7 @@
 		
 		ball = [[Ball alloc] init];
 		
-		playerPad = [[Pad alloc] init];
+		playerPad = [[Pad alloc] initWithGame:self.game];
 		
 		bricks = [[NSMutableArray alloc] init];
 		
@@ -64,8 +64,6 @@
 					[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] isDeadly:NO] autorelease];
 		floor = [[[Boundary alloc] initWithLimit:
 				  [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease];
-	
-		
 		//currentGameplay.points = 0;
 	}
 	return self;
@@ -80,7 +78,7 @@
 
 - (void) reset {
 	[scene clear];
-	playerPad.width = 107.9;
+	playerPad.width = [Constants getInstance].initialPadWidth;
 	[scene addItem:restartButton];
 	[scene addItem:logo];
 	[scene addItem:playerPad];
@@ -91,7 +89,7 @@
 	[scene addItem: ceiling];
 	[scene addItem: floor];
 	
-	[scene addItem:ball];
+	//[scene addItem:ball];
 	
 	[bricks removeAllObjects];
 }
@@ -99,7 +97,7 @@
 - (void) resetAfterMiss {}
 
 - (void) resetPad{
-	playerPad.width = 110;
+	playerPad.width = [Constants getInstance].initialPadWidth;
 }
 
 - (void) skipLevel {
@@ -176,7 +174,7 @@
 }
 
 - (void) addBallWithSpeed:(float)speed {
-	Ball *tmpBall = [[[Ball alloc] init] autorelease];
+	Ball *tmpBall = [[[Ball alloc] initWithGame:self.game] autorelease];
 	tmpBall.position.x = playerPad.position.x + ([Random float] - 0.5f) * 10;
 	tmpBall.position.y = playerPad.position.y - playerPad.height / 2;
 	tmpBall.velocity.y = speed;

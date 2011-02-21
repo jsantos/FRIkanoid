@@ -24,9 +24,11 @@ SoundEngine *instance;
 	muted = NO;
 	soundEffects[SoundEffectTypeBallPad] = [self.game.content load:@"BallPad"];
 	soundEffects[SoundEffectTypeBallBrick] = [self.game.content load:@"BallBrick"];
-	soundEffects[SoundEffectTypeBallBrickWithBonus] = [self.game.content load:@"BallBrickWithBonus"];
 	soundEffects[SoundEffectTypeBallLimit] = [self.game.content load:@"BallLimit"];
 	soundEffects[SoundEffectTypeLiveLost] = [self.game.content load:@"LiveLost"];
+	soundEffects[SoundEffectTypeLevelUp] = [self.game.content load:@"LevelUp"];
+	soundEffects[SoundEffectTypePowerUp] = [self.game.content load:@"PowerUp"];
+	soundEffects[SoundEffectTypePowerUpCatched] = [self.game.content load:@"PowerUpCatched"];
 	soundEffects[Teaser] = [self.game.content load:@"Teaser"];
 }
 

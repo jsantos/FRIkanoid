@@ -18,5 +18,6 @@
 @class Button;
 @class GameState;
 @class GuiRenderer;
-@class Menu, MainMenu, OptionsMenu, LeaderBoardMenu;
+@class Menu, MainMenu, OptionsMenu, LeaderBoardMenu, AboutMenu;
 @class GameProgress;
+@class Constants;

@@ -11,13 +11,19 @@
 
 @implementation Ball
 
-- (id) init {
+- (id) initWithGame:(Game*)theGame {
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
 		velocity = [[Vector2 alloc] init];
 		mass = 1;
-		radius = 8;
+		currentGame = theGame;
+		if (theGame.window.clientBounds.width == 1024) {
+			radius = 18;// Ipad 
+		} else {
+			radius = 8;//Iphone
+		}
+
 		coefficientOfRestitution = 1;
 	}
 	return self;
@@ -54,7 +60,7 @@
 }
 
 
-@synthesize position, velocity, mass, radius, coefficientOfRestitution;
+@synthesize position, velocity, mass, radius, coefficientOfRestitution, currentGame;
 
 - (void) dealloc {
 	[position release];

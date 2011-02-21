@@ -18,11 +18,13 @@
 	BrickType brickType;
 	PowerUpType powerUpType;
 	id<IScene> scene;
+	Game *currentGame;
 
 }
 
 @property (nonatomic) BrickType brickType;
 @property (nonatomic) PowerUpType powerUpType;
 @property (nonatomic) int power;
+@property (nonatomic, retain) Game *currentGame;
 
 @end

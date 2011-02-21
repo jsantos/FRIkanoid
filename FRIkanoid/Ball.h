@@ -16,6 +16,9 @@
 	float radius;
 	float mass;
 	float coefficientOfRestitution;
+	Game *currentGame;
 }
+
+@property (nonatomic, retain) Game *currentGame;
 
 @end

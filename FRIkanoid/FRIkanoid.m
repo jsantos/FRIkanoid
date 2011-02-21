@@ -18,7 +18,6 @@
 	self = [super init];
 	if (self != nil) {
 		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
-		
 		[self.components addComponent:[[[TouchPanelHelper alloc] initWithGame:self] autorelease]];
 		stateStack = [[NSMutableArray alloc] init];
 		
@@ -32,7 +31,7 @@
 	return self;
 }
 
-@synthesize progress, scores, mutedMusic, mutedSFX;
+@synthesize progress, scores, mutedMusic, mutedSFX, currentGamePlay;
 
 - (void) initialize {
 	MainMenu *menu = [[[MainMenu alloc] initWithGame:self] autorelease];
@@ -93,6 +92,10 @@
 - (void) drawWithGameTime:(GameTime *)gameTime {
 	[self.graphicsDevice clearWithColor: [Color steelBlue]];
 	[super drawWithGameTime:gameTime];
+}
+
+- (void) addPoints:(int)points{
+	currentGameplay.points += points;
 }
 
 - (void) dealloc
