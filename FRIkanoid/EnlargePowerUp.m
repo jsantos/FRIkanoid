@@ -22,6 +22,7 @@
 
 - (void) activateWithParent:(Pad *)theParent {
 	[super activateWithParent:theParent];
+
 	theParent.width += theParent.width*0.3;
 }
 

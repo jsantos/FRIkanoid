@@ -11,11 +11,12 @@
 
 @implementation Brick
 
-- (id) initWithGame:(Game*)theGame {
+- (id) initWithGame:(Game*)theGame gameplay:(GamePlay*)theGameplay {
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
 		currentGame = theGame;
+		currentGamePlay = theGameplay;
 		if (theGame.window.clientBounds.width == 1024) {
 			width = 100; // iPhone 50 / iPad 100
 			height = 40; // iPhone 20 / iPad 40
@@ -34,7 +35,7 @@
 	if (![item isKindOfClass:[Ball class]]) {
 		return NO;
 	}
-	
+	currentGamePlay.points += 50;
 	power--;
 	if (power == 0) {
 		[scene removeItem:self];
@@ -44,6 +45,7 @@
 			[explosion.position set:position];
 			PowerUp *powerUp = [PowerUpFactory createRandomPowerUp];
 			[powerUp.position set:position];
+			powerUp.currentGame = currentGame;
 			powerUp.velocity.y = [Constants getInstance].powerUpSpeed;
 			[scene addItem:explosion];
 			[scene addItem:powerUp];

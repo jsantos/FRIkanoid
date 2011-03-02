@@ -23,22 +23,42 @@
 - (void) activateWithParent:(Pad *)theParent {
 	[super activateWithParent:theParent];
 	
-	for(id item in scene){
-		if ([item isKindOfClass:[Ball class]]) {
-			Ball *ball = (Ball*)item;
-			if (ball.velocity.x > 0) {
-				ball.velocity.x += 100;
-			} else {
-				ball.velocity.x -= 100;
+	if (currentGame.window.clientBounds.width == 1024) {
+		for(id item in scene){
+			if ([item isKindOfClass:[Ball class]]) {
+				Ball *ball = (Ball*)item;
+				if (ball.velocity.x > 0) {
+					ball.velocity.x += 250;
+				} else {
+					ball.velocity.x -= 250;
+				}
+				
+				if (ball.velocity.y > 0) {
+					ball.velocity.y += 250;
+				} else {
+					ball.velocity.y -= 250;
+				}
 			}
-			
-			if (ball.velocity.y > 0) {
-				ball.velocity.y += 100;
-			} else {
-				ball.velocity.y -= 100;
+		}
+	} else {
+		for(id item in scene){
+			if ([item isKindOfClass:[Ball class]]) {
+				Ball *ball = (Ball*)item;
+				if (ball.velocity.x > 0) {
+					ball.velocity.x += 100;
+				} else {
+					ball.velocity.x -= 100;
+				}
+				
+				if (ball.velocity.y > 0) {
+					ball.velocity.y += 100;
+				} else {
+					ball.velocity.y -= 100;
+				}
 			}
 		}
 	}
+
 }
 
 @end

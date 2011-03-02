@@ -14,7 +14,7 @@
 @interface Level : GameComponent {
 	SimpleScene *scene;
 	Button *restartButton;
-	Image *logo;
+	Image *background;
 	Label *scoreLabel;
 	Texture2D *buttonBackground;
 	SpriteFont *retrotype, *fivexfive;
@@ -30,14 +30,13 @@
 	NSInteger numBalls;
 	NSInteger levelScore;
 	GamePlay *currentGameplay;
+	NSTimeInterval levelDelay;
 }
 
 - (void) reset;
 - (void) resetAfterMiss;
-- (void) skipLevel;
 - (void) resetPad;
 - (void) addBallWithSpeed:(float)speed;
-- (void) resetLevelWithBallSpeed:(float)speed;
 - (void) setGamePlay:(GamePlay*)theGamePlay;
 
 @property (nonatomic) NSInteger numBricks;
@@ -53,5 +52,6 @@
 @property (nonatomic, readonly) Boundary *floor;
 @property (nonatomic, readonly) Label *scoreLabel;
 @property (nonatomic, readonly) Button *restartButton;
+@property (nonatomic) NSTimeInterval levelDelay;
 
 @end

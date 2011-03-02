@@ -31,8 +31,8 @@
 			//Create one copy with flipped speed
 			Ball *copy = [[[Ball alloc] initWithGame:ball.currentGame] autorelease];
 			[copy.position set:ball.position];
-			copy.velocity.x = -ball.position.x;
-			copy.velocity.y = -ball.position.y;
+			copy.velocity.x = -ball.velocity.x;
+			copy.velocity.y = ball.velocity.y;
 			[scene addItem:copy];
 		}
 	}

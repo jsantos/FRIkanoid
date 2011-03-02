@@ -22,12 +22,13 @@
 	
 		[scene.itemAdded subscribeDelegate: [Delegate delegateWithTarget:self Method:@selector(itemAddedToScene:eventArgs:)]];
 		[scene.itemRemoved subscribeDelegate:[Delegate delegateWithTarget:self Method:@selector(itemRemovedFromScene:eventArgs:)]];
-		
-		
+
 		FontTextureProcessor *fontProcessor = [[[FontTextureProcessor alloc] init] autorelease];
-		retrotype = [self.game.content load:@"Retrotype" processor:fontProcessor];
-		fivexfive = [self.game.content load:@"ArkaType12" processor:fontProcessor];
-		fivexfive.lineSpacing = 14;
+		if (self.game.window.clientBounds.width == 1024) {
+			retrotype = [self.game.content load:@"Steiner28" processor:fontProcessor];
+		} else {
+			retrotype = [self.game.content load:@"Steiner" processor:fontProcessor];
+		}
 		
 		scoreLabel = [[Label alloc] initWithFont:retrotype text:@"" position:[Vector2 vectorWithX:20 y:5]];
 		scoreLabel.color = [Color white];
@@ -35,23 +36,46 @@
 		//Button
 		
 		buttonBackground = [self.game.content load:@"RestartButton"];
+		
+		if (self.game.window.clientBounds.width == 1024) {
+			restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width-140 y:32 width:140 height:32] 
+												   background:nil font:retrotype text:@"Menu"];
+		}
+		else {
+			restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width-70 y:15 width:140 height:32] 
+												   background:nil font:retrotype text:@"Menu"];
+		}
 
-		restartButton = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width-120 y:10 width:140 height:32] 
-										background:buttonBackground font:fivexfive text:@"Menu"];
-		restartButton.label.position.y = 32;
-		restartButton.label.position.x = self.game.window.clientBounds.width-90;
-		restartButton.backgroundColor = [Color skyBlue];
-		restartButton.backgroundHoverColor = [Color powderBlue];
-		[restartButton.backgroundImage setScaleUniform:1.1];
+		
+		restartButton.label.color = [Color yellow];
+		restartButton.labelHoverColor = [Color white];
+		//restartButton.backgroundColor = [Color skyBlue];
+		//restartButton.backgroundHoverColor = [Color powderBlue];
+		//[restartButton.backgroundImage setScaleUniform:1.1];
 		
 		//Button
 		
-		Texture2D *logoImg = [[self.game.content load:@"Frikanoid"] autorelease];
-		logo = [[Image alloc] initWithTexture:logoImg position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2 - logoImg.width/2) y:10]];
-		[scene addItem:logo];
-		
-		ball = [[Ball alloc] init];
-		
+		if (self.game.window.clientBounds.width == 1024) {
+//			Texture2D *logoImg = [[self.game.content load:@"BigLogo"] autorelease];
+//			logo = [[Image alloc] initWithTexture:logoImg position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2 - logoImg.width/2) y:10]];
+//			[scene addItem:logo];
+			
+			Texture2D *gameBG = [[self.game.content load:@"iPadBG"] autorelease];
+			background = [[Image alloc] initWithTexture:gameBG position:[Vector2 vectorWithX:0 y:0]];
+			background.layerDepth = 1;
+			[scene addItem:background];
+		} else {
+//			Texture2D *logoImg = [[self.game.content load:@"Frikanoid"] autorelease];
+//			logo = [[Image alloc] initWithTexture:logoImg position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2 - logoImg.width/2) y:10]];
+//			[scene addItem:logo];
+			
+			Texture2D *gameBG = [[self.game.content load:@"iPhoneBG"] autorelease];
+			background = [[Image alloc] initWithTexture:gameBG position:[Vector2 vectorWithX:0 y:0]];
+			background.layerDepth = 1;
+			[scene addItem:background];
+		}
+
+
 		playerPad = [[Pad alloc] initWithGame:self.game];
 		
 		bricks = [[NSMutableArray alloc] init];
@@ -64,12 +88,11 @@
 					[AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] isDeadly:NO] autorelease];
 		floor = [[[Boundary alloc] initWithLimit:
 				  [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease];
-		//currentGameplay.points = 0;
 	}
 	return self;
 }
 
-@synthesize scene, ball, playerPad, bricks, powerUp, leftWall, rightWall, ceiling, floor, numBricks, numBalls, scoreLabel, restartButton;
+@synthesize scene, ball, playerPad, bricks, powerUp, leftWall, rightWall, ceiling, floor, numBricks, numBalls, scoreLabel, restartButton, levelDelay;
 
 - (void) initialize {
 	[self reset];
@@ -78,10 +101,18 @@
 
 - (void) reset {
 	[scene clear];
-	playerPad.width = [Constants getInstance].initialPadWidth;
+	if (self.game.window.clientBounds.width == 1024) {
+		playerPad.width = 180;
+	} else {
+		playerPad.width = 110;
+	}
+	
+	levelDelay = 1.5;
+	
 	[scene addItem:restartButton];
-	[scene addItem:logo];
+	[scene addItem:background];
 	[scene addItem:playerPad];
+	
 	[scene addItem:scoreLabel];
 	
 	[scene addItem: leftWall];
@@ -89,30 +120,17 @@
 	[scene addItem: ceiling];
 	[scene addItem: floor];
 	
-	//[scene addItem:ball];
-	
 	[bricks removeAllObjects];
 }
 
 - (void) resetAfterMiss {}
 
 - (void) resetPad{
-	playerPad.width = [Constants getInstance].initialPadWidth;
-}
-
-- (void) skipLevel {
-	[scene clear];
-	[scene addItem:playerPad];
-	
-	[scene addItem:restartButton];
-	
-	[scene addItem:scoreLabel];
-	
-	[scene addItem: leftWall];
-	[scene addItem: rightWall];
-	[scene addItem: ceiling];
-	[scene addItem: ball];
-	[bricks removeAllObjects];
+	if (self.game.window.clientBounds.width == 1024) {
+		playerPad.width = 180;
+	} else {
+		playerPad.width = 110;
+	}
 }
 
 - (void) itemAddedToScene:(id)sender eventArgs:(SceneEventArgs*)e{
@@ -136,52 +154,23 @@
 	currentGameplay = theGamePlay;
 }
 
-- (void) resetLevelWithBallSpeed:(float)speed {
-	//Remove everything from scene
-	[scene clear];
-	
-	//Add level limits
-	[scene addItem:[[[Boundary alloc] initWithLimit:
-					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveX distance:0] isDeadly:NO] autorelease]];
-	
-	[scene addItem:[[[Boundary alloc] initWithLimit:
-					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeX distance:-self.game.window.clientBounds.width] isDeadly:NO] autorelease]];
-	[scene addItem:[[[Boundary alloc] initWithLimit:
-					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] isDeadly:NO] autorelease]];
-	[scene addItem:[[[Boundary alloc] initWithLimit:
-					 [AxisAlignedHalfPlane axisAlignedHalfPlaneWithDirection:AxisDirectionNegativeY distance:-self.game.window.clientBounds.height] isDeadly:YES] autorelease]]; 
-	
-	//Add pad
-	[scene addItem:playerPad];
-	[self resetPad];
-	
-	//Add Ball
-	[self addBallWithSpeed:speed];
-	
-	//Add bricks
-	for (int i = 0; i < BrickTypes; i++) {
-		for (int x = 30; x <= self.game.window.clientBounds.width; x+=60) {
-			Brick *brick = [[Brick alloc] init];
-			brick.brickType = i;
-			if (i == 0) {
-				brick.power = 2;
-			}
-			brick.position.x = x;
-			brick.position.y = 75 + i *25;
-			[scene addItem:brick];
-		}
-	}
-}
-
 - (void) addBallWithSpeed:(float)speed {
 	Ball *tmpBall = [[[Ball alloc] initWithGame:self.game] autorelease];
 	tmpBall.position.x = playerPad.position.x + ([Random float] - 0.5f) * 10;
-	tmpBall.position.y = playerPad.position.y - playerPad.height / 2;
+	tmpBall.position.y = playerPad.position.y - playerPad.height/2;
 	tmpBall.velocity.y = speed;
+	ball = tmpBall;
 	[scene addItem:tmpBall];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
+	if (levelDelay > 0) {
+		levelDelay-=gameTime.elapsedGameTime;
+		ball.position.x = playerPad.position.x;
+		ball.position.y = playerPad.position.y - playerPad.height;
+
+	}
+	
 	// Update all items with custom update.
 	for (id item in scene) {
 		id<ICustomUpdate> updatable = [item conformsToProtocol:@protocol(ICustomUpdate)] ? item : nil;

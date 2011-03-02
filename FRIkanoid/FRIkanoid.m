@@ -21,6 +21,9 @@
 		[self.components addComponent:[[[TouchPanelHelper alloc] initWithGame:self] autorelease]];
 		stateStack = [[NSMutableArray alloc] init];
 		
+		//self.targetElapsedTime = 20;
+		self.isFixedTimeStep = NO;
+		
 		[SoundEngine initializeWithGame:self];
 		
 		mutedSFX = NO;
@@ -90,7 +93,7 @@
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
-	[self.graphicsDevice clearWithColor: [Color steelBlue]];
+	[self.graphicsDevice clearWithColor: [Color black]];
 	[super drawWithGameTime:gameTime];
 }
 

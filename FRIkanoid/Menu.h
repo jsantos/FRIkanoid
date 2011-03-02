@@ -15,11 +15,13 @@
 #import "GameState.h"
 
 @interface Menu : GameState {
+	Image *background;
 	SimpleScene *scene;
 	GuiRenderer *renderer;
 	SpriteFont *retrotype, *fivexfive, *oops;
 	Texture2D *buttonBackground;
 	Button *back;
+	Image *logo;
 }
 
 @end

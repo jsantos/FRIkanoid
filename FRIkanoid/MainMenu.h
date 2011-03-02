@@ -12,8 +12,6 @@
 
 @interface MainMenu : Menu {
 	GamePlay *currentGameplay;
-	
-	Image *logo;
 	Button *startGame, *leaderboards, *options, *about;
 }
 

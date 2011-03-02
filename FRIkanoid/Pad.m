@@ -15,9 +15,16 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		width = [Constants getInstance].initialPadWidth;
-		currentGame = theGame;
-		height = 19.5;
+		if (theGame.window.clientBounds.width == 1024) {
+			width = 180;
+			height = 32;
+		}
+		else {
+			width = 110;
+			height = 19.5;
+		}
+
+		currentGame = theGame;		
 		powerUps = [[NSMutableArray alloc] init];
 	}
 	return self;

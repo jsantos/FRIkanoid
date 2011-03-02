@@ -63,6 +63,7 @@
 	[parent release];
 	[position release];
 	[velocity release];
+	[currentGame release];
 	[super dealloc];
 }
 

@@ -37,75 +37,90 @@
 	spriteBatch = [[SpriteBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	
 	ballSprite = [[Sprite alloc] init];
-	ballSprite.texture = [self.game.content load:@"Arkanoid2"];
+	ballSprite.texture = [self.game.content load:@"GameObjects"];
 	ballSprite.sourceRectangle = [Rectangle rectangleWithX:236 y:179 width:36 height:36];
 	ballSprite.origin = [Vector2 vectorWithX:18 y:18];
 	
-	//  Left Pad Sprite
-	leftPadSprite = [[Sprite alloc] init];
-	leftPadSprite.texture = [self.game.content load:@"Arkanoid2"];
-	leftPadSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:355 width:30 height:20];
-	leftPadSprite.origin = [Vector2 vectorWithX:15 y:10];
-
-	//  Middle Pad Sprite	
-	middlePadSprite = [[Sprite alloc] init];
-	middlePadSprite.texture = [self.game.content load:@"Arkanoid2"];
-	middlePadSprite.sourceRectangle = [Rectangle rectangleWithX:110 y:355 width:60 height:20];
-	middlePadSprite.origin = [Vector2 vectorWithX:30 y:10];
-
-	//	Right Pad Sprite
-	rightPadSprite = [[Sprite alloc] init];
-	rightPadSprite.texture = [self.game.content load:@"Arkanoid2"];
-	rightPadSprite.sourceRectangle = [Rectangle rectangleWithX:162 y:355 width:30 height:20];
-	rightPadSprite.origin = [Vector2 vectorWithX:15 y:10];
-	
-//	padSprite = [[Sprite alloc] init];
-//	padSprite.texture = [self.game.content load:@"Arkanoid2"];
-//	padSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:350 width:165 height:30];
-//	padSprite.origin = [Vector2 vectorWithX:82.5 y:15];
+	if (customScale == 1) {
+		//  Left Pad Sprite
+		leftPadSprite = [[Sprite alloc] init];
+		leftPadSprite.texture = [self.game.content load:@"GameObjects"];
+		leftPadSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:382 width:30 height:32];
+		leftPadSprite.origin = [Vector2 vectorWithX:15 y:16];
+		
+		//  Middle Pad Sprite	
+		middlePadSprite = [[Sprite alloc] init];
+		middlePadSprite.texture = [self.game.content load:@"GameObjects"];
+		middlePadSprite.sourceRectangle = [Rectangle rectangleWithX:110 y:382 width:60 height:32];
+		middlePadSprite.origin = [Vector2 vectorWithX:30 y:16];
+		
+		//	Right Pad Sprite
+		rightPadSprite = [[Sprite alloc] init];
+		rightPadSprite.texture = [self.game.content load:@"GameObjects"];
+		rightPadSprite.sourceRectangle = [Rectangle rectangleWithX:220 y:382 width:38 height:32];
+		rightPadSprite.origin = [Vector2 vectorWithX:19 y:16];
+	} else {
+		//  Left Pad Sprite
+		leftPadSprite = [[Sprite alloc] init];
+		leftPadSprite.texture = [self.game.content load:@"GameObjects"];
+		leftPadSprite.sourceRectangle = [Rectangle rectangleWithX:82 y:355 width:30 height:20];
+		leftPadSprite.origin = [Vector2 vectorWithX:15 y:10];
+		
+		//  Middle Pad Sprite	
+		middlePadSprite = [[Sprite alloc] init];
+		middlePadSprite.texture = [self.game.content load:@"GameObjects"];
+		middlePadSprite.sourceRectangle = [Rectangle rectangleWithX:110 y:355 width:60 height:20];
+		middlePadSprite.origin = [Vector2 vectorWithX:30 y:10];
+		
+		//	Right Pad Sprite
+		rightPadSprite = [[Sprite alloc] init];
+		rightPadSprite.texture = [self.game.content load:@"GameObjects"];
+		rightPadSprite.sourceRectangle = [Rectangle rectangleWithX:162 y:355 width:30 height:20];
+		rightPadSprite.origin = [Vector2 vectorWithX:15 y:10];
+	}
 	
 	powerUpFSprite = [[Sprite alloc] init];
-	powerUpFSprite.texture = [self.game.content load:@"Arkanoid2"];
+	powerUpFSprite.texture = [self.game.content load:@"GameObjects"];
 	powerUpFSprite.sourceRectangle = [Rectangle rectangleWithX:65 y:281 width:47 height:20];
 	powerUpFSprite.origin = [Vector2 vectorWithX:23.5 y:10];
 	
 	powerUpSSprite = [[Sprite alloc] init];
-	powerUpSSprite.texture = [self.game.content load:@"Arkanoid2"];
+	powerUpSSprite.texture = [self.game.content load:@"GameObjects"];
 	powerUpSSprite.sourceRectangle = [Rectangle rectangleWithX:65 y:301 width:47 height:20];
 	powerUpSSprite.origin = [Vector2 vectorWithX:23.5 y:10];
 	
 	powerUpLSprite = [[Sprite alloc] init];
-	powerUpLSprite.texture = [self.game.content load:@"Arkanoid2"];
+	powerUpLSprite.texture = [self.game.content load:@"GameObjects"];
 	powerUpLSprite.sourceRectangle = [Rectangle rectangleWithX:114 y:281 width:47 height:20];
 	powerUpLSprite.origin = [Vector2 vectorWithX:23.5 y:10];
 	
 	powerUpGSprite = [[Sprite alloc] init];
-	powerUpGSprite.texture = [self.game.content load:@"Arkanoid2"];
+	powerUpGSprite.texture = [self.game.content load:@"GameObjects"];
 	powerUpGSprite.sourceRectangle = [Rectangle rectangleWithX:114 y:301 width:47 height:20];
 	powerUpGSprite.origin = [Vector2 vectorWithX:23.5 y:10];
 	
 	brick1Sprite = [[Sprite alloc] init];
-	brick1Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick1Sprite.texture = [self.game.content load:@"GameObjects"];
 	brick1Sprite.sourceRectangle = [Rectangle rectangleWithX:55 y:64 width:120 height:37];
 	brick1Sprite.origin = [Vector2 vectorWithX:55 y:19];
 	
 	brick2Sprite = [[Sprite alloc] init];
-	brick2Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick2Sprite.texture = [self.game.content load:@"GameObjects"];
 	brick2Sprite.sourceRectangle = [Rectangle rectangleWithX:55 y:122 width:120 height:37];
 	brick2Sprite.origin = [Vector2 vectorWithX:55 y:19];
 		
 	brick3Sprite = [[Sprite alloc] init];
-	brick3Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick3Sprite.texture = [self.game.content load:@"GameObjects"];
 	brick3Sprite.sourceRectangle = [Rectangle rectangleWithX:55 y:178 width:120 height:37];
 	brick3Sprite.origin = [Vector2 vectorWithX:55 y:19];
 	
 	brick4Sprite = [[Sprite alloc] init];
-	brick4Sprite.texture = [self.game.content load:@"Arkanoid2"];
+	brick4Sprite.texture = [self.game.content load:@"GameObjects"];
 	brick4Sprite.sourceRectangle = [Rectangle rectangleWithX:55 y:233 width:120 height:37];
 	brick4Sprite.origin = [Vector2 vectorWithX:55 y:19];
 	
 	liveSprite = [[Sprite alloc] init];
-	liveSprite.texture = [self.game.content load:@"Arkanoid2"];
+	liveSprite.texture = [self.game.content load:@"GameObjects"];
 	liveSprite.sourceRectangle = [Rectangle rectangleWithX:80 y:449 width:100 height:10];
 	liveSprite.origin = [Vector2 vectorWithX:50 y:5];
 	
@@ -126,7 +141,7 @@
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
 	
-	[self.graphicsDevice clearWithColor: [Color steelBlue]];
+	[self.graphicsDevice clearWithColor: [Color black]];
 	
 	[spriteBatch beginWithSortMode:SpriteSortModeBackToFront BlendState:nil];
 	
@@ -250,9 +265,15 @@
 	}
 	
 	//Draw lives counter
-	Vector2 *pos = [[Vector2 alloc] init];
-	pos.x = 50;
-	pos.y = 40;
+	Vector2 *pos = [[[Vector2 alloc] init] autorelease];
+	if (self.game.window.clientBounds.width == 1024) {
+		pos.x = 70;
+		pos.y = 60;
+	} else {
+		pos.x = 50;
+		pos.y = 40;
+	}
+	
 	for (int i = 0; i < gameplay.lives; i++) {
 		
 		[spriteBatch draw:liveSprite.texture 

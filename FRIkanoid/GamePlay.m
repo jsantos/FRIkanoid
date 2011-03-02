@@ -91,7 +91,7 @@
 	}
 	
 	
-	if (level.numBalls == 0) {
+	if (level.numBalls == 0 && level.levelDelay < 0) {
 		lives-=1;
 		if (lives < 0) {
 			//Record score
@@ -102,8 +102,13 @@
 			[frikanoid popState]; 
 		} else {
 			[SoundEngine play:SoundEffectTypeLiveLost];
-			[level addBallWithSpeed:[Constants getInstance].initialBallSpeed];
-			
+			level.levelDelay = 1;
+			if (self.game.window.clientBounds.width == 1024) {
+				[level addBallWithSpeed:-500];
+			} else {
+				[level addBallWithSpeed:-200];
+			}
+
 		}
 	}
 	

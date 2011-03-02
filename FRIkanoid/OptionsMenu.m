@@ -16,41 +16,55 @@
 
 - (void) initialize{
 	[super initialize];
-
-	if (frikanoid.mutedSFX) {
-		switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:130 width:140 height:32] 
-											 background:buttonBackground font:retrotype text:@"SFX - Off"];
-	} else {
-		switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:130 width:140 height:32] 
-											 background:buttonBackground font:retrotype text:@"SFX - On"];
-	}
 	
-	if (frikanoid.mutedMusic) {
-		switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:180 width:140 height:32] 
-											 background:buttonBackground font:retrotype text:@"Music - Off"];
+	if (self.game.window.clientBounds.width == 1024) {
+		if (frikanoid.mutedSFX) {
+			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:400 width:260 height:32] 
+												 background:nil font:retrotype text:@"SFX - Off"];
+		} else {
+			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:400 width:260 height:32] 
+												 background:nil font:retrotype text:@"SFX - On"];
+		}
+		
+		if (frikanoid.mutedMusic) {
+			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:450 width:260 height:32] 
+												 background:nil font:retrotype text:@"Music - Off"];
+		} else {
+			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:450 width:260 height:32] 
+												 background:nil font:retrotype text:@"Music - On"];
+		}
 	} else {
-		switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:110 y:180 width:140 height:32] 
-											 background:buttonBackground font:retrotype text:@"Music - On"];
+		if (frikanoid.mutedSFX) {
+			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:130 width:260 height:32] 
+												 background:nil font:retrotype text:@"SFX - Off"];
+		} else {
+			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:130 width:260 height:32] 
+												 background:nil font:retrotype text:@"SFX - On"];
+		}
+		
+		if (frikanoid.mutedMusic) {
+			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:180 width:260 height:32] 
+												 background:nil font:retrotype text:@"Music - Off"];
+		} else {
+			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:180 width:260 height:32] 
+												 background:nil font:retrotype text:@"Music - On"];
+		}
 	}
 
-
-
-	switchSound.labelColor = [Color black];
-	switchSound.labelHoverColor = [Color white];
+	switchSound.labelColor = [Color white];
+	switchSound.labelHoverColor = [Color blue];
 	//switchSound.label.position.x = (self.game.window.clientBounds.width/2)-50;
 	[switchSound.backgroundImage setScaleUniform:2];
 	[scene addItem:switchSound];
 	
-	switchMusic.labelColor = [Color black];
-	switchMusic.labelHoverColor = [Color white];
+	switchMusic.labelColor = [Color white];
+	switchMusic.labelHoverColor = [Color blue];
 	//switchMusic.label.position.x = (self.game.window.clientBounds.width/2)-55;
 	[switchMusic.backgroundImage setScaleUniform:2];
 	[scene addItem:switchMusic];
 	
 	[scene addItem:back];
-	Texture2D *logoTexture = [[self.game.content load:@"BigLogo"] autorelease];
-	logo = [[Image alloc] initWithTexture:logoTexture position:[Vector2 vectorWithX:(self.game.window.clientBounds.width/2-logoTexture.width/2) y:30]];
-	[scene addItem:logo];
+	[scene addItem:background];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
@@ -83,8 +97,7 @@
 }
 
 - (void) dealloc {
-	[logo release];
-	
+	[switchMusic release];
 	[switchSound release];
 
 	[super dealloc];

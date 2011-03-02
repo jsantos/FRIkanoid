@@ -69,9 +69,5 @@ static Constants *instance;
 	return 50;
 }
 
-- (float) distanceBetweenBricks {
-	return 94;
-	//ipad: should be 46->94
-}
 
 @end

@@ -50,13 +50,9 @@
 			}
 			
 			if (grabbed) {
-//				if ([Collision collisionBetween:level.playerPad and:level.leftWall]) {
-//					playerPad.position.x += 1;
-//				} else if ([Collision collisionBetween:level.playerPad and:level.rightWall]) {
-//					playerPad.position.x -= 1;
-//				} else {
+				if (touch.position.x < self.game.window.clientBounds.width - playerPad.width/2 && touch.position.x > playerPad.width/2) {
 					playerPad.position.x = touch.position.x;
-//				}
+				}
 			}
 		}
 	}

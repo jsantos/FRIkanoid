@@ -108,6 +108,10 @@
 	return [items indexOfObject:item];
 }
 
+- (BOOL) containsObject:(id)item {
+	return [items containsObject:item];
+}
+
 - (void) removeObjectIdenticalTo:(id)item {
 	return [items removeObjectIdenticalTo:item];
 }

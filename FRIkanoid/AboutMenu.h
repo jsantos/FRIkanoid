@@ -10,8 +10,9 @@
 #import "Menu.h"
 
 @interface AboutMenu : Menu {
-	Image *logo;
-	Label *featuring, *doneWith, *doneWithin, *address;
+	Button *xniLink, *gameteamLink, *sievertlink;
+	Label *featuring, *doneWith, *visitUs, *doneWithin, *address, *artwork;
+	SpriteFont *arkanoid5;
 }
 
 @end

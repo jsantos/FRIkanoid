@@ -10,7 +10,6 @@
 #import "Menu.h"
 
 @interface OptionsMenu : Menu {
-	Image *logo;
 	Button *switchSound;
 	Button *switchMusic;
 }

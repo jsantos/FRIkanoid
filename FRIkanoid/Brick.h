@@ -19,7 +19,7 @@
 	PowerUpType powerUpType;
 	id<IScene> scene;
 	Game *currentGame;
-
+	GamePlay *currentGamePlay;
 }
 
 @property (nonatomic) BrickType brickType;

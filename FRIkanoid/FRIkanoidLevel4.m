@@ -11,21 +11,6 @@
 
 @implementation FRIkanoidLevel4
 
-- (void) resetAfterMiss {
-	// To render the level after the ball goes out of the screen, without major changes
-	//Initialize object Positions
-	ball = [[Ball alloc] init];
-	
-	ball.position.x = 240;
-	ball.position.y = 200;
-	
-	ball.velocity.y = -200; //Ball Initial Velocity
-	ball.velocity.x = ([Random float] - 0.5f) * 10;
-	
-	[self resetPad];
-	[scene addItem:ball];
-}
-
 - (void) reset {
 	[super reset];
 	
@@ -33,33 +18,54 @@
 	playerPad.position.x = self.game.window.clientBounds.width/2;
 	
 	if (self.game.window.clientBounds.width == 1024) {
-		playerPad.position.y = self.game.window.clientBounds.height - 50;
+		playerPad.position.y = self.game.window.clientBounds.height - 100;
 	} else {
 		playerPad.position.y = self.game.window.clientBounds.height - 25;
 	}
 	
-	ball.position.x = playerPad.position.x;
-	ball.position.y = playerPad.position.y - playerPad.height / 2;
+	if (self.game.window.clientBounds.width == 1024) {
+		[self addBallWithSpeed:500];
+	} else {
+		[self addBallWithSpeed:200];
+	}
 	
-	ball.velocity.y = -200; //Ball Initial Velocity
-	ball.velocity.x = ([Random float] - 0.5f) * 10;
-	
-	for (int i = BrickTypes-1; i >= 0; i--) {
-		for (int x = 15; x <= self.game.window.clientBounds.width+25; x+=80) { //iPhone 40 / iPad 80
-			Brick *brick = [[[Brick alloc] initWithGame:self.game] autorelease];
-			brick.brickType = i;
-			if ((BrickTypes-i) == 0) {
-				brick.power = 4;
-			} else if ((BrickTypes-i) == 1) {
-				brick.power = 3;
-			} else if ((BrickTypes-i) == 2) {
-				brick.power = 2;
+	if (self.game.window.clientBounds.width == 1024) {
+		for (int i = BrickTypes-1; i >= 0; i--) {
+			for (int x = 15; x <= self.game.window.clientBounds.width+25; x+=160) {
+				Brick *brick = [[[Brick alloc] initWithGame:self.game gameplay:currentGameplay] autorelease];
+				brick.brickType = i;
+				if ((BrickTypes-i) == 0) {
+					brick.power = 4;
+				} else if ((BrickTypes-i) == 1) {
+					brick.power = 3;
+				} else if ((BrickTypes-i) == 2) {
+					brick.power = 2;
+				}
+				
+				brick.position.x = x;
+				brick.position.y = 125 + (BrickTypes-i) * 40; //iPhone 20 / iPad 40
+				[scene addItem:brick];
 			}
-			
-			brick.position.x = x;
-			brick.position.y = 75 + (BrickTypes-i) * 40; //iPhone 20 / iPad 40
-			[scene addItem:brick];
+		}
+	} else {
+		for (int i = BrickTypes-1; i >= 0; i--) {
+			for (int x = 15; x <= self.game.window.clientBounds.width+25; x+=80) {
+				Brick *brick = [[[Brick alloc] initWithGame:self.game gameplay:currentGameplay] autorelease];
+				brick.brickType = i;
+				if ((BrickTypes-i) == 0) {
+					brick.power = 4;
+				} else if ((BrickTypes-i) == 1) {
+					brick.power = 3;
+				} else if ((BrickTypes-i) == 2) {
+					brick.power = 2;
+				}
+				
+				brick.position.x = x;
+				brick.position.y = 75 + (BrickTypes-i) * 20; //iPhone 20 / iPad 40
+				[scene addItem:brick];
+			}
 		}
 	}
+
 }
 @end

@@ -23,8 +23,6 @@
 
 @property (nonatomic, readonly) float initialPadWidth, minimumPadWidth, maximumPadWidth;
 
-@property (nonatomic, readonly) float distanceBetweenBricks;
-
 + (Constants*) getInstance;
 
 @end

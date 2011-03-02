@@ -16,6 +16,7 @@
 - (void) removeObjectsAtIndexes:(NSMutableIndexSet*)set;
 - (int) indexOfItem:(id)item;
 - (void) removeObjectIdenticalTo:(id)item;
+- (BOOL) containsObject:(id)item;
 - (void) clear;
 - (int) count;
 

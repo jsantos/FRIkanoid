@@ -48,11 +48,7 @@
 	if (!scores) {
 		scores = [[[NSMutableArray alloc] init] autorelease];
 	}
-	//NSLog(@"Progress retain count:", [progress retainCount]);
-//	printf("Loaded scores:\n");
-//	for (int i = 0; i < [scores count]; i++) {
-//		printf("%d\n", [[scores objectAtIndex:i] integerValue]);
-//	}
+
 	return scores;
 }
 
@@ -66,6 +62,14 @@
 }
 
 - (void) saveProgress:(NSMutableArray*)scores {
+	NSArray *sortedScores = [scores sortedArrayUsingSelector:@selector(compare:)];
+	
+	if ([sortedScores count] > 3) {
+		for (int i = 3; i < [sortedScores count]; i++) {
+			[scores removeObjectIdenticalTo:[sortedScores objectAtIndex:i]];
+		}
+	}
+	
 	//Save game progress to file
 	//sortedScores =  [scores sortedArrayUsingSelector:@selector(compare:)];
 //	[scores addObject:[NSNumber numberWithInt:points]];
