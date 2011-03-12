@@ -35,18 +35,18 @@
 		}
 	} else {
 		if (frikanoid.mutedSFX) {
-			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:130 width:260 height:32] 
+			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:130 width:260 height:32] 
 												 background:nil font:retrotype text:@"SFX - Off"];
 		} else {
-			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:130 width:260 height:32] 
+			switchSound = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:130 width:260 height:32] 
 												 background:nil font:retrotype text:@"SFX - On"];
 		}
 		
 		if (frikanoid.mutedMusic) {
-			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:180 width:260 height:32] 
+			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:180 width:260 height:32] 
 												 background:nil font:retrotype text:@"Music - Off"];
 		} else {
-			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:180 width:260 height:32] 
+			switchMusic = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:180 width:260 height:32] 
 												 background:nil font:retrotype text:@"Music - On"];
 		}
 	}

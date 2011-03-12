@@ -49,7 +49,7 @@
 		}
 	} else {
 		for (int i = BrickTypes-1; i >= 0; i--) {
-			for (int x = 15; x <= self.game.window.clientBounds.width+25; x+=80) {
+			for (int x = 35; x <= self.game.window.clientBounds.width+15; x+=80) {
 				Brick *brick = [[[Brick alloc] initWithGame:self.game gameplay:currentGameplay] autorelease];
 				brick.brickType = i;
 				if ((BrickTypes-i) == 0) {

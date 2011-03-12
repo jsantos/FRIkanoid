@@ -138,6 +138,7 @@
 		numBricks++;
 	} else if ([e.item isKindOfClass:[Ball class]]) {
 		numBalls++;
+		//printf("NumBalls: %d\n", numBalls);
 	}
 }
 
@@ -147,6 +148,7 @@
 		currentGameplay.points += 100;
 	} else if ([e.item isKindOfClass:[Ball class]]) {
 		numBalls--;
+		//printf("NumBalls: %d\n", numBalls);
 	}
 }
 
@@ -155,7 +157,7 @@
 }
 
 - (void) addBallWithSpeed:(float)speed {
-	Ball *tmpBall = [[[Ball alloc] initWithGame:self.game] autorelease];
+	Ball *tmpBall = [[Ball alloc] initWithGame:self.game];
 	tmpBall.position.x = playerPad.position.x + ([Random float] - 0.5f) * 10;
 	tmpBall.position.y = playerPad.position.y - playerPad.height/2;
 	tmpBall.velocity.y = speed;

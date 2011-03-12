@@ -55,7 +55,7 @@
 			[scene addItem:placeholder];
 		}
 	} else {
-		resetScores = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:210 width:260 height:32] 
+		resetScores = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:210 width:260 height:32] 
 											 background:nil font:retrotype text:@"Reset High Scores"];
 		resetScores.labelColor = [Color white];
 		resetScores.labelHoverColor = [Color blue];

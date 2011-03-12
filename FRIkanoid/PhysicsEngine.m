@@ -22,7 +22,6 @@
 
 - (void) updateWithGameTime:(GameTime *)gameTime{
 	NSMutableArray *deadItems = [[[NSMutableArray alloc] init] autorelease];
-	NSUInteger index = 0;
 	
 	for(id item in level.scene){
 		[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
@@ -41,6 +40,14 @@
 			}
 		}
 		
+//		if ([item isKindOfClass:[Ball class]] || [item isKindOfClass:[Pad class]]) {
+//			for (id item2 in level.scene) {
+//				if (item != item2) {
+//					[Collision collisionBetween:item and:item2];
+//				}
+//			}
+//		}
+		
 		if (![item isKindOfClass:[PowerUp class]]) { //Avoid collisions between ball and power-up
 				for(id lol in level.scene){
 					if ([lol isKindOfClass:[Ball class]]) {
@@ -53,7 +60,6 @@
 			} else if ([Collision collisionBetween:level.playerPad and:item] && [item isKindOfClass:[PowerUp class]]) {
 			
 			}
-		index++;
 	}
 	
 	for (id item in deadItems){

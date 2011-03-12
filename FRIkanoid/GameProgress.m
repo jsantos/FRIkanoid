@@ -65,7 +65,7 @@
 	NSArray *sortedScores = [scores sortedArrayUsingSelector:@selector(compare:)];
 	
 	if ([sortedScores count] > 3) {
-		for (int i = 3; i < [sortedScores count]; i++) {
+		for (int i = 0; i < [sortedScores count]-4; i++) {
 			[scores removeObjectIdenticalTo:[sortedScores objectAtIndex:i]];
 		}
 	}

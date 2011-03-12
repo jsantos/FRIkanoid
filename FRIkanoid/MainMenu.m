@@ -56,14 +56,14 @@
 		[about.backgroundImage setScaleUniform:2];
 		[scene addItem:about];
 	} else {
-		startGame = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:120 width:260 height:32] 
+		startGame = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:120 width:260 height:32] 
 										   background:nil font:retrotype text:@"Start Game"];
 		startGame.labelColor = [Color white];
 		startGame.labelHoverColor = [Color blue];
 		[startGame.backgroundImage setScaleUniform:2];
 		[scene addItem:startGame];
 		
-		options = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:160 width:260 height:32] 
+		options = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:160 width:260 height:32] 
 										 background:nil font:retrotype text:@"Options"];
 		options.labelColor = [Color white];
 		options.labelHoverColor = [Color blue];
@@ -71,14 +71,14 @@
 		[options.backgroundImage setScaleUniform:2];
 		[scene addItem:options];
 		
-		leaderboards = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:200 width:260 height:32]
+		leaderboards = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:200 width:260 height:32]
 											  background:nil font:retrotype text:@"LeaderBoard"];
 		leaderboards.labelColor = [Color white];
 		leaderboards.labelHoverColor = [Color blue];
 		[leaderboards.backgroundImage setScaleUniform:2];
 		[scene addItem:leaderboards];
 		
-		about = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/2 y:240 width:260 height:32]
+		about = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:self.game.window.clientBounds.width/2-260/3 y:240 width:260 height:32]
 									   background:nil font:retrotype text:@"About"];
 		about.labelColor = [Color white];
 		about.labelHoverColor = [Color blue];
